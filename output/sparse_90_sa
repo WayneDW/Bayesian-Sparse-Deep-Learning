@@ -1,0 +1,17 @@
+Files already downloaded and verified
+Use preTrained model
+Epoch Namespace(N=25000, a=270000.0, anneal=1.02, aug=1, b=270000.0, cut=0.99, da=1000, dalpha=0.75, data='cifar10', dc=10, depth=20, finetune=1, gap=50, gpu=0, invT=1000000000.0, lamda=1000, lr=0.0001, method='sa', model='resnet20', momentum=0.9, multi=0, nu=1000, save=0, sd=1.0, seed=995036, sn=1000, sparse=0.9, test=1000, theta=0.5, train=1000, v0=0.005, v1=1e-05, wdecay=0.0005) Test set accuracy: 93.93%
+
+Epoch 1 Sparse Rate: 0.99% Acc: 93.89 Best Acc: 0.00 InvT: 1.0E+09 Loss: 8.7
+
+Epoch 2 Sparse Rate: 1.75% Acc: 93.92 Best Acc: 0.00 InvT: 1.0E+09 Loss: 9.0
+
+Epoch 3 Sparse Rate: 2.63% Acc: 93.90 Best Acc: 0.00 InvT: 1.1E+09 Loss: 9.2
+
+Epoch 4 Sparse Rate: 3.52% Acc: 93.89 Best Acc: 0.00 InvT: 1.1E+09 Loss: 9.2
+
+Epoch 5 Sparse Rate: 4.39% Acc: 93.92 Best Acc: 0.00 InvT: 1.1E+09 Loss: 9.3
+
+Epoch 6 Sparse Rate: 5.20% Acc: 93.88 Best Acc: 0.00 InvT: 1.1E+09 Loss: 9.2
+
+Epoch 7 Sparse Rate: 6.11% Acc: 93.91 Best Acc: 0.00 InvT: 1.1E+09 Loss: 9.2
