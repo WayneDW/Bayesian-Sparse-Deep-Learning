@@ -65,7 +65,7 @@ def main():
     parser.add_argument('-depth', type=int, default=20, help='model depth.')
 
     # other settings
-    parser.add_argument('-seed', default=random.randint(1, 1e6), type=int, help='Random Seed')
+    parser.add_argument('-seed', default=995036, type=int, help='random Seed')
     parser.add_argument('-gpu', default=0, type=int, help='default GPU')
     parser.add_argument('-multi', default=0, type=int, help='multiple GPUs')
 
