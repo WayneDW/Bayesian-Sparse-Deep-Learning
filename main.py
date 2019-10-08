@@ -1,3 +1,4 @@
+#!/usr/bin/evn python
 import argparse
 
 import random
@@ -16,8 +17,6 @@ from torch.autograd import Variable
 from net import BayesNet
 from sgmcmc import Sampler
 from uci import load_dataset
-
-# optimal Adam: l2 0.003 lr 0.1
 
 parser = argparse.ArgumentParser(description='Grid search')
 parser.add_argument('-c', default='sa', type=str, help='sa (sghmc-sa), em (sghmc-em), sghmc')
@@ -48,10 +47,9 @@ random.seed(pars.seed)
 
 X_train, y_train, X_test, y_test = load_dataset(pars.data, split_seed=pars.seed)
 
-#Calculate some other hyperparameters based on data.
 total_samples = len(X_train)
-total_batches = total_samples // pars.batch  #batches
-cols = X_train.shape[1] #Number of columns in input matrix
+total_batches = total_samples // pars.batch 
+cols = X_train.shape[1] 
 print('Total data points {:d} total batches {:d}'.format(total_samples, total_batches))
 net = BayesNet(cols, pars.hidden, total_samples, pars)
 
@@ -89,6 +87,5 @@ for epoch in range(pars.total_epochs):
         for name, param in net.named_parameters():
             if name.endswith('weight'):
                 sparse_rates[name] = 1 - (param != 0).sum().item() * 1.0 / np.prod(param.shape)
-        print('Epoch {} Train loss: {:.2f} Test loss: {:.2f} RMSE: {:.2f} SD:{:.2f} hidden sparse:{:.2f} predict sparse:{:.2f}'.format(\
-                epoch, running_loss, test_loss, rmse_test, net.sd, sparse_rates['hidden1.weight'], sparse_rates['predict.weight']))
+        print('Epoch {} Train loss: {:.2f} RMSE: {:.2f}'.format(epoch, running_loss, rmse_test))
 
