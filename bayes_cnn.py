@@ -44,7 +44,7 @@ def main():
     parser.add_argument('-lr', default=1e-4, type=float, help='sampling learning rate (default for fine-tuning)')
     parser.add_argument('-momentum', default=0.9, type=float, help='sampling momentum learning rate')
     parser.add_argument('-invT', default=1e9, type=float, help='inverse tempreture')
-    parser.add_argument('-anneal', default=1.007, type=float, help='anneal tempreture')
+    parser.add_argument('-anneal', default=1.005, type=float, help='anneal tempreture')
     # setup for sparse coefficients
     parser.add_argument('-sparse', default=0.9,  type=float, help='target sparse Rate')
     parser.add_argument('-v0', default=0.005, type=float, help='v0')
@@ -105,7 +105,7 @@ def main():
     
     """ Step 3: Load the model """
     if pars.prune > 0:
-        net = save_or_pretrain(net, 0, './output/pars.' + pars.data + '_' + pars.model)
+        net = save_or_pretrain(net, 0, './output/pars.' + pars.data + '_' + pars.model + '_seed_' + str(pars.seed))
         model_eval(net, test_loader, pars, 'Pretrained')
     else:
         print('Sampling from scratch')
@@ -113,7 +113,7 @@ def main():
     """ Step 4: Bayesian Sampling """
     sgmcmc(net, train_loader, test_loader, pars)
     if pars.save:
-        net = save_or_pretrain(net, 1, './output/pars.' + pars.data + '_' + pars.model)
+        net = save_or_pretrain(net, 1, './output/pars.' + pars.data + '_' + pars.model + '_seed_' + str(pars.seed))
 
 if __name__ == "__main__":
     main()
