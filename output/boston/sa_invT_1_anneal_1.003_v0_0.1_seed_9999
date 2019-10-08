@@ -1,0 +1,8 @@
+Total data points 455 total batches 9
+('hidden1.weight', (50, 13))
+('hidden1.bias', (50,))
+('predict.weight', (1, 50))
+('predict.bias', (1,))
+Epoch 0 Train loss: 1331693.94 RMSE: 10.07
+Epoch 100 Train loss: 20473.79 RMSE: 2.44
+Epoch 200 Train loss: 13426.55 RMSE: 2.07
