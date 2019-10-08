@@ -1,5 +1,5 @@
 # Bayesian Sparse Deep Learning
-Experiment code for "An Adaptive Empirical Bayesian Method for Sparse Deep Learning". The key idea is to show that stochastic approximation is more robust than expectation-maximization (EM) to estimate latent variables.
+Experiment code for "An Adaptive Empirical Bayesian Method for Sparse Deep Learning". The key idea is to show that stochastic approximation is more robust than expectation-maximization (EM) to estimate latent variables in non-linear cases and less sensitive to initial values.
 
 ## Large-p-small-n Linear Regression
 
