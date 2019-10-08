@@ -1,0 +1,8 @@
+Total data points 455 total batches 9
+('hidden1.weight', (50, 13))
+('hidden1.bias', (50,))
+('predict.weight', (1, 50))
+('predict.bias', (1,))
+Epoch 0 Train loss: 1223749.89 Test loss: 4243.94 RMSE: 9.12 SD:10.20 hidden sparse:0.00 predict sparse:0.00
+Epoch 100 Train loss: 23164.53 Test loss: 326.57 RMSE: 2.53 SD:1.62 hidden sparse:0.00 predict sparse:0.00
+Epoch 200 Train loss: 14097.87 Test loss: 303.53 RMSE: 2.44 SD:1.34 hidden sparse:0.00 predict sparse:0.00
