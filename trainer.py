@@ -57,7 +57,7 @@ def sgmcmc(net, train_loader, test_loader, pars):
             images = Variable(images).cuda() if CUDA_EXISTS else Variable(images)
             labels = Variable(labels).cuda() if CUDA_EXISTS else Variable(labels)
             loss = sampler.step(images, labels)
-            if pars.finetune > 0:
+            if pars.prune > 0:
                 net.update_hidden(prune=True, adaptive_sparse=True)
         """ Anneal learning rate """
         if pars.model == 'resnet20' and epoch in [700, 900]:

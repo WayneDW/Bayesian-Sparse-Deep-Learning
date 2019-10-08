@@ -36,7 +36,7 @@ def main():
     parser.add_argument('-model', default='resnet20', type=str, help='small/ mid/ large (resnet20) model')
     parser.add_argument('-train', default=1000, type=int, help='training batch size')
     parser.add_argument('-test', default=1000, type=int, help='testing batch size')
-    parser.add_argument('-prune', default=1, type=int, help='prune from an exsiting model')
+    parser.add_argument('-prune', default=0, type=int, help='prune from an exsiting model')
     parser.add_argument('-save', default=0, type=int, help='save the model or not')
     parser.add_argument('-sn', default=1000, type=int, help='sampling Epochs')
     # SGHMC hyperparameters
@@ -44,7 +44,7 @@ def main():
     parser.add_argument('-lr', default=1e-4, type=float, help='sampling learning rate (default for fine-tuning)')
     parser.add_argument('-momentum', default=0.9, type=float, help='sampling momentum learning rate')
     parser.add_argument('-invT', default=1e9, type=float, help='inverse tempreture')
-    parser.add_argument('-anneal', default=1.02, type=float, help='anneal tempreture')
+    parser.add_argument('-anneal', default=1.007, type=float, help='anneal tempreture')
     # setup for sparse coefficients
     parser.add_argument('-sparse', default=0.9,  type=float, help='target sparse Rate')
     parser.add_argument('-v0', default=0.005, type=float, help='v0')
@@ -104,7 +104,7 @@ def main():
 
     
     """ Step 3: Load the model """
-    if pars.finetune >= 0:
+    if pars.prune > 0:
         net = save_or_pretrain(net, 0, './output/pars.' + pars.data + '_' + pars.model)
         model_eval(net, test_loader, pars, 'Pretrained')
     else:

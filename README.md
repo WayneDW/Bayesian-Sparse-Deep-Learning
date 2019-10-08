@@ -34,7 +34,7 @@ You can also use the other datasets to test the performance, e.g. yacht, energy-
 
 ### Pretrain a dense model
 ```{python}
-python bayes_cnn.py -lr 0.1 -invT 1e9 -save 1 -finetune -1  
+python bayes_cnn.py -lr 0.1 -invT 1e9 -save 1 -prune 0  
 ```
 
 ### Finetune a sparse model through stochastic approximation
