@@ -3,7 +3,7 @@ Experiment code for "An Adaptive Empirical Bayesian Method for Sparse Deep Learn
 
 ## Large-p-small-n Linear Regression
 
-![GitHub Logo](/figures/rlr_simulation.png)
+![GitHub Logo](/figures/lr_simulation.png)
 
 
 ## Regression: UCI dataset
