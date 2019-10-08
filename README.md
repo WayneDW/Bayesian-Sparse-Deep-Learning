@@ -4,7 +4,10 @@ Experiment code for "An Adaptive Empirical Bayesian Method for Sparse Deep Learn
 
 ## Regression: UCI dataset
 
-TBD
+### Requirement
+* Python 2.7
+* [PyTorch > 1.1](https://pytorch.org/)
+* numpy
 
 
 
@@ -13,6 +16,7 @@ TBD
 * Python 2.7
 * [PyTorch > 1.1](https://pytorch.org/)
 * numpy
+* CUDA
 
 ### Pretrain a dense model
 ```{python}
