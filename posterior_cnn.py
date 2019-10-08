@@ -34,7 +34,7 @@ class BayesPosterior(ResNet):
         self.total_no_pars, self.sparse_no_pars = 0, 0
         """ total number of effective data points """
         self.N = pars.N
-        self.finetune = pars.finetune
+        self.prune = pars.prune
         for name, param in self.named_parameters():
             self.total_no_pars += np.prod(param.size())
             if name.endswith('weight') and 'conv' in name and name != 'conv1.weight':
@@ -51,8 +51,9 @@ class BayesPosterior(ResNet):
         nlloss = self.criterion(self.forward(x), y)
         """ cross-entropy is averaged loss, we also modify the priors accordingly """
         for name, param in self.named_parameters():
-            if name.endswith('weight') and 'conv' in name and name != 'conv1.weight' and self.finetune > 0:
-                nlloss += (torch.sum(param.pow(2) * self.d_star1[name]) / self.sd**2 / 2 + torch.sum(param.abs() * self.d_star0[name]) / self.sd) / self.N
+            if name.endswith('weight') and 'conv' in name and name != 'conv1.weight' and self.prune > 0:
+                nlloss += (torch.sum(param.pow(2) * self.d_star1[name]) / self.sd**2 / 2 \
+                            + torch.sum(param.abs() * self.d_star0[name]) / self.sd) / self.N
             else:
                 nlloss += 0.5 * self.wdecay * param.norm(2)**2
         return(nlloss)
@@ -81,8 +82,8 @@ class BayesPosterior(ResNet):
             self.p_star[name] = (1 - self.decay) * self.p_star[name] + self.decay * a_star / (a_star + b_star)
             self.d_star0[name] = (1 - self.decay) * self.d_star0[name] + self.decay * ((1 - self.p_star[name]) / self.v0)
             self.d_star1[name] = (1 - self.decay) * self.d_star1[name] + self.decay * (self.p_star[name] / self.v1)
-            self.theta[name] = (1 - self.decay) * self.theta[name] \
-                        + self.decay * ((self.p_star[name].sum() + self.a - 1) / (self.a + self.b + np.prod(param.data.size()) - 2)).item()
+            self.theta[name] = (1 - self.decay) * self.theta[name] + self.decay * \
+                    ((self.p_star[name].sum() + self.a - 1) / (self.a + self.b + np.prod(param.data.size()) - 2)).item()
             kept_ratio = (self.p_star[name] > 0.5).sum().item() * 100.0 / np.prod(param.data.size())
             if prune:
                 threshold = self.binary_search_threshold(param.data, self.adaptive_sparse, np.prod(param.data.size()))
@@ -91,7 +92,7 @@ class BayesPosterior(ResNet):
                 wridge += (param.data**2 * self.d_star1[name]).sum().item()
 
             if self.dcoef['t'] % 500 == 0:
-                print('{:s} | P star max: {:5.1f} min: {:5.1f}'.format(name, self.p_star[name].max() * 100, self.p_star[name].min() * 100))
+                print('{:s} | P max: {:5.1f} min: {:5.1f}'.format(name, self.p_star[name].max() * 100, self.p_star[name].min() * 100))
             sparse_items += (param.data == 0).sum().item()
 
         self.sparse_rate = sparse_items * 100.0 / self.total_no_pars

@@ -36,7 +36,7 @@ def main():
     parser.add_argument('-model', default='resnet20', type=str, help='small/ mid/ large (resnet20) model')
     parser.add_argument('-train', default=1000, type=int, help='training batch size')
     parser.add_argument('-test', default=1000, type=int, help='testing batch size')
-    parser.add_argument('-finetune', default=1, type=int, help='fine tune from an exsiting model')
+    parser.add_argument('-prune', default=1, type=int, help='prune from an exsiting model')
     parser.add_argument('-save', default=0, type=int, help='save the model or not')
     parser.add_argument('-sn', default=1000, type=int, help='sampling Epochs')
     # SGHMC hyperparameters
