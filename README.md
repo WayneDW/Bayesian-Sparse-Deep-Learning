@@ -39,7 +39,7 @@ python bayes_cnn.py -lr 0.1 -invT 1e9 -save 1 -finetune -1
 
 ### Finetune a sparse model through stochastic approximation
 ```{python}
-python bayes_cnn.py -lr 1e-4 -invT 1e9 -v0 0.005 -v1 1e-5 -sparse 0.9 -method sa
+python bayes_cnn.py -lr 1e-4 -invT 1e9 -v0 0.005 -v1 1e-5 -sparse 0.9 -c sa
 ```
 The default code can produce a 90%-sparsity Resnet20 model with 91.4% accuracy
 
