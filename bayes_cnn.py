@@ -105,7 +105,7 @@ def main():
     
     """ Step 3: Load the model """
     if pars.prune > 0:
-        net = save_or_pretrain(net, 0, './output/pars.' + pars.data + '_' + pars.model + '_seed_' + str(pars.seed))
+        net = save_or_pretrain(net, 0, './output/pars.' + pars.data + '_' + pars.model)
         model_eval(net, test_loader, pars, 'Pretrained')
     else:
         print('Sampling from scratch')
@@ -113,7 +113,7 @@ def main():
     """ Step 4: Bayesian Sampling """
     sgmcmc(net, train_loader, test_loader, pars)
     if pars.save:
-        net = save_or_pretrain(net, 1, './output/pars.' + pars.data + '_' + pars.model + '_seed_' + str(pars.seed))
+        net = save_or_pretrain(net, 1, './output/pars.' + pars.data + '_' + pars.model)
 
 if __name__ == "__main__":
     main()
