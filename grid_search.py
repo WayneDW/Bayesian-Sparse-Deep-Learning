@@ -19,7 +19,7 @@ for _ in range(3):
     v1 = secure_random.choice(['1e-5'])
     sd = secure_random.choice(['1'])
     invT = secure_random.choice(['1e8', '1e7'])
-    anneal = secure_random.choice(['1.005', '1.01'])
+    anneal = secure_random.choice(['1.005'])
     NN = secure_random.choice(['25000'])
     sn = '1000'
     sparse = '0.9'
