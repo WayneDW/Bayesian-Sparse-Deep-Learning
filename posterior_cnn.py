@@ -106,7 +106,7 @@ class BayesPosterior(ResNet):
             mid = (l + r) / 2
             sparse_items = (abs(param) < mid).sum().item() * 1.0
             sparse_rate = sparse_items / total_no
-            if abs(sparse_rate - target_percent) < 0.002:
+            if abs(sparse_rate - target_percent) < 0.0001:
                 return mid
             elif sparse_rate > target_percent:
                 r = mid
