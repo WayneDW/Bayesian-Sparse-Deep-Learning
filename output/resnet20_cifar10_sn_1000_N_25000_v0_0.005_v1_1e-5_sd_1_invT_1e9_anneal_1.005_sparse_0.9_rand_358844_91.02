@@ -1,0 +1,3805 @@
+Files already downloaded and verified
+Use preTrained model
+Epoch Namespace(N=25000.0, a=270000.0, anneal=1.005, aug=1, b=270000.0, cuda=1, cut=0.99, da=1000, dalpha=0.75, data='cifar10', dc=10, depth=20, gap=50, gpu=2, invT=1000000000.0, lamda=1000, lr=0.0001, method='sa', model='resnet20', momentum=0.9, multi=0, nu=1000, prune=1, save=0, sd=1.0, seed=358844, sn=1000, sparse=0.9, test=1000, theta=0.5, train=1000, v0=0.005, v1=1e-05, wdecay=0.0005) Test set accuracy: 93.79%
+
+Epoch 1 Sparse Rate: 0.92% Acc: 93.83 Best Acc: 0.00 InvT: 1.0E+09 Loss: 8.7
+
+Epoch 2 Sparse Rate: 1.79% Acc: 93.76 Best Acc: 0.00 InvT: 1.0E+09 Loss: 8.9
+
+Epoch 3 Sparse Rate: 2.67% Acc: 93.83 Best Acc: 0.00 InvT: 1.0E+09 Loss: 9.2
+
+Epoch 4 Sparse Rate: 3.58% Acc: 93.81 Best Acc: 0.00 InvT: 1.0E+09 Loss: 9.2
+
+Epoch 5 Sparse Rate: 4.37% Acc: 93.82 Best Acc: 0.00 InvT: 1.0E+09 Loss: 9.2
+
+Epoch 6 Sparse Rate: 5.25% Acc: 93.79 Best Acc: 0.00 InvT: 1.0E+09 Loss: 9.2
+
+Epoch 7 Sparse Rate: 6.07% Acc: 93.80 Best Acc: 0.00 InvT: 1.0E+09 Loss: 9.2
+
+Epoch 8 Sparse Rate: 6.89% Acc: 93.85 Best Acc: 0.00 InvT: 1.0E+09 Loss: 9.2
+
+Epoch 9 Sparse Rate: 7.74% Acc: 93.79 Best Acc: 0.00 InvT: 1.0E+09 Loss: 9.2
+layer1.0.conv1.weight | P max:  60.5 min:   0.0
+layer1.0.conv2.weight | P max:  55.6 min:   0.0
+layer1.1.conv1.weight | P max:  55.8 min:   0.0
+layer1.1.conv2.weight | P max:  56.2 min:   0.0
+layer1.2.conv1.weight | P max:  55.6 min:   0.0
+layer1.2.conv2.weight | P max:  56.8 min:   0.0
+layer2.0.conv1.weight | P max:  56.5 min:   0.0
+layer2.0.conv2.weight | P max:  57.9 min:   0.0
+layer2.1.conv1.weight | P max:  58.6 min:   0.0
+layer2.1.conv2.weight | P max:  58.9 min:   0.0
+layer2.2.conv1.weight | P max:  58.1 min:   0.0
+layer2.2.conv2.weight | P max:  59.7 min:   0.0
+layer3.0.conv1.weight | P max:  58.5 min:   0.0
+layer3.0.conv2.weight | P max:  57.5 min:   0.0
+layer3.1.conv1.weight | P max:  57.7 min:   0.0
+layer3.1.conv2.weight | P max:  58.1 min:   0.0
+layer3.2.conv1.weight | P max:  58.2 min:   0.0
+layer3.2.conv2.weight | P max:  59.7 min:   0.0
+
+Epoch 10 Sparse Rate: 8.60% Acc: 93.77 Best Acc: 0.00 InvT: 1.1E+09 Loss: 9.2
+
+Epoch 11 Sparse Rate: 9.40% Acc: 93.82 Best Acc: 0.00 InvT: 1.1E+09 Loss: 9.2
+
+Epoch 12 Sparse Rate: 10.21% Acc: 93.79 Best Acc: 0.00 InvT: 1.1E+09 Loss: 9.2
+
+Epoch 13 Sparse Rate: 11.02% Acc: 93.86 Best Acc: 0.00 InvT: 1.1E+09 Loss: 9.2
+
+Epoch 14 Sparse Rate: 11.73% Acc: 93.78 Best Acc: 0.00 InvT: 1.1E+09 Loss: 9.2
+
+Epoch 15 Sparse Rate: 12.50% Acc: 93.81 Best Acc: 0.00 InvT: 1.1E+09 Loss: 9.2
+
+Epoch 16 Sparse Rate: 13.32% Acc: 93.74 Best Acc: 0.00 InvT: 1.1E+09 Loss: 9.1
+
+Epoch 17 Sparse Rate: 14.05% Acc: 93.81 Best Acc: 0.00 InvT: 1.1E+09 Loss: 9.1
+
+Epoch 18 Sparse Rate: 14.82% Acc: 93.86 Best Acc: 0.00 InvT: 1.1E+09 Loss: 9.1
+
+Epoch 19 Sparse Rate: 15.60% Acc: 93.85 Best Acc: 0.00 InvT: 1.1E+09 Loss: 9.1
+layer1.0.conv1.weight | P max:  55.6 min:   0.0
+layer1.0.conv2.weight | P max:  55.6 min:   0.0
+layer1.1.conv1.weight | P max:  55.6 min:   0.0
+layer1.1.conv2.weight | P max:  55.6 min:   0.0
+layer1.2.conv1.weight | P max:  55.6 min:   0.0
+layer1.2.conv2.weight | P max:  55.6 min:   0.0
+layer2.0.conv1.weight | P max:  55.5 min:   0.0
+layer2.0.conv2.weight | P max:  55.1 min:   0.0
+layer2.1.conv1.weight | P max:  55.2 min:   0.0
+layer2.1.conv2.weight | P max:  55.2 min:   0.0
+layer2.2.conv1.weight | P max:  55.1 min:   0.0
+layer2.2.conv2.weight | P max:  55.2 min:   0.0
+layer3.0.conv1.weight | P max:  54.6 min:   0.0
+layer3.0.conv2.weight | P max:  53.4 min:   0.0
+layer3.1.conv1.weight | P max:  53.4 min:   0.0
+layer3.1.conv2.weight | P max:  53.5 min:   0.0
+layer3.2.conv1.weight | P max:  53.5 min:   0.0
+layer3.2.conv2.weight | P max:  59.9 min:   0.0
+
+Epoch 20 Sparse Rate: 16.32% Acc: 93.89 Best Acc: 0.00 InvT: 1.1E+09 Loss: 9.1
+
+Epoch 21 Sparse Rate: 17.10% Acc: 93.89 Best Acc: 0.00 InvT: 1.1E+09 Loss: 9.1
+
+Epoch 22 Sparse Rate: 17.80% Acc: 93.86 Best Acc: 0.00 InvT: 1.1E+09 Loss: 9.1
+
+Epoch 23 Sparse Rate: 18.52% Acc: 93.89 Best Acc: 0.00 InvT: 1.1E+09 Loss: 9.1
+
+Epoch 24 Sparse Rate: 19.19% Acc: 93.87 Best Acc: 0.00 InvT: 1.1E+09 Loss: 9.1
+
+Epoch 25 Sparse Rate: 19.94% Acc: 93.92 Best Acc: 0.00 InvT: 1.1E+09 Loss: 9.1
+
+Epoch 26 Sparse Rate: 20.67% Acc: 93.94 Best Acc: 0.00 InvT: 1.1E+09 Loss: 9.0
+
+Epoch 27 Sparse Rate: 21.34% Acc: 93.84 Best Acc: 0.00 InvT: 1.1E+09 Loss: 9.0
+
+Epoch 28 Sparse Rate: 22.02% Acc: 93.80 Best Acc: 0.00 InvT: 1.1E+09 Loss: 9.0
+
+Epoch 29 Sparse Rate: 22.68% Acc: 93.72 Best Acc: 0.00 InvT: 1.2E+09 Loss: 9.0
+layer1.0.conv1.weight | P max:  55.6 min:   0.0
+layer1.0.conv2.weight | P max:  55.6 min:   0.0
+layer1.1.conv1.weight | P max:  55.6 min:   0.0
+layer1.1.conv2.weight | P max:  55.6 min:   0.0
+layer1.2.conv1.weight | P max:  55.6 min:   0.0
+layer1.2.conv2.weight | P max:  55.6 min:   0.0
+layer2.0.conv1.weight | P max:  55.5 min:   0.0
+layer2.0.conv2.weight | P max:  55.2 min:   0.0
+layer2.1.conv1.weight | P max:  55.2 min:   0.0
+layer2.1.conv2.weight | P max:  55.2 min:   0.0
+layer2.2.conv1.weight | P max:  55.2 min:   0.0
+layer2.2.conv2.weight | P max:  55.2 min:   0.0
+layer3.0.conv1.weight | P max:  54.6 min:   0.0
+layer3.0.conv2.weight | P max:  53.5 min:   0.0
+layer3.1.conv1.weight | P max:  53.5 min:   0.0
+layer3.1.conv2.weight | P max:  53.6 min:   0.0
+layer3.2.conv1.weight | P max:  53.6 min:   0.0
+layer3.2.conv2.weight | P max:  60.0 min:   0.0
+
+Epoch 30 Sparse Rate: 23.33% Acc: 93.81 Best Acc: 0.00 InvT: 1.2E+09 Loss: 9.0
+
+Epoch 31 Sparse Rate: 24.11% Acc: 93.88 Best Acc: 0.00 InvT: 1.2E+09 Loss: 9.0
+
+Epoch 32 Sparse Rate: 24.67% Acc: 93.71 Best Acc: 0.00 InvT: 1.2E+09 Loss: 9.0
+
+Epoch 33 Sparse Rate: 25.37% Acc: 93.72 Best Acc: 0.00 InvT: 1.2E+09 Loss: 9.0
+
+Epoch 34 Sparse Rate: 26.00% Acc: 93.69 Best Acc: 0.00 InvT: 1.2E+09 Loss: 8.9
+
+Epoch 35 Sparse Rate: 26.58% Acc: 93.76 Best Acc: 0.00 InvT: 1.2E+09 Loss: 8.9
+
+Epoch 36 Sparse Rate: 27.28% Acc: 93.67 Best Acc: 0.00 InvT: 1.2E+09 Loss: 8.9
+
+Epoch 37 Sparse Rate: 27.87% Acc: 93.65 Best Acc: 0.00 InvT: 1.2E+09 Loss: 8.9
+
+Epoch 38 Sparse Rate: 28.49% Acc: 93.59 Best Acc: 0.00 InvT: 1.2E+09 Loss: 8.9
+
+Epoch 39 Sparse Rate: 29.09% Acc: 93.65 Best Acc: 0.00 InvT: 1.2E+09 Loss: 8.9
+layer1.0.conv1.weight | P max:  55.7 min:   0.0
+layer1.0.conv2.weight | P max:  55.6 min:   0.0
+layer1.1.conv1.weight | P max:  55.6 min:   0.0
+layer1.1.conv2.weight | P max:  55.7 min:   0.0
+layer1.2.conv1.weight | P max:  55.6 min:   0.0
+layer1.2.conv2.weight | P max:  55.6 min:   0.0
+layer2.0.conv1.weight | P max:  55.5 min:   0.0
+layer2.0.conv2.weight | P max:  55.2 min:   0.0
+layer2.1.conv1.weight | P max:  55.2 min:   0.0
+layer2.1.conv2.weight | P max:  55.2 min:   0.0
+layer2.2.conv1.weight | P max:  55.2 min:   0.0
+layer2.2.conv2.weight | P max:  55.2 min:   0.0
+layer3.0.conv1.weight | P max:  54.7 min:   0.0
+layer3.0.conv2.weight | P max:  53.7 min:   0.0
+layer3.1.conv1.weight | P max:  53.7 min:   0.0
+layer3.1.conv2.weight | P max:  53.7 min:   0.0
+layer3.2.conv1.weight | P max:  53.7 min:   0.0
+layer3.2.conv2.weight | P max:  60.1 min:   0.0
+
+Epoch 40 Sparse Rate: 29.72% Acc: 93.49 Best Acc: 0.00 InvT: 1.2E+09 Loss: 8.9
+
+Epoch 41 Sparse Rate: 30.37% Acc: 93.55 Best Acc: 0.00 InvT: 1.2E+09 Loss: 8.8
+
+Epoch 42 Sparse Rate: 30.97% Acc: 93.53 Best Acc: 0.00 InvT: 1.2E+09 Loss: 8.8
+
+Epoch 43 Sparse Rate: 31.48% Acc: 93.53 Best Acc: 0.00 InvT: 1.2E+09 Loss: 8.8
+
+Epoch 44 Sparse Rate: 32.11% Acc: 93.36 Best Acc: 0.00 InvT: 1.2E+09 Loss: 8.8
+
+Epoch 45 Sparse Rate: 32.69% Acc: 93.45 Best Acc: 0.00 InvT: 1.3E+09 Loss: 8.8
+
+Epoch 46 Sparse Rate: 33.21% Acc: 93.34 Best Acc: 0.00 InvT: 1.3E+09 Loss: 8.8
+
+Epoch 47 Sparse Rate: 33.78% Acc: 93.28 Best Acc: 0.00 InvT: 1.3E+09 Loss: 8.7
+
+Epoch 48 Sparse Rate: 34.37% Acc: 93.34 Best Acc: 0.00 InvT: 1.3E+09 Loss: 8.7
+
+Epoch 49 Sparse Rate: 34.98% Acc: 93.34 Best Acc: 0.00 InvT: 1.3E+09 Loss: 8.7
+layer1.0.conv1.weight | P max:  55.7 min:   0.0
+layer1.0.conv2.weight | P max:  55.7 min:   0.0
+layer1.1.conv1.weight | P max:  55.7 min:   0.0
+layer1.1.conv2.weight | P max:  55.7 min:   0.0
+layer1.2.conv1.weight | P max:  55.7 min:   0.0
+layer1.2.conv2.weight | P max:  55.7 min:   0.0
+layer2.0.conv1.weight | P max:  55.5 min:   0.0
+layer2.0.conv2.weight | P max:  55.3 min:   0.0
+layer2.1.conv1.weight | P max:  55.3 min:   0.0
+layer2.1.conv2.weight | P max:  55.3 min:   0.0
+layer2.2.conv1.weight | P max:  55.3 min:   0.0
+layer2.2.conv2.weight | P max:  55.3 min:   0.0
+layer3.0.conv1.weight | P max:  54.8 min:   0.0
+layer3.0.conv2.weight | P max:  53.8 min:   0.0
+layer3.1.conv1.weight | P max:  53.8 min:   0.0
+layer3.1.conv2.weight | P max:  53.9 min:   0.0
+layer3.2.conv1.weight | P max:  53.9 min:   0.0
+layer3.2.conv2.weight | P max:  60.2 min:   0.0
+
+Epoch 50 Sparse Rate: 35.44% Acc: 93.36 Best Acc: 0.00 InvT: 1.3E+09 Loss: 8.7
+
+Epoch 51 Sparse Rate: 36.01% Acc: 93.36 Best Acc: 0.00 InvT: 1.3E+09 Loss: 8.7
+
+Epoch 52 Sparse Rate: 36.58% Acc: 93.35 Best Acc: 0.00 InvT: 1.3E+09 Loss: 8.7
+
+Epoch 53 Sparse Rate: 37.03% Acc: 93.26 Best Acc: 0.00 InvT: 1.3E+09 Loss: 8.6
+
+Epoch 54 Sparse Rate: 37.63% Acc: 93.29 Best Acc: 0.00 InvT: 1.3E+09 Loss: 8.6
+
+Epoch 55 Sparse Rate: 38.08% Acc: 93.39 Best Acc: 0.00 InvT: 1.3E+09 Loss: 8.6
+
+Epoch 56 Sparse Rate: 38.61% Acc: 93.43 Best Acc: 0.00 InvT: 1.3E+09 Loss: 8.6
+
+Epoch 57 Sparse Rate: 39.17% Acc: 93.19 Best Acc: 0.00 InvT: 1.3E+09 Loss: 8.6
+
+Epoch 58 Sparse Rate: 39.64% Acc: 93.17 Best Acc: 0.00 InvT: 1.3E+09 Loss: 8.6
+
+Epoch 59 Sparse Rate: 40.17% Acc: 93.18 Best Acc: 0.00 InvT: 1.3E+09 Loss: 8.5
+layer1.0.conv1.weight | P max:  55.7 min:   0.0
+layer1.0.conv2.weight | P max:  55.7 min:   0.0
+layer1.1.conv1.weight | P max:  55.7 min:   0.0
+layer1.1.conv2.weight | P max:  55.7 min:   0.0
+layer1.2.conv1.weight | P max:  55.7 min:   0.0
+layer1.2.conv2.weight | P max:  55.7 min:   0.0
+layer2.0.conv1.weight | P max:  55.6 min:   0.0
+layer2.0.conv2.weight | P max:  55.3 min:   0.0
+layer2.1.conv1.weight | P max:  55.3 min:   0.0
+layer2.1.conv2.weight | P max:  55.3 min:   0.0
+layer2.2.conv1.weight | P max:  55.3 min:   0.0
+layer2.2.conv2.weight | P max:  55.3 min:   0.0
+layer3.0.conv1.weight | P max:  54.9 min:   0.0
+layer3.0.conv2.weight | P max:  54.0 min:   0.0
+layer3.1.conv1.weight | P max:  54.0 min:   0.0
+layer3.1.conv2.weight | P max:  54.0 min:   0.0
+layer3.2.conv1.weight | P max:  54.0 min:   0.0
+layer3.2.conv2.weight | P max:  60.3 min:   0.0
+
+Epoch 60 Sparse Rate: 40.68% Acc: 93.11 Best Acc: 0.00 InvT: 1.3E+09 Loss: 8.5
+
+Epoch 61 Sparse Rate: 41.15% Acc: 93.12 Best Acc: 0.00 InvT: 1.4E+09 Loss: 8.5
+
+Epoch 62 Sparse Rate: 41.64% Acc: 93.20 Best Acc: 0.00 InvT: 1.4E+09 Loss: 8.5
+
+Epoch 63 Sparse Rate: 42.18% Acc: 93.05 Best Acc: 0.00 InvT: 1.4E+09 Loss: 8.5
+
+Epoch 64 Sparse Rate: 42.59% Acc: 93.17 Best Acc: 0.00 InvT: 1.4E+09 Loss: 8.5
+
+Epoch 65 Sparse Rate: 43.08% Acc: 93.15 Best Acc: 0.00 InvT: 1.4E+09 Loss: 8.4
+
+Epoch 66 Sparse Rate: 43.57% Acc: 93.16 Best Acc: 0.00 InvT: 1.4E+09 Loss: 8.4
+
+Epoch 67 Sparse Rate: 43.98% Acc: 93.13 Best Acc: 0.00 InvT: 1.4E+09 Loss: 8.4
+
+Epoch 68 Sparse Rate: 44.46% Acc: 93.04 Best Acc: 0.00 InvT: 1.4E+09 Loss: 8.4
+
+Epoch 69 Sparse Rate: 44.95% Acc: 93.06 Best Acc: 0.00 InvT: 1.4E+09 Loss: 8.4
+layer1.0.conv1.weight | P max:  55.7 min:   0.0
+layer1.0.conv2.weight | P max:  55.7 min:   0.0
+layer1.1.conv1.weight | P max:  55.7 min:   0.0
+layer1.1.conv2.weight | P max:  55.7 min:   0.0
+layer1.2.conv1.weight | P max:  55.7 min:   0.0
+layer1.2.conv2.weight | P max:  55.7 min:   0.0
+layer2.0.conv1.weight | P max:  55.6 min:   0.0
+layer2.0.conv2.weight | P max:  55.4 min:   0.0
+layer2.1.conv1.weight | P max:  55.4 min:   0.0
+layer2.1.conv2.weight | P max:  55.4 min:   0.0
+layer2.2.conv1.weight | P max:  55.4 min:   0.0
+layer2.2.conv2.weight | P max:  55.4 min:   0.0
+layer3.0.conv1.weight | P max:  55.0 min:   0.0
+layer3.0.conv2.weight | P max:  54.2 min:   0.0
+layer3.1.conv1.weight | P max:  54.2 min:   0.0
+layer3.1.conv2.weight | P max:  54.2 min:   0.0
+layer3.2.conv1.weight | P max:  54.2 min:   0.0
+layer3.2.conv2.weight | P max:  60.4 min:   0.0
+
+Epoch 70 Sparse Rate: 45.32% Acc: 93.04 Best Acc: 0.00 InvT: 1.4E+09 Loss: 8.4
+
+Epoch 71 Sparse Rate: 45.85% Acc: 92.97 Best Acc: 0.00 InvT: 1.4E+09 Loss: 8.3
+
+Epoch 72 Sparse Rate: 46.27% Acc: 93.14 Best Acc: 0.00 InvT: 1.4E+09 Loss: 8.3
+
+Epoch 73 Sparse Rate: 46.67% Acc: 93.07 Best Acc: 0.00 InvT: 1.4E+09 Loss: 8.3
+
+Epoch 74 Sparse Rate: 47.14% Acc: 93.02 Best Acc: 0.00 InvT: 1.4E+09 Loss: 8.3
+
+Epoch 75 Sparse Rate: 47.53% Acc: 92.86 Best Acc: 0.00 InvT: 1.5E+09 Loss: 8.3
+
+Epoch 76 Sparse Rate: 47.98% Acc: 92.93 Best Acc: 0.00 InvT: 1.5E+09 Loss: 8.2
+
+Epoch 77 Sparse Rate: 48.34% Acc: 92.93 Best Acc: 0.00 InvT: 1.5E+09 Loss: 8.2
+
+Epoch 78 Sparse Rate: 48.88% Acc: 92.93 Best Acc: 0.00 InvT: 1.5E+09 Loss: 8.2
+
+Epoch 79 Sparse Rate: 49.17% Acc: 93.03 Best Acc: 0.00 InvT: 1.5E+09 Loss: 8.2
+layer1.0.conv1.weight | P max:  55.7 min:   0.0
+layer1.0.conv2.weight | P max:  55.7 min:   0.0
+layer1.1.conv1.weight | P max:  55.7 min:   0.0
+layer1.1.conv2.weight | P max:  55.7 min:   0.0
+layer1.2.conv1.weight | P max:  55.7 min:   0.0
+layer1.2.conv2.weight | P max:  55.7 min:   0.0
+layer2.0.conv1.weight | P max:  55.6 min:   0.0
+layer2.0.conv2.weight | P max:  55.4 min:   0.0
+layer2.1.conv1.weight | P max:  55.4 min:   0.0
+layer2.1.conv2.weight | P max:  55.4 min:   0.0
+layer2.2.conv1.weight | P max:  55.4 min:   0.0
+layer2.2.conv2.weight | P max:  55.4 min:   0.0
+layer3.0.conv1.weight | P max:  55.0 min:   0.0
+layer3.0.conv2.weight | P max:  54.3 min:   0.0
+layer3.1.conv1.weight | P max:  54.3 min:   0.0
+layer3.1.conv2.weight | P max:  54.3 min:   0.0
+layer3.2.conv1.weight | P max:  54.3 min:   0.0
+layer3.2.conv2.weight | P max:  60.4 min:   0.0
+
+Epoch 80 Sparse Rate: 49.65% Acc: 92.85 Best Acc: 0.00 InvT: 1.5E+09 Loss: 8.1
+
+Epoch 81 Sparse Rate: 50.02% Acc: 92.90 Best Acc: 0.00 InvT: 1.5E+09 Loss: 8.1
+
+Epoch 82 Sparse Rate: 50.42% Acc: 92.84 Best Acc: 0.00 InvT: 1.5E+09 Loss: 8.1
+
+Epoch 83 Sparse Rate: 50.79% Acc: 92.85 Best Acc: 0.00 InvT: 1.5E+09 Loss: 8.1
+
+Epoch 84 Sparse Rate: 51.21% Acc: 92.81 Best Acc: 0.00 InvT: 1.5E+09 Loss: 8.0
+
+Epoch 85 Sparse Rate: 51.62% Acc: 92.63 Best Acc: 0.00 InvT: 1.5E+09 Loss: 8.1
+
+Epoch 86 Sparse Rate: 52.02% Acc: 92.72 Best Acc: 0.00 InvT: 1.5E+09 Loss: 8.0
+
+Epoch 87 Sparse Rate: 52.37% Acc: 92.69 Best Acc: 0.00 InvT: 1.5E+09 Loss: 8.0
+
+Epoch 88 Sparse Rate: 52.72% Acc: 92.64 Best Acc: 0.00 InvT: 1.6E+09 Loss: 8.0
+
+Epoch 89 Sparse Rate: 53.13% Acc: 92.68 Best Acc: 0.00 InvT: 1.6E+09 Loss: 8.0
+layer1.0.conv1.weight | P max:  55.7 min:   0.0
+layer1.0.conv2.weight | P max:  55.7 min:   0.0
+layer1.1.conv1.weight | P max:  55.7 min:   0.0
+layer1.1.conv2.weight | P max:  55.7 min:   0.0
+layer1.2.conv1.weight | P max:  55.7 min:   0.0
+layer1.2.conv2.weight | P max:  55.7 min:   0.0
+layer2.0.conv1.weight | P max:  55.6 min:   0.0
+layer2.0.conv2.weight | P max:  55.5 min:   0.0
+layer2.1.conv1.weight | P max:  55.5 min:   0.0
+layer2.1.conv2.weight | P max:  55.5 min:   0.0
+layer2.2.conv1.weight | P max:  55.5 min:   0.0
+layer2.2.conv2.weight | P max:  55.5 min:   0.0
+layer3.0.conv1.weight | P max:  55.1 min:   0.0
+layer3.0.conv2.weight | P max:  54.5 min:   0.0
+layer3.1.conv1.weight | P max:  54.5 min:   0.0
+layer3.1.conv2.weight | P max:  54.5 min:   0.0
+layer3.2.conv1.weight | P max:  54.5 min:   0.0
+layer3.2.conv2.weight | P max:  60.5 min:   0.0
+
+Epoch 90 Sparse Rate: 53.48% Acc: 92.72 Best Acc: 0.00 InvT: 1.6E+09 Loss: 7.9
+
+Epoch 91 Sparse Rate: 53.83% Acc: 92.62 Best Acc: 0.00 InvT: 1.6E+09 Loss: 7.9
+
+Epoch 92 Sparse Rate: 54.20% Acc: 92.55 Best Acc: 0.00 InvT: 1.6E+09 Loss: 7.9
+
+Epoch 93 Sparse Rate: 54.59% Acc: 92.46 Best Acc: 0.00 InvT: 1.6E+09 Loss: 7.9
+
+Epoch 94 Sparse Rate: 54.91% Acc: 92.58 Best Acc: 0.00 InvT: 1.6E+09 Loss: 7.8
+
+Epoch 95 Sparse Rate: 55.29% Acc: 92.40 Best Acc: 0.00 InvT: 1.6E+09 Loss: 7.8
+
+Epoch 96 Sparse Rate: 55.62% Acc: 92.32 Best Acc: 0.00 InvT: 1.6E+09 Loss: 7.8
+
+Epoch 97 Sparse Rate: 55.90% Acc: 92.33 Best Acc: 0.00 InvT: 1.6E+09 Loss: 7.8
+
+Epoch 98 Sparse Rate: 56.26% Acc: 92.32 Best Acc: 0.00 InvT: 1.6E+09 Loss: 7.8
+
+Epoch 99 Sparse Rate: 56.57% Acc: 92.54 Best Acc: 0.00 InvT: 1.6E+09 Loss: 7.7
+layer1.0.conv1.weight | P max:  55.7 min:   0.0
+layer1.0.conv2.weight | P max:  55.7 min:   0.0
+layer1.1.conv1.weight | P max:  55.7 min:   0.0
+layer1.1.conv2.weight | P max:  55.7 min:   0.0
+layer1.2.conv1.weight | P max:  55.7 min:   0.0
+layer1.2.conv2.weight | P max:  55.7 min:   0.0
+layer2.0.conv1.weight | P max:  55.6 min:   0.0
+layer2.0.conv2.weight | P max:  55.5 min:   0.0
+layer2.1.conv1.weight | P max:  55.5 min:   0.0
+layer2.1.conv2.weight | P max:  55.5 min:   0.0
+layer2.2.conv1.weight | P max:  55.5 min:   0.0
+layer2.2.conv2.weight | P max:  55.5 min:   0.0
+layer3.0.conv1.weight | P max:  55.2 min:   0.0
+layer3.0.conv2.weight | P max:  54.6 min:   0.0
+layer3.1.conv1.weight | P max:  54.6 min:   0.0
+layer3.1.conv2.weight | P max:  54.6 min:   0.0
+layer3.2.conv1.weight | P max:  54.6 min:   0.0
+layer3.2.conv2.weight | P max:  60.6 min:   0.0
+
+Epoch 100 Sparse Rate: 56.92% Acc: 92.58 Best Acc: 0.00 InvT: 1.6E+09 Loss: 7.7
+
+Epoch 101 Sparse Rate: 57.31% Acc: 92.60 Best Acc: 0.00 InvT: 1.7E+09 Loss: 7.7
+
+Epoch 102 Sparse Rate: 57.56% Acc: 92.63 Best Acc: 0.00 InvT: 1.7E+09 Loss: 7.7
+
+Epoch 103 Sparse Rate: 57.85% Acc: 92.62 Best Acc: 0.00 InvT: 1.7E+09 Loss: 7.7
+
+Epoch 104 Sparse Rate: 58.27% Acc: 92.53 Best Acc: 0.00 InvT: 1.7E+09 Loss: 7.6
+
+Epoch 105 Sparse Rate: 58.59% Acc: 92.36 Best Acc: 0.00 InvT: 1.7E+09 Loss: 7.6
+
+Epoch 106 Sparse Rate: 58.84% Acc: 92.44 Best Acc: 0.00 InvT: 1.7E+09 Loss: 7.6
+
+Epoch 107 Sparse Rate: 59.19% Acc: 92.46 Best Acc: 0.00 InvT: 1.7E+09 Loss: 7.5
+
+Epoch 108 Sparse Rate: 59.49% Acc: 92.43 Best Acc: 0.00 InvT: 1.7E+09 Loss: 7.5
+
+Epoch 109 Sparse Rate: 59.78% Acc: 92.48 Best Acc: 0.00 InvT: 1.7E+09 Loss: 7.5
+layer1.0.conv1.weight | P max:  55.7 min:   0.0
+layer1.0.conv2.weight | P max:  55.7 min:   0.0
+layer1.1.conv1.weight | P max:  55.7 min:   0.0
+layer1.1.conv2.weight | P max:  55.7 min:   0.0
+layer1.2.conv1.weight | P max:  55.7 min:   0.0
+layer1.2.conv2.weight | P max:  55.7 min:   0.0
+layer2.0.conv1.weight | P max:  55.7 min:   0.0
+layer2.0.conv2.weight | P max:  55.5 min:   0.0
+layer2.1.conv1.weight | P max:  55.5 min:   0.0
+layer2.1.conv2.weight | P max:  55.5 min:   0.0
+layer2.2.conv1.weight | P max:  55.5 min:   0.0
+layer2.2.conv2.weight | P max:  55.5 min:   0.0
+layer3.0.conv1.weight | P max:  55.2 min:   0.0
+layer3.0.conv2.weight | P max:  54.7 min:   0.0
+layer3.1.conv1.weight | P max:  54.7 min:   0.0
+layer3.1.conv2.weight | P max:  54.7 min:   0.0
+layer3.2.conv1.weight | P max:  54.7 min:   0.0
+layer3.2.conv2.weight | P max:  60.6 min:   0.0
+
+Epoch 110 Sparse Rate: 60.06% Acc: 92.53 Best Acc: 0.00 InvT: 1.7E+09 Loss: 7.5
+
+Epoch 111 Sparse Rate: 60.48% Acc: 92.59 Best Acc: 0.00 InvT: 1.7E+09 Loss: 7.4
+
+Epoch 112 Sparse Rate: 60.75% Acc: 92.50 Best Acc: 0.00 InvT: 1.7E+09 Loss: 7.4
+
+Epoch 113 Sparse Rate: 61.04% Acc: 92.41 Best Acc: 0.00 InvT: 1.8E+09 Loss: 7.4
+
+Epoch 114 Sparse Rate: 61.33% Acc: 92.41 Best Acc: 0.00 InvT: 1.8E+09 Loss: 7.4
+
+Epoch 115 Sparse Rate: 61.54% Acc: 92.23 Best Acc: 0.00 InvT: 1.8E+09 Loss: 7.4
+
+Epoch 116 Sparse Rate: 61.84% Acc: 92.31 Best Acc: 0.00 InvT: 1.8E+09 Loss: 7.3
+
+Epoch 117 Sparse Rate: 62.15% Acc: 92.19 Best Acc: 0.00 InvT: 1.8E+09 Loss: 7.3
+
+Epoch 118 Sparse Rate: 62.37% Acc: 92.21 Best Acc: 0.00 InvT: 1.8E+09 Loss: 7.3
+
+Epoch 119 Sparse Rate: 62.67% Acc: 92.17 Best Acc: 0.00 InvT: 1.8E+09 Loss: 7.3
+layer1.0.conv1.weight | P max:  55.7 min:   0.0
+layer1.0.conv2.weight | P max:  55.7 min:   0.0
+layer1.1.conv1.weight | P max:  55.7 min:   0.0
+layer1.1.conv2.weight | P max:  55.7 min:   0.0
+layer1.2.conv1.weight | P max:  55.7 min:   0.0
+layer1.2.conv2.weight | P max:  55.7 min:   0.0
+layer2.0.conv1.weight | P max:  55.7 min:   0.0
+layer2.0.conv2.weight | P max:  55.5 min:   0.0
+layer2.1.conv1.weight | P max:  55.5 min:   0.0
+layer2.1.conv2.weight | P max:  55.5 min:   0.0
+layer2.2.conv1.weight | P max:  55.5 min:   0.0
+layer2.2.conv2.weight | P max:  55.5 min:   0.0
+layer3.0.conv1.weight | P max:  55.3 min:   0.0
+layer3.0.conv2.weight | P max:  54.8 min:   0.0
+layer3.1.conv1.weight | P max:  54.8 min:   0.0
+layer3.1.conv2.weight | P max:  54.8 min:   0.0
+layer3.2.conv1.weight | P max:  54.8 min:   0.0
+layer3.2.conv2.weight | P max:  60.7 min:   0.0
+
+Epoch 120 Sparse Rate: 62.95% Acc: 92.05 Best Acc: 0.00 InvT: 1.8E+09 Loss: 7.2
+
+Epoch 121 Sparse Rate: 63.23% Acc: 91.87 Best Acc: 0.00 InvT: 1.8E+09 Loss: 7.2
+
+Epoch 122 Sparse Rate: 63.46% Acc: 91.93 Best Acc: 0.00 InvT: 1.8E+09 Loss: 7.2
+
+Epoch 123 Sparse Rate: 63.76% Acc: 91.93 Best Acc: 0.00 InvT: 1.8E+09 Loss: 7.2
+
+Epoch 124 Sparse Rate: 64.01% Acc: 91.91 Best Acc: 0.00 InvT: 1.9E+09 Loss: 7.2
+
+Epoch 125 Sparse Rate: 64.26% Acc: 91.98 Best Acc: 0.00 InvT: 1.9E+09 Loss: 7.1
+
+Epoch 126 Sparse Rate: 64.52% Acc: 91.99 Best Acc: 0.00 InvT: 1.9E+09 Loss: 7.1
+
+Epoch 127 Sparse Rate: 64.77% Acc: 92.06 Best Acc: 0.00 InvT: 1.9E+09 Loss: 7.1
+
+Epoch 128 Sparse Rate: 65.02% Acc: 91.99 Best Acc: 0.00 InvT: 1.9E+09 Loss: 7.1
+
+Epoch 129 Sparse Rate: 65.29% Acc: 92.01 Best Acc: 0.00 InvT: 1.9E+09 Loss: 7.0
+layer1.0.conv1.weight | P max:  55.7 min:   0.0
+layer1.0.conv2.weight | P max:  55.7 min:   0.0
+layer1.1.conv1.weight | P max:  55.7 min:   0.0
+layer1.1.conv2.weight | P max:  55.7 min:   0.0
+layer1.2.conv1.weight | P max:  55.8 min:   0.0
+layer1.2.conv2.weight | P max:  55.7 min:   0.0
+layer2.0.conv1.weight | P max:  55.7 min:   0.0
+layer2.0.conv2.weight | P max:  55.6 min:   0.0
+layer2.1.conv1.weight | P max:  55.6 min:   0.0
+layer2.1.conv2.weight | P max:  55.6 min:   0.0
+layer2.2.conv1.weight | P max:  55.6 min:   0.0
+layer2.2.conv2.weight | P max:  55.6 min:   0.0
+layer3.0.conv1.weight | P max:  55.3 min:   0.0
+layer3.0.conv2.weight | P max:  54.9 min:   0.0
+layer3.1.conv1.weight | P max:  54.9 min:   0.0
+layer3.1.conv2.weight | P max:  54.9 min:   0.0
+layer3.2.conv1.weight | P max:  54.9 min:   0.0
+layer3.2.conv2.weight | P max:  60.7 min:   0.0
+
+Epoch 130 Sparse Rate: 65.51% Acc: 92.07 Best Acc: 0.00 InvT: 1.9E+09 Loss: 7.0
+
+Epoch 131 Sparse Rate: 65.74% Acc: 92.06 Best Acc: 0.00 InvT: 1.9E+09 Loss: 7.0
+
+Epoch 132 Sparse Rate: 66.03% Acc: 91.86 Best Acc: 0.00 InvT: 1.9E+09 Loss: 6.9
+
+Epoch 133 Sparse Rate: 66.22% Acc: 91.84 Best Acc: 0.00 InvT: 1.9E+09 Loss: 6.9
+
+Epoch 134 Sparse Rate: 66.46% Acc: 91.82 Best Acc: 0.00 InvT: 2.0E+09 Loss: 6.9
+
+Epoch 135 Sparse Rate: 66.67% Acc: 91.66 Best Acc: 0.00 InvT: 2.0E+09 Loss: 6.8
+
+Epoch 136 Sparse Rate: 66.94% Acc: 91.77 Best Acc: 0.00 InvT: 2.0E+09 Loss: 6.8
+
+Epoch 137 Sparse Rate: 67.15% Acc: 91.52 Best Acc: 0.00 InvT: 2.0E+09 Loss: 6.8
+
+Epoch 138 Sparse Rate: 67.32% Acc: 91.57 Best Acc: 0.00 InvT: 2.0E+09 Loss: 6.8
+
+Epoch 139 Sparse Rate: 67.61% Acc: 91.59 Best Acc: 0.00 InvT: 2.0E+09 Loss: 6.7
+layer1.0.conv1.weight | P max:  55.8 min:   0.0
+layer1.0.conv2.weight | P max:  55.8 min:   0.0
+layer1.1.conv1.weight | P max:  55.8 min:   0.0
+layer1.1.conv2.weight | P max:  55.8 min:   0.0
+layer1.2.conv1.weight | P max:  55.8 min:   0.0
+layer1.2.conv2.weight | P max:  55.8 min:   0.0
+layer2.0.conv1.weight | P max:  55.7 min:   0.0
+layer2.0.conv2.weight | P max:  55.6 min:   0.0
+layer2.1.conv1.weight | P max:  55.6 min:   0.0
+layer2.1.conv2.weight | P max:  55.6 min:   0.0
+layer2.2.conv1.weight | P max:  55.6 min:   0.0
+layer2.2.conv2.weight | P max:  55.6 min:   0.0
+layer3.0.conv1.weight | P max:  55.4 min:   0.0
+layer3.0.conv2.weight | P max:  55.0 min:   0.0
+layer3.1.conv1.weight | P max:  55.0 min:   0.0
+layer3.1.conv2.weight | P max:  55.0 min:   0.0
+layer3.2.conv1.weight | P max:  55.0 min:   0.0
+layer3.2.conv2.weight | P max:  60.8 min:   0.0
+
+Epoch 140 Sparse Rate: 67.82% Acc: 91.69 Best Acc: 0.00 InvT: 2.0E+09 Loss: 6.7
+
+Epoch 141 Sparse Rate: 68.13% Acc: 91.46 Best Acc: 0.00 InvT: 2.0E+09 Loss: 6.7
+
+Epoch 142 Sparse Rate: 68.29% Acc: 91.47 Best Acc: 0.00 InvT: 2.0E+09 Loss: 6.7
+
+Epoch 143 Sparse Rate: 68.51% Acc: 91.50 Best Acc: 0.00 InvT: 2.0E+09 Loss: 6.7
+
+Epoch 144 Sparse Rate: 68.72% Acc: 91.49 Best Acc: 0.00 InvT: 2.1E+09 Loss: 6.6
+
+Epoch 145 Sparse Rate: 68.89% Acc: 91.40 Best Acc: 0.00 InvT: 2.1E+09 Loss: 6.7
+
+Epoch 146 Sparse Rate: 69.12% Acc: 91.30 Best Acc: 0.00 InvT: 2.1E+09 Loss: 6.6
+
+Epoch 147 Sparse Rate: 69.37% Acc: 91.37 Best Acc: 0.00 InvT: 2.1E+09 Loss: 6.6
+
+Epoch 148 Sparse Rate: 69.54% Acc: 91.52 Best Acc: 0.00 InvT: 2.1E+09 Loss: 6.5
+
+Epoch 149 Sparse Rate: 69.81% Acc: 91.28 Best Acc: 0.00 InvT: 2.1E+09 Loss: 6.5
+layer1.0.conv1.weight | P max:  55.8 min:   0.0
+layer1.0.conv2.weight | P max:  55.8 min:   0.0
+layer1.1.conv1.weight | P max:  55.8 min:   0.0
+layer1.1.conv2.weight | P max:  55.8 min:   0.0
+layer1.2.conv1.weight | P max:  55.8 min:   0.0
+layer1.2.conv2.weight | P max:  55.8 min:   0.0
+layer2.0.conv1.weight | P max:  55.7 min:   0.0
+layer2.0.conv2.weight | P max:  55.6 min:   0.0
+layer2.1.conv1.weight | P max:  55.6 min:   0.0
+layer2.1.conv2.weight | P max:  55.6 min:   0.0
+layer2.2.conv1.weight | P max:  55.6 min:   0.0
+layer2.2.conv2.weight | P max:  55.6 min:   0.0
+layer3.0.conv1.weight | P max:  55.4 min:   0.0
+layer3.0.conv2.weight | P max:  55.1 min:   0.0
+layer3.1.conv1.weight | P max:  55.1 min:   0.0
+layer3.1.conv2.weight | P max:  55.1 min:   0.0
+layer3.2.conv1.weight | P max:  55.1 min:   0.0
+layer3.2.conv2.weight | P max:  60.8 min:   0.0
+
+Epoch 150 Sparse Rate: 69.93% Acc: 91.53 Best Acc: 0.00 InvT: 2.1E+09 Loss: 6.5
+
+Epoch 151 Sparse Rate: 70.19% Acc: 91.45 Best Acc: 0.00 InvT: 2.1E+09 Loss: 6.5
+
+Epoch 152 Sparse Rate: 70.40% Acc: 91.43 Best Acc: 0.00 InvT: 2.1E+09 Loss: 6.4
+
+Epoch 153 Sparse Rate: 70.62% Acc: 91.45 Best Acc: 0.00 InvT: 2.1E+09 Loss: 6.4
+
+Epoch 154 Sparse Rate: 70.74% Acc: 91.43 Best Acc: 0.00 InvT: 2.2E+09 Loss: 6.4
+
+Epoch 155 Sparse Rate: 70.99% Acc: 91.23 Best Acc: 0.00 InvT: 2.2E+09 Loss: 6.3
+
+Epoch 156 Sparse Rate: 71.10% Acc: 91.23 Best Acc: 0.00 InvT: 2.2E+09 Loss: 6.3
+
+Epoch 157 Sparse Rate: 71.32% Acc: 91.24 Best Acc: 0.00 InvT: 2.2E+09 Loss: 6.3
+
+Epoch 158 Sparse Rate: 71.50% Acc: 91.40 Best Acc: 0.00 InvT: 2.2E+09 Loss: 6.3
+
+Epoch 159 Sparse Rate: 71.69% Acc: 91.25 Best Acc: 0.00 InvT: 2.2E+09 Loss: 6.3
+layer1.0.conv1.weight | P max:  55.8 min:   0.0
+layer1.0.conv2.weight | P max:  55.8 min:   0.0
+layer1.1.conv1.weight | P max:  55.8 min:   0.0
+layer1.1.conv2.weight | P max:  55.8 min:   0.0
+layer1.2.conv1.weight | P max:  55.8 min:   0.0
+layer1.2.conv2.weight | P max:  55.8 min:   0.0
+layer2.0.conv1.weight | P max:  55.7 min:   0.0
+layer2.0.conv2.weight | P max:  55.6 min:   0.0
+layer2.1.conv1.weight | P max:  55.6 min:   0.0
+layer2.1.conv2.weight | P max:  55.6 min:   0.0
+layer2.2.conv1.weight | P max:  55.6 min:   0.0
+layer2.2.conv2.weight | P max:  55.6 min:   0.0
+layer3.0.conv1.weight | P max:  55.5 min:   0.0
+layer3.0.conv2.weight | P max:  55.2 min:   0.0
+layer3.1.conv1.weight | P max:  55.2 min:   0.0
+layer3.1.conv2.weight | P max:  55.2 min:   0.0
+layer3.2.conv1.weight | P max:  55.2 min:   0.0
+layer3.2.conv2.weight | P max:  60.8 min:   0.0
+
+Epoch 160 Sparse Rate: 71.90% Acc: 91.09 Best Acc: 0.00 InvT: 2.2E+09 Loss: 6.2
+
+Epoch 161 Sparse Rate: 72.03% Acc: 91.13 Best Acc: 0.00 InvT: 2.2E+09 Loss: 6.2
+
+Epoch 162 Sparse Rate: 72.22% Acc: 91.20 Best Acc: 0.00 InvT: 2.2E+09 Loss: 6.2
+
+Epoch 163 Sparse Rate: 72.41% Acc: 91.14 Best Acc: 0.00 InvT: 2.3E+09 Loss: 6.1
+
+Epoch 164 Sparse Rate: 72.58% Acc: 91.03 Best Acc: 0.00 InvT: 2.3E+09 Loss: 6.1
+
+Epoch 165 Sparse Rate: 72.72% Acc: 90.96 Best Acc: 0.00 InvT: 2.3E+09 Loss: 6.1
+
+Epoch 166 Sparse Rate: 72.92% Acc: 91.05 Best Acc: 0.00 InvT: 2.3E+09 Loss: 6.1
+
+Epoch 167 Sparse Rate: 73.09% Acc: 91.11 Best Acc: 0.00 InvT: 2.3E+09 Loss: 6.0
+
+Epoch 168 Sparse Rate: 73.31% Acc: 91.10 Best Acc: 0.00 InvT: 2.3E+09 Loss: 6.1
+
+Epoch 169 Sparse Rate: 73.40% Acc: 91.11 Best Acc: 0.00 InvT: 2.3E+09 Loss: 6.0
+layer1.0.conv1.weight | P max:  55.8 min:   0.0
+layer1.0.conv2.weight | P max:  55.8 min:   0.0
+layer1.1.conv1.weight | P max:  55.8 min:   0.0
+layer1.1.conv2.weight | P max:  55.8 min:   0.0
+layer1.2.conv1.weight | P max:  55.8 min:   0.0
+layer1.2.conv2.weight | P max:  55.8 min:   0.0
+layer2.0.conv1.weight | P max:  55.7 min:   0.0
+layer2.0.conv2.weight | P max:  55.7 min:   0.0
+layer2.1.conv1.weight | P max:  55.7 min:   0.0
+layer2.1.conv2.weight | P max:  55.7 min:   0.0
+layer2.2.conv1.weight | P max:  55.7 min:   0.0
+layer2.2.conv2.weight | P max:  55.7 min:   0.0
+layer3.0.conv1.weight | P max:  55.5 min:   0.0
+layer3.0.conv2.weight | P max:  55.2 min:   0.0
+layer3.1.conv1.weight | P max:  55.2 min:   0.0
+layer3.1.conv2.weight | P max:  55.2 min:   0.0
+layer3.2.conv1.weight | P max:  55.2 min:   0.0
+layer3.2.conv2.weight | P max:  60.8 min:   0.0
+
+Epoch 170 Sparse Rate: 73.59% Acc: 90.94 Best Acc: 0.00 InvT: 2.3E+09 Loss: 6.0
+
+Epoch 171 Sparse Rate: 73.71% Acc: 90.92 Best Acc: 0.00 InvT: 2.3E+09 Loss: 5.9
+
+Epoch 172 Sparse Rate: 73.92% Acc: 91.01 Best Acc: 0.00 InvT: 2.4E+09 Loss: 5.9
+
+Epoch 173 Sparse Rate: 74.13% Acc: 90.95 Best Acc: 0.00 InvT: 2.4E+09 Loss: 5.9
+
+Epoch 174 Sparse Rate: 74.24% Acc: 90.97 Best Acc: 0.00 InvT: 2.4E+09 Loss: 5.9
+
+Epoch 175 Sparse Rate: 74.44% Acc: 90.91 Best Acc: 0.00 InvT: 2.4E+09 Loss: 5.8
+
+Epoch 176 Sparse Rate: 74.58% Acc: 90.96 Best Acc: 0.00 InvT: 2.4E+09 Loss: 5.8
+
+Epoch 177 Sparse Rate: 74.68% Acc: 90.98 Best Acc: 0.00 InvT: 2.4E+09 Loss: 5.8
+
+Epoch 178 Sparse Rate: 74.91% Acc: 90.88 Best Acc: 0.00 InvT: 2.4E+09 Loss: 5.8
+
+Epoch 179 Sparse Rate: 75.04% Acc: 90.80 Best Acc: 0.00 InvT: 2.4E+09 Loss: 5.8
+layer1.0.conv1.weight | P max:  55.8 min:   0.0
+layer1.0.conv2.weight | P max:  55.8 min:   0.0
+layer1.1.conv1.weight | P max:  55.8 min:   0.0
+layer1.1.conv2.weight | P max:  55.8 min:   0.0
+layer1.2.conv1.weight | P max:  55.9 min:   0.0
+layer1.2.conv2.weight | P max:  55.8 min:   0.0
+layer2.0.conv1.weight | P max:  55.7 min:   0.0
+layer2.0.conv2.weight | P max:  55.7 min:   0.0
+layer2.1.conv1.weight | P max:  55.7 min:   0.0
+layer2.1.conv2.weight | P max:  55.7 min:   0.0
+layer2.2.conv1.weight | P max:  55.7 min:   0.0
+layer2.2.conv2.weight | P max:  55.7 min:   0.0
+layer3.0.conv1.weight | P max:  55.5 min:   0.0
+layer3.0.conv2.weight | P max:  55.3 min:   0.0
+layer3.1.conv1.weight | P max:  55.3 min:   0.0
+layer3.1.conv2.weight | P max:  55.3 min:   0.0
+layer3.2.conv1.weight | P max:  55.3 min:   0.0
+layer3.2.conv2.weight | P max:  60.9 min:   0.0
+
+Epoch 180 Sparse Rate: 75.19% Acc: 90.89 Best Acc: 0.00 InvT: 2.5E+09 Loss: 5.7
+
+Epoch 181 Sparse Rate: 75.30% Acc: 90.85 Best Acc: 0.00 InvT: 2.5E+09 Loss: 5.7
+
+Epoch 182 Sparse Rate: 75.46% Acc: 90.71 Best Acc: 0.00 InvT: 2.5E+09 Loss: 5.7
+
+Epoch 183 Sparse Rate: 75.59% Acc: 90.69 Best Acc: 0.00 InvT: 2.5E+09 Loss: 5.6
+
+Epoch 184 Sparse Rate: 75.75% Acc: 90.81 Best Acc: 0.00 InvT: 2.5E+09 Loss: 5.6
+
+Epoch 185 Sparse Rate: 75.93% Acc: 90.71 Best Acc: 0.00 InvT: 2.5E+09 Loss: 5.6
+
+Epoch 186 Sparse Rate: 76.01% Acc: 90.66 Best Acc: 0.00 InvT: 2.5E+09 Loss: 5.6
+
+Epoch 187 Sparse Rate: 76.18% Acc: 90.69 Best Acc: 0.00 InvT: 2.5E+09 Loss: 5.5
+
+Epoch 188 Sparse Rate: 76.28% Acc: 90.78 Best Acc: 0.00 InvT: 2.6E+09 Loss: 5.5
+
+Epoch 189 Sparse Rate: 76.45% Acc: 90.75 Best Acc: 0.00 InvT: 2.6E+09 Loss: 5.5
+layer1.0.conv1.weight | P max:  55.8 min:   0.0
+layer1.0.conv2.weight | P max:  55.8 min:   0.0
+layer1.1.conv1.weight | P max:  55.8 min:   0.0
+layer1.1.conv2.weight | P max:  55.8 min:   0.0
+layer1.2.conv1.weight | P max:  55.9 min:   0.0
+layer1.2.conv2.weight | P max:  55.8 min:   0.0
+layer2.0.conv1.weight | P max:  55.7 min:   0.0
+layer2.0.conv2.weight | P max:  55.7 min:   0.0
+layer2.1.conv1.weight | P max:  55.7 min:   0.0
+layer2.1.conv2.weight | P max:  55.7 min:   0.0
+layer2.2.conv1.weight | P max:  55.7 min:   0.0
+layer2.2.conv2.weight | P max:  55.7 min:   0.0
+layer3.0.conv1.weight | P max:  55.6 min:   0.0
+layer3.0.conv2.weight | P max:  55.3 min:   0.0
+layer3.1.conv1.weight | P max:  55.3 min:   0.0
+layer3.1.conv2.weight | P max:  55.3 min:   0.0
+layer3.2.conv1.weight | P max:  55.3 min:   0.0
+layer3.2.conv2.weight | P max:  60.9 min:   0.0
+
+Epoch 190 Sparse Rate: 76.54% Acc: 90.66 Best Acc: 0.00 InvT: 2.6E+09 Loss: 5.5
+
+Epoch 191 Sparse Rate: 76.71% Acc: 90.64 Best Acc: 0.00 InvT: 2.6E+09 Loss: 5.4
+
+Epoch 192 Sparse Rate: 76.82% Acc: 90.66 Best Acc: 0.00 InvT: 2.6E+09 Loss: 5.4
+
+Epoch 193 Sparse Rate: 76.93% Acc: 90.49 Best Acc: 0.00 InvT: 2.6E+09 Loss: 5.4
+
+Epoch 194 Sparse Rate: 77.08% Acc: 90.61 Best Acc: 0.00 InvT: 2.6E+09 Loss: 5.4
+
+Epoch 195 Sparse Rate: 77.22% Acc: 90.58 Best Acc: 0.00 InvT: 2.6E+09 Loss: 5.3
+
+Epoch 196 Sparse Rate: 77.28% Acc: 90.50 Best Acc: 0.00 InvT: 2.7E+09 Loss: 5.3
+
+Epoch 197 Sparse Rate: 77.47% Acc: 90.16 Best Acc: 0.00 InvT: 2.7E+09 Loss: 5.3
+
+Epoch 198 Sparse Rate: 77.64% Acc: 90.44 Best Acc: 0.00 InvT: 2.7E+09 Loss: 5.2
+
+Epoch 199 Sparse Rate: 77.71% Acc: 90.55 Best Acc: 0.00 InvT: 2.7E+09 Loss: 5.3
+layer1.0.conv1.weight | P max:  55.8 min:   0.0
+layer1.0.conv2.weight | P max:  55.8 min:   0.0
+layer1.1.conv1.weight | P max:  55.8 min:   0.0
+layer1.1.conv2.weight | P max:  55.8 min:   0.0
+layer1.2.conv1.weight | P max:  55.9 min:   0.0
+layer1.2.conv2.weight | P max:  55.8 min:   0.0
+layer2.0.conv1.weight | P max:  55.8 min:   0.0
+layer2.0.conv2.weight | P max:  55.7 min:   0.0
+layer2.1.conv1.weight | P max:  55.7 min:   0.0
+layer2.1.conv2.weight | P max:  55.7 min:   0.0
+layer2.2.conv1.weight | P max:  55.7 min:   0.0
+layer2.2.conv2.weight | P max:  55.7 min:   0.0
+layer3.0.conv1.weight | P max:  55.6 min:   0.0
+layer3.0.conv2.weight | P max:  55.4 min:   0.0
+layer3.1.conv1.weight | P max:  55.4 min:   0.0
+layer3.1.conv2.weight | P max:  55.4 min:   0.0
+layer3.2.conv1.weight | P max:  55.4 min:   0.0
+layer3.2.conv2.weight | P max:  60.9 min:   0.0
+
+Epoch 200 Sparse Rate: 77.78% Acc: 90.50 Best Acc: 0.00 InvT: 2.7E+09 Loss: 5.2
+
+Epoch 201 Sparse Rate: 77.91% Acc: 90.45 Best Acc: 0.00 InvT: 2.7E+09 Loss: 5.2
+
+Epoch 202 Sparse Rate: 78.07% Acc: 90.63 Best Acc: 0.00 InvT: 2.7E+09 Loss: 5.2
+
+Epoch 203 Sparse Rate: 78.20% Acc: 90.33 Best Acc: 0.00 InvT: 2.8E+09 Loss: 5.1
+
+Epoch 204 Sparse Rate: 78.30% Acc: 90.47 Best Acc: 0.00 InvT: 2.8E+09 Loss: 5.1
+
+Epoch 205 Sparse Rate: 78.42% Acc: 90.12 Best Acc: 0.00 InvT: 2.8E+09 Loss: 5.1
+
+Epoch 206 Sparse Rate: 78.55% Acc: 90.44 Best Acc: 0.00 InvT: 2.8E+09 Loss: 5.0
+
+Epoch 207 Sparse Rate: 78.66% Acc: 90.46 Best Acc: 0.00 InvT: 2.8E+09 Loss: 5.1
+
+Epoch 208 Sparse Rate: 78.77% Acc: 90.39 Best Acc: 0.00 InvT: 2.8E+09 Loss: 5.0
+
+Epoch 209 Sparse Rate: 78.89% Acc: 90.38 Best Acc: 0.00 InvT: 2.8E+09 Loss: 5.0
+layer1.0.conv1.weight | P max:  55.8 min:   0.0
+layer1.0.conv2.weight | P max:  55.8 min:   0.0
+layer1.1.conv1.weight | P max:  55.8 min:   0.0
+layer1.1.conv2.weight | P max:  55.8 min:   0.0
+layer1.2.conv1.weight | P max:  55.9 min:   0.0
+layer1.2.conv2.weight | P max:  55.8 min:   0.0
+layer2.0.conv1.weight | P max:  55.8 min:   0.0
+layer2.0.conv2.weight | P max:  55.7 min:   0.0
+layer2.1.conv1.weight | P max:  55.7 min:   0.0
+layer2.1.conv2.weight | P max:  55.7 min:   0.0
+layer2.2.conv1.weight | P max:  55.7 min:   0.0
+layer2.2.conv2.weight | P max:  55.7 min:   0.0
+layer3.0.conv1.weight | P max:  55.6 min:   0.0
+layer3.0.conv2.weight | P max:  55.4 min:   0.0
+layer3.1.conv1.weight | P max:  55.4 min:   0.0
+layer3.1.conv2.weight | P max:  55.4 min:   0.0
+layer3.2.conv1.weight | P max:  55.4 min:   0.0
+layer3.2.conv2.weight | P max:  60.9 min:   0.0
+
+Epoch 210 Sparse Rate: 78.96% Acc: 90.37 Best Acc: 0.00 InvT: 2.9E+09 Loss: 4.9
+
+Epoch 211 Sparse Rate: 79.13% Acc: 90.46 Best Acc: 0.00 InvT: 2.9E+09 Loss: 4.9
+
+Epoch 212 Sparse Rate: 79.18% Acc: 90.29 Best Acc: 0.00 InvT: 2.9E+09 Loss: 4.9
+
+Epoch 213 Sparse Rate: 79.32% Acc: 90.17 Best Acc: 0.00 InvT: 2.9E+09 Loss: 4.9
+
+Epoch 214 Sparse Rate: 79.42% Acc: 90.33 Best Acc: 0.00 InvT: 2.9E+09 Loss: 4.9
+
+Epoch 215 Sparse Rate: 79.57% Acc: 90.32 Best Acc: 0.00 InvT: 2.9E+09 Loss: 4.8
+
+Epoch 216 Sparse Rate: 79.68% Acc: 90.36 Best Acc: 0.00 InvT: 2.9E+09 Loss: 4.8
+
+Epoch 217 Sparse Rate: 79.77% Acc: 90.27 Best Acc: 0.00 InvT: 3.0E+09 Loss: 4.8
+
+Epoch 218 Sparse Rate: 79.82% Acc: 90.28 Best Acc: 0.00 InvT: 3.0E+09 Loss: 4.8
+
+Epoch 219 Sparse Rate: 79.93% Acc: 90.03 Best Acc: 0.00 InvT: 3.0E+09 Loss: 4.8
+layer1.0.conv1.weight | P max:  55.8 min:   0.0
+layer1.0.conv2.weight | P max:  55.8 min:   0.0
+layer1.1.conv1.weight | P max:  55.8 min:   0.0
+layer1.1.conv2.weight | P max:  55.8 min:   0.0
+layer1.2.conv1.weight | P max:  55.9 min:   0.0
+layer1.2.conv2.weight | P max:  55.8 min:   0.0
+layer2.0.conv1.weight | P max:  55.8 min:   0.0
+layer2.0.conv2.weight | P max:  55.7 min:   0.0
+layer2.1.conv1.weight | P max:  55.7 min:   0.0
+layer2.1.conv2.weight | P max:  55.7 min:   0.0
+layer2.2.conv1.weight | P max:  55.7 min:   0.0
+layer2.2.conv2.weight | P max:  55.7 min:   0.0
+layer3.0.conv1.weight | P max:  55.6 min:   0.0
+layer3.0.conv2.weight | P max:  55.5 min:   0.0
+layer3.1.conv1.weight | P max:  55.5 min:   0.0
+layer3.1.conv2.weight | P max:  55.5 min:   0.0
+layer3.2.conv1.weight | P max:  55.5 min:   0.0
+layer3.2.conv2.weight | P max:  60.9 min:   0.0
+
+Epoch 220 Sparse Rate: 79.98% Acc: 90.39 Best Acc: 0.00 InvT: 3.0E+09 Loss: 4.7
+
+Epoch 221 Sparse Rate: 80.17% Acc: 90.18 Best Acc: 0.00 InvT: 3.0E+09 Loss: 4.7
+
+Epoch 222 Sparse Rate: 80.21% Acc: 89.99 Best Acc: 0.00 InvT: 3.0E+09 Loss: 4.7
+
+Epoch 223 Sparse Rate: 80.30% Acc: 90.23 Best Acc: 0.00 InvT: 3.0E+09 Loss: 4.6
+
+Epoch 224 Sparse Rate: 80.43% Acc: 90.08 Best Acc: 0.00 InvT: 3.1E+09 Loss: 4.6
+
+Epoch 225 Sparse Rate: 80.49% Acc: 90.05 Best Acc: 0.00 InvT: 3.1E+09 Loss: 4.6
+
+Epoch 226 Sparse Rate: 80.63% Acc: 90.05 Best Acc: 0.00 InvT: 3.1E+09 Loss: 4.6
+
+Epoch 227 Sparse Rate: 80.79% Acc: 89.68 Best Acc: 0.00 InvT: 3.1E+09 Loss: 4.6
+
+Epoch 228 Sparse Rate: 80.84% Acc: 89.72 Best Acc: 0.00 InvT: 3.1E+09 Loss: 4.6
+
+Epoch 229 Sparse Rate: 80.87% Acc: 89.90 Best Acc: 0.00 InvT: 3.1E+09 Loss: 4.5
+layer1.0.conv1.weight | P max:  55.8 min:   0.0
+layer1.0.conv2.weight | P max:  55.8 min:   0.0
+layer1.1.conv1.weight | P max:  55.8 min:   0.0
+layer1.1.conv2.weight | P max:  55.8 min:   0.0
+layer1.2.conv1.weight | P max:  55.9 min:   0.0
+layer1.2.conv2.weight | P max:  55.8 min:   0.0
+layer2.0.conv1.weight | P max:  55.8 min:   0.0
+layer2.0.conv2.weight | P max:  55.7 min:   0.0
+layer2.1.conv1.weight | P max:  55.7 min:   0.0
+layer2.1.conv2.weight | P max:  55.7 min:   0.0
+layer2.2.conv1.weight | P max:  55.7 min:   0.0
+layer2.2.conv2.weight | P max:  55.7 min:   0.0
+layer3.0.conv1.weight | P max:  55.7 min:   0.0
+layer3.0.conv2.weight | P max:  55.5 min:   0.0
+layer3.1.conv1.weight | P max:  55.5 min:   0.0
+layer3.1.conv2.weight | P max:  55.5 min:   0.0
+layer3.2.conv1.weight | P max:  55.5 min:   0.0
+layer3.2.conv2.weight | P max:  60.9 min:   0.0
+
+Epoch 230 Sparse Rate: 80.96% Acc: 89.89 Best Acc: 0.00 InvT: 3.1E+09 Loss: 4.5
+
+Epoch 231 Sparse Rate: 81.06% Acc: 89.79 Best Acc: 0.00 InvT: 3.2E+09 Loss: 4.4
+
+Epoch 232 Sparse Rate: 81.16% Acc: 89.83 Best Acc: 0.00 InvT: 3.2E+09 Loss: 4.4
+
+Epoch 233 Sparse Rate: 81.23% Acc: 89.84 Best Acc: 0.00 InvT: 3.2E+09 Loss: 4.4
+
+Epoch 234 Sparse Rate: 81.32% Acc: 90.06 Best Acc: 0.00 InvT: 3.2E+09 Loss: 4.4
+
+Epoch 235 Sparse Rate: 81.45% Acc: 89.86 Best Acc: 0.00 InvT: 3.2E+09 Loss: 4.3
+
+Epoch 236 Sparse Rate: 81.52% Acc: 89.74 Best Acc: 0.00 InvT: 3.2E+09 Loss: 4.4
+
+Epoch 237 Sparse Rate: 81.57% Acc: 89.93 Best Acc: 0.00 InvT: 3.3E+09 Loss: 4.4
+
+Epoch 238 Sparse Rate: 81.72% Acc: 90.01 Best Acc: 0.00 InvT: 3.3E+09 Loss: 4.4
+
+Epoch 239 Sparse Rate: 81.77% Acc: 90.01 Best Acc: 0.00 InvT: 3.3E+09 Loss: 4.3
+layer1.0.conv1.weight | P max:  55.8 min:   0.0
+layer1.0.conv2.weight | P max:  55.8 min:   0.0
+layer1.1.conv1.weight | P max:  55.8 min:   0.0
+layer1.1.conv2.weight | P max:  55.8 min:   0.0
+layer1.2.conv1.weight | P max:  55.9 min:   0.0
+layer1.2.conv2.weight | P max:  55.8 min:   0.0
+layer2.0.conv1.weight | P max:  55.8 min:   0.0
+layer2.0.conv2.weight | P max:  55.7 min:   0.0
+layer2.1.conv1.weight | P max:  55.8 min:   0.0
+layer2.1.conv2.weight | P max:  55.7 min:   0.0
+layer2.2.conv1.weight | P max:  55.8 min:   0.0
+layer2.2.conv2.weight | P max:  55.8 min:   0.0
+layer3.0.conv1.weight | P max:  55.7 min:   0.0
+layer3.0.conv2.weight | P max:  55.6 min:   0.0
+layer3.1.conv1.weight | P max:  55.6 min:   0.0
+layer3.1.conv2.weight | P max:  55.6 min:   0.0
+layer3.2.conv1.weight | P max:  55.6 min:   0.0
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 240 Sparse Rate: 81.84% Acc: 90.21 Best Acc: 0.00 InvT: 3.3E+09 Loss: 4.3
+
+Epoch 241 Sparse Rate: 81.90% Acc: 89.81 Best Acc: 0.00 InvT: 3.3E+09 Loss: 4.2
+
+Epoch 242 Sparse Rate: 81.98% Acc: 89.93 Best Acc: 0.00 InvT: 3.3E+09 Loss: 4.2
+
+Epoch 243 Sparse Rate: 82.11% Acc: 89.87 Best Acc: 0.00 InvT: 3.4E+09 Loss: 4.2
+
+Epoch 244 Sparse Rate: 82.15% Acc: 89.96 Best Acc: 0.00 InvT: 3.4E+09 Loss: 4.2
+
+Epoch 245 Sparse Rate: 82.24% Acc: 89.58 Best Acc: 0.00 InvT: 3.4E+09 Loss: 4.2
+
+Epoch 246 Sparse Rate: 82.32% Acc: 89.86 Best Acc: 0.00 InvT: 3.4E+09 Loss: 4.1
+
+Epoch 247 Sparse Rate: 82.46% Acc: 90.01 Best Acc: 0.00 InvT: 3.4E+09 Loss: 4.1
+
+Epoch 248 Sparse Rate: 82.52% Acc: 90.02 Best Acc: 0.00 InvT: 3.4E+09 Loss: 4.1
+
+Epoch 249 Sparse Rate: 82.59% Acc: 90.11 Best Acc: 0.00 InvT: 3.5E+09 Loss: 4.1
+layer1.0.conv1.weight | P max:  55.8 min:   0.0
+layer1.0.conv2.weight | P max:  55.8 min:   0.0
+layer1.1.conv1.weight | P max:  55.8 min:   0.0
+layer1.1.conv2.weight | P max:  55.8 min:   0.0
+layer1.2.conv1.weight | P max:  56.4 min:   0.0
+layer1.2.conv2.weight | P max:  55.8 min:   0.0
+layer2.0.conv1.weight | P max:  55.8 min:   0.0
+layer2.0.conv2.weight | P max:  55.8 min:   0.0
+layer2.1.conv1.weight | P max:  55.8 min:   0.0
+layer2.1.conv2.weight | P max:  55.8 min:   0.0
+layer2.2.conv1.weight | P max:  55.8 min:   0.0
+layer2.2.conv2.weight | P max:  55.8 min:   0.0
+layer3.0.conv1.weight | P max:  55.7 min:   0.0
+layer3.0.conv2.weight | P max:  55.6 min:   0.0
+layer3.1.conv1.weight | P max:  55.6 min:   0.0
+layer3.1.conv2.weight | P max:  55.6 min:   0.0
+layer3.2.conv1.weight | P max:  55.6 min:   0.0
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 250 Sparse Rate: 82.64% Acc: 90.02 Best Acc: 0.00 InvT: 3.5E+09 Loss: 4.1
+
+Epoch 251 Sparse Rate: 82.68% Acc: 90.12 Best Acc: 0.00 InvT: 3.5E+09 Loss: 4.1
+
+Epoch 252 Sparse Rate: 82.76% Acc: 90.03 Best Acc: 0.00 InvT: 3.5E+09 Loss: 4.0
+
+Epoch 253 Sparse Rate: 82.80% Acc: 90.07 Best Acc: 0.00 InvT: 3.5E+09 Loss: 4.0
+
+Epoch 254 Sparse Rate: 82.89% Acc: 90.05 Best Acc: 0.00 InvT: 3.5E+09 Loss: 3.9
+
+Epoch 255 Sparse Rate: 82.95% Acc: 89.76 Best Acc: 0.00 InvT: 3.6E+09 Loss: 4.0
+
+Epoch 256 Sparse Rate: 83.03% Acc: 89.98 Best Acc: 0.00 InvT: 3.6E+09 Loss: 3.9
+
+Epoch 257 Sparse Rate: 83.15% Acc: 90.05 Best Acc: 0.00 InvT: 3.6E+09 Loss: 3.9
+
+Epoch 258 Sparse Rate: 83.17% Acc: 90.16 Best Acc: 0.00 InvT: 3.6E+09 Loss: 3.9
+
+Epoch 259 Sparse Rate: 83.22% Acc: 90.09 Best Acc: 0.00 InvT: 3.6E+09 Loss: 3.9
+layer1.0.conv1.weight | P max:  55.8 min:   0.0
+layer1.0.conv2.weight | P max:  55.8 min:   0.0
+layer1.1.conv1.weight | P max:  55.8 min:   0.0
+layer1.1.conv2.weight | P max:  55.8 min:   0.0
+layer1.2.conv1.weight | P max:  56.2 min:   0.0
+layer1.2.conv2.weight | P max:  55.8 min:   0.0
+layer2.0.conv1.weight | P max:  55.8 min:   0.0
+layer2.0.conv2.weight | P max:  55.8 min:   0.0
+layer2.1.conv1.weight | P max:  55.8 min:   0.0
+layer2.1.conv2.weight | P max:  55.8 min:   0.0
+layer2.2.conv1.weight | P max:  55.8 min:   0.0
+layer2.2.conv2.weight | P max:  55.8 min:   0.0
+layer3.0.conv1.weight | P max:  55.7 min:   0.0
+layer3.0.conv2.weight | P max:  55.6 min:   0.0
+layer3.1.conv1.weight | P max:  55.6 min:   0.0
+layer3.1.conv2.weight | P max:  55.6 min:   0.0
+layer3.2.conv1.weight | P max:  55.7 min:   0.0
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 260 Sparse Rate: 83.27% Acc: 90.00 Best Acc: 0.00 InvT: 3.7E+09 Loss: 3.8
+
+Epoch 261 Sparse Rate: 83.33% Acc: 89.94 Best Acc: 0.00 InvT: 3.7E+09 Loss: 3.9
+
+Epoch 262 Sparse Rate: 83.40% Acc: 89.79 Best Acc: 0.00 InvT: 3.7E+09 Loss: 3.8
+
+Epoch 263 Sparse Rate: 83.50% Acc: 89.84 Best Acc: 0.00 InvT: 3.7E+09 Loss: 3.8
+
+Epoch 264 Sparse Rate: 83.58% Acc: 89.66 Best Acc: 0.00 InvT: 3.7E+09 Loss: 3.8
+
+Epoch 265 Sparse Rate: 83.65% Acc: 89.75 Best Acc: 0.00 InvT: 3.7E+09 Loss: 3.7
+
+Epoch 266 Sparse Rate: 83.73% Acc: 89.68 Best Acc: 0.00 InvT: 3.8E+09 Loss: 3.7
+
+Epoch 267 Sparse Rate: 83.78% Acc: 89.81 Best Acc: 0.00 InvT: 3.8E+09 Loss: 3.7
+
+Epoch 268 Sparse Rate: 83.85% Acc: 89.68 Best Acc: 0.00 InvT: 3.8E+09 Loss: 3.7
+
+Epoch 269 Sparse Rate: 83.90% Acc: 89.84 Best Acc: 0.00 InvT: 3.8E+09 Loss: 3.7
+layer1.0.conv1.weight | P max:  55.8 min:   0.0
+layer1.0.conv2.weight | P max:  55.8 min:   0.0
+layer1.1.conv1.weight | P max:  55.8 min:   0.0
+layer1.1.conv2.weight | P max:  55.8 min:   0.0
+layer1.2.conv1.weight | P max:  56.2 min:   0.0
+layer1.2.conv2.weight | P max:  55.8 min:   0.0
+layer2.0.conv1.weight | P max:  55.8 min:   0.0
+layer2.0.conv2.weight | P max:  55.8 min:   0.0
+layer2.1.conv1.weight | P max:  55.8 min:   0.0
+layer2.1.conv2.weight | P max:  55.8 min:   0.0
+layer2.2.conv1.weight | P max:  55.8 min:   0.0
+layer2.2.conv2.weight | P max:  55.8 min:   0.0
+layer3.0.conv1.weight | P max:  55.7 min:   0.0
+layer3.0.conv2.weight | P max:  55.6 min:   0.0
+layer3.1.conv1.weight | P max:  55.6 min:   0.0
+layer3.1.conv2.weight | P max:  55.7 min:   0.0
+layer3.2.conv1.weight | P max:  55.7 min:   0.0
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 270 Sparse Rate: 83.96% Acc: 89.65 Best Acc: 0.00 InvT: 3.8E+09 Loss: 3.6
+
+Epoch 271 Sparse Rate: 84.02% Acc: 89.71 Best Acc: 0.00 InvT: 3.9E+09 Loss: 3.6
+
+Epoch 272 Sparse Rate: 84.07% Acc: 89.66 Best Acc: 0.00 InvT: 3.9E+09 Loss: 3.6
+
+Epoch 273 Sparse Rate: 84.15% Acc: 89.61 Best Acc: 0.00 InvT: 3.9E+09 Loss: 3.6
+
+Epoch 274 Sparse Rate: 84.22% Acc: 89.70 Best Acc: 0.00 InvT: 3.9E+09 Loss: 3.6
+
+Epoch 275 Sparse Rate: 84.27% Acc: 89.66 Best Acc: 0.00 InvT: 3.9E+09 Loss: 3.5
+
+Epoch 276 Sparse Rate: 84.29% Acc: 89.78 Best Acc: 0.00 InvT: 4.0E+09 Loss: 3.5
+
+Epoch 277 Sparse Rate: 84.31% Acc: 89.71 Best Acc: 0.00 InvT: 4.0E+09 Loss: 3.5
+
+Epoch 278 Sparse Rate: 84.36% Acc: 89.69 Best Acc: 0.00 InvT: 4.0E+09 Loss: 3.5
+
+Epoch 279 Sparse Rate: 84.43% Acc: 89.23 Best Acc: 0.00 InvT: 4.0E+09 Loss: 3.4
+layer1.0.conv1.weight | P max:  55.8 min:   0.0
+layer1.0.conv2.weight | P max:  55.8 min:   0.0
+layer1.1.conv1.weight | P max:  55.8 min:   0.0
+layer1.1.conv2.weight | P max:  55.8 min:   0.0
+layer1.2.conv1.weight | P max:  56.2 min:   0.0
+layer1.2.conv2.weight | P max:  55.8 min:   0.0
+layer2.0.conv1.weight | P max:  55.8 min:   0.0
+layer2.0.conv2.weight | P max:  55.8 min:   0.0
+layer2.1.conv1.weight | P max:  55.8 min:   0.0
+layer2.1.conv2.weight | P max:  55.8 min:   0.0
+layer2.2.conv1.weight | P max:  55.8 min:   0.0
+layer2.2.conv2.weight | P max:  55.8 min:   0.0
+layer3.0.conv1.weight | P max:  55.8 min:   0.0
+layer3.0.conv2.weight | P max:  55.7 min:   0.0
+layer3.1.conv1.weight | P max:  55.7 min:   0.0
+layer3.1.conv2.weight | P max:  55.7 min:   0.0
+layer3.2.conv1.weight | P max:  55.7 min:   0.0
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 280 Sparse Rate: 84.47% Acc: 89.76 Best Acc: 0.00 InvT: 4.0E+09 Loss: 3.5
+
+Epoch 281 Sparse Rate: 84.51% Acc: 89.65 Best Acc: 0.00 InvT: 4.1E+09 Loss: 3.4
+
+Epoch 282 Sparse Rate: 84.58% Acc: 89.42 Best Acc: 0.00 InvT: 4.1E+09 Loss: 3.4
+
+Epoch 283 Sparse Rate: 84.72% Acc: 89.43 Best Acc: 0.00 InvT: 4.1E+09 Loss: 3.4
+
+Epoch 284 Sparse Rate: 84.74% Acc: 89.46 Best Acc: 0.00 InvT: 4.1E+09 Loss: 3.3
+
+Epoch 285 Sparse Rate: 84.76% Acc: 89.53 Best Acc: 0.00 InvT: 4.1E+09 Loss: 3.3
+
+Epoch 286 Sparse Rate: 84.79% Acc: 89.65 Best Acc: 0.00 InvT: 4.2E+09 Loss: 3.3
+
+Epoch 287 Sparse Rate: 84.84% Acc: 89.60 Best Acc: 0.00 InvT: 4.2E+09 Loss: 3.3
+
+Epoch 288 Sparse Rate: 84.90% Acc: 89.33 Best Acc: 0.00 InvT: 4.2E+09 Loss: 3.3
+
+Epoch 289 Sparse Rate: 84.97% Acc: 89.62 Best Acc: 0.00 InvT: 4.2E+09 Loss: 3.2
+layer1.0.conv1.weight | P max:  55.8 min:   0.0
+layer1.0.conv2.weight | P max:  55.8 min:   0.0
+layer1.1.conv1.weight | P max:  55.8 min:   0.0
+layer1.1.conv2.weight | P max:  55.8 min:   0.0
+layer1.2.conv1.weight | P max:  56.1 min:   0.0
+layer1.2.conv2.weight | P max:  55.8 min:   0.0
+layer2.0.conv1.weight | P max:  55.8 min:   0.0
+layer2.0.conv2.weight | P max:  55.8 min:   0.0
+layer2.1.conv1.weight | P max:  55.8 min:   0.0
+layer2.1.conv2.weight | P max:  55.8 min:   0.0
+layer2.2.conv1.weight | P max:  55.8 min:   0.0
+layer2.2.conv2.weight | P max:  55.8 min:   0.0
+layer3.0.conv1.weight | P max:  55.8 min:   0.0
+layer3.0.conv2.weight | P max:  55.7 min:   0.0
+layer3.1.conv1.weight | P max:  55.7 min:   0.0
+layer3.1.conv2.weight | P max:  55.8 min:   0.0
+layer3.2.conv1.weight | P max:  55.8 min:   0.0
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 290 Sparse Rate: 85.01% Acc: 89.61 Best Acc: 0.00 InvT: 4.2E+09 Loss: 3.2
+
+Epoch 291 Sparse Rate: 85.09% Acc: 89.49 Best Acc: 0.00 InvT: 4.3E+09 Loss: 3.2
+
+Epoch 292 Sparse Rate: 85.11% Acc: 89.61 Best Acc: 0.00 InvT: 4.3E+09 Loss: 3.2
+
+Epoch 293 Sparse Rate: 85.16% Acc: 89.07 Best Acc: 0.00 InvT: 4.3E+09 Loss: 3.2
+
+Epoch 294 Sparse Rate: 85.18% Acc: 89.39 Best Acc: 0.00 InvT: 4.3E+09 Loss: 3.1
+
+Epoch 295 Sparse Rate: 85.23% Acc: 89.52 Best Acc: 0.00 InvT: 4.4E+09 Loss: 3.2
+
+Epoch 296 Sparse Rate: 85.34% Acc: 89.47 Best Acc: 0.00 InvT: 4.4E+09 Loss: 3.1
+
+Epoch 297 Sparse Rate: 85.35% Acc: 89.41 Best Acc: 0.00 InvT: 4.4E+09 Loss: 3.1
+
+Epoch 298 Sparse Rate: 85.45% Acc: 89.47 Best Acc: 0.00 InvT: 4.4E+09 Loss: 3.1
+
+Epoch 299 Sparse Rate: 85.47% Acc: 89.47 Best Acc: 0.00 InvT: 4.4E+09 Loss: 3.1
+layer1.0.conv1.weight | P max:  55.8 min:   0.0
+layer1.0.conv2.weight | P max:  55.8 min:   0.0
+layer1.1.conv1.weight | P max:  55.9 min:   0.0
+layer1.1.conv2.weight | P max:  55.8 min:   0.0
+layer1.2.conv1.weight | P max:  56.2 min:   0.0
+layer1.2.conv2.weight | P max:  55.8 min:   0.0
+layer2.0.conv1.weight | P max:  55.8 min:   0.0
+layer2.0.conv2.weight | P max:  55.8 min:   0.0
+layer2.1.conv1.weight | P max:  55.8 min:   0.0
+layer2.1.conv2.weight | P max:  55.8 min:   0.0
+layer2.2.conv1.weight | P max:  55.8 min:   0.0
+layer2.2.conv2.weight | P max:  55.8 min:   0.0
+layer3.0.conv1.weight | P max:  55.8 min:   0.0
+layer3.0.conv2.weight | P max:  55.7 min:   0.0
+layer3.1.conv1.weight | P max:  55.7 min:   0.0
+layer3.1.conv2.weight | P max:  57.4 min:   0.0
+layer3.2.conv1.weight | P max:  56.7 min:   0.0
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 300 Sparse Rate: 85.52% Acc: 89.21 Best Acc: 0.00 InvT: 4.5E+09 Loss: 3.1
+
+Epoch 301 Sparse Rate: 85.53% Acc: 89.47 Best Acc: 0.00 InvT: 4.5E+09 Loss: 3.0
+
+Epoch 302 Sparse Rate: 85.55% Acc: 89.54 Best Acc: 0.00 InvT: 4.5E+09 Loss: 3.0
+
+Epoch 303 Sparse Rate: 85.59% Acc: 89.52 Best Acc: 0.00 InvT: 4.5E+09 Loss: 3.0
+
+Epoch 304 Sparse Rate: 85.66% Acc: 89.52 Best Acc: 0.00 InvT: 4.6E+09 Loss: 3.0
+
+Epoch 305 Sparse Rate: 85.71% Acc: 89.40 Best Acc: 0.00 InvT: 4.6E+09 Loss: 3.0
+
+Epoch 306 Sparse Rate: 85.76% Acc: 89.42 Best Acc: 0.00 InvT: 4.6E+09 Loss: 2.9
+
+Epoch 307 Sparse Rate: 85.81% Acc: 89.41 Best Acc: 0.00 InvT: 4.6E+09 Loss: 2.9
+
+Epoch 308 Sparse Rate: 85.86% Acc: 89.30 Best Acc: 0.00 InvT: 4.6E+09 Loss: 2.9
+
+Epoch 309 Sparse Rate: 85.91% Acc: 89.39 Best Acc: 0.00 InvT: 4.7E+09 Loss: 2.9
+layer1.0.conv1.weight | P max:  55.8 min:   0.0
+layer1.0.conv2.weight | P max:  55.8 min:   0.0
+layer1.1.conv1.weight | P max:  55.8 min:   0.0
+layer1.1.conv2.weight | P max:  55.9 min:   0.0
+layer1.2.conv1.weight | P max:  57.7 min:   0.0
+layer1.2.conv2.weight | P max:  55.8 min:   0.0
+layer2.0.conv1.weight | P max:  55.8 min:   0.0
+layer2.0.conv2.weight | P max:  55.8 min:   0.0
+layer2.1.conv1.weight | P max:  55.8 min:   0.0
+layer2.1.conv2.weight | P max:  55.8 min:   0.0
+layer2.2.conv1.weight | P max:  55.9 min:   0.0
+layer2.2.conv2.weight | P max:  55.8 min:   0.0
+layer3.0.conv1.weight | P max:  55.8 min:   0.0
+layer3.0.conv2.weight | P max:  55.7 min:   0.0
+layer3.1.conv1.weight | P max:  55.8 min:   0.0
+layer3.1.conv2.weight | P max:  59.5 min:   0.0
+layer3.2.conv1.weight | P max:  59.1 min:   0.0
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 310 Sparse Rate: 85.97% Acc: 89.55 Best Acc: 0.00 InvT: 4.7E+09 Loss: 2.8
+
+Epoch 311 Sparse Rate: 86.01% Acc: 89.31 Best Acc: 0.00 InvT: 4.7E+09 Loss: 2.9
+
+Epoch 312 Sparse Rate: 86.05% Acc: 89.44 Best Acc: 0.00 InvT: 4.7E+09 Loss: 2.8
+
+Epoch 313 Sparse Rate: 86.07% Acc: 89.39 Best Acc: 0.00 InvT: 4.8E+09 Loss: 2.8
+
+Epoch 314 Sparse Rate: 86.09% Acc: 89.36 Best Acc: 0.00 InvT: 4.8E+09 Loss: 2.8
+
+Epoch 315 Sparse Rate: 86.11% Acc: 89.36 Best Acc: 0.00 InvT: 4.8E+09 Loss: 2.8
+
+Epoch 316 Sparse Rate: 86.13% Acc: 89.37 Best Acc: 0.00 InvT: 4.8E+09 Loss: 2.7
+
+Epoch 317 Sparse Rate: 86.14% Acc: 89.23 Best Acc: 0.00 InvT: 4.9E+09 Loss: 2.7
+
+Epoch 318 Sparse Rate: 86.16% Acc: 89.36 Best Acc: 0.00 InvT: 4.9E+09 Loss: 2.7
+
+Epoch 319 Sparse Rate: 86.19% Acc: 89.21 Best Acc: 0.00 InvT: 4.9E+09 Loss: 2.7
+layer1.0.conv1.weight | P max:  55.8 min:   0.0
+layer1.0.conv2.weight | P max:  55.8 min:   0.0
+layer1.1.conv1.weight | P max:  55.8 min:   0.0
+layer1.1.conv2.weight | P max:  55.9 min:   0.0
+layer1.2.conv1.weight | P max:  57.0 min:   0.0
+layer1.2.conv2.weight | P max:  55.8 min:   0.0
+layer2.0.conv1.weight | P max:  55.8 min:   0.0
+layer2.0.conv2.weight | P max:  55.8 min:   0.0
+layer2.1.conv1.weight | P max:  56.0 min:   0.0
+layer2.1.conv2.weight | P max:  55.8 min:   0.0
+layer2.2.conv1.weight | P max:  55.8 min:   0.0
+layer2.2.conv2.weight | P max:  55.8 min:   0.0
+layer3.0.conv1.weight | P max:  55.8 min:   0.0
+layer3.0.conv2.weight | P max:  55.8 min:   0.0
+layer3.1.conv1.weight | P max:  55.8 min:   0.0
+layer3.1.conv2.weight | P max:  60.7 min:   0.0
+layer3.2.conv1.weight | P max:  60.6 min:   0.0
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 320 Sparse Rate: 86.21% Acc: 89.07 Best Acc: 0.00 InvT: 4.9E+09 Loss: 2.7
+
+Epoch 321 Sparse Rate: 86.24% Acc: 89.09 Best Acc: 0.00 InvT: 5.0E+09 Loss: 2.7
+
+Epoch 322 Sparse Rate: 86.30% Acc: 89.00 Best Acc: 0.00 InvT: 5.0E+09 Loss: 2.6
+
+Epoch 323 Sparse Rate: 86.36% Acc: 89.08 Best Acc: 0.00 InvT: 5.0E+09 Loss: 2.7
+
+Epoch 324 Sparse Rate: 86.40% Acc: 89.12 Best Acc: 0.00 InvT: 5.0E+09 Loss: 2.6
+
+Epoch 325 Sparse Rate: 86.45% Acc: 89.19 Best Acc: 0.00 InvT: 5.1E+09 Loss: 2.6
+
+Epoch 326 Sparse Rate: 86.52% Acc: 89.02 Best Acc: 0.00 InvT: 5.1E+09 Loss: 2.6
+
+Epoch 327 Sparse Rate: 86.60% Acc: 89.02 Best Acc: 0.00 InvT: 5.1E+09 Loss: 2.6
+
+Epoch 328 Sparse Rate: 86.63% Acc: 88.83 Best Acc: 0.00 InvT: 5.1E+09 Loss: 2.6
+
+Epoch 329 Sparse Rate: 86.66% Acc: 89.01 Best Acc: 0.00 InvT: 5.2E+09 Loss: 2.5
+layer1.0.conv1.weight | P max:  55.8 min:   0.0
+layer1.0.conv2.weight | P max:  55.8 min:   0.0
+layer1.1.conv1.weight | P max:  55.8 min:   0.0
+layer1.1.conv2.weight | P max:  55.8 min:   0.0
+layer1.2.conv1.weight | P max:  55.8 min:   0.0
+layer1.2.conv2.weight | P max:  55.9 min:   0.0
+layer2.0.conv1.weight | P max:  55.8 min:   0.0
+layer2.0.conv2.weight | P max:  55.8 min:   0.0
+layer2.1.conv1.weight | P max:  55.9 min:   0.0
+layer2.1.conv2.weight | P max:  55.8 min:   0.0
+layer2.2.conv1.weight | P max:  55.9 min:   0.0
+layer2.2.conv2.weight | P max:  56.2 min:   0.0
+layer3.0.conv1.weight | P max:  55.8 min:   0.0
+layer3.0.conv2.weight | P max:  55.8 min:   0.0
+layer3.1.conv1.weight | P max:  56.1 min:   0.0
+layer3.1.conv2.weight | P max:  60.7 min:   0.0
+layer3.2.conv1.weight | P max:  60.7 min:   0.0
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 330 Sparse Rate: 86.68% Acc: 89.04 Best Acc: 0.00 InvT: 5.2E+09 Loss: 2.5
+
+Epoch 331 Sparse Rate: 86.74% Acc: 88.87 Best Acc: 0.00 InvT: 5.2E+09 Loss: 2.5
+
+Epoch 332 Sparse Rate: 86.76% Acc: 88.81 Best Acc: 0.00 InvT: 5.2E+09 Loss: 2.5
+
+Epoch 333 Sparse Rate: 86.78% Acc: 88.97 Best Acc: 0.00 InvT: 5.3E+09 Loss: 2.5
+
+Epoch 334 Sparse Rate: 86.78% Acc: 89.05 Best Acc: 0.00 InvT: 5.3E+09 Loss: 2.5
+
+Epoch 335 Sparse Rate: 86.80% Acc: 88.96 Best Acc: 0.00 InvT: 5.3E+09 Loss: 2.5
+
+Epoch 336 Sparse Rate: 86.81% Acc: 89.10 Best Acc: 0.00 InvT: 5.3E+09 Loss: 2.4
+
+Epoch 337 Sparse Rate: 86.84% Acc: 89.15 Best Acc: 0.00 InvT: 5.4E+09 Loss: 2.4
+
+Epoch 338 Sparse Rate: 86.91% Acc: 89.10 Best Acc: 0.00 InvT: 5.4E+09 Loss: 2.4
+
+Epoch 339 Sparse Rate: 86.94% Acc: 89.15 Best Acc: 0.00 InvT: 5.4E+09 Loss: 2.4
+layer1.0.conv1.weight | P max:  55.8 min:   0.0
+layer1.0.conv2.weight | P max:  55.8 min:   0.0
+layer1.1.conv1.weight | P max:  55.8 min:   0.0
+layer1.1.conv2.weight | P max:  55.8 min:   0.0
+layer1.2.conv1.weight | P max:  55.8 min:   0.0
+layer1.2.conv2.weight | P max:  55.8 min:   0.0
+layer2.0.conv1.weight | P max:  55.8 min:   0.0
+layer2.0.conv2.weight | P max:  55.8 min:   0.0
+layer2.1.conv1.weight | P max:  55.9 min:   0.0
+layer2.1.conv2.weight | P max:  56.0 min:   0.0
+layer2.2.conv1.weight | P max:  55.8 min:   0.0
+layer2.2.conv2.weight | P max:  58.0 min:   0.0
+layer3.0.conv1.weight | P max:  55.8 min:   0.0
+layer3.0.conv2.weight | P max:  55.8 min:   0.0
+layer3.1.conv1.weight | P max:  58.7 min:   0.0
+layer3.1.conv2.weight | P max:  60.8 min:   0.0
+layer3.2.conv1.weight | P max:  60.8 min:   0.0
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 340 Sparse Rate: 86.97% Acc: 89.00 Best Acc: 0.00 InvT: 5.5E+09 Loss: 2.3
+
+Epoch 341 Sparse Rate: 86.99% Acc: 89.11 Best Acc: 0.00 InvT: 5.5E+09 Loss: 2.3
+
+Epoch 342 Sparse Rate: 87.06% Acc: 89.11 Best Acc: 0.00 InvT: 5.5E+09 Loss: 2.3
+
+Epoch 343 Sparse Rate: 87.09% Acc: 88.79 Best Acc: 0.00 InvT: 5.5E+09 Loss: 2.3
+
+Epoch 344 Sparse Rate: 87.12% Acc: 88.81 Best Acc: 0.00 InvT: 5.6E+09 Loss: 2.3
+
+Epoch 345 Sparse Rate: 87.14% Acc: 88.74 Best Acc: 0.00 InvT: 5.6E+09 Loss: 2.3
+
+Epoch 346 Sparse Rate: 87.17% Acc: 88.70 Best Acc: 0.00 InvT: 5.6E+09 Loss: 2.3
+
+Epoch 347 Sparse Rate: 87.20% Acc: 88.88 Best Acc: 0.00 InvT: 5.6E+09 Loss: 2.2
+
+Epoch 348 Sparse Rate: 87.22% Acc: 88.80 Best Acc: 0.00 InvT: 5.7E+09 Loss: 2.2
+
+Epoch 349 Sparse Rate: 87.24% Acc: 88.86 Best Acc: 0.00 InvT: 5.7E+09 Loss: 2.2
+layer1.0.conv1.weight | P max:  55.8 min:   0.0
+layer1.0.conv2.weight | P max:  55.8 min:   0.0
+layer1.1.conv1.weight | P max:  55.9 min:   0.0
+layer1.1.conv2.weight | P max:  55.8 min:   0.0
+layer1.2.conv1.weight | P max:  55.8 min:   0.0
+layer1.2.conv2.weight | P max:  55.8 min:   0.0
+layer2.0.conv1.weight | P max:  55.8 min:   0.0
+layer2.0.conv2.weight | P max:  55.8 min:   0.0
+layer2.1.conv1.weight | P max:  55.9 min:   0.0
+layer2.1.conv2.weight | P max:  57.7 min:   0.0
+layer2.2.conv1.weight | P max:  55.9 min:   0.0
+layer2.2.conv2.weight | P max:  58.8 min:   0.0
+layer3.0.conv1.weight | P max:  55.8 min:   0.0
+layer3.0.conv2.weight | P max:  58.1 min:   0.0
+layer3.1.conv1.weight | P max:  60.4 min:   0.0
+layer3.1.conv2.weight | P max:  60.8 min:   0.0
+layer3.2.conv1.weight | P max:  60.8 min:   0.0
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 350 Sparse Rate: 87.28% Acc: 88.86 Best Acc: 0.00 InvT: 5.7E+09 Loss: 2.2
+
+Epoch 351 Sparse Rate: 87.31% Acc: 88.96 Best Acc: 0.00 InvT: 5.8E+09 Loss: 2.2
+
+Epoch 352 Sparse Rate: 87.33% Acc: 88.79 Best Acc: 0.00 InvT: 5.8E+09 Loss: 2.2
+
+Epoch 353 Sparse Rate: 87.37% Acc: 88.70 Best Acc: 0.00 InvT: 5.8E+09 Loss: 2.2
+
+Epoch 354 Sparse Rate: 87.42% Acc: 88.61 Best Acc: 0.00 InvT: 5.8E+09 Loss: 2.1
+
+Epoch 355 Sparse Rate: 87.45% Acc: 88.70 Best Acc: 0.00 InvT: 5.9E+09 Loss: 2.1
+
+Epoch 356 Sparse Rate: 87.48% Acc: 88.69 Best Acc: 0.00 InvT: 5.9E+09 Loss: 2.1
+
+Epoch 357 Sparse Rate: 87.49% Acc: 89.04 Best Acc: 0.00 InvT: 5.9E+09 Loss: 2.1
+
+Epoch 358 Sparse Rate: 87.52% Acc: 88.69 Best Acc: 0.00 InvT: 6.0E+09 Loss: 2.1
+
+Epoch 359 Sparse Rate: 87.53% Acc: 88.65 Best Acc: 0.00 InvT: 6.0E+09 Loss: 2.1
+layer1.0.conv1.weight | P max:  55.8 min:   0.0
+layer1.0.conv2.weight | P max:  55.8 min:   0.0
+layer1.1.conv1.weight | P max:  55.9 min:   0.0
+layer1.1.conv2.weight | P max:  55.8 min:   0.0
+layer1.2.conv1.weight | P max:  55.8 min:   0.0
+layer1.2.conv2.weight | P max:  55.8 min:   0.0
+layer2.0.conv1.weight | P max:  55.8 min:   0.0
+layer2.0.conv2.weight | P max:  55.8 min:   0.0
+layer2.1.conv1.weight | P max:  55.9 min:   0.0
+layer2.1.conv2.weight | P max:  59.5 min:   0.0
+layer2.2.conv1.weight | P max:  55.9 min:   0.0
+layer2.2.conv2.weight | P max:  60.5 min:   0.0
+layer3.0.conv1.weight | P max:  55.9 min:   0.0
+layer3.0.conv2.weight | P max:  59.9 min:   0.0
+layer3.1.conv1.weight | P max:  60.7 min:   0.0
+layer3.1.conv2.weight | P max:  60.9 min:   0.0
+layer3.2.conv1.weight | P max:  60.8 min:   0.0
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 360 Sparse Rate: 87.55% Acc: 88.48 Best Acc: 0.00 InvT: 6.0E+09 Loss: 2.1
+
+Epoch 361 Sparse Rate: 87.58% Acc: 88.71 Best Acc: 0.00 InvT: 6.1E+09 Loss: 2.0
+
+Epoch 362 Sparse Rate: 87.60% Acc: 88.34 Best Acc: 0.00 InvT: 6.1E+09 Loss: 2.0
+
+Epoch 363 Sparse Rate: 87.63% Acc: 88.48 Best Acc: 0.00 InvT: 6.1E+09 Loss: 2.0
+
+Epoch 364 Sparse Rate: 87.66% Acc: 88.31 Best Acc: 0.00 InvT: 6.1E+09 Loss: 2.0
+
+Epoch 365 Sparse Rate: 87.69% Acc: 88.57 Best Acc: 0.00 InvT: 6.2E+09 Loss: 2.0
+
+Epoch 366 Sparse Rate: 87.72% Acc: 88.60 Best Acc: 0.00 InvT: 6.2E+09 Loss: 2.0
+
+Epoch 367 Sparse Rate: 87.74% Acc: 88.74 Best Acc: 0.00 InvT: 6.2E+09 Loss: 1.9
+
+Epoch 368 Sparse Rate: 87.76% Acc: 88.74 Best Acc: 0.00 InvT: 6.3E+09 Loss: 1.9
+
+Epoch 369 Sparse Rate: 87.79% Acc: 88.42 Best Acc: 0.00 InvT: 6.3E+09 Loss: 2.0
+layer1.0.conv1.weight | P max:  55.8 min:   0.0
+layer1.0.conv2.weight | P max:  55.8 min:   0.0
+layer1.1.conv1.weight | P max:  55.9 min:   0.0
+layer1.1.conv2.weight | P max:  55.8 min:   0.0
+layer1.2.conv1.weight | P max:  55.9 min:   0.0
+layer1.2.conv2.weight | P max:  55.8 min:   0.0
+layer2.0.conv1.weight | P max:  55.8 min:   0.0
+layer2.0.conv2.weight | P max:  55.8 min:   0.0
+layer2.1.conv1.weight | P max:  55.9 min:   0.0
+layer2.1.conv2.weight | P max:  60.6 min:   0.0
+layer2.2.conv1.weight | P max:  55.9 min:   0.0
+layer2.2.conv2.weight | P max:  60.6 min:   0.0
+layer3.0.conv1.weight | P max:  55.9 min:   0.0
+layer3.0.conv2.weight | P max:  60.7 min:   0.0
+layer3.1.conv1.weight | P max:  60.8 min:   0.0
+layer3.1.conv2.weight | P max:  60.9 min:   0.0
+layer3.2.conv1.weight | P max:  60.9 min:   0.0
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 370 Sparse Rate: 87.81% Acc: 88.64 Best Acc: 0.00 InvT: 6.3E+09 Loss: 1.9
+
+Epoch 371 Sparse Rate: 87.84% Acc: 88.64 Best Acc: 0.00 InvT: 6.4E+09 Loss: 1.9
+
+Epoch 372 Sparse Rate: 87.87% Acc: 88.60 Best Acc: 0.00 InvT: 6.4E+09 Loss: 1.9
+
+Epoch 373 Sparse Rate: 87.89% Acc: 88.39 Best Acc: 0.00 InvT: 6.4E+09 Loss: 2.0
+
+Epoch 374 Sparse Rate: 87.92% Acc: 88.73 Best Acc: 0.00 InvT: 6.5E+09 Loss: 1.9
+
+Epoch 375 Sparse Rate: 87.95% Acc: 88.60 Best Acc: 0.00 InvT: 6.5E+09 Loss: 1.8
+
+Epoch 376 Sparse Rate: 87.97% Acc: 88.34 Best Acc: 0.00 InvT: 6.5E+09 Loss: 1.8
+
+Epoch 377 Sparse Rate: 88.00% Acc: 88.81 Best Acc: 0.00 InvT: 6.6E+09 Loss: 1.9
+
+Epoch 378 Sparse Rate: 88.00% Acc: 88.75 Best Acc: 0.00 InvT: 6.6E+09 Loss: 1.8
+
+Epoch 379 Sparse Rate: 88.02% Acc: 88.65 Best Acc: 0.00 InvT: 6.6E+09 Loss: 1.9
+layer1.0.conv1.weight | P max:  55.8 min:   0.0
+layer1.0.conv2.weight | P max:  55.8 min:   0.0
+layer1.1.conv1.weight | P max:  55.9 min:   0.0
+layer1.1.conv2.weight | P max:  55.9 min:   0.0
+layer1.2.conv1.weight | P max:  55.9 min:   0.0
+layer1.2.conv2.weight | P max:  55.8 min:   0.0
+layer2.0.conv1.weight | P max:  55.8 min:   0.0
+layer2.0.conv2.weight | P max:  55.8 min:   0.0
+layer2.1.conv1.weight | P max:  55.9 min:   0.0
+layer2.1.conv2.weight | P max:  60.6 min:   0.0
+layer2.2.conv1.weight | P max:  55.9 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.0
+layer3.0.conv1.weight | P max:  55.9 min:   0.0
+layer3.0.conv2.weight | P max:  60.8 min:   0.0
+layer3.1.conv1.weight | P max:  60.8 min:   0.0
+layer3.1.conv2.weight | P max:  60.9 min:   0.0
+layer3.2.conv1.weight | P max:  60.9 min:   0.0
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 380 Sparse Rate: 88.06% Acc: 88.32 Best Acc: 0.00 InvT: 6.7E+09 Loss: 1.8
+
+Epoch 381 Sparse Rate: 88.07% Acc: 88.42 Best Acc: 0.00 InvT: 6.7E+09 Loss: 1.8
+
+Epoch 382 Sparse Rate: 88.08% Acc: 88.34 Best Acc: 0.00 InvT: 6.7E+09 Loss: 1.8
+
+Epoch 383 Sparse Rate: 88.09% Acc: 88.68 Best Acc: 0.00 InvT: 6.8E+09 Loss: 1.8
+
+Epoch 384 Sparse Rate: 88.12% Acc: 88.17 Best Acc: 0.00 InvT: 6.8E+09 Loss: 1.7
+
+Epoch 385 Sparse Rate: 88.12% Acc: 88.21 Best Acc: 0.00 InvT: 6.8E+09 Loss: 1.7
+
+Epoch 386 Sparse Rate: 88.11% Acc: 88.53 Best Acc: 0.00 InvT: 6.9E+09 Loss: 1.7
+
+Epoch 387 Sparse Rate: 88.16% Acc: 88.44 Best Acc: 0.00 InvT: 6.9E+09 Loss: 1.7
+
+Epoch 388 Sparse Rate: 88.18% Acc: 88.61 Best Acc: 0.00 InvT: 6.9E+09 Loss: 1.7
+
+Epoch 389 Sparse Rate: 88.20% Acc: 88.38 Best Acc: 0.00 InvT: 7.0E+09 Loss: 1.7
+layer1.0.conv1.weight | P max:  55.8 min:   0.0
+layer1.0.conv2.weight | P max:  55.8 min:   0.0
+layer1.1.conv1.weight | P max:  55.9 min:   0.0
+layer1.1.conv2.weight | P max:  55.8 min:   0.0
+layer1.2.conv1.weight | P max:  55.9 min:   0.0
+layer1.2.conv2.weight | P max:  55.9 min:   0.0
+layer2.0.conv1.weight | P max:  55.8 min:   0.0
+layer2.0.conv2.weight | P max:  55.8 min:   0.0
+layer2.1.conv1.weight | P max:  57.9 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  56.0 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.0
+layer3.0.conv1.weight | P max:  57.9 min:   0.0
+layer3.0.conv2.weight | P max:  60.8 min:   0.0
+layer3.1.conv1.weight | P max:  60.8 min:   0.0
+layer3.1.conv2.weight | P max:  60.9 min:   0.0
+layer3.2.conv1.weight | P max:  60.9 min:   0.0
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 390 Sparse Rate: 88.23% Acc: 88.12 Best Acc: 0.00 InvT: 7.0E+09 Loss: 1.6
+
+Epoch 391 Sparse Rate: 88.24% Acc: 88.41 Best Acc: 0.00 InvT: 7.0E+09 Loss: 1.7
+
+Epoch 392 Sparse Rate: 88.27% Acc: 88.55 Best Acc: 0.00 InvT: 7.1E+09 Loss: 1.6
+
+Epoch 393 Sparse Rate: 88.26% Acc: 88.44 Best Acc: 0.00 InvT: 7.1E+09 Loss: 1.6
+
+Epoch 394 Sparse Rate: 88.31% Acc: 88.55 Best Acc: 0.00 InvT: 7.1E+09 Loss: 1.6
+
+Epoch 395 Sparse Rate: 88.35% Acc: 88.12 Best Acc: 0.00 InvT: 7.2E+09 Loss: 1.7
+
+Epoch 396 Sparse Rate: 88.38% Acc: 87.49 Best Acc: 0.00 InvT: 7.2E+09 Loss: 1.6
+
+Epoch 397 Sparse Rate: 88.39% Acc: 88.06 Best Acc: 0.00 InvT: 7.2E+09 Loss: 1.6
+
+Epoch 398 Sparse Rate: 88.39% Acc: 88.07 Best Acc: 0.00 InvT: 7.3E+09 Loss: 1.6
+
+Epoch 399 Sparse Rate: 88.40% Acc: 87.97 Best Acc: 0.00 InvT: 7.3E+09 Loss: 1.6
+layer1.0.conv1.weight | P max:  55.8 min:   0.0
+layer1.0.conv2.weight | P max:  55.8 min:   0.0
+layer1.1.conv1.weight | P max:  55.9 min:   0.0
+layer1.1.conv2.weight | P max:  55.8 min:   0.0
+layer1.2.conv1.weight | P max:  55.9 min:   0.0
+layer1.2.conv2.weight | P max:  55.8 min:   0.0
+layer2.0.conv1.weight | P max:  55.8 min:   0.0
+layer2.0.conv2.weight | P max:  55.8 min:   0.0
+layer2.1.conv1.weight | P max:  59.7 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  56.0 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.0
+layer3.0.conv1.weight | P max:  59.6 min:   0.0
+layer3.0.conv2.weight | P max:  60.8 min:   0.0
+layer3.1.conv1.weight | P max:  60.9 min:   0.0
+layer3.1.conv2.weight | P max:  61.0 min:   0.0
+layer3.2.conv1.weight | P max:  60.9 min:   0.0
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 400 Sparse Rate: 88.44% Acc: 87.75 Best Acc: 0.00 InvT: 7.4E+09 Loss: 1.6
+
+Epoch 401 Sparse Rate: 88.44% Acc: 87.92 Best Acc: 0.00 InvT: 7.4E+09 Loss: 1.6
+
+Epoch 402 Sparse Rate: 88.46% Acc: 88.20 Best Acc: 0.00 InvT: 7.4E+09 Loss: 1.6
+
+Epoch 403 Sparse Rate: 88.45% Acc: 88.00 Best Acc: 0.00 InvT: 7.5E+09 Loss: 1.5
+
+Epoch 404 Sparse Rate: 88.49% Acc: 88.22 Best Acc: 0.00 InvT: 7.5E+09 Loss: 1.5
+
+Epoch 405 Sparse Rate: 88.48% Acc: 87.87 Best Acc: 0.00 InvT: 7.5E+09 Loss: 1.5
+
+Epoch 406 Sparse Rate: 88.52% Acc: 88.17 Best Acc: 0.00 InvT: 7.6E+09 Loss: 1.5
+
+Epoch 407 Sparse Rate: 88.53% Acc: 88.15 Best Acc: 0.00 InvT: 7.6E+09 Loss: 1.5
+
+Epoch 408 Sparse Rate: 88.56% Acc: 88.04 Best Acc: 0.00 InvT: 7.7E+09 Loss: 1.5
+
+Epoch 409 Sparse Rate: 88.56% Acc: 87.77 Best Acc: 0.00 InvT: 7.7E+09 Loss: 1.5
+layer1.0.conv1.weight | P max:  55.8 min:   0.0
+layer1.0.conv2.weight | P max:  55.8 min:   0.0
+layer1.1.conv1.weight | P max:  55.9 min:   0.0
+layer1.1.conv2.weight | P max:  55.8 min:   0.0
+layer1.2.conv1.weight | P max:  55.9 min:   0.0
+layer1.2.conv2.weight | P max:  55.9 min:   0.0
+layer2.0.conv1.weight | P max:  55.9 min:   0.0
+layer2.0.conv2.weight | P max:  55.8 min:   0.0
+layer2.1.conv1.weight | P max:  60.5 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  56.0 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.0
+layer3.0.conv1.weight | P max:  60.6 min:   0.0
+layer3.0.conv2.weight | P max:  60.9 min:   0.0
+layer3.1.conv1.weight | P max:  60.9 min:   0.0
+layer3.1.conv2.weight | P max:  61.0 min:   0.0
+layer3.2.conv1.weight | P max:  61.0 min:   0.0
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 410 Sparse Rate: 88.58% Acc: 88.45 Best Acc: 0.00 InvT: 7.7E+09 Loss: 1.5
+
+Epoch 411 Sparse Rate: 88.61% Acc: 88.47 Best Acc: 0.00 InvT: 7.8E+09 Loss: 1.5
+
+Epoch 412 Sparse Rate: 88.63% Acc: 87.71 Best Acc: 0.00 InvT: 7.8E+09 Loss: 1.4
+
+Epoch 413 Sparse Rate: 88.62% Acc: 87.91 Best Acc: 0.00 InvT: 7.8E+09 Loss: 1.4
+
+Epoch 414 Sparse Rate: 88.66% Acc: 88.20 Best Acc: 0.00 InvT: 7.9E+09 Loss: 1.4
+
+Epoch 415 Sparse Rate: 88.67% Acc: 88.21 Best Acc: 0.00 InvT: 7.9E+09 Loss: 1.4
+
+Epoch 416 Sparse Rate: 88.69% Acc: 87.63 Best Acc: 0.00 InvT: 8.0E+09 Loss: 1.4
+
+Epoch 417 Sparse Rate: 88.70% Acc: 86.35 Best Acc: 0.00 InvT: 8.0E+09 Loss: 1.4
+
+Epoch 418 Sparse Rate: 88.69% Acc: 86.70 Best Acc: 0.00 InvT: 8.0E+09 Loss: 1.4
+
+Epoch 419 Sparse Rate: 88.75% Acc: 88.31 Best Acc: 0.00 InvT: 8.1E+09 Loss: 1.4
+layer1.0.conv1.weight | P max:  55.8 min:   0.0
+layer1.0.conv2.weight | P max:  55.9 min:   0.0
+layer1.1.conv1.weight | P max:  55.9 min:   0.0
+layer1.1.conv2.weight | P max:  55.8 min:   0.0
+layer1.2.conv1.weight | P max:  55.8 min:   0.0
+layer1.2.conv2.weight | P max:  55.9 min:   0.0
+layer2.0.conv1.weight | P max:  55.9 min:   0.0
+layer2.0.conv2.weight | P max:  55.9 min:   0.0
+layer2.1.conv1.weight | P max:  60.6 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  57.4 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.0
+layer3.0.conv1.weight | P max:  60.7 min:   0.0
+layer3.0.conv2.weight | P max:  60.9 min:   0.0
+layer3.1.conv1.weight | P max:  60.9 min:   0.0
+layer3.1.conv2.weight | P max:  61.0 min:   0.0
+layer3.2.conv1.weight | P max:  61.0 min:   0.0
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 420 Sparse Rate: 88.74% Acc: 88.21 Best Acc: 0.00 InvT: 8.1E+09 Loss: 1.4
+
+Epoch 421 Sparse Rate: 88.77% Acc: 87.81 Best Acc: 0.00 InvT: 8.2E+09 Loss: 1.4
+
+Epoch 422 Sparse Rate: 88.76% Acc: 88.03 Best Acc: 0.00 InvT: 8.2E+09 Loss: 1.3
+
+Epoch 423 Sparse Rate: 88.80% Acc: 88.21 Best Acc: 0.00 InvT: 8.2E+09 Loss: 1.4
+
+Epoch 424 Sparse Rate: 88.81% Acc: 88.13 Best Acc: 0.00 InvT: 8.3E+09 Loss: 1.4
+
+Epoch 425 Sparse Rate: 88.82% Acc: 87.46 Best Acc: 0.00 InvT: 8.3E+09 Loss: 1.4
+
+Epoch 426 Sparse Rate: 88.84% Acc: 88.13 Best Acc: 0.00 InvT: 8.4E+09 Loss: 1.3
+
+Epoch 427 Sparse Rate: 88.86% Acc: 87.01 Best Acc: 0.00 InvT: 8.4E+09 Loss: 1.4
+
+Epoch 428 Sparse Rate: 88.84% Acc: 86.39 Best Acc: 0.00 InvT: 8.5E+09 Loss: 1.3
+
+Epoch 429 Sparse Rate: 88.88% Acc: 87.90 Best Acc: 0.00 InvT: 8.5E+09 Loss: 1.3
+layer1.0.conv1.weight | P max:  55.8 min:   0.0
+layer1.0.conv2.weight | P max:  55.8 min:   0.0
+layer1.1.conv1.weight | P max:  55.9 min:   0.0
+layer1.1.conv2.weight | P max:  55.8 min:   0.0
+layer1.2.conv1.weight | P max:  55.9 min:   0.0
+layer1.2.conv2.weight | P max:  55.9 min:   0.0
+layer2.0.conv1.weight | P max:  55.9 min:   0.0
+layer2.0.conv2.weight | P max:  55.9 min:   0.0
+layer2.1.conv1.weight | P max:  60.7 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  58.8 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.0
+layer3.0.conv1.weight | P max:  60.7 min:   0.0
+layer3.0.conv2.weight | P max:  60.9 min:   0.0
+layer3.1.conv1.weight | P max:  60.9 min:   0.0
+layer3.1.conv2.weight | P max:  61.0 min:   0.0
+layer3.2.conv1.weight | P max:  61.0 min:   0.0
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 430 Sparse Rate: 88.85% Acc: 86.83 Best Acc: 0.00 InvT: 8.5E+09 Loss: 1.3
+
+Epoch 431 Sparse Rate: 88.92% Acc: 88.10 Best Acc: 0.00 InvT: 8.6E+09 Loss: 1.3
+
+Epoch 432 Sparse Rate: 88.94% Acc: 87.30 Best Acc: 0.00 InvT: 8.6E+09 Loss: 1.3
+
+Epoch 433 Sparse Rate: 88.93% Acc: 87.69 Best Acc: 0.00 InvT: 8.7E+09 Loss: 1.3
+
+Epoch 434 Sparse Rate: 88.96% Acc: 87.99 Best Acc: 0.00 InvT: 8.7E+09 Loss: 1.3
+
+Epoch 435 Sparse Rate: 88.97% Acc: 86.19 Best Acc: 0.00 InvT: 8.8E+09 Loss: 1.3
+
+Epoch 436 Sparse Rate: 88.98% Acc: 88.40 Best Acc: 0.00 InvT: 8.8E+09 Loss: 1.2
+
+Epoch 437 Sparse Rate: 88.99% Acc: 87.46 Best Acc: 0.00 InvT: 8.8E+09 Loss: 1.2
+
+Epoch 438 Sparse Rate: 89.00% Acc: 87.45 Best Acc: 0.00 InvT: 8.9E+09 Loss: 1.3
+
+Epoch 439 Sparse Rate: 89.01% Acc: 88.42 Best Acc: 0.00 InvT: 8.9E+09 Loss: 1.3
+layer1.0.conv1.weight | P max:  55.8 min:   0.0
+layer1.0.conv2.weight | P max:  55.8 min:   0.0
+layer1.1.conv1.weight | P max:  55.9 min:   0.0
+layer1.1.conv2.weight | P max:  55.9 min:   0.0
+layer1.2.conv1.weight | P max:  55.9 min:   0.0
+layer1.2.conv2.weight | P max:  55.9 min:   0.0
+layer2.0.conv1.weight | P max:  55.9 min:   0.0
+layer2.0.conv2.weight | P max:  56.9 min:   0.0
+layer2.1.conv1.weight | P max:  60.7 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  60.3 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.0
+layer3.0.conv1.weight | P max:  60.7 min:   0.0
+layer3.0.conv2.weight | P max:  60.9 min:   0.0
+layer3.1.conv1.weight | P max:  61.0 min:   0.0
+layer3.1.conv2.weight | P max:  61.0 min:   0.0
+layer3.2.conv1.weight | P max:  61.0 min:   0.0
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 440 Sparse Rate: 89.02% Acc: 87.07 Best Acc: 0.00 InvT: 9.0E+09 Loss: 1.2
+
+Epoch 441 Sparse Rate: 89.05% Acc: 87.16 Best Acc: 0.00 InvT: 9.0E+09 Loss: 1.2
+
+Epoch 442 Sparse Rate: 89.05% Acc: 87.12 Best Acc: 0.00 InvT: 9.1E+09 Loss: 1.2
+
+Epoch 443 Sparse Rate: 89.06% Acc: 87.51 Best Acc: 0.00 InvT: 9.1E+09 Loss: 1.2
+
+Epoch 444 Sparse Rate: 89.07% Acc: 88.10 Best Acc: 0.00 InvT: 9.2E+09 Loss: 1.2
+
+Epoch 445 Sparse Rate: 89.08% Acc: 87.82 Best Acc: 0.00 InvT: 9.2E+09 Loss: 1.2
+
+Epoch 446 Sparse Rate: 89.10% Acc: 87.76 Best Acc: 0.00 InvT: 9.2E+09 Loss: 1.2
+
+Epoch 447 Sparse Rate: 89.07% Acc: 88.14 Best Acc: 0.00 InvT: 9.3E+09 Loss: 1.2
+
+Epoch 448 Sparse Rate: 89.12% Acc: 87.66 Best Acc: 0.00 InvT: 9.3E+09 Loss: 1.2
+
+Epoch 449 Sparse Rate: 89.12% Acc: 88.09 Best Acc: 0.00 InvT: 9.4E+09 Loss: 1.2
+layer1.0.conv1.weight | P max:  55.8 min:   0.0
+layer1.0.conv2.weight | P max:  55.8 min:   0.0
+layer1.1.conv1.weight | P max:  55.9 min:   0.0
+layer1.1.conv2.weight | P max:  55.9 min:   0.0
+layer1.2.conv1.weight | P max:  55.9 min:   0.0
+layer1.2.conv2.weight | P max:  55.9 min:   0.0
+layer2.0.conv1.weight | P max:  55.9 min:   0.0
+layer2.0.conv2.weight | P max:  58.6 min:   0.0
+layer2.1.conv1.weight | P max:  60.7 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  60.6 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.0
+layer3.0.conv1.weight | P max:  60.8 min:   0.0
+layer3.0.conv2.weight | P max:  60.9 min:   0.0
+layer3.1.conv1.weight | P max:  61.0 min:   0.0
+layer3.1.conv2.weight | P max:  61.0 min:   0.0
+layer3.2.conv1.weight | P max:  61.0 min:   0.0
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 450 Sparse Rate: 89.14% Acc: 88.04 Best Acc: 0.00 InvT: 9.4E+09 Loss: 1.1
+
+Epoch 451 Sparse Rate: 89.14% Acc: 87.78 Best Acc: 0.00 InvT: 9.5E+09 Loss: 1.1
+
+Epoch 452 Sparse Rate: 89.15% Acc: 87.11 Best Acc: 0.00 InvT: 9.5E+09 Loss: 1.1
+
+Epoch 453 Sparse Rate: 89.16% Acc: 86.95 Best Acc: 0.00 InvT: 9.6E+09 Loss: 1.1
+
+Epoch 454 Sparse Rate: 89.17% Acc: 87.08 Best Acc: 0.00 InvT: 9.6E+09 Loss: 1.2
+
+Epoch 455 Sparse Rate: 89.17% Acc: 87.77 Best Acc: 0.00 InvT: 9.7E+09 Loss: 1.1
+
+Epoch 456 Sparse Rate: 89.17% Acc: 86.73 Best Acc: 0.00 InvT: 9.7E+09 Loss: 1.2
+
+Epoch 457 Sparse Rate: 89.19% Acc: 87.75 Best Acc: 0.00 InvT: 9.8E+09 Loss: 1.1
+
+Epoch 458 Sparse Rate: 89.19% Acc: 87.80 Best Acc: 0.00 InvT: 9.8E+09 Loss: 1.1
+
+Epoch 459 Sparse Rate: 89.20% Acc: 86.93 Best Acc: 0.00 InvT: 9.9E+09 Loss: 1.1
+layer1.0.conv1.weight | P max:  55.8 min:   0.0
+layer1.0.conv2.weight | P max:  55.9 min:   0.0
+layer1.1.conv1.weight | P max:  55.9 min:   0.0
+layer1.1.conv2.weight | P max:  55.9 min:   0.0
+layer1.2.conv1.weight | P max:  55.9 min:   0.0
+layer1.2.conv2.weight | P max:  55.9 min:   0.0
+layer2.0.conv1.weight | P max:  55.9 min:   0.0
+layer2.0.conv2.weight | P max:  60.4 min:   0.0
+layer2.1.conv1.weight | P max:  60.7 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  60.7 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.0
+layer3.0.conv1.weight | P max:  60.8 min:   0.0
+layer3.0.conv2.weight | P max:  61.0 min:   0.0
+layer3.1.conv1.weight | P max:  61.0 min:   0.0
+layer3.1.conv2.weight | P max:  61.0 min:   0.0
+layer3.2.conv1.weight | P max:  61.0 min:   0.0
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 460 Sparse Rate: 89.22% Acc: 87.92 Best Acc: 0.00 InvT: 9.9E+09 Loss: 1.1
+
+Epoch 461 Sparse Rate: 89.23% Acc: 86.69 Best Acc: 0.00 InvT: 1.0E+10 Loss: 1.1
+
+Epoch 462 Sparse Rate: 89.23% Acc: 87.04 Best Acc: 0.00 InvT: 1.0E+10 Loss: 1.1
+
+Epoch 463 Sparse Rate: 89.24% Acc: 87.99 Best Acc: 0.00 InvT: 1.0E+10 Loss: 1.1
+
+Epoch 464 Sparse Rate: 89.24% Acc: 87.35 Best Acc: 0.00 InvT: 1.0E+10 Loss: 1.1
+
+Epoch 465 Sparse Rate: 89.27% Acc: 87.83 Best Acc: 0.00 InvT: 1.0E+10 Loss: 1.1
+
+Epoch 466 Sparse Rate: 89.27% Acc: 86.35 Best Acc: 0.00 InvT: 1.0E+10 Loss: 1.1
+
+Epoch 467 Sparse Rate: 89.26% Acc: 85.91 Best Acc: 0.00 InvT: 1.0E+10 Loss: 1.1
+
+Epoch 468 Sparse Rate: 89.30% Acc: 87.10 Best Acc: 0.00 InvT: 1.0E+10 Loss: 1.1
+
+Epoch 469 Sparse Rate: 89.30% Acc: 87.83 Best Acc: 0.00 InvT: 1.0E+10 Loss: 1.1
+layer1.0.conv1.weight | P max:  55.8 min:   0.0
+layer1.0.conv2.weight | P max:  55.8 min:   0.0
+layer1.1.conv1.weight | P max:  55.9 min:   0.0
+layer1.1.conv2.weight | P max:  55.9 min:   0.0
+layer1.2.conv1.weight | P max:  55.9 min:   0.0
+layer1.2.conv2.weight | P max:  55.9 min:   0.0
+layer2.0.conv1.weight | P max:  55.9 min:   0.0
+layer2.0.conv2.weight | P max:  60.6 min:   0.0
+layer2.1.conv1.weight | P max:  60.7 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  60.6 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.0
+layer3.0.conv1.weight | P max:  60.8 min:   0.0
+layer3.0.conv2.weight | P max:  61.0 min:   0.0
+layer3.1.conv1.weight | P max:  61.0 min:   0.0
+layer3.1.conv2.weight | P max:  61.0 min:   0.0
+layer3.2.conv1.weight | P max:  61.0 min:   0.0
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 470 Sparse Rate: 89.27% Acc: 88.46 Best Acc: 0.00 InvT: 1.0E+10 Loss: 1.0
+
+Epoch 471 Sparse Rate: 89.30% Acc: 86.08 Best Acc: 0.00 InvT: 1.0E+10 Loss: 1.1
+
+Epoch 472 Sparse Rate: 89.31% Acc: 87.57 Best Acc: 0.00 InvT: 1.1E+10 Loss: 1.1
+
+Epoch 473 Sparse Rate: 89.33% Acc: 87.16 Best Acc: 0.00 InvT: 1.1E+10 Loss: 1.1
+
+Epoch 474 Sparse Rate: 89.34% Acc: 86.88 Best Acc: 0.00 InvT: 1.1E+10 Loss: 1.1
+
+Epoch 475 Sparse Rate: 89.35% Acc: 87.34 Best Acc: 0.00 InvT: 1.1E+10 Loss: 1.1
+
+Epoch 476 Sparse Rate: 89.33% Acc: 86.50 Best Acc: 0.00 InvT: 1.1E+10 Loss: 1.0
+
+Epoch 477 Sparse Rate: 89.36% Acc: 87.53 Best Acc: 0.00 InvT: 1.1E+10 Loss: 1.0
+
+Epoch 478 Sparse Rate: 89.35% Acc: 87.94 Best Acc: 0.00 InvT: 1.1E+10 Loss: 1.0
+
+Epoch 479 Sparse Rate: 89.38% Acc: 85.89 Best Acc: 0.00 InvT: 1.1E+10 Loss: 1.0
+layer1.0.conv1.weight | P max:  55.8 min:   0.0
+layer1.0.conv2.weight | P max:  55.8 min:   0.0
+layer1.1.conv1.weight | P max:  55.9 min:   0.0
+layer1.1.conv2.weight | P max:  55.9 min:   0.0
+layer1.2.conv1.weight | P max:  55.9 min:   0.0
+layer1.2.conv2.weight | P max:  55.9 min:   0.0
+layer2.0.conv1.weight | P max:  55.9 min:   0.0
+layer2.0.conv2.weight | P max:  60.6 min:   0.0
+layer2.1.conv1.weight | P max:  60.7 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  60.7 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.0
+layer3.0.conv1.weight | P max:  60.8 min:   0.0
+layer3.0.conv2.weight | P max:  61.0 min:   0.0
+layer3.1.conv1.weight | P max:  61.0 min:   0.0
+layer3.1.conv2.weight | P max:  61.0 min:   0.0
+layer3.2.conv1.weight | P max:  61.0 min:   0.0
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 480 Sparse Rate: 89.37% Acc: 86.13 Best Acc: 0.00 InvT: 1.1E+10 Loss: 1.0
+
+Epoch 481 Sparse Rate: 89.36% Acc: 88.07 Best Acc: 0.00 InvT: 1.1E+10 Loss: 1.1
+
+Epoch 482 Sparse Rate: 89.40% Acc: 87.48 Best Acc: 0.00 InvT: 1.1E+10 Loss: 1.0
+
+Epoch 483 Sparse Rate: 89.38% Acc: 87.45 Best Acc: 0.00 InvT: 1.1E+10 Loss: 1.0
+
+Epoch 484 Sparse Rate: 89.38% Acc: 86.46 Best Acc: 0.00 InvT: 1.1E+10 Loss: 1.0
+
+Epoch 485 Sparse Rate: 89.41% Acc: 87.52 Best Acc: 0.00 InvT: 1.1E+10 Loss: 1.0
+
+Epoch 486 Sparse Rate: 89.43% Acc: 86.77 Best Acc: 0.00 InvT: 1.1E+10 Loss: 1.0
+
+Epoch 487 Sparse Rate: 89.44% Acc: 87.44 Best Acc: 0.00 InvT: 1.1E+10 Loss: 1.0
+
+Epoch 488 Sparse Rate: 89.42% Acc: 87.60 Best Acc: 0.00 InvT: 1.1E+10 Loss: 1.0
+
+Epoch 489 Sparse Rate: 89.45% Acc: 87.25 Best Acc: 0.00 InvT: 1.1E+10 Loss: 1.0
+layer1.0.conv1.weight | P max:  55.8 min:   0.0
+layer1.0.conv2.weight | P max:  55.8 min:   0.0
+layer1.1.conv1.weight | P max:  55.9 min:   0.0
+layer1.1.conv2.weight | P max:  55.9 min:   0.0
+layer1.2.conv1.weight | P max:  55.9 min:   0.0
+layer1.2.conv2.weight | P max:  55.9 min:   0.0
+layer2.0.conv1.weight | P max:  55.9 min:   0.0
+layer2.0.conv2.weight | P max:  60.6 min:   0.0
+layer2.1.conv1.weight | P max:  60.7 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  60.7 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.0
+layer3.0.conv1.weight | P max:  60.8 min:   0.0
+layer3.0.conv2.weight | P max:  61.0 min:   0.0
+layer3.1.conv1.weight | P max:  61.0 min:   0.0
+layer3.1.conv2.weight | P max:  61.0 min:   0.0
+layer3.2.conv1.weight | P max:  61.0 min:   0.0
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 490 Sparse Rate: 89.45% Acc: 87.67 Best Acc: 0.00 InvT: 1.2E+10 Loss: 1.0
+
+Epoch 491 Sparse Rate: 89.46% Acc: 87.43 Best Acc: 0.00 InvT: 1.2E+10 Loss: 1.0
+
+Epoch 492 Sparse Rate: 89.47% Acc: 86.97 Best Acc: 0.00 InvT: 1.2E+10 Loss: 1.0
+
+Epoch 493 Sparse Rate: 89.47% Acc: 85.33 Best Acc: 0.00 InvT: 1.2E+10 Loss: 1.0
+
+Epoch 494 Sparse Rate: 89.48% Acc: 88.43 Best Acc: 0.00 InvT: 1.2E+10 Loss: 0.9
+
+Epoch 495 Sparse Rate: 89.46% Acc: 87.14 Best Acc: 0.00 InvT: 1.2E+10 Loss: 1.0
+
+Epoch 496 Sparse Rate: 89.48% Acc: 87.32 Best Acc: 0.00 InvT: 1.2E+10 Loss: 1.0
+
+Epoch 497 Sparse Rate: 89.50% Acc: 86.73 Best Acc: 0.00 InvT: 1.2E+10 Loss: 1.0
+
+Epoch 498 Sparse Rate: 89.50% Acc: 88.43 Best Acc: 0.00 InvT: 1.2E+10 Loss: 1.0
+
+Epoch 499 Sparse Rate: 89.47% Acc: 87.01 Best Acc: 0.00 InvT: 1.2E+10 Loss: 0.9
+layer1.0.conv1.weight | P max:  55.8 min:   0.0
+layer1.0.conv2.weight | P max:  55.9 min:   0.0
+layer1.1.conv1.weight | P max:  55.9 min:   0.0
+layer1.1.conv2.weight | P max:  59.0 min:   0.0
+layer1.2.conv1.weight | P max:  55.9 min:   0.0
+layer1.2.conv2.weight | P max:  56.0 min:   0.0
+layer2.0.conv1.weight | P max:  55.9 min:   0.0
+layer2.0.conv2.weight | P max:  60.7 min:   0.0
+layer2.1.conv1.weight | P max:  60.7 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  60.7 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.0
+layer3.0.conv1.weight | P max:  60.8 min:   0.0
+layer3.0.conv2.weight | P max:  61.0 min:   0.0
+layer3.1.conv1.weight | P max:  61.0 min:   0.0
+layer3.1.conv2.weight | P max:  61.0 min:   0.0
+layer3.2.conv1.weight | P max:  61.0 min:   0.0
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 500 Sparse Rate: 89.52% Acc: 87.15 Best Acc: 0.00 InvT: 1.2E+10 Loss: 1.0
+
+Epoch 501 Sparse Rate: 89.52% Acc: 86.56 Best Acc: 0.00 InvT: 1.2E+10 Loss: 1.0
+
+Epoch 502 Sparse Rate: 89.54% Acc: 87.54 Best Acc: 0.00 InvT: 1.2E+10 Loss: 1.0
+
+Epoch 503 Sparse Rate: 89.54% Acc: 87.13 Best Acc: 0.00 InvT: 1.2E+10 Loss: 1.0
+
+Epoch 504 Sparse Rate: 89.54% Acc: 85.93 Best Acc: 0.00 InvT: 1.2E+10 Loss: 1.0
+
+Epoch 505 Sparse Rate: 89.55% Acc: 86.25 Best Acc: 0.00 InvT: 1.2E+10 Loss: 0.9
+
+Epoch 506 Sparse Rate: 89.54% Acc: 87.54 Best Acc: 0.00 InvT: 1.2E+10 Loss: 1.0
+
+Epoch 507 Sparse Rate: 89.55% Acc: 87.72 Best Acc: 0.00 InvT: 1.3E+10 Loss: 0.9
+
+Epoch 508 Sparse Rate: 89.55% Acc: 85.37 Best Acc: 0.00 InvT: 1.3E+10 Loss: 0.9
+
+Epoch 509 Sparse Rate: 89.55% Acc: 82.16 Best Acc: 0.00 InvT: 1.3E+10 Loss: 1.0
+layer1.0.conv1.weight | P max:  55.8 min:   0.0
+layer1.0.conv2.weight | P max:  55.9 min:   0.0
+layer1.1.conv1.weight | P max:  55.9 min:   0.0
+layer1.1.conv2.weight | P max:  59.9 min:   0.0
+layer1.2.conv1.weight | P max:  55.9 min:   0.0
+layer1.2.conv2.weight | P max:  56.0 min:   0.0
+layer2.0.conv1.weight | P max:  55.9 min:   0.0
+layer2.0.conv2.weight | P max:  60.7 min:   0.0
+layer2.1.conv1.weight | P max:  60.7 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  60.7 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.0
+layer3.0.conv1.weight | P max:  60.8 min:   0.0
+layer3.0.conv2.weight | P max:  61.0 min:   0.0
+layer3.1.conv1.weight | P max:  61.0 min:   0.0
+layer3.1.conv2.weight | P max:  61.0 min:   0.0
+layer3.2.conv1.weight | P max:  61.0 min:   0.0
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 510 Sparse Rate: 89.55% Acc: 88.52 Best Acc: 0.00 InvT: 1.3E+10 Loss: 0.9
+
+Epoch 511 Sparse Rate: 89.56% Acc: 87.10 Best Acc: 0.00 InvT: 1.3E+10 Loss: 1.0
+
+Epoch 512 Sparse Rate: 89.56% Acc: 86.65 Best Acc: 0.00 InvT: 1.3E+10 Loss: 0.9
+
+Epoch 513 Sparse Rate: 89.60% Acc: 86.31 Best Acc: 0.00 InvT: 1.3E+10 Loss: 0.9
+
+Epoch 514 Sparse Rate: 89.59% Acc: 87.31 Best Acc: 0.00 InvT: 1.3E+10 Loss: 1.0
+
+Epoch 515 Sparse Rate: 89.61% Acc: 86.75 Best Acc: 0.00 InvT: 1.3E+10 Loss: 0.9
+
+Epoch 516 Sparse Rate: 89.57% Acc: 86.19 Best Acc: 0.00 InvT: 1.3E+10 Loss: 0.9
+
+Epoch 517 Sparse Rate: 89.60% Acc: 88.06 Best Acc: 0.00 InvT: 1.3E+10 Loss: 0.9
+
+Epoch 518 Sparse Rate: 89.61% Acc: 84.25 Best Acc: 0.00 InvT: 1.3E+10 Loss: 0.9
+
+Epoch 519 Sparse Rate: 89.62% Acc: 86.46 Best Acc: 86.46 InvT: 1.3E+10 Loss: 0.9
+layer1.0.conv1.weight | P max:  55.8 min:   0.0
+layer1.0.conv2.weight | P max:  55.9 min:   0.0
+layer1.1.conv1.weight | P max:  55.9 min:   0.0
+layer1.1.conv2.weight | P max:  60.4 min:   0.0
+layer1.2.conv1.weight | P max:  55.9 min:   0.0
+layer1.2.conv2.weight | P max:  56.0 min:   0.0
+layer2.0.conv1.weight | P max:  56.0 min:   0.0
+layer2.0.conv2.weight | P max:  60.7 min:   0.0
+layer2.1.conv1.weight | P max:  60.7 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  60.7 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.0
+layer3.0.conv1.weight | P max:  60.8 min:   0.0
+layer3.0.conv2.weight | P max:  61.0 min:   0.0
+layer3.1.conv1.weight | P max:  61.0 min:   0.0
+layer3.1.conv2.weight | P max:  61.0 min:   0.0
+layer3.2.conv1.weight | P max:  61.0 min:   0.0
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 520 Sparse Rate: 89.63% Acc: 86.87 Best Acc: 86.87 InvT: 1.3E+10 Loss: 0.9
+
+Epoch 521 Sparse Rate: 89.57% Acc: 87.59 Best Acc: 87.59 InvT: 1.3E+10 Loss: 0.9
+
+Epoch 522 Sparse Rate: 89.63% Acc: 85.43 Best Acc: 87.59 InvT: 1.4E+10 Loss: 0.9
+
+Epoch 523 Sparse Rate: 89.64% Acc: 87.26 Best Acc: 87.59 InvT: 1.4E+10 Loss: 0.9
+
+Epoch 524 Sparse Rate: 89.64% Acc: 87.26 Best Acc: 87.59 InvT: 1.4E+10 Loss: 0.9
+
+Epoch 525 Sparse Rate: 89.66% Acc: 86.32 Best Acc: 87.59 InvT: 1.4E+10 Loss: 0.9
+
+Epoch 526 Sparse Rate: 89.66% Acc: 87.48 Best Acc: 87.59 InvT: 1.4E+10 Loss: 0.9
+
+Epoch 527 Sparse Rate: 89.66% Acc: 88.50 Best Acc: 88.50 InvT: 1.4E+10 Loss: 0.9
+
+Epoch 528 Sparse Rate: 89.66% Acc: 88.12 Best Acc: 88.50 InvT: 1.4E+10 Loss: 0.9
+
+Epoch 529 Sparse Rate: 89.66% Acc: 86.95 Best Acc: 88.50 InvT: 1.4E+10 Loss: 0.9
+layer1.0.conv1.weight | P max:  55.8 min:   0.0
+layer1.0.conv2.weight | P max:  55.9 min:   0.0
+layer1.1.conv1.weight | P max:  56.0 min:   0.0
+layer1.1.conv2.weight | P max:  60.5 min:   0.0
+layer1.2.conv1.weight | P max:  55.9 min:   0.0
+layer1.2.conv2.weight | P max:  56.0 min:   0.0
+layer2.0.conv1.weight | P max:  56.0 min:   0.0
+layer2.0.conv2.weight | P max:  60.7 min:   0.0
+layer2.1.conv1.weight | P max:  60.7 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  60.7 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.0
+layer3.0.conv1.weight | P max:  60.7 min:   0.0
+layer3.0.conv2.weight | P max:  61.0 min:   0.0
+layer3.1.conv1.weight | P max:  61.0 min:   0.0
+layer3.1.conv2.weight | P max:  61.0 min:   0.0
+layer3.2.conv1.weight | P max:  61.0 min:   0.0
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 530 Sparse Rate: 89.66% Acc: 88.13 Best Acc: 88.50 InvT: 1.4E+10 Loss: 0.9
+
+Epoch 531 Sparse Rate: 89.67% Acc: 87.84 Best Acc: 88.50 InvT: 1.4E+10 Loss: 0.9
+
+Epoch 532 Sparse Rate: 89.68% Acc: 87.01 Best Acc: 88.50 InvT: 1.4E+10 Loss: 0.9
+
+Epoch 533 Sparse Rate: 89.70% Acc: 88.15 Best Acc: 88.50 InvT: 1.4E+10 Loss: 0.9
+
+Epoch 534 Sparse Rate: 89.66% Acc: 86.74 Best Acc: 88.50 InvT: 1.4E+10 Loss: 0.9
+
+Epoch 535 Sparse Rate: 89.70% Acc: 85.37 Best Acc: 88.50 InvT: 1.4E+10 Loss: 0.9
+
+Epoch 536 Sparse Rate: 89.69% Acc: 85.54 Best Acc: 88.50 InvT: 1.4E+10 Loss: 0.9
+
+Epoch 537 Sparse Rate: 89.70% Acc: 86.32 Best Acc: 88.50 InvT: 1.5E+10 Loss: 0.9
+
+Epoch 538 Sparse Rate: 89.72% Acc: 86.99 Best Acc: 88.50 InvT: 1.5E+10 Loss: 0.9
+
+Epoch 539 Sparse Rate: 89.72% Acc: 87.60 Best Acc: 88.50 InvT: 1.5E+10 Loss: 0.9
+layer1.0.conv1.weight | P max:  55.9 min:   0.0
+layer1.0.conv2.weight | P max:  55.9 min:   0.0
+layer1.1.conv1.weight | P max:  56.0 min:   0.0
+layer1.1.conv2.weight | P max:  60.5 min:   0.0
+layer1.2.conv1.weight | P max:  55.9 min:   0.0
+layer1.2.conv2.weight | P max:  56.0 min:   0.0
+layer2.0.conv1.weight | P max:  56.2 min:   0.0
+layer2.0.conv2.weight | P max:  60.7 min:   0.0
+layer2.1.conv1.weight | P max:  60.7 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  60.7 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.0
+layer3.0.conv1.weight | P max:  60.8 min:   0.0
+layer3.0.conv2.weight | P max:  61.0 min:   0.0
+layer3.1.conv1.weight | P max:  61.0 min:   0.0
+layer3.1.conv2.weight | P max:  61.0 min:   0.0
+layer3.2.conv1.weight | P max:  61.0 min:   0.0
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 540 Sparse Rate: 89.70% Acc: 85.81 Best Acc: 88.50 InvT: 1.5E+10 Loss: 0.8
+
+Epoch 541 Sparse Rate: 89.72% Acc: 87.50 Best Acc: 88.50 InvT: 1.5E+10 Loss: 0.9
+
+Epoch 542 Sparse Rate: 89.69% Acc: 82.61 Best Acc: 88.50 InvT: 1.5E+10 Loss: 0.8
+
+Epoch 543 Sparse Rate: 89.73% Acc: 84.90 Best Acc: 88.50 InvT: 1.5E+10 Loss: 0.9
+
+Epoch 544 Sparse Rate: 89.72% Acc: 87.19 Best Acc: 88.50 InvT: 1.5E+10 Loss: 0.9
+
+Epoch 545 Sparse Rate: 89.72% Acc: 86.42 Best Acc: 88.50 InvT: 1.5E+10 Loss: 0.8
+
+Epoch 546 Sparse Rate: 89.74% Acc: 86.14 Best Acc: 88.50 InvT: 1.5E+10 Loss: 0.9
+
+Epoch 547 Sparse Rate: 89.74% Acc: 85.42 Best Acc: 88.50 InvT: 1.5E+10 Loss: 0.9
+
+Epoch 548 Sparse Rate: 89.73% Acc: 88.09 Best Acc: 88.50 InvT: 1.5E+10 Loss: 0.9
+
+Epoch 549 Sparse Rate: 89.76% Acc: 85.59 Best Acc: 88.50 InvT: 1.5E+10 Loss: 0.9
+layer1.0.conv1.weight | P max:  55.9 min:   0.0
+layer1.0.conv2.weight | P max:  55.9 min:   0.0
+layer1.1.conv1.weight | P max:  56.0 min:   0.0
+layer1.1.conv2.weight | P max:  60.5 min:   0.0
+layer1.2.conv1.weight | P max:  55.9 min:   0.0
+layer1.2.conv2.weight | P max:  56.0 min:   0.0
+layer2.0.conv1.weight | P max:  60.0 min:   0.0
+layer2.0.conv2.weight | P max:  60.7 min:   0.0
+layer2.1.conv1.weight | P max:  60.7 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  60.7 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.0
+layer3.0.conv1.weight | P max:  60.8 min:   0.0
+layer3.0.conv2.weight | P max:  61.0 min:   0.0
+layer3.1.conv1.weight | P max:  61.0 min:   0.0
+layer3.1.conv2.weight | P max:  61.0 min:   0.0
+layer3.2.conv1.weight | P max:  61.0 min:   0.0
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 550 Sparse Rate: 89.76% Acc: 86.70 Best Acc: 88.50 InvT: 1.6E+10 Loss: 0.8
+
+Epoch 551 Sparse Rate: 89.76% Acc: 87.05 Best Acc: 88.50 InvT: 1.6E+10 Loss: 0.9
+
+Epoch 552 Sparse Rate: 89.76% Acc: 87.65 Best Acc: 88.50 InvT: 1.6E+10 Loss: 0.8
+
+Epoch 553 Sparse Rate: 89.75% Acc: 85.42 Best Acc: 88.50 InvT: 1.6E+10 Loss: 0.9
+
+Epoch 554 Sparse Rate: 89.76% Acc: 84.95 Best Acc: 88.50 InvT: 1.6E+10 Loss: 0.8
+
+Epoch 555 Sparse Rate: 89.78% Acc: 85.65 Best Acc: 88.50 InvT: 1.6E+10 Loss: 0.8
+
+Epoch 556 Sparse Rate: 89.76% Acc: 85.99 Best Acc: 88.50 InvT: 1.6E+10 Loss: 0.8
+
+Epoch 557 Sparse Rate: 89.78% Acc: 86.10 Best Acc: 88.50 InvT: 1.6E+10 Loss: 0.8
+
+Epoch 558 Sparse Rate: 89.77% Acc: 86.24 Best Acc: 88.50 InvT: 1.6E+10 Loss: 0.8
+
+Epoch 559 Sparse Rate: 89.78% Acc: 87.36 Best Acc: 88.50 InvT: 1.6E+10 Loss: 0.9
+layer1.0.conv1.weight | P max:  55.9 min:   0.0
+layer1.0.conv2.weight | P max:  55.9 min:   0.0
+layer1.1.conv1.weight | P max:  56.0 min:   0.0
+layer1.1.conv2.weight | P max:  60.6 min:   0.0
+layer1.2.conv1.weight | P max:  55.9 min:   0.0
+layer1.2.conv2.weight | P max:  56.0 min:   0.0
+layer2.0.conv1.weight | P max:  60.5 min:   0.0
+layer2.0.conv2.weight | P max:  60.7 min:   0.0
+layer2.1.conv1.weight | P max:  60.7 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  60.7 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.0
+layer3.0.conv1.weight | P max:  60.7 min:   0.0
+layer3.0.conv2.weight | P max:  61.0 min:   0.0
+layer3.1.conv1.weight | P max:  61.0 min:   0.0
+layer3.1.conv2.weight | P max:  61.0 min:   0.1
+layer3.2.conv1.weight | P max:  61.0 min:   0.0
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 560 Sparse Rate: 89.80% Acc: 87.49 Best Acc: 88.50 InvT: 1.6E+10 Loss: 0.9
+
+Epoch 561 Sparse Rate: 89.78% Acc: 86.78 Best Acc: 88.50 InvT: 1.6E+10 Loss: 0.8
+
+Epoch 562 Sparse Rate: 89.77% Acc: 87.36 Best Acc: 88.50 InvT: 1.6E+10 Loss: 0.8
+
+Epoch 563 Sparse Rate: 89.79% Acc: 86.36 Best Acc: 88.50 InvT: 1.7E+10 Loss: 0.8
+
+Epoch 564 Sparse Rate: 89.80% Acc: 86.27 Best Acc: 88.50 InvT: 1.7E+10 Loss: 0.8
+
+Epoch 565 Sparse Rate: 89.78% Acc: 86.10 Best Acc: 88.50 InvT: 1.7E+10 Loss: 0.8
+
+Epoch 566 Sparse Rate: 89.80% Acc: 87.34 Best Acc: 88.50 InvT: 1.7E+10 Loss: 0.9
+
+Epoch 567 Sparse Rate: 89.81% Acc: 87.85 Best Acc: 88.50 InvT: 1.7E+10 Loss: 0.8
+
+Epoch 568 Sparse Rate: 89.80% Acc: 85.96 Best Acc: 88.50 InvT: 1.7E+10 Loss: 0.8
+
+Epoch 569 Sparse Rate: 89.82% Acc: 84.18 Best Acc: 88.50 InvT: 1.7E+10 Loss: 0.8
+layer1.0.conv1.weight | P max:  55.9 min:   0.0
+layer1.0.conv2.weight | P max:  56.0 min:   0.0
+layer1.1.conv1.weight | P max:  58.7 min:   0.0
+layer1.1.conv2.weight | P max:  60.6 min:   0.0
+layer1.2.conv1.weight | P max:  55.9 min:   0.0
+layer1.2.conv2.weight | P max:  56.0 min:   0.0
+layer2.0.conv1.weight | P max:  60.6 min:   0.0
+layer2.0.conv2.weight | P max:  60.7 min:   0.0
+layer2.1.conv1.weight | P max:  60.7 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  60.7 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.0
+layer3.0.conv1.weight | P max:  60.8 min:   0.0
+layer3.0.conv2.weight | P max:  61.0 min:   0.0
+layer3.1.conv1.weight | P max:  61.0 min:   0.1
+layer3.1.conv2.weight | P max:  61.0 min:   0.1
+layer3.2.conv1.weight | P max:  61.0 min:   0.0
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 570 Sparse Rate: 89.82% Acc: 87.66 Best Acc: 88.50 InvT: 1.7E+10 Loss: 0.8
+
+Epoch 571 Sparse Rate: 89.82% Acc: 87.05 Best Acc: 88.50 InvT: 1.7E+10 Loss: 0.7
+
+Epoch 572 Sparse Rate: 89.83% Acc: 88.11 Best Acc: 88.50 InvT: 1.7E+10 Loss: 0.8
+
+Epoch 573 Sparse Rate: 89.83% Acc: 87.63 Best Acc: 88.50 InvT: 1.7E+10 Loss: 0.8
+
+Epoch 574 Sparse Rate: 89.82% Acc: 86.04 Best Acc: 88.50 InvT: 1.8E+10 Loss: 0.8
+
+Epoch 575 Sparse Rate: 89.82% Acc: 87.16 Best Acc: 88.50 InvT: 1.8E+10 Loss: 0.8
+
+Epoch 576 Sparse Rate: 89.83% Acc: 87.40 Best Acc: 88.50 InvT: 1.8E+10 Loss: 0.8
+
+Epoch 577 Sparse Rate: 89.82% Acc: 85.10 Best Acc: 88.50 InvT: 1.8E+10 Loss: 0.8
+
+Epoch 578 Sparse Rate: 89.82% Acc: 86.56 Best Acc: 88.50 InvT: 1.8E+10 Loss: 0.8
+
+Epoch 579 Sparse Rate: 89.84% Acc: 86.72 Best Acc: 88.50 InvT: 1.8E+10 Loss: 0.8
+layer1.0.conv1.weight | P max:  55.9 min:   0.0
+layer1.0.conv2.weight | P max:  56.0 min:   0.0
+layer1.1.conv1.weight | P max:  60.1 min:   0.0
+layer1.1.conv2.weight | P max:  60.6 min:   0.0
+layer1.2.conv1.weight | P max:  55.9 min:   0.0
+layer1.2.conv2.weight | P max:  58.6 min:   0.0
+layer2.0.conv1.weight | P max:  60.5 min:   0.0
+layer2.0.conv2.weight | P max:  60.7 min:   0.0
+layer2.1.conv1.weight | P max:  60.7 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  60.7 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.0
+layer3.0.conv1.weight | P max:  60.8 min:   0.0
+layer3.0.conv2.weight | P max:  61.0 min:   0.0
+layer3.1.conv1.weight | P max:  61.0 min:   0.1
+layer3.1.conv2.weight | P max:  61.0 min:   0.1
+layer3.2.conv1.weight | P max:  61.0 min:   0.0
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 580 Sparse Rate: 89.84% Acc: 86.42 Best Acc: 88.50 InvT: 1.8E+10 Loss: 0.8
+
+Epoch 581 Sparse Rate: 89.85% Acc: 86.87 Best Acc: 88.50 InvT: 1.8E+10 Loss: 0.8
+
+Epoch 582 Sparse Rate: 89.86% Acc: 87.06 Best Acc: 88.50 InvT: 1.8E+10 Loss: 0.8
+
+Epoch 583 Sparse Rate: 89.85% Acc: 87.34 Best Acc: 88.50 InvT: 1.8E+10 Loss: 0.7
+
+Epoch 584 Sparse Rate: 89.84% Acc: 82.45 Best Acc: 88.50 InvT: 1.8E+10 Loss: 0.8
+
+Epoch 585 Sparse Rate: 89.81% Acc: 88.19 Best Acc: 88.50 InvT: 1.8E+10 Loss: 0.8
+
+Epoch 586 Sparse Rate: 89.84% Acc: 85.41 Best Acc: 88.50 InvT: 1.9E+10 Loss: 0.8
+
+Epoch 587 Sparse Rate: 89.85% Acc: 87.06 Best Acc: 88.50 InvT: 1.9E+10 Loss: 0.8
+
+Epoch 588 Sparse Rate: 89.85% Acc: 86.01 Best Acc: 88.50 InvT: 1.9E+10 Loss: 0.8
+
+Epoch 589 Sparse Rate: 89.86% Acc: 85.22 Best Acc: 88.50 InvT: 1.9E+10 Loss: 0.8
+layer1.0.conv1.weight | P max:  55.9 min:   0.0
+layer1.0.conv2.weight | P max:  56.0 min:   0.0
+layer1.1.conv1.weight | P max:  60.5 min:   0.0
+layer1.1.conv2.weight | P max:  60.6 min:   0.0
+layer1.2.conv1.weight | P max:  55.9 min:   0.0
+layer1.2.conv2.weight | P max:  60.2 min:   0.0
+layer2.0.conv1.weight | P max:  60.6 min:   0.0
+layer2.0.conv2.weight | P max:  60.7 min:   0.0
+layer2.1.conv1.weight | P max:  60.7 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  60.7 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.0
+layer3.0.conv1.weight | P max:  60.8 min:   0.0
+layer3.0.conv2.weight | P max:  61.0 min:   0.0
+layer3.1.conv1.weight | P max:  61.0 min:   0.1
+layer3.1.conv2.weight | P max:  61.0 min:   0.1
+layer3.2.conv1.weight | P max:  61.0 min:   0.2
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 590 Sparse Rate: 89.88% Acc: 86.46 Best Acc: 88.50 InvT: 1.9E+10 Loss: 0.8
+
+Epoch 591 Sparse Rate: 89.85% Acc: 86.63 Best Acc: 88.50 InvT: 1.9E+10 Loss: 0.8
+
+Epoch 592 Sparse Rate: 89.84% Acc: 84.82 Best Acc: 88.50 InvT: 1.9E+10 Loss: 0.8
+
+Epoch 593 Sparse Rate: 89.88% Acc: 83.18 Best Acc: 88.50 InvT: 1.9E+10 Loss: 0.8
+
+Epoch 594 Sparse Rate: 89.89% Acc: 87.13 Best Acc: 88.50 InvT: 1.9E+10 Loss: 0.8
+
+Epoch 595 Sparse Rate: 89.88% Acc: 87.33 Best Acc: 88.50 InvT: 1.9E+10 Loss: 0.8
+
+Epoch 596 Sparse Rate: 89.91% Acc: 84.10 Best Acc: 88.50 InvT: 2.0E+10 Loss: 0.8
+
+Epoch 597 Sparse Rate: 89.88% Acc: 87.84 Best Acc: 88.50 InvT: 2.0E+10 Loss: 0.8
+
+Epoch 598 Sparse Rate: 89.86% Acc: 84.85 Best Acc: 88.50 InvT: 2.0E+10 Loss: 0.8
+
+Epoch 599 Sparse Rate: 89.87% Acc: 87.32 Best Acc: 88.50 InvT: 2.0E+10 Loss: 0.8
+layer1.0.conv1.weight | P max:  55.9 min:   0.0
+layer1.0.conv2.weight | P max:  56.0 min:   0.0
+layer1.1.conv1.weight | P max:  60.6 min:   0.0
+layer1.1.conv2.weight | P max:  60.6 min:   0.0
+layer1.2.conv1.weight | P max:  55.9 min:   0.0
+layer1.2.conv2.weight | P max:  60.3 min:   0.0
+layer2.0.conv1.weight | P max:  60.6 min:   0.0
+layer2.0.conv2.weight | P max:  60.7 min:   0.0
+layer2.1.conv1.weight | P max:  60.7 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  60.7 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.0
+layer3.0.conv1.weight | P max:  60.8 min:   0.0
+layer3.0.conv2.weight | P max:  61.0 min:   0.0
+layer3.1.conv1.weight | P max:  61.0 min:   0.2
+layer3.1.conv2.weight | P max:  61.0 min:   0.1
+layer3.2.conv1.weight | P max:  61.0 min:   0.2
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 600 Sparse Rate: 89.90% Acc: 84.79 Best Acc: 88.50 InvT: 2.0E+10 Loss: 0.8
+
+Epoch 601 Sparse Rate: 89.88% Acc: 86.44 Best Acc: 88.50 InvT: 2.0E+10 Loss: 0.8
+
+Epoch 602 Sparse Rate: 89.87% Acc: 87.97 Best Acc: 88.50 InvT: 2.0E+10 Loss: 0.8
+
+Epoch 603 Sparse Rate: 89.90% Acc: 86.38 Best Acc: 88.50 InvT: 2.0E+10 Loss: 0.8
+
+Epoch 604 Sparse Rate: 89.90% Acc: 85.69 Best Acc: 88.50 InvT: 2.0E+10 Loss: 0.8
+
+Epoch 605 Sparse Rate: 89.90% Acc: 88.09 Best Acc: 88.50 InvT: 2.0E+10 Loss: 0.8
+
+Epoch 606 Sparse Rate: 89.86% Acc: 87.80 Best Acc: 88.50 InvT: 2.1E+10 Loss: 0.7
+
+Epoch 607 Sparse Rate: 89.91% Acc: 84.96 Best Acc: 88.50 InvT: 2.1E+10 Loss: 0.7
+
+Epoch 608 Sparse Rate: 89.91% Acc: 85.66 Best Acc: 88.50 InvT: 2.1E+10 Loss: 0.8
+
+Epoch 609 Sparse Rate: 89.91% Acc: 85.84 Best Acc: 88.50 InvT: 2.1E+10 Loss: 0.7
+layer1.0.conv1.weight | P max:  58.9 min:   0.0
+layer1.0.conv2.weight | P max:  56.8 min:   0.0
+layer1.1.conv1.weight | P max:  60.6 min:   0.0
+layer1.1.conv2.weight | P max:  60.6 min:   0.0
+layer1.2.conv1.weight | P max:  55.9 min:   0.0
+layer1.2.conv2.weight | P max:  60.5 min:   0.0
+layer2.0.conv1.weight | P max:  60.6 min:   0.0
+layer2.0.conv2.weight | P max:  60.7 min:   0.0
+layer2.1.conv1.weight | P max:  60.7 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  60.7 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.0
+layer3.0.conv1.weight | P max:  60.8 min:   0.0
+layer3.0.conv2.weight | P max:  61.0 min:   0.0
+layer3.1.conv1.weight | P max:  61.0 min:   0.4
+layer3.1.conv2.weight | P max:  61.0 min:   0.2
+layer3.2.conv1.weight | P max:  61.0 min:   0.2
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 610 Sparse Rate: 89.91% Acc: 85.93 Best Acc: 88.50 InvT: 2.1E+10 Loss: 0.7
+
+Epoch 611 Sparse Rate: 89.89% Acc: 87.20 Best Acc: 88.50 InvT: 2.1E+10 Loss: 0.7
+
+Epoch 612 Sparse Rate: 89.91% Acc: 83.29 Best Acc: 88.50 InvT: 2.1E+10 Loss: 0.7
+
+Epoch 613 Sparse Rate: 89.93% Acc: 85.70 Best Acc: 88.50 InvT: 2.1E+10 Loss: 0.7
+
+Epoch 614 Sparse Rate: 89.91% Acc: 86.05 Best Acc: 88.50 InvT: 2.1E+10 Loss: 0.8
+
+Epoch 615 Sparse Rate: 89.92% Acc: 86.05 Best Acc: 88.50 InvT: 2.1E+10 Loss: 0.8
+
+Epoch 616 Sparse Rate: 89.91% Acc: 84.38 Best Acc: 88.50 InvT: 2.2E+10 Loss: 0.8
+
+Epoch 617 Sparse Rate: 89.93% Acc: 84.89 Best Acc: 88.50 InvT: 2.2E+10 Loss: 0.8
+
+Epoch 618 Sparse Rate: 89.92% Acc: 86.48 Best Acc: 88.50 InvT: 2.2E+10 Loss: 0.7
+
+Epoch 619 Sparse Rate: 89.93% Acc: 86.64 Best Acc: 88.50 InvT: 2.2E+10 Loss: 0.7
+layer1.0.conv1.weight | P max:  60.3 min:   0.0
+layer1.0.conv2.weight | P max:  59.8 min:   0.0
+layer1.1.conv1.weight | P max:  60.6 min:   0.0
+layer1.1.conv2.weight | P max:  60.6 min:   0.0
+layer1.2.conv1.weight | P max:  55.9 min:   0.0
+layer1.2.conv2.weight | P max:  60.6 min:   0.0
+layer2.0.conv1.weight | P max:  60.7 min:   0.0
+layer2.0.conv2.weight | P max:  60.7 min:   0.0
+layer2.1.conv1.weight | P max:  60.7 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  60.7 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.0
+layer3.0.conv1.weight | P max:  60.7 min:   0.0
+layer3.0.conv2.weight | P max:  61.0 min:   0.0
+layer3.1.conv1.weight | P max:  61.0 min:   0.7
+layer3.1.conv2.weight | P max:  61.0 min:   0.2
+layer3.2.conv1.weight | P max:  61.0 min:   0.2
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 620 Sparse Rate: 89.94% Acc: 86.58 Best Acc: 88.50 InvT: 2.2E+10 Loss: 0.7
+
+Epoch 621 Sparse Rate: 89.94% Acc: 86.70 Best Acc: 88.50 InvT: 2.2E+10 Loss: 0.8
+
+Epoch 622 Sparse Rate: 89.92% Acc: 86.95 Best Acc: 88.50 InvT: 2.2E+10 Loss: 0.7
+
+Epoch 623 Sparse Rate: 89.92% Acc: 85.95 Best Acc: 88.50 InvT: 2.2E+10 Loss: 0.7
+
+Epoch 624 Sparse Rate: 89.93% Acc: 83.83 Best Acc: 88.50 InvT: 2.2E+10 Loss: 0.7
+
+Epoch 625 Sparse Rate: 89.95% Acc: 86.70 Best Acc: 88.50 InvT: 2.3E+10 Loss: 0.7
+
+Epoch 626 Sparse Rate: 89.94% Acc: 85.73 Best Acc: 88.50 InvT: 2.3E+10 Loss: 0.7
+
+Epoch 627 Sparse Rate: 89.93% Acc: 86.86 Best Acc: 88.50 InvT: 2.3E+10 Loss: 0.7
+
+Epoch 628 Sparse Rate: 89.93% Acc: 83.60 Best Acc: 88.50 InvT: 2.3E+10 Loss: 0.7
+
+Epoch 629 Sparse Rate: 89.96% Acc: 86.45 Best Acc: 88.50 InvT: 2.3E+10 Loss: 0.7
+layer1.0.conv1.weight | P max:  60.4 min:   0.0
+layer1.0.conv2.weight | P max:  60.5 min:   0.0
+layer1.1.conv1.weight | P max:  60.6 min:   0.0
+layer1.1.conv2.weight | P max:  60.6 min:   0.0
+layer1.2.conv1.weight | P max:  55.9 min:   0.0
+layer1.2.conv2.weight | P max:  60.4 min:   0.0
+layer2.0.conv1.weight | P max:  60.6 min:   0.0
+layer2.0.conv2.weight | P max:  60.7 min:   0.0
+layer2.1.conv1.weight | P max:  60.6 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  60.7 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.0
+layer3.0.conv1.weight | P max:  60.8 min:   0.0
+layer3.0.conv2.weight | P max:  60.9 min:   0.0
+layer3.1.conv1.weight | P max:  61.0 min:   0.4
+layer3.1.conv2.weight | P max:  61.0 min:   0.4
+layer3.2.conv1.weight | P max:  61.0 min:   0.2
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 630 Sparse Rate: 89.95% Acc: 87.29 Best Acc: 88.50 InvT: 2.3E+10 Loss: 0.7
+
+Epoch 631 Sparse Rate: 89.94% Acc: 86.89 Best Acc: 88.50 InvT: 2.3E+10 Loss: 0.7
+
+Epoch 632 Sparse Rate: 89.96% Acc: 86.62 Best Acc: 88.50 InvT: 2.3E+10 Loss: 0.7
+
+Epoch 633 Sparse Rate: 89.95% Acc: 86.75 Best Acc: 88.50 InvT: 2.4E+10 Loss: 0.7
+
+Epoch 634 Sparse Rate: 89.95% Acc: 86.55 Best Acc: 88.50 InvT: 2.4E+10 Loss: 0.8
+
+Epoch 635 Sparse Rate: 89.93% Acc: 85.12 Best Acc: 88.50 InvT: 2.4E+10 Loss: 0.7
+
+Epoch 636 Sparse Rate: 89.95% Acc: 86.49 Best Acc: 88.50 InvT: 2.4E+10 Loss: 0.7
+
+Epoch 637 Sparse Rate: 89.96% Acc: 85.45 Best Acc: 88.50 InvT: 2.4E+10 Loss: 0.7
+
+Epoch 638 Sparse Rate: 89.96% Acc: 85.29 Best Acc: 88.50 InvT: 2.4E+10 Loss: 0.7
+
+Epoch 639 Sparse Rate: 89.95% Acc: 85.03 Best Acc: 88.50 InvT: 2.4E+10 Loss: 0.7
+layer1.0.conv1.weight | P max:  60.6 min:   0.0
+layer1.0.conv2.weight | P max:  60.5 min:   0.0
+layer1.1.conv1.weight | P max:  60.6 min:   0.0
+layer1.1.conv2.weight | P max:  60.5 min:   0.0
+layer1.2.conv1.weight | P max:  55.9 min:   0.0
+layer1.2.conv2.weight | P max:  60.5 min:   0.0
+layer2.0.conv1.weight | P max:  60.6 min:   0.0
+layer2.0.conv2.weight | P max:  60.7 min:   0.0
+layer2.1.conv1.weight | P max:  60.7 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  60.7 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.0
+layer3.0.conv1.weight | P max:  60.8 min:   0.0
+layer3.0.conv2.weight | P max:  61.0 min:   0.0
+layer3.1.conv1.weight | P max:  61.0 min:   0.5
+layer3.1.conv2.weight | P max:  61.0 min:   0.3
+layer3.2.conv1.weight | P max:  61.0 min:   0.2
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 640 Sparse Rate: 89.96% Acc: 85.94 Best Acc: 88.50 InvT: 2.4E+10 Loss: 0.7
+
+Epoch 641 Sparse Rate: 89.97% Acc: 85.61 Best Acc: 88.50 InvT: 2.4E+10 Loss: 0.7
+
+Epoch 642 Sparse Rate: 89.95% Acc: 83.30 Best Acc: 88.50 InvT: 2.5E+10 Loss: 0.7
+
+Epoch 643 Sparse Rate: 89.97% Acc: 87.11 Best Acc: 88.50 InvT: 2.5E+10 Loss: 0.7
+
+Epoch 644 Sparse Rate: 89.95% Acc: 83.07 Best Acc: 88.50 InvT: 2.5E+10 Loss: 0.7
+
+Epoch 645 Sparse Rate: 89.93% Acc: 87.10 Best Acc: 88.50 InvT: 2.5E+10 Loss: 0.7
+
+Epoch 646 Sparse Rate: 89.97% Acc: 86.48 Best Acc: 88.50 InvT: 2.5E+10 Loss: 0.7
+
+Epoch 647 Sparse Rate: 89.94% Acc: 84.31 Best Acc: 88.50 InvT: 2.5E+10 Loss: 0.7
+
+Epoch 648 Sparse Rate: 89.97% Acc: 81.94 Best Acc: 88.50 InvT: 2.5E+10 Loss: 0.7
+
+Epoch 649 Sparse Rate: 89.97% Acc: 78.17 Best Acc: 88.50 InvT: 2.5E+10 Loss: 0.7
+layer1.0.conv1.weight | P max:  60.5 min:   0.0
+layer1.0.conv2.weight | P max:  60.6 min:   0.0
+layer1.1.conv1.weight | P max:  60.6 min:   0.0
+layer1.1.conv2.weight | P max:  60.6 min:   0.0
+layer1.2.conv1.weight | P max:  56.0 min:   0.0
+layer1.2.conv2.weight | P max:  60.6 min:   0.0
+layer2.0.conv1.weight | P max:  60.5 min:   0.0
+layer2.0.conv2.weight | P max:  60.7 min:   0.0
+layer2.1.conv1.weight | P max:  60.7 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  60.7 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.0
+layer3.0.conv1.weight | P max:  60.8 min:   0.0
+layer3.0.conv2.weight | P max:  61.0 min:   0.0
+layer3.1.conv1.weight | P max:  61.0 min:   0.3
+layer3.1.conv2.weight | P max:  61.0 min:   0.1
+layer3.2.conv1.weight | P max:  61.0 min:   0.2
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 650 Sparse Rate: 89.97% Acc: 86.86 Best Acc: 88.50 InvT: 2.6E+10 Loss: 0.7
+
+Epoch 651 Sparse Rate: 89.96% Acc: 84.66 Best Acc: 88.50 InvT: 2.6E+10 Loss: 0.7
+
+Epoch 652 Sparse Rate: 89.94% Acc: 86.71 Best Acc: 88.50 InvT: 2.6E+10 Loss: 0.7
+
+Epoch 653 Sparse Rate: 90.00% Acc: 87.12 Best Acc: 88.50 InvT: 2.6E+10 Loss: 0.7
+
+Epoch 654 Sparse Rate: 89.93% Acc: 84.71 Best Acc: 88.50 InvT: 2.6E+10 Loss: 0.7
+
+Epoch 655 Sparse Rate: 89.96% Acc: 85.41 Best Acc: 88.50 InvT: 2.6E+10 Loss: 0.7
+
+Epoch 656 Sparse Rate: 89.98% Acc: 87.26 Best Acc: 88.50 InvT: 2.6E+10 Loss: 0.7
+
+Epoch 657 Sparse Rate: 89.98% Acc: 86.15 Best Acc: 88.50 InvT: 2.6E+10 Loss: 0.7
+
+Epoch 658 Sparse Rate: 89.99% Acc: 85.81 Best Acc: 88.50 InvT: 2.7E+10 Loss: 0.7
+
+Epoch 659 Sparse Rate: 89.99% Acc: 86.54 Best Acc: 88.50 InvT: 2.7E+10 Loss: 0.7
+layer1.0.conv1.weight | P max:  60.4 min:   0.0
+layer1.0.conv2.weight | P max:  60.5 min:   0.0
+layer1.1.conv1.weight | P max:  60.6 min:   0.0
+layer1.1.conv2.weight | P max:  60.6 min:   0.0
+layer1.2.conv1.weight | P max:  57.0 min:   0.0
+layer1.2.conv2.weight | P max:  60.6 min:   0.0
+layer2.0.conv1.weight | P max:  60.6 min:   0.0
+layer2.0.conv2.weight | P max:  60.7 min:   0.0
+layer2.1.conv1.weight | P max:  60.7 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  60.7 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.0
+layer3.0.conv1.weight | P max:  60.8 min:   0.0
+layer3.0.conv2.weight | P max:  61.0 min:   0.0
+layer3.1.conv1.weight | P max:  61.0 min:   0.2
+layer3.1.conv2.weight | P max:  61.0 min:   0.1
+layer3.2.conv1.weight | P max:  61.0 min:   0.2
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 660 Sparse Rate: 89.98% Acc: 87.07 Best Acc: 88.50 InvT: 2.7E+10 Loss: 0.7
+
+Epoch 661 Sparse Rate: 89.97% Acc: 85.84 Best Acc: 88.50 InvT: 2.7E+10 Loss: 0.7
+
+Epoch 662 Sparse Rate: 89.97% Acc: 85.89 Best Acc: 88.50 InvT: 2.7E+10 Loss: 0.7
+
+Epoch 663 Sparse Rate: 89.98% Acc: 82.83 Best Acc: 88.50 InvT: 2.7E+10 Loss: 0.7
+
+Epoch 664 Sparse Rate: 89.97% Acc: 86.70 Best Acc: 88.50 InvT: 2.7E+10 Loss: 0.7
+
+Epoch 665 Sparse Rate: 89.99% Acc: 87.22 Best Acc: 88.50 InvT: 2.8E+10 Loss: 0.7
+
+Epoch 666 Sparse Rate: 90.00% Acc: 83.39 Best Acc: 88.50 InvT: 2.8E+10 Loss: 0.7
+
+Epoch 667 Sparse Rate: 89.99% Acc: 88.01 Best Acc: 88.50 InvT: 2.8E+10 Loss: 0.7
+
+Epoch 668 Sparse Rate: 89.94% Acc: 86.08 Best Acc: 88.50 InvT: 2.8E+10 Loss: 0.7
+
+Epoch 669 Sparse Rate: 90.02% Acc: 85.85 Best Acc: 88.50 InvT: 2.8E+10 Loss: 0.7
+layer1.0.conv1.weight | P max:  60.6 min:   0.0
+layer1.0.conv2.weight | P max:  60.5 min:   0.0
+layer1.1.conv1.weight | P max:  60.6 min:   0.0
+layer1.1.conv2.weight | P max:  60.6 min:   0.0
+layer1.2.conv1.weight | P max:  59.6 min:   0.0
+layer1.2.conv2.weight | P max:  60.6 min:   0.0
+layer2.0.conv1.weight | P max:  60.7 min:   0.0
+layer2.0.conv2.weight | P max:  60.6 min:   0.0
+layer2.1.conv1.weight | P max:  60.6 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  60.7 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.1
+layer3.0.conv1.weight | P max:  60.8 min:   0.0
+layer3.0.conv2.weight | P max:  61.0 min:   0.0
+layer3.1.conv1.weight | P max:  61.0 min:   0.4
+layer3.1.conv2.weight | P max:  61.0 min:   0.1
+layer3.2.conv1.weight | P max:  61.0 min:   0.1
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 670 Sparse Rate: 89.99% Acc: 86.56 Best Acc: 88.50 InvT: 2.8E+10 Loss: 0.7
+
+Epoch 671 Sparse Rate: 89.98% Acc: 87.26 Best Acc: 88.50 InvT: 2.8E+10 Loss: 0.7
+
+Epoch 672 Sparse Rate: 90.01% Acc: 85.53 Best Acc: 88.50 InvT: 2.9E+10 Loss: 0.7
+
+Epoch 673 Sparse Rate: 89.99% Acc: 86.00 Best Acc: 88.50 InvT: 2.9E+10 Loss: 0.7
+
+Epoch 674 Sparse Rate: 89.99% Acc: 85.90 Best Acc: 88.50 InvT: 2.9E+10 Loss: 0.7
+
+Epoch 675 Sparse Rate: 90.00% Acc: 86.70 Best Acc: 88.50 InvT: 2.9E+10 Loss: 0.7
+
+Epoch 676 Sparse Rate: 90.01% Acc: 86.07 Best Acc: 88.50 InvT: 2.9E+10 Loss: 0.7
+
+Epoch 677 Sparse Rate: 90.00% Acc: 84.54 Best Acc: 88.50 InvT: 2.9E+10 Loss: 0.7
+
+Epoch 678 Sparse Rate: 90.00% Acc: 86.02 Best Acc: 88.50 InvT: 2.9E+10 Loss: 0.7
+
+Epoch 679 Sparse Rate: 90.03% Acc: 84.74 Best Acc: 88.50 InvT: 3.0E+10 Loss: 0.7
+layer1.0.conv1.weight | P max:  60.6 min:   0.0
+layer1.0.conv2.weight | P max:  60.6 min:   0.0
+layer1.1.conv1.weight | P max:  60.6 min:   0.0
+layer1.1.conv2.weight | P max:  60.6 min:   0.0
+layer1.2.conv1.weight | P max:  60.1 min:   0.0
+layer1.2.conv2.weight | P max:  60.6 min:   0.0
+layer2.0.conv1.weight | P max:  60.6 min:   0.0
+layer2.0.conv2.weight | P max:  60.6 min:   0.0
+layer2.1.conv1.weight | P max:  60.7 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  60.7 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.0
+layer3.0.conv1.weight | P max:  60.7 min:   0.0
+layer3.0.conv2.weight | P max:  61.0 min:   0.0
+layer3.1.conv1.weight | P max:  61.0 min:   0.5
+layer3.1.conv2.weight | P max:  61.0 min:   0.1
+layer3.2.conv1.weight | P max:  61.0 min:   0.2
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 680 Sparse Rate: 90.00% Acc: 87.77 Best Acc: 88.50 InvT: 3.0E+10 Loss: 0.7
+
+Epoch 681 Sparse Rate: 90.03% Acc: 87.00 Best Acc: 88.50 InvT: 3.0E+10 Loss: 0.7
+
+Epoch 682 Sparse Rate: 90.03% Acc: 85.79 Best Acc: 88.50 InvT: 3.0E+10 Loss: 0.7
+
+Epoch 683 Sparse Rate: 90.01% Acc: 86.99 Best Acc: 88.50 InvT: 3.0E+10 Loss: 0.7
+
+Epoch 684 Sparse Rate: 90.02% Acc: 85.48 Best Acc: 88.50 InvT: 3.0E+10 Loss: 0.7
+
+Epoch 685 Sparse Rate: 89.96% Acc: 84.69 Best Acc: 88.50 InvT: 3.0E+10 Loss: 0.7
+
+Epoch 686 Sparse Rate: 90.02% Acc: 86.86 Best Acc: 88.50 InvT: 3.1E+10 Loss: 0.7
+
+Epoch 687 Sparse Rate: 90.03% Acc: 86.52 Best Acc: 88.50 InvT: 3.1E+10 Loss: 0.7
+
+Epoch 688 Sparse Rate: 89.99% Acc: 84.28 Best Acc: 88.50 InvT: 3.1E+10 Loss: 0.7
+
+Epoch 689 Sparse Rate: 90.01% Acc: 85.37 Best Acc: 88.50 InvT: 3.1E+10 Loss: 0.7
+layer1.0.conv1.weight | P max:  60.6 min:   0.0
+layer1.0.conv2.weight | P max:  60.6 min:   0.0
+layer1.1.conv1.weight | P max:  60.6 min:   0.0
+layer1.1.conv2.weight | P max:  60.5 min:   0.0
+layer1.2.conv1.weight | P max:  60.2 min:   0.0
+layer1.2.conv2.weight | P max:  60.5 min:   0.0
+layer2.0.conv1.weight | P max:  60.7 min:   0.0
+layer2.0.conv2.weight | P max:  60.6 min:   0.0
+layer2.1.conv1.weight | P max:  60.6 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  60.7 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.0
+layer3.0.conv1.weight | P max:  60.7 min:   0.0
+layer3.0.conv2.weight | P max:  61.0 min:   0.0
+layer3.1.conv1.weight | P max:  61.0 min:   0.7
+layer3.1.conv2.weight | P max:  61.0 min:   0.1
+layer3.2.conv1.weight | P max:  61.0 min:   0.2
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 690 Sparse Rate: 90.03% Acc: 84.29 Best Acc: 88.50 InvT: 3.1E+10 Loss: 0.7
+
+Epoch 691 Sparse Rate: 90.03% Acc: 86.67 Best Acc: 88.50 InvT: 3.1E+10 Loss: 0.6
+
+Epoch 692 Sparse Rate: 89.96% Acc: 87.02 Best Acc: 88.50 InvT: 3.2E+10 Loss: 0.7
+
+Epoch 693 Sparse Rate: 90.03% Acc: 87.38 Best Acc: 88.50 InvT: 3.2E+10 Loss: 0.6
+
+Epoch 694 Sparse Rate: 90.01% Acc: 85.21 Best Acc: 88.50 InvT: 3.2E+10 Loss: 0.6
+
+Epoch 695 Sparse Rate: 90.02% Acc: 86.45 Best Acc: 88.50 InvT: 3.2E+10 Loss: 0.7
+
+Epoch 696 Sparse Rate: 90.02% Acc: 83.07 Best Acc: 88.50 InvT: 3.2E+10 Loss: 0.7
+
+Epoch 697 Sparse Rate: 90.02% Acc: 86.45 Best Acc: 88.50 InvT: 3.2E+10 Loss: 0.7
+
+Epoch 698 Sparse Rate: 90.04% Acc: 87.30 Best Acc: 88.50 InvT: 3.3E+10 Loss: 0.6
+
+Epoch 699 Sparse Rate: 90.03% Acc: 86.78 Best Acc: 88.50 InvT: 3.3E+10 Loss: 0.7
+layer1.0.conv1.weight | P max:  60.6 min:   0.0
+layer1.0.conv2.weight | P max:  60.6 min:   0.0
+layer1.1.conv1.weight | P max:  60.5 min:   0.0
+layer1.1.conv2.weight | P max:  60.5 min:   0.0
+layer1.2.conv1.weight | P max:  60.3 min:   0.0
+layer1.2.conv2.weight | P max:  60.6 min:   0.0
+layer2.0.conv1.weight | P max:  60.6 min:   0.0
+layer2.0.conv2.weight | P max:  60.6 min:   0.0
+layer2.1.conv1.weight | P max:  60.6 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  60.7 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.1
+layer3.0.conv1.weight | P max:  60.7 min:   0.0
+layer3.0.conv2.weight | P max:  61.0 min:   0.0
+layer3.1.conv1.weight | P max:  61.0 min:   0.6
+layer3.1.conv2.weight | P max:  61.0 min:   0.0
+layer3.2.conv1.weight | P max:  61.0 min:   0.2
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 700 Sparse Rate: 90.02% Acc: 87.76 Best Acc: 88.50 InvT: 3.3E+10 Loss: 0.6
+
+Epoch 701 Sparse Rate: 90.05% Acc: 89.67 Best Acc: 89.67 InvT: 3.3E+10 Loss: 0.7
+
+Epoch 702 Sparse Rate: 90.05% Acc: 90.09 Best Acc: 90.09 InvT: 3.3E+10 Loss: 0.6
+
+Epoch 703 Sparse Rate: 90.06% Acc: 90.13 Best Acc: 90.13 InvT: 3.3E+10 Loss: 0.6
+
+Epoch 704 Sparse Rate: 90.06% Acc: 90.17 Best Acc: 90.17 InvT: 3.3E+10 Loss: 0.6
+
+Epoch 705 Sparse Rate: 90.04% Acc: 90.37 Best Acc: 90.37 InvT: 3.4E+10 Loss: 0.6
+
+Epoch 706 Sparse Rate: 90.06% Acc: 90.36 Best Acc: 90.37 InvT: 3.4E+10 Loss: 0.6
+
+Epoch 707 Sparse Rate: 90.06% Acc: 90.43 Best Acc: 90.43 InvT: 3.4E+10 Loss: 0.6
+
+Epoch 708 Sparse Rate: 90.05% Acc: 90.10 Best Acc: 90.43 InvT: 3.4E+10 Loss: 0.6
+
+Epoch 709 Sparse Rate: 90.06% Acc: 90.33 Best Acc: 90.43 InvT: 3.4E+10 Loss: 0.6
+layer1.0.conv1.weight | P max:  60.6 min:   0.0
+layer1.0.conv2.weight | P max:  60.6 min:   0.0
+layer1.1.conv1.weight | P max:  60.6 min:   0.0
+layer1.1.conv2.weight | P max:  60.6 min:   0.0
+layer1.2.conv1.weight | P max:  60.6 min:   0.0
+layer1.2.conv2.weight | P max:  60.6 min:   0.0
+layer2.0.conv1.weight | P max:  60.7 min:   0.0
+layer2.0.conv2.weight | P max:  60.7 min:   0.0
+layer2.1.conv1.weight | P max:  60.7 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  60.7 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.1
+layer3.0.conv1.weight | P max:  60.8 min:   0.0
+layer3.0.conv2.weight | P max:  61.0 min:   0.0
+layer3.1.conv1.weight | P max:  61.0 min:   0.6
+layer3.1.conv2.weight | P max:  61.0 min:   0.1
+layer3.2.conv1.weight | P max:  61.0 min:   0.2
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 710 Sparse Rate: 90.06% Acc: 90.35 Best Acc: 90.43 InvT: 3.5E+10 Loss: 0.6
+
+Epoch 711 Sparse Rate: 90.06% Acc: 90.38 Best Acc: 90.43 InvT: 3.5E+10 Loss: 0.6
+
+Epoch 712 Sparse Rate: 90.07% Acc: 90.43 Best Acc: 90.43 InvT: 3.5E+10 Loss: 0.6
+
+Epoch 713 Sparse Rate: 90.06% Acc: 90.26 Best Acc: 90.43 InvT: 3.5E+10 Loss: 0.6
+
+Epoch 714 Sparse Rate: 90.06% Acc: 90.32 Best Acc: 90.43 InvT: 3.5E+10 Loss: 0.6
+
+Epoch 715 Sparse Rate: 90.03% Acc: 90.48 Best Acc: 90.48 InvT: 3.5E+10 Loss: 0.6
+
+Epoch 716 Sparse Rate: 90.06% Acc: 90.35 Best Acc: 90.48 InvT: 3.6E+10 Loss: 0.6
+
+Epoch 717 Sparse Rate: 90.06% Acc: 90.29 Best Acc: 90.48 InvT: 3.6E+10 Loss: 0.6
+
+Epoch 718 Sparse Rate: 90.06% Acc: 90.28 Best Acc: 90.48 InvT: 3.6E+10 Loss: 0.6
+
+Epoch 719 Sparse Rate: 90.06% Acc: 90.49 Best Acc: 90.49 InvT: 3.6E+10 Loss: 0.6
+layer1.0.conv1.weight | P max:  60.6 min:   0.0
+layer1.0.conv2.weight | P max:  60.6 min:   0.0
+layer1.1.conv1.weight | P max:  60.7 min:   0.0
+layer1.1.conv2.weight | P max:  60.6 min:   0.0
+layer1.2.conv1.weight | P max:  60.6 min:   0.0
+layer1.2.conv2.weight | P max:  60.6 min:   0.0
+layer2.0.conv1.weight | P max:  60.7 min:   0.0
+layer2.0.conv2.weight | P max:  60.7 min:   0.0
+layer2.1.conv1.weight | P max:  60.7 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  60.7 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.0
+layer3.0.conv1.weight | P max:  60.8 min:   0.0
+layer3.0.conv2.weight | P max:  61.0 min:   0.0
+layer3.1.conv1.weight | P max:  61.0 min:   0.9
+layer3.1.conv2.weight | P max:  61.0 min:   0.1
+layer3.2.conv1.weight | P max:  61.0 min:   0.1
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 720 Sparse Rate: 90.07% Acc: 90.52 Best Acc: 90.52 InvT: 3.6E+10 Loss: 0.6
+
+Epoch 721 Sparse Rate: 90.02% Acc: 90.34 Best Acc: 90.52 InvT: 3.6E+10 Loss: 0.5
+
+Epoch 722 Sparse Rate: 90.07% Acc: 90.43 Best Acc: 90.52 InvT: 3.7E+10 Loss: 0.6
+
+Epoch 723 Sparse Rate: 90.03% Acc: 90.35 Best Acc: 90.52 InvT: 3.7E+10 Loss: 0.6
+
+Epoch 724 Sparse Rate: 90.07% Acc: 90.40 Best Acc: 90.52 InvT: 3.7E+10 Loss: 0.6
+
+Epoch 725 Sparse Rate: 90.07% Acc: 90.49 Best Acc: 90.52 InvT: 3.7E+10 Loss: 0.6
+
+Epoch 726 Sparse Rate: 90.07% Acc: 90.55 Best Acc: 90.55 InvT: 3.7E+10 Loss: 0.6
+
+Epoch 727 Sparse Rate: 90.08% Acc: 90.51 Best Acc: 90.55 InvT: 3.8E+10 Loss: 0.6
+
+Epoch 728 Sparse Rate: 90.05% Acc: 90.54 Best Acc: 90.55 InvT: 3.8E+10 Loss: 0.5
+
+Epoch 729 Sparse Rate: 90.06% Acc: 90.38 Best Acc: 90.55 InvT: 3.8E+10 Loss: 0.6
+layer1.0.conv1.weight | P max:  60.6 min:   0.0
+layer1.0.conv2.weight | P max:  60.7 min:   0.0
+layer1.1.conv1.weight | P max:  60.6 min:   0.0
+layer1.1.conv2.weight | P max:  60.7 min:   0.0
+layer1.2.conv1.weight | P max:  60.6 min:   0.0
+layer1.2.conv2.weight | P max:  60.6 min:   0.0
+layer2.0.conv1.weight | P max:  60.7 min:   0.0
+layer2.0.conv2.weight | P max:  60.7 min:   0.0
+layer2.1.conv1.weight | P max:  60.7 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  60.7 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.0
+layer3.0.conv1.weight | P max:  60.8 min:   0.0
+layer3.0.conv2.weight | P max:  61.0 min:   0.0
+layer3.1.conv1.weight | P max:  61.0 min:   1.5
+layer3.1.conv2.weight | P max:  61.0 min:   0.1
+layer3.2.conv1.weight | P max:  61.0 min:   0.1
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 730 Sparse Rate: 90.08% Acc: 90.03 Best Acc: 90.55 InvT: 3.8E+10 Loss: 0.6
+
+Epoch 731 Sparse Rate: 90.08% Acc: 90.25 Best Acc: 90.55 InvT: 3.8E+10 Loss: 0.6
+
+Epoch 732 Sparse Rate: 90.08% Acc: 90.39 Best Acc: 90.55 InvT: 3.9E+10 Loss: 0.6
+
+Epoch 733 Sparse Rate: 90.08% Acc: 90.17 Best Acc: 90.55 InvT: 3.9E+10 Loss: 0.6
+
+Epoch 734 Sparse Rate: 90.08% Acc: 90.40 Best Acc: 90.55 InvT: 3.9E+10 Loss: 0.6
+
+Epoch 735 Sparse Rate: 90.08% Acc: 90.62 Best Acc: 90.62 InvT: 3.9E+10 Loss: 0.6
+
+Epoch 736 Sparse Rate: 90.08% Acc: 90.44 Best Acc: 90.62 InvT: 3.9E+10 Loss: 0.6
+
+Epoch 737 Sparse Rate: 90.08% Acc: 90.24 Best Acc: 90.62 InvT: 3.9E+10 Loss: 0.6
+
+Epoch 738 Sparse Rate: 90.07% Acc: 90.37 Best Acc: 90.62 InvT: 4.0E+10 Loss: 0.6
+
+Epoch 739 Sparse Rate: 90.04% Acc: 90.37 Best Acc: 90.62 InvT: 4.0E+10 Loss: 0.6
+layer1.0.conv1.weight | P max:  60.6 min:   0.0
+layer1.0.conv2.weight | P max:  60.7 min:   0.0
+layer1.1.conv1.weight | P max:  60.6 min:   0.0
+layer1.1.conv2.weight | P max:  60.7 min:   0.0
+layer1.2.conv1.weight | P max:  60.6 min:   0.0
+layer1.2.conv2.weight | P max:  60.6 min:   0.0
+layer2.0.conv1.weight | P max:  60.7 min:   0.0
+layer2.0.conv2.weight | P max:  60.7 min:   0.0
+layer2.1.conv1.weight | P max:  60.7 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  60.7 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.0
+layer3.0.conv1.weight | P max:  60.8 min:   0.0
+layer3.0.conv2.weight | P max:  61.0 min:   0.0
+layer3.1.conv1.weight | P max:  61.0 min:   2.0
+layer3.1.conv2.weight | P max:  61.0 min:   0.1
+layer3.2.conv1.weight | P max:  61.0 min:   0.2
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 740 Sparse Rate: 90.08% Acc: 90.41 Best Acc: 90.62 InvT: 4.0E+10 Loss: 0.6
+
+Epoch 741 Sparse Rate: 90.09% Acc: 90.41 Best Acc: 90.62 InvT: 4.0E+10 Loss: 0.6
+
+Epoch 742 Sparse Rate: 90.04% Acc: 90.63 Best Acc: 90.63 InvT: 4.0E+10 Loss: 0.6
+
+Epoch 743 Sparse Rate: 90.09% Acc: 90.42 Best Acc: 90.63 InvT: 4.1E+10 Loss: 0.6
+
+Epoch 744 Sparse Rate: 90.08% Acc: 90.52 Best Acc: 90.63 InvT: 4.1E+10 Loss: 0.6
+
+Epoch 745 Sparse Rate: 90.08% Acc: 90.66 Best Acc: 90.66 InvT: 4.1E+10 Loss: 0.6
+
+Epoch 746 Sparse Rate: 90.09% Acc: 90.35 Best Acc: 90.66 InvT: 4.1E+10 Loss: 0.6
+
+Epoch 747 Sparse Rate: 90.09% Acc: 90.51 Best Acc: 90.66 InvT: 4.2E+10 Loss: 0.6
+
+Epoch 748 Sparse Rate: 90.09% Acc: 90.27 Best Acc: 90.66 InvT: 4.2E+10 Loss: 0.6
+
+Epoch 749 Sparse Rate: 90.09% Acc: 90.69 Best Acc: 90.69 InvT: 4.2E+10 Loss: 0.5
+layer1.0.conv1.weight | P max:  60.6 min:   0.0
+layer1.0.conv2.weight | P max:  60.6 min:   0.0
+layer1.1.conv1.weight | P max:  60.7 min:   0.0
+layer1.1.conv2.weight | P max:  60.7 min:   0.0
+layer1.2.conv1.weight | P max:  60.6 min:   0.0
+layer1.2.conv2.weight | P max:  60.6 min:   0.0
+layer2.0.conv1.weight | P max:  60.7 min:   0.0
+layer2.0.conv2.weight | P max:  60.7 min:   0.0
+layer2.1.conv1.weight | P max:  60.7 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  60.7 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.0
+layer3.0.conv1.weight | P max:  60.8 min:   0.0
+layer3.0.conv2.weight | P max:  61.0 min:   0.0
+layer3.1.conv1.weight | P max:  61.0 min:   2.8
+layer3.1.conv2.weight | P max:  61.0 min:   0.1
+layer3.2.conv1.weight | P max:  61.0 min:   0.2
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 750 Sparse Rate: 90.09% Acc: 90.29 Best Acc: 90.69 InvT: 4.2E+10 Loss: 0.6
+
+Epoch 751 Sparse Rate: 90.09% Acc: 90.54 Best Acc: 90.69 InvT: 4.2E+10 Loss: 0.6
+
+Epoch 752 Sparse Rate: 90.09% Acc: 90.54 Best Acc: 90.69 InvT: 4.3E+10 Loss: 0.6
+
+Epoch 753 Sparse Rate: 90.09% Acc: 90.42 Best Acc: 90.69 InvT: 4.3E+10 Loss: 0.6
+
+Epoch 754 Sparse Rate: 90.09% Acc: 90.35 Best Acc: 90.69 InvT: 4.3E+10 Loss: 0.6
+
+Epoch 755 Sparse Rate: 90.09% Acc: 90.39 Best Acc: 90.69 InvT: 4.3E+10 Loss: 0.6
+
+Epoch 756 Sparse Rate: 90.09% Acc: 90.44 Best Acc: 90.69 InvT: 4.3E+10 Loss: 0.6
+
+Epoch 757 Sparse Rate: 90.09% Acc: 90.40 Best Acc: 90.69 InvT: 4.4E+10 Loss: 0.6
+
+Epoch 758 Sparse Rate: 90.03% Acc: 90.32 Best Acc: 90.69 InvT: 4.4E+10 Loss: 0.6
+
+Epoch 759 Sparse Rate: 90.09% Acc: 90.31 Best Acc: 90.69 InvT: 4.4E+10 Loss: 0.6
+layer1.0.conv1.weight | P max:  60.7 min:   0.0
+layer1.0.conv2.weight | P max:  60.6 min:   0.0
+layer1.1.conv1.weight | P max:  60.7 min:   0.0
+layer1.1.conv2.weight | P max:  60.7 min:   0.0
+layer1.2.conv1.weight | P max:  60.6 min:   0.0
+layer1.2.conv2.weight | P max:  60.6 min:   0.0
+layer2.0.conv1.weight | P max:  60.7 min:   0.0
+layer2.0.conv2.weight | P max:  60.7 min:   0.0
+layer2.1.conv1.weight | P max:  60.7 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  60.7 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.0
+layer3.0.conv1.weight | P max:  60.8 min:   0.0
+layer3.0.conv2.weight | P max:  61.0 min:   0.0
+layer3.1.conv1.weight | P max:  61.0 min:   2.6
+layer3.1.conv2.weight | P max:  61.0 min:   0.1
+layer3.2.conv1.weight | P max:  61.0 min:   0.2
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 760 Sparse Rate: 90.09% Acc: 90.26 Best Acc: 90.69 InvT: 4.4E+10 Loss: 0.6
+
+Epoch 761 Sparse Rate: 90.09% Acc: 90.36 Best Acc: 90.69 InvT: 4.5E+10 Loss: 0.6
+
+Epoch 762 Sparse Rate: 90.09% Acc: 90.38 Best Acc: 90.69 InvT: 4.5E+10 Loss: 0.6
+
+Epoch 763 Sparse Rate: 90.08% Acc: 90.36 Best Acc: 90.69 InvT: 4.5E+10 Loss: 0.6
+
+Epoch 764 Sparse Rate: 90.08% Acc: 90.52 Best Acc: 90.69 InvT: 4.5E+10 Loss: 0.6
+
+Epoch 765 Sparse Rate: 90.08% Acc: 90.40 Best Acc: 90.69 InvT: 4.5E+10 Loss: 0.6
+
+Epoch 766 Sparse Rate: 90.09% Acc: 90.03 Best Acc: 90.69 InvT: 4.6E+10 Loss: 0.6
+
+Epoch 767 Sparse Rate: 90.09% Acc: 90.36 Best Acc: 90.69 InvT: 4.6E+10 Loss: 0.6
+
+Epoch 768 Sparse Rate: 90.09% Acc: 90.11 Best Acc: 90.69 InvT: 4.6E+10 Loss: 0.6
+
+Epoch 769 Sparse Rate: 90.10% Acc: 90.39 Best Acc: 90.69 InvT: 4.6E+10 Loss: 0.6
+layer1.0.conv1.weight | P max:  60.6 min:   0.0
+layer1.0.conv2.weight | P max:  60.6 min:   0.0
+layer1.1.conv1.weight | P max:  60.7 min:   0.0
+layer1.1.conv2.weight | P max:  60.7 min:   0.0
+layer1.2.conv1.weight | P max:  60.6 min:   0.0
+layer1.2.conv2.weight | P max:  60.6 min:   0.0
+layer2.0.conv1.weight | P max:  60.7 min:   0.0
+layer2.0.conv2.weight | P max:  60.7 min:   0.0
+layer2.1.conv1.weight | P max:  60.7 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  60.7 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.0
+layer3.0.conv1.weight | P max:  60.8 min:   0.0
+layer3.0.conv2.weight | P max:  61.0 min:   0.0
+layer3.1.conv1.weight | P max:  61.0 min:   2.4
+layer3.1.conv2.weight | P max:  61.0 min:   0.1
+layer3.2.conv1.weight | P max:  61.0 min:   0.1
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 770 Sparse Rate: 90.10% Acc: 90.37 Best Acc: 90.69 InvT: 4.7E+10 Loss: 0.6
+
+Epoch 771 Sparse Rate: 90.09% Acc: 90.37 Best Acc: 90.69 InvT: 4.7E+10 Loss: 0.5
+
+Epoch 772 Sparse Rate: 90.10% Acc: 90.48 Best Acc: 90.69 InvT: 4.7E+10 Loss: 0.6
+
+Epoch 773 Sparse Rate: 90.10% Acc: 90.06 Best Acc: 90.69 InvT: 4.7E+10 Loss: 0.6
+
+Epoch 774 Sparse Rate: 90.10% Acc: 90.43 Best Acc: 90.69 InvT: 4.7E+10 Loss: 0.6
+
+Epoch 775 Sparse Rate: 90.10% Acc: 90.42 Best Acc: 90.69 InvT: 4.8E+10 Loss: 0.5
+
+Epoch 776 Sparse Rate: 90.09% Acc: 90.59 Best Acc: 90.69 InvT: 4.8E+10 Loss: 0.5
+
+Epoch 777 Sparse Rate: 90.10% Acc: 90.34 Best Acc: 90.69 InvT: 4.8E+10 Loss: 0.6
+
+Epoch 778 Sparse Rate: 90.10% Acc: 90.70 Best Acc: 90.70 InvT: 4.8E+10 Loss: 0.6
+
+Epoch 779 Sparse Rate: 90.08% Acc: 90.61 Best Acc: 90.70 InvT: 4.9E+10 Loss: 0.6
+layer1.0.conv1.weight | P max:  60.6 min:   0.0
+layer1.0.conv2.weight | P max:  60.6 min:   0.0
+layer1.1.conv1.weight | P max:  60.7 min:   0.0
+layer1.1.conv2.weight | P max:  60.7 min:   0.0
+layer1.2.conv1.weight | P max:  60.6 min:   0.0
+layer1.2.conv2.weight | P max:  60.6 min:   0.0
+layer2.0.conv1.weight | P max:  60.7 min:   0.0
+layer2.0.conv2.weight | P max:  60.7 min:   0.0
+layer2.1.conv1.weight | P max:  60.7 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  60.7 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.1
+layer3.0.conv1.weight | P max:  60.8 min:   0.0
+layer3.0.conv2.weight | P max:  61.0 min:   0.0
+layer3.1.conv1.weight | P max:  61.0 min:   2.2
+layer3.1.conv2.weight | P max:  61.0 min:   0.1
+layer3.2.conv1.weight | P max:  61.0 min:   0.1
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 780 Sparse Rate: 90.10% Acc: 90.50 Best Acc: 90.70 InvT: 4.9E+10 Loss: 0.6
+
+Epoch 781 Sparse Rate: 90.10% Acc: 90.46 Best Acc: 90.70 InvT: 4.9E+10 Loss: 0.6
+
+Epoch 782 Sparse Rate: 90.09% Acc: 90.43 Best Acc: 90.70 InvT: 4.9E+10 Loss: 0.6
+
+Epoch 783 Sparse Rate: 90.10% Acc: 90.74 Best Acc: 90.74 InvT: 5.0E+10 Loss: 0.6
+
+Epoch 784 Sparse Rate: 90.10% Acc: 90.26 Best Acc: 90.74 InvT: 5.0E+10 Loss: 0.6
+
+Epoch 785 Sparse Rate: 90.09% Acc: 90.21 Best Acc: 90.74 InvT: 5.0E+10 Loss: 0.6
+
+Epoch 786 Sparse Rate: 90.09% Acc: 90.23 Best Acc: 90.74 InvT: 5.0E+10 Loss: 0.6
+
+Epoch 787 Sparse Rate: 90.09% Acc: 90.61 Best Acc: 90.74 InvT: 5.1E+10 Loss: 0.6
+
+Epoch 788 Sparse Rate: 90.10% Acc: 90.39 Best Acc: 90.74 InvT: 5.1E+10 Loss: 0.6
+
+Epoch 789 Sparse Rate: 90.10% Acc: 90.56 Best Acc: 90.74 InvT: 5.1E+10 Loss: 0.5
+layer1.0.conv1.weight | P max:  60.6 min:   0.0
+layer1.0.conv2.weight | P max:  60.6 min:   0.0
+layer1.1.conv1.weight | P max:  60.7 min:   0.0
+layer1.1.conv2.weight | P max:  60.6 min:   0.0
+layer1.2.conv1.weight | P max:  60.6 min:   0.0
+layer1.2.conv2.weight | P max:  60.6 min:   0.0
+layer2.0.conv1.weight | P max:  60.7 min:   0.0
+layer2.0.conv2.weight | P max:  60.7 min:   0.0
+layer2.1.conv1.weight | P max:  60.7 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  60.7 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.1
+layer3.0.conv1.weight | P max:  60.8 min:   0.0
+layer3.0.conv2.weight | P max:  61.0 min:   0.0
+layer3.1.conv1.weight | P max:  61.0 min:   2.1
+layer3.1.conv2.weight | P max:  61.0 min:   0.1
+layer3.2.conv1.weight | P max:  61.0 min:   0.1
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 790 Sparse Rate: 90.10% Acc: 90.47 Best Acc: 90.74 InvT: 5.1E+10 Loss: 0.6
+
+Epoch 791 Sparse Rate: 90.11% Acc: 90.36 Best Acc: 90.74 InvT: 5.2E+10 Loss: 0.6
+
+Epoch 792 Sparse Rate: 90.10% Acc: 90.30 Best Acc: 90.74 InvT: 5.2E+10 Loss: 0.6
+
+Epoch 793 Sparse Rate: 90.11% Acc: 90.08 Best Acc: 90.74 InvT: 5.2E+10 Loss: 0.6
+
+Epoch 794 Sparse Rate: 90.11% Acc: 90.04 Best Acc: 90.74 InvT: 5.2E+10 Loss: 0.6
+
+Epoch 795 Sparse Rate: 90.09% Acc: 90.29 Best Acc: 90.74 InvT: 5.3E+10 Loss: 0.6
+
+Epoch 796 Sparse Rate: 90.10% Acc: 90.10 Best Acc: 90.74 InvT: 5.3E+10 Loss: 0.6
+
+Epoch 797 Sparse Rate: 90.11% Acc: 89.95 Best Acc: 90.74 InvT: 5.3E+10 Loss: 0.6
+
+Epoch 798 Sparse Rate: 90.08% Acc: 90.34 Best Acc: 90.74 InvT: 5.4E+10 Loss: 0.5
+
+Epoch 799 Sparse Rate: 90.11% Acc: 90.17 Best Acc: 90.74 InvT: 5.4E+10 Loss: 0.5
+layer1.0.conv1.weight | P max:  60.6 min:   0.0
+layer1.0.conv2.weight | P max:  60.6 min:   0.0
+layer1.1.conv1.weight | P max:  60.7 min:   0.0
+layer1.1.conv2.weight | P max:  60.7 min:   0.0
+layer1.2.conv1.weight | P max:  60.7 min:   0.0
+layer1.2.conv2.weight | P max:  60.6 min:   0.0
+layer2.0.conv1.weight | P max:  60.7 min:   0.0
+layer2.0.conv2.weight | P max:  60.7 min:   0.0
+layer2.1.conv1.weight | P max:  60.7 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  60.7 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.1
+layer3.0.conv1.weight | P max:  60.8 min:   0.0
+layer3.0.conv2.weight | P max:  61.0 min:   0.0
+layer3.1.conv1.weight | P max:  61.0 min:   1.9
+layer3.1.conv2.weight | P max:  61.0 min:   0.1
+layer3.2.conv1.weight | P max:  61.0 min:   0.2
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 800 Sparse Rate: 90.11% Acc: 90.40 Best Acc: 90.74 InvT: 5.4E+10 Loss: 0.6
+
+Epoch 801 Sparse Rate: 90.11% Acc: 90.19 Best Acc: 90.74 InvT: 5.4E+10 Loss: 0.6
+
+Epoch 802 Sparse Rate: 90.11% Acc: 90.43 Best Acc: 90.74 InvT: 5.5E+10 Loss: 0.6
+
+Epoch 803 Sparse Rate: 90.10% Acc: 90.25 Best Acc: 90.74 InvT: 5.5E+10 Loss: 0.6
+
+Epoch 804 Sparse Rate: 90.11% Acc: 90.25 Best Acc: 90.74 InvT: 5.5E+10 Loss: 0.5
+
+Epoch 805 Sparse Rate: 90.11% Acc: 90.06 Best Acc: 90.74 InvT: 5.5E+10 Loss: 0.6
+
+Epoch 806 Sparse Rate: 90.11% Acc: 90.35 Best Acc: 90.74 InvT: 5.6E+10 Loss: 0.6
+
+Epoch 807 Sparse Rate: 90.10% Acc: 90.40 Best Acc: 90.74 InvT: 5.6E+10 Loss: 0.6
+
+Epoch 808 Sparse Rate: 90.11% Acc: 90.53 Best Acc: 90.74 InvT: 5.6E+10 Loss: 0.6
+
+Epoch 809 Sparse Rate: 90.11% Acc: 90.38 Best Acc: 90.74 InvT: 5.7E+10 Loss: 0.6
+layer1.0.conv1.weight | P max:  60.6 min:   0.0
+layer1.0.conv2.weight | P max:  60.6 min:   0.0
+layer1.1.conv1.weight | P max:  60.7 min:   0.0
+layer1.1.conv2.weight | P max:  60.7 min:   0.0
+layer1.2.conv1.weight | P max:  60.6 min:   0.0
+layer1.2.conv2.weight | P max:  60.6 min:   0.0
+layer2.0.conv1.weight | P max:  60.7 min:   0.0
+layer2.0.conv2.weight | P max:  60.7 min:   0.0
+layer2.1.conv1.weight | P max:  60.7 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  60.7 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.1
+layer3.0.conv1.weight | P max:  60.8 min:   0.0
+layer3.0.conv2.weight | P max:  61.0 min:   0.0
+layer3.1.conv1.weight | P max:  61.0 min:   1.5
+layer3.1.conv2.weight | P max:  61.0 min:   0.1
+layer3.2.conv1.weight | P max:  61.0 min:   0.1
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 810 Sparse Rate: 90.10% Acc: 90.13 Best Acc: 90.74 InvT: 5.7E+10 Loss: 0.6
+
+Epoch 811 Sparse Rate: 90.11% Acc: 90.44 Best Acc: 90.74 InvT: 5.7E+10 Loss: 0.5
+
+Epoch 812 Sparse Rate: 90.10% Acc: 90.53 Best Acc: 90.74 InvT: 5.7E+10 Loss: 0.6
+
+Epoch 813 Sparse Rate: 90.10% Acc: 90.67 Best Acc: 90.74 InvT: 5.8E+10 Loss: 0.6
+
+Epoch 814 Sparse Rate: 90.10% Acc: 90.31 Best Acc: 90.74 InvT: 5.8E+10 Loss: 0.6
+
+Epoch 815 Sparse Rate: 90.10% Acc: 90.70 Best Acc: 90.74 InvT: 5.8E+10 Loss: 0.6
+
+Epoch 816 Sparse Rate: 90.11% Acc: 90.61 Best Acc: 90.74 InvT: 5.9E+10 Loss: 0.6
+
+Epoch 817 Sparse Rate: 90.11% Acc: 90.24 Best Acc: 90.74 InvT: 5.9E+10 Loss: 0.6
+
+Epoch 818 Sparse Rate: 90.11% Acc: 90.19 Best Acc: 90.74 InvT: 5.9E+10 Loss: 0.5
+
+Epoch 819 Sparse Rate: 90.11% Acc: 90.11 Best Acc: 90.74 InvT: 5.9E+10 Loss: 0.6
+layer1.0.conv1.weight | P max:  60.6 min:   0.0
+layer1.0.conv2.weight | P max:  60.6 min:   0.0
+layer1.1.conv1.weight | P max:  60.7 min:   0.0
+layer1.1.conv2.weight | P max:  60.7 min:   0.0
+layer1.2.conv1.weight | P max:  60.6 min:   0.0
+layer1.2.conv2.weight | P max:  60.7 min:   0.0
+layer2.0.conv1.weight | P max:  60.7 min:   0.0
+layer2.0.conv2.weight | P max:  60.7 min:   0.0
+layer2.1.conv1.weight | P max:  60.7 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  60.7 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.1
+layer3.0.conv1.weight | P max:  60.8 min:   0.0
+layer3.0.conv2.weight | P max:  61.0 min:   0.0
+layer3.1.conv1.weight | P max:  61.0 min:   1.4
+layer3.1.conv2.weight | P max:  61.0 min:   0.1
+layer3.2.conv1.weight | P max:  61.0 min:   0.1
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 820 Sparse Rate: 90.11% Acc: 90.35 Best Acc: 90.74 InvT: 6.0E+10 Loss: 0.6
+
+Epoch 821 Sparse Rate: 90.11% Acc: 90.65 Best Acc: 90.74 InvT: 6.0E+10 Loss: 0.5
+
+Epoch 822 Sparse Rate: 90.11% Acc: 90.48 Best Acc: 90.74 InvT: 6.0E+10 Loss: 0.5
+
+Epoch 823 Sparse Rate: 90.11% Acc: 90.24 Best Acc: 90.74 InvT: 6.1E+10 Loss: 0.6
+
+Epoch 824 Sparse Rate: 90.11% Acc: 90.36 Best Acc: 90.74 InvT: 6.1E+10 Loss: 0.5
+
+Epoch 825 Sparse Rate: 90.11% Acc: 90.29 Best Acc: 90.74 InvT: 6.1E+10 Loss: 0.6
+
+Epoch 826 Sparse Rate: 90.11% Acc: 90.43 Best Acc: 90.74 InvT: 6.2E+10 Loss: 0.6
+
+Epoch 827 Sparse Rate: 90.11% Acc: 90.30 Best Acc: 90.74 InvT: 6.2E+10 Loss: 0.5
+
+Epoch 828 Sparse Rate: 90.11% Acc: 90.15 Best Acc: 90.74 InvT: 6.2E+10 Loss: 0.6
+
+Epoch 829 Sparse Rate: 90.11% Acc: 90.24 Best Acc: 90.74 InvT: 6.2E+10 Loss: 0.6
+layer1.0.conv1.weight | P max:  60.6 min:   0.0
+layer1.0.conv2.weight | P max:  60.7 min:   0.0
+layer1.1.conv1.weight | P max:  60.7 min:   0.0
+layer1.1.conv2.weight | P max:  60.7 min:   0.0
+layer1.2.conv1.weight | P max:  60.6 min:   0.0
+layer1.2.conv2.weight | P max:  60.6 min:   0.0
+layer2.0.conv1.weight | P max:  60.7 min:   0.0
+layer2.0.conv2.weight | P max:  60.7 min:   0.0
+layer2.1.conv1.weight | P max:  60.7 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  60.7 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.1
+layer3.0.conv1.weight | P max:  60.8 min:   0.0
+layer3.0.conv2.weight | P max:  61.0 min:   0.0
+layer3.1.conv1.weight | P max:  61.0 min:   1.2
+layer3.1.conv2.weight | P max:  61.0 min:   0.1
+layer3.2.conv1.weight | P max:  61.0 min:   0.1
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 830 Sparse Rate: 90.10% Acc: 90.45 Best Acc: 90.74 InvT: 6.3E+10 Loss: 0.5
+
+Epoch 831 Sparse Rate: 90.06% Acc: 90.37 Best Acc: 90.74 InvT: 6.3E+10 Loss: 0.6
+
+Epoch 832 Sparse Rate: 90.11% Acc: 90.59 Best Acc: 90.74 InvT: 6.3E+10 Loss: 0.6
+
+Epoch 833 Sparse Rate: 90.11% Acc: 90.05 Best Acc: 90.74 InvT: 6.4E+10 Loss: 0.5
+
+Epoch 834 Sparse Rate: 90.12% Acc: 90.11 Best Acc: 90.74 InvT: 6.4E+10 Loss: 0.6
+
+Epoch 835 Sparse Rate: 90.12% Acc: 90.39 Best Acc: 90.74 InvT: 6.4E+10 Loss: 0.6
+
+Epoch 836 Sparse Rate: 90.11% Acc: 90.49 Best Acc: 90.74 InvT: 6.5E+10 Loss: 0.6
+
+Epoch 837 Sparse Rate: 90.12% Acc: 90.31 Best Acc: 90.74 InvT: 6.5E+10 Loss: 0.6
+
+Epoch 838 Sparse Rate: 90.11% Acc: 90.36 Best Acc: 90.74 InvT: 6.5E+10 Loss: 0.5
+
+Epoch 839 Sparse Rate: 90.11% Acc: 90.50 Best Acc: 90.74 InvT: 6.6E+10 Loss: 0.6
+layer1.0.conv1.weight | P max:  60.6 min:   0.0
+layer1.0.conv2.weight | P max:  60.7 min:   0.0
+layer1.1.conv1.weight | P max:  60.6 min:   0.0
+layer1.1.conv2.weight | P max:  60.7 min:   0.0
+layer1.2.conv1.weight | P max:  60.6 min:   0.0
+layer1.2.conv2.weight | P max:  60.6 min:   0.0
+layer2.0.conv1.weight | P max:  60.7 min:   0.0
+layer2.0.conv2.weight | P max:  60.7 min:   0.0
+layer2.1.conv1.weight | P max:  60.7 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  60.7 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.1
+layer3.0.conv1.weight | P max:  60.8 min:   0.0
+layer3.0.conv2.weight | P max:  61.0 min:   0.0
+layer3.1.conv1.weight | P max:  61.0 min:   1.0
+layer3.1.conv2.weight | P max:  61.0 min:   0.1
+layer3.2.conv1.weight | P max:  61.0 min:   0.1
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 840 Sparse Rate: 90.11% Acc: 90.42 Best Acc: 90.74 InvT: 6.6E+10 Loss: 0.6
+
+Epoch 841 Sparse Rate: 90.11% Acc: 90.25 Best Acc: 90.74 InvT: 6.6E+10 Loss: 0.6
+
+Epoch 842 Sparse Rate: 90.11% Acc: 90.60 Best Acc: 90.74 InvT: 6.7E+10 Loss: 0.5
+
+Epoch 843 Sparse Rate: 90.09% Acc: 90.43 Best Acc: 90.74 InvT: 6.7E+10 Loss: 0.6
+
+Epoch 844 Sparse Rate: 90.07% Acc: 90.46 Best Acc: 90.74 InvT: 6.7E+10 Loss: 0.6
+
+Epoch 845 Sparse Rate: 90.12% Acc: 90.50 Best Acc: 90.74 InvT: 6.8E+10 Loss: 0.6
+
+Epoch 846 Sparse Rate: 90.10% Acc: 90.48 Best Acc: 90.74 InvT: 6.8E+10 Loss: 0.6
+
+Epoch 847 Sparse Rate: 90.11% Acc: 90.04 Best Acc: 90.74 InvT: 6.8E+10 Loss: 0.6
+
+Epoch 848 Sparse Rate: 90.12% Acc: 90.57 Best Acc: 90.74 InvT: 6.9E+10 Loss: 0.6
+
+Epoch 849 Sparse Rate: 90.07% Acc: 90.15 Best Acc: 90.74 InvT: 6.9E+10 Loss: 0.6
+layer1.0.conv1.weight | P max:  60.7 min:   0.0
+layer1.0.conv2.weight | P max:  60.7 min:   0.0
+layer1.1.conv1.weight | P max:  60.6 min:   0.0
+layer1.1.conv2.weight | P max:  60.6 min:   0.0
+layer1.2.conv1.weight | P max:  60.6 min:   0.0
+layer1.2.conv2.weight | P max:  60.6 min:   0.0
+layer2.0.conv1.weight | P max:  60.7 min:   0.0
+layer2.0.conv2.weight | P max:  60.7 min:   0.0
+layer2.1.conv1.weight | P max:  60.7 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  60.7 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.0
+layer3.0.conv1.weight | P max:  60.8 min:   0.0
+layer3.0.conv2.weight | P max:  61.0 min:   0.0
+layer3.1.conv1.weight | P max:  61.0 min:   0.9
+layer3.1.conv2.weight | P max:  61.0 min:   0.1
+layer3.2.conv1.weight | P max:  61.0 min:   0.1
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 850 Sparse Rate: 90.12% Acc: 90.36 Best Acc: 90.74 InvT: 6.9E+10 Loss: 0.6
+
+Epoch 851 Sparse Rate: 90.12% Acc: 90.22 Best Acc: 90.74 InvT: 7.0E+10 Loss: 0.6
+
+Epoch 852 Sparse Rate: 90.11% Acc: 90.57 Best Acc: 90.74 InvT: 7.0E+10 Loss: 0.6
+
+Epoch 853 Sparse Rate: 90.12% Acc: 90.47 Best Acc: 90.74 InvT: 7.0E+10 Loss: 0.5
+
+Epoch 854 Sparse Rate: 90.11% Acc: 90.07 Best Acc: 90.74 InvT: 7.1E+10 Loss: 0.5
+
+Epoch 855 Sparse Rate: 90.12% Acc: 90.56 Best Acc: 90.74 InvT: 7.1E+10 Loss: 0.6
+
+Epoch 856 Sparse Rate: 90.11% Acc: 90.57 Best Acc: 90.74 InvT: 7.1E+10 Loss: 0.5
+
+Epoch 857 Sparse Rate: 90.11% Acc: 90.52 Best Acc: 90.74 InvT: 7.2E+10 Loss: 0.6
+
+Epoch 858 Sparse Rate: 90.09% Acc: 90.55 Best Acc: 90.74 InvT: 7.2E+10 Loss: 0.6
+
+Epoch 859 Sparse Rate: 90.11% Acc: 90.35 Best Acc: 90.74 InvT: 7.3E+10 Loss: 0.6
+layer1.0.conv1.weight | P max:  60.7 min:   0.0
+layer1.0.conv2.weight | P max:  60.6 min:   0.0
+layer1.1.conv1.weight | P max:  60.6 min:   0.0
+layer1.1.conv2.weight | P max:  60.6 min:   0.0
+layer1.2.conv1.weight | P max:  60.6 min:   0.0
+layer1.2.conv2.weight | P max:  60.6 min:   0.0
+layer2.0.conv1.weight | P max:  60.7 min:   0.0
+layer2.0.conv2.weight | P max:  60.7 min:   0.0
+layer2.1.conv1.weight | P max:  60.7 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  60.7 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.0
+layer3.0.conv1.weight | P max:  60.8 min:   0.0
+layer3.0.conv2.weight | P max:  61.0 min:   0.0
+layer3.1.conv1.weight | P max:  61.0 min:   0.8
+layer3.1.conv2.weight | P max:  61.0 min:   0.1
+layer3.2.conv1.weight | P max:  61.0 min:   0.1
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 860 Sparse Rate: 90.12% Acc: 90.37 Best Acc: 90.74 InvT: 7.3E+10 Loss: 0.5
+
+Epoch 861 Sparse Rate: 90.12% Acc: 90.46 Best Acc: 90.74 InvT: 7.3E+10 Loss: 0.6
+
+Epoch 862 Sparse Rate: 90.12% Acc: 90.63 Best Acc: 90.74 InvT: 7.4E+10 Loss: 0.6
+
+Epoch 863 Sparse Rate: 90.13% Acc: 90.54 Best Acc: 90.74 InvT: 7.4E+10 Loss: 0.6
+
+Epoch 864 Sparse Rate: 90.12% Acc: 90.62 Best Acc: 90.74 InvT: 7.4E+10 Loss: 0.6
+
+Epoch 865 Sparse Rate: 90.12% Acc: 90.33 Best Acc: 90.74 InvT: 7.5E+10 Loss: 0.5
+
+Epoch 866 Sparse Rate: 90.12% Acc: 90.50 Best Acc: 90.74 InvT: 7.5E+10 Loss: 0.5
+
+Epoch 867 Sparse Rate: 90.13% Acc: 90.36 Best Acc: 90.74 InvT: 7.6E+10 Loss: 0.6
+
+Epoch 868 Sparse Rate: 90.12% Acc: 90.50 Best Acc: 90.74 InvT: 7.6E+10 Loss: 0.6
+
+Epoch 869 Sparse Rate: 90.12% Acc: 90.51 Best Acc: 90.74 InvT: 7.6E+10 Loss: 0.6
+layer1.0.conv1.weight | P max:  60.6 min:   0.0
+layer1.0.conv2.weight | P max:  60.6 min:   0.0
+layer1.1.conv1.weight | P max:  60.7 min:   0.0
+layer1.1.conv2.weight | P max:  60.7 min:   0.0
+layer1.2.conv1.weight | P max:  60.6 min:   0.0
+layer1.2.conv2.weight | P max:  60.6 min:   0.0
+layer2.0.conv1.weight | P max:  60.7 min:   0.0
+layer2.0.conv2.weight | P max:  60.7 min:   0.0
+layer2.1.conv1.weight | P max:  60.7 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  60.7 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.0
+layer3.0.conv1.weight | P max:  60.8 min:   0.0
+layer3.0.conv2.weight | P max:  61.0 min:   0.0
+layer3.1.conv1.weight | P max:  61.0 min:   0.7
+layer3.1.conv2.weight | P max:  61.0 min:   0.1
+layer3.2.conv1.weight | P max:  61.0 min:   0.1
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 870 Sparse Rate: 90.12% Acc: 90.56 Best Acc: 90.74 InvT: 7.7E+10 Loss: 0.6
+
+Epoch 871 Sparse Rate: 90.12% Acc: 90.43 Best Acc: 90.74 InvT: 7.7E+10 Loss: 0.6
+
+Epoch 872 Sparse Rate: 90.13% Acc: 90.36 Best Acc: 90.74 InvT: 7.7E+10 Loss: 0.6
+
+Epoch 873 Sparse Rate: 90.12% Acc: 90.57 Best Acc: 90.74 InvT: 7.8E+10 Loss: 0.6
+
+Epoch 874 Sparse Rate: 90.12% Acc: 90.18 Best Acc: 90.74 InvT: 7.8E+10 Loss: 0.6
+
+Epoch 875 Sparse Rate: 90.11% Acc: 90.23 Best Acc: 90.74 InvT: 7.9E+10 Loss: 0.6
+
+Epoch 876 Sparse Rate: 90.12% Acc: 90.42 Best Acc: 90.74 InvT: 7.9E+10 Loss: 0.6
+
+Epoch 877 Sparse Rate: 90.12% Acc: 90.22 Best Acc: 90.74 InvT: 7.9E+10 Loss: 0.6
+
+Epoch 878 Sparse Rate: 90.13% Acc: 90.02 Best Acc: 90.74 InvT: 8.0E+10 Loss: 0.5
+
+Epoch 879 Sparse Rate: 90.13% Acc: 90.54 Best Acc: 90.74 InvT: 8.0E+10 Loss: 0.6
+layer1.0.conv1.weight | P max:  60.6 min:   0.0
+layer1.0.conv2.weight | P max:  60.7 min:   0.0
+layer1.1.conv1.weight | P max:  60.6 min:   0.0
+layer1.1.conv2.weight | P max:  60.7 min:   0.0
+layer1.2.conv1.weight | P max:  60.6 min:   0.0
+layer1.2.conv2.weight | P max:  60.6 min:   0.0
+layer2.0.conv1.weight | P max:  60.7 min:   0.0
+layer2.0.conv2.weight | P max:  60.7 min:   0.0
+layer2.1.conv1.weight | P max:  60.7 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  60.7 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.0
+layer3.0.conv1.weight | P max:  60.8 min:   0.0
+layer3.0.conv2.weight | P max:  61.0 min:   0.0
+layer3.1.conv1.weight | P max:  61.0 min:   0.7
+layer3.1.conv2.weight | P max:  61.0 min:   0.1
+layer3.2.conv1.weight | P max:  61.0 min:   0.2
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 880 Sparse Rate: 90.12% Acc: 90.32 Best Acc: 90.74 InvT: 8.1E+10 Loss: 0.5
+
+Epoch 881 Sparse Rate: 90.11% Acc: 90.12 Best Acc: 90.74 InvT: 8.1E+10 Loss: 0.5
+
+Epoch 882 Sparse Rate: 90.13% Acc: 90.35 Best Acc: 90.74 InvT: 8.1E+10 Loss: 0.5
+
+Epoch 883 Sparse Rate: 90.12% Acc: 90.33 Best Acc: 90.74 InvT: 8.2E+10 Loss: 0.5
+
+Epoch 884 Sparse Rate: 90.12% Acc: 90.48 Best Acc: 90.74 InvT: 8.2E+10 Loss: 0.6
+
+Epoch 885 Sparse Rate: 90.12% Acc: 90.35 Best Acc: 90.74 InvT: 8.3E+10 Loss: 0.6
+
+Epoch 886 Sparse Rate: 90.09% Acc: 90.59 Best Acc: 90.74 InvT: 8.3E+10 Loss: 0.5
+
+Epoch 887 Sparse Rate: 90.12% Acc: 90.33 Best Acc: 90.74 InvT: 8.3E+10 Loss: 0.6
+
+Epoch 888 Sparse Rate: 90.12% Acc: 90.14 Best Acc: 90.74 InvT: 8.4E+10 Loss: 0.6
+
+Epoch 889 Sparse Rate: 90.12% Acc: 90.52 Best Acc: 90.74 InvT: 8.4E+10 Loss: 0.5
+layer1.0.conv1.weight | P max:  60.6 min:   0.0
+layer1.0.conv2.weight | P max:  60.6 min:   0.0
+layer1.1.conv1.weight | P max:  60.7 min:   0.0
+layer1.1.conv2.weight | P max:  60.7 min:   0.0
+layer1.2.conv1.weight | P max:  60.6 min:   0.0
+layer1.2.conv2.weight | P max:  60.6 min:   0.0
+layer2.0.conv1.weight | P max:  60.7 min:   0.0
+layer2.0.conv2.weight | P max:  60.7 min:   0.0
+layer2.1.conv1.weight | P max:  60.7 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  60.7 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.1
+layer3.0.conv1.weight | P max:  60.8 min:   0.0
+layer3.0.conv2.weight | P max:  61.0 min:   0.0
+layer3.1.conv1.weight | P max:  61.0 min:   0.7
+layer3.1.conv2.weight | P max:  61.0 min:   0.1
+layer3.2.conv1.weight | P max:  61.0 min:   0.1
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 890 Sparse Rate: 90.12% Acc: 90.53 Best Acc: 90.74 InvT: 8.5E+10 Loss: 0.6
+
+Epoch 891 Sparse Rate: 90.12% Acc: 90.49 Best Acc: 90.74 InvT: 8.5E+10 Loss: 0.6
+
+Epoch 892 Sparse Rate: 90.12% Acc: 90.21 Best Acc: 90.74 InvT: 8.6E+10 Loss: 0.5
+
+Epoch 893 Sparse Rate: 90.12% Acc: 90.50 Best Acc: 90.74 InvT: 8.6E+10 Loss: 0.6
+
+Epoch 894 Sparse Rate: 90.12% Acc: 90.46 Best Acc: 90.74 InvT: 8.6E+10 Loss: 0.6
+
+Epoch 895 Sparse Rate: 90.13% Acc: 90.13 Best Acc: 90.74 InvT: 8.7E+10 Loss: 0.5
+
+Epoch 896 Sparse Rate: 90.13% Acc: 90.58 Best Acc: 90.74 InvT: 8.7E+10 Loss: 0.5
+
+Epoch 897 Sparse Rate: 90.12% Acc: 90.24 Best Acc: 90.74 InvT: 8.8E+10 Loss: 0.5
+
+Epoch 898 Sparse Rate: 90.13% Acc: 90.47 Best Acc: 90.74 InvT: 8.8E+10 Loss: 0.6
+
+Epoch 899 Sparse Rate: 90.13% Acc: 90.01 Best Acc: 90.74 InvT: 8.9E+10 Loss: 0.6
+layer1.0.conv1.weight | P max:  60.6 min:   0.0
+layer1.0.conv2.weight | P max:  60.6 min:   0.0
+layer1.1.conv1.weight | P max:  60.7 min:   0.0
+layer1.1.conv2.weight | P max:  60.7 min:   0.0
+layer1.2.conv1.weight | P max:  60.6 min:   0.0
+layer1.2.conv2.weight | P max:  60.6 min:   0.0
+layer2.0.conv1.weight | P max:  60.7 min:   0.0
+layer2.0.conv2.weight | P max:  60.7 min:   0.0
+layer2.1.conv1.weight | P max:  60.7 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  60.7 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.0
+layer3.0.conv1.weight | P max:  60.8 min:   0.0
+layer3.0.conv2.weight | P max:  61.0 min:   0.0
+layer3.1.conv1.weight | P max:  61.0 min:   0.6
+layer3.1.conv2.weight | P max:  61.0 min:   0.1
+layer3.2.conv1.weight | P max:  61.0 min:   0.1
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 900 Sparse Rate: 90.12% Acc: 90.12 Best Acc: 90.74 InvT: 8.9E+10 Loss: 0.5
+
+Epoch 901 Sparse Rate: 90.13% Acc: 90.71 Best Acc: 90.74 InvT: 8.9E+10 Loss: 0.5
+
+Epoch 902 Sparse Rate: 90.13% Acc: 90.68 Best Acc: 90.74 InvT: 9.0E+10 Loss: 0.5
+
+Epoch 903 Sparse Rate: 90.13% Acc: 90.80 Best Acc: 90.80 InvT: 9.0E+10 Loss: 0.6
+
+Epoch 904 Sparse Rate: 90.13% Acc: 90.70 Best Acc: 90.80 InvT: 9.1E+10 Loss: 0.6
+
+Epoch 905 Sparse Rate: 90.12% Acc: 90.68 Best Acc: 90.80 InvT: 9.1E+10 Loss: 0.5
+
+Epoch 906 Sparse Rate: 90.13% Acc: 90.77 Best Acc: 90.80 InvT: 9.2E+10 Loss: 0.5
+
+Epoch 907 Sparse Rate: 90.13% Acc: 90.69 Best Acc: 90.80 InvT: 9.2E+10 Loss: 0.5
+
+Epoch 908 Sparse Rate: 90.13% Acc: 90.79 Best Acc: 90.80 InvT: 9.3E+10 Loss: 0.6
+
+Epoch 909 Sparse Rate: 90.13% Acc: 90.80 Best Acc: 90.80 InvT: 9.3E+10 Loss: 0.5
+layer1.0.conv1.weight | P max:  60.7 min:   0.0
+layer1.0.conv2.weight | P max:  60.6 min:   0.0
+layer1.1.conv1.weight | P max:  60.7 min:   0.0
+layer1.1.conv2.weight | P max:  60.7 min:   0.0
+layer1.2.conv1.weight | P max:  60.7 min:   0.0
+layer1.2.conv2.weight | P max:  60.7 min:   0.0
+layer2.0.conv1.weight | P max:  60.7 min:   0.0
+layer2.0.conv2.weight | P max:  60.7 min:   0.0
+layer2.1.conv1.weight | P max:  60.7 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  60.7 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.0
+layer3.0.conv1.weight | P max:  60.8 min:   0.0
+layer3.0.conv2.weight | P max:  61.0 min:   0.0
+layer3.1.conv1.weight | P max:  61.0 min:   0.6
+layer3.1.conv2.weight | P max:  61.0 min:   0.1
+layer3.2.conv1.weight | P max:  61.0 min:   0.1
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 910 Sparse Rate: 90.13% Acc: 90.77 Best Acc: 90.80 InvT: 9.4E+10 Loss: 0.6
+
+Epoch 911 Sparse Rate: 90.13% Acc: 90.81 Best Acc: 90.81 InvT: 9.4E+10 Loss: 0.5
+
+Epoch 912 Sparse Rate: 90.13% Acc: 90.77 Best Acc: 90.81 InvT: 9.5E+10 Loss: 0.6
+
+Epoch 913 Sparse Rate: 90.13% Acc: 90.84 Best Acc: 90.84 InvT: 9.5E+10 Loss: 0.6
+
+Epoch 914 Sparse Rate: 90.13% Acc: 90.81 Best Acc: 90.84 InvT: 9.5E+10 Loss: 0.6
+
+Epoch 915 Sparse Rate: 90.13% Acc: 90.78 Best Acc: 90.84 InvT: 9.6E+10 Loss: 0.6
+
+Epoch 916 Sparse Rate: 90.13% Acc: 90.89 Best Acc: 90.89 InvT: 9.6E+10 Loss: 0.5
+
+Epoch 917 Sparse Rate: 90.13% Acc: 90.83 Best Acc: 90.89 InvT: 9.7E+10 Loss: 0.6
+
+Epoch 918 Sparse Rate: 90.13% Acc: 90.90 Best Acc: 90.90 InvT: 9.7E+10 Loss: 0.5
+
+Epoch 919 Sparse Rate: 90.13% Acc: 90.77 Best Acc: 90.90 InvT: 9.8E+10 Loss: 0.5
+layer1.0.conv1.weight | P max:  60.7 min:   0.0
+layer1.0.conv2.weight | P max:  60.7 min:   0.0
+layer1.1.conv1.weight | P max:  60.7 min:   0.0
+layer1.1.conv2.weight | P max:  60.7 min:   0.0
+layer1.2.conv1.weight | P max:  60.7 min:   0.0
+layer1.2.conv2.weight | P max:  60.7 min:   0.0
+layer2.0.conv1.weight | P max:  60.7 min:   0.0
+layer2.0.conv2.weight | P max:  60.7 min:   0.0
+layer2.1.conv1.weight | P max:  60.7 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  60.7 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.0
+layer3.0.conv1.weight | P max:  60.8 min:   0.0
+layer3.0.conv2.weight | P max:  61.0 min:   0.0
+layer3.1.conv1.weight | P max:  61.0 min:   0.6
+layer3.1.conv2.weight | P max:  61.0 min:   0.1
+layer3.2.conv1.weight | P max:  61.0 min:   0.1
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 920 Sparse Rate: 90.13% Acc: 90.75 Best Acc: 90.90 InvT: 9.8E+10 Loss: 0.5
+
+Epoch 921 Sparse Rate: 90.13% Acc: 90.83 Best Acc: 90.90 InvT: 9.9E+10 Loss: 0.6
+
+Epoch 922 Sparse Rate: 90.13% Acc: 90.83 Best Acc: 90.90 InvT: 9.9E+10 Loss: 0.6
+
+Epoch 923 Sparse Rate: 90.13% Acc: 90.91 Best Acc: 90.91 InvT: 1.0E+11 Loss: 0.5
+
+Epoch 924 Sparse Rate: 90.13% Acc: 90.79 Best Acc: 90.91 InvT: 1.0E+11 Loss: 0.5
+
+Epoch 925 Sparse Rate: 90.13% Acc: 90.93 Best Acc: 90.93 InvT: 1.0E+11 Loss: 0.6
+
+Epoch 926 Sparse Rate: 90.13% Acc: 90.86 Best Acc: 90.93 InvT: 1.0E+11 Loss: 0.5
+
+Epoch 927 Sparse Rate: 90.13% Acc: 90.79 Best Acc: 90.93 InvT: 1.0E+11 Loss: 0.6
+
+Epoch 928 Sparse Rate: 90.13% Acc: 90.91 Best Acc: 90.93 InvT: 1.0E+11 Loss: 0.5
+
+Epoch 929 Sparse Rate: 90.13% Acc: 90.92 Best Acc: 90.93 InvT: 1.0E+11 Loss: 0.5
+layer1.0.conv1.weight | P max:  60.7 min:   0.0
+layer1.0.conv2.weight | P max:  60.7 min:   0.0
+layer1.1.conv1.weight | P max:  60.7 min:   0.0
+layer1.1.conv2.weight | P max:  60.7 min:   0.0
+layer1.2.conv1.weight | P max:  60.7 min:   0.0
+layer1.2.conv2.weight | P max:  60.7 min:   0.0
+layer2.0.conv1.weight | P max:  60.7 min:   0.0
+layer2.0.conv2.weight | P max:  60.7 min:   0.0
+layer2.1.conv1.weight | P max:  60.7 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  60.7 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.0
+layer3.0.conv1.weight | P max:  60.8 min:   0.0
+layer3.0.conv2.weight | P max:  61.0 min:   0.0
+layer3.1.conv1.weight | P max:  61.0 min:   0.6
+layer3.1.conv2.weight | P max:  61.0 min:   0.1
+layer3.2.conv1.weight | P max:  61.0 min:   0.1
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 930 Sparse Rate: 90.13% Acc: 90.88 Best Acc: 90.93 InvT: 1.0E+11 Loss: 0.5
+
+Epoch 931 Sparse Rate: 90.13% Acc: 90.73 Best Acc: 90.93 InvT: 1.0E+11 Loss: 0.5
+
+Epoch 932 Sparse Rate: 90.13% Acc: 90.72 Best Acc: 90.93 InvT: 1.0E+11 Loss: 0.5
+
+Epoch 933 Sparse Rate: 90.13% Acc: 90.85 Best Acc: 90.93 InvT: 1.0E+11 Loss: 0.5
+
+Epoch 934 Sparse Rate: 90.13% Acc: 90.80 Best Acc: 90.93 InvT: 1.1E+11 Loss: 0.5
+
+Epoch 935 Sparse Rate: 90.13% Acc: 90.77 Best Acc: 90.93 InvT: 1.1E+11 Loss: 0.5
+
+Epoch 936 Sparse Rate: 90.13% Acc: 90.69 Best Acc: 90.93 InvT: 1.1E+11 Loss: 0.5
+
+Epoch 937 Sparse Rate: 90.13% Acc: 90.88 Best Acc: 90.93 InvT: 1.1E+11 Loss: 0.6
+
+Epoch 938 Sparse Rate: 90.13% Acc: 90.86 Best Acc: 90.93 InvT: 1.1E+11 Loss: 0.5
+
+Epoch 939 Sparse Rate: 90.13% Acc: 90.85 Best Acc: 90.93 InvT: 1.1E+11 Loss: 0.5
+layer1.0.conv1.weight | P max:  60.7 min:   0.0
+layer1.0.conv2.weight | P max:  60.7 min:   0.0
+layer1.1.conv1.weight | P max:  60.7 min:   0.0
+layer1.1.conv2.weight | P max:  60.7 min:   0.0
+layer1.2.conv1.weight | P max:  60.7 min:   0.0
+layer1.2.conv2.weight | P max:  60.7 min:   0.0
+layer2.0.conv1.weight | P max:  60.7 min:   0.0
+layer2.0.conv2.weight | P max:  60.7 min:   0.0
+layer2.1.conv1.weight | P max:  60.7 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  60.7 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.0
+layer3.0.conv1.weight | P max:  60.8 min:   0.0
+layer3.0.conv2.weight | P max:  61.0 min:   0.0
+layer3.1.conv1.weight | P max:  61.0 min:   0.6
+layer3.1.conv2.weight | P max:  61.0 min:   0.1
+layer3.2.conv1.weight | P max:  61.0 min:   0.1
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 940 Sparse Rate: 90.13% Acc: 90.72 Best Acc: 90.93 InvT: 1.1E+11 Loss: 0.5
+
+Epoch 941 Sparse Rate: 90.13% Acc: 90.81 Best Acc: 90.93 InvT: 1.1E+11 Loss: 0.6
+
+Epoch 942 Sparse Rate: 90.13% Acc: 90.85 Best Acc: 90.93 InvT: 1.1E+11 Loss: 0.5
+
+Epoch 943 Sparse Rate: 90.13% Acc: 90.84 Best Acc: 90.93 InvT: 1.1E+11 Loss: 0.5
+
+Epoch 944 Sparse Rate: 90.12% Acc: 90.90 Best Acc: 90.93 InvT: 1.1E+11 Loss: 0.5
+
+Epoch 945 Sparse Rate: 90.13% Acc: 90.69 Best Acc: 90.93 InvT: 1.1E+11 Loss: 0.6
+
+Epoch 946 Sparse Rate: 90.13% Acc: 90.82 Best Acc: 90.93 InvT: 1.1E+11 Loss: 0.5
+
+Epoch 947 Sparse Rate: 90.13% Acc: 90.84 Best Acc: 90.93 InvT: 1.1E+11 Loss: 0.5
+
+Epoch 948 Sparse Rate: 90.13% Acc: 90.92 Best Acc: 90.93 InvT: 1.1E+11 Loss: 0.5
+
+Epoch 949 Sparse Rate: 90.13% Acc: 90.90 Best Acc: 90.93 InvT: 1.1E+11 Loss: 0.6
+layer1.0.conv1.weight | P max:  60.7 min:   0.0
+layer1.0.conv2.weight | P max:  60.6 min:   0.0
+layer1.1.conv1.weight | P max:  60.7 min:   0.0
+layer1.1.conv2.weight | P max:  60.7 min:   0.0
+layer1.2.conv1.weight | P max:  60.7 min:   0.0
+layer1.2.conv2.weight | P max:  60.7 min:   0.0
+layer2.0.conv1.weight | P max:  60.7 min:   0.0
+layer2.0.conv2.weight | P max:  60.7 min:   0.0
+layer2.1.conv1.weight | P max:  60.7 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  60.7 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.0
+layer3.0.conv1.weight | P max:  60.8 min:   0.0
+layer3.0.conv2.weight | P max:  61.0 min:   0.0
+layer3.1.conv1.weight | P max:  61.0 min:   0.6
+layer3.1.conv2.weight | P max:  61.0 min:   0.1
+layer3.2.conv1.weight | P max:  61.0 min:   0.1
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 950 Sparse Rate: 90.13% Acc: 90.85 Best Acc: 90.93 InvT: 1.1E+11 Loss: 0.5
+
+Epoch 951 Sparse Rate: 90.13% Acc: 90.97 Best Acc: 90.97 InvT: 1.1E+11 Loss: 0.5
+
+Epoch 952 Sparse Rate: 90.13% Acc: 90.91 Best Acc: 90.97 InvT: 1.2E+11 Loss: 0.6
+
+Epoch 953 Sparse Rate: 90.13% Acc: 90.96 Best Acc: 90.97 InvT: 1.2E+11 Loss: 0.6
+
+Epoch 954 Sparse Rate: 90.13% Acc: 90.77 Best Acc: 90.97 InvT: 1.2E+11 Loss: 0.5
+
+Epoch 955 Sparse Rate: 90.13% Acc: 90.82 Best Acc: 90.97 InvT: 1.2E+11 Loss: 0.5
+
+Epoch 956 Sparse Rate: 90.13% Acc: 90.90 Best Acc: 90.97 InvT: 1.2E+11 Loss: 0.5
+
+Epoch 957 Sparse Rate: 90.12% Acc: 90.83 Best Acc: 90.97 InvT: 1.2E+11 Loss: 0.5
+
+Epoch 958 Sparse Rate: 90.13% Acc: 90.86 Best Acc: 90.97 InvT: 1.2E+11 Loss: 0.5
+
+Epoch 959 Sparse Rate: 90.13% Acc: 90.86 Best Acc: 90.97 InvT: 1.2E+11 Loss: 0.5
+layer1.0.conv1.weight | P max:  60.7 min:   0.0
+layer1.0.conv2.weight | P max:  60.6 min:   0.0
+layer1.1.conv1.weight | P max:  60.7 min:   0.0
+layer1.1.conv2.weight | P max:  60.7 min:   0.0
+layer1.2.conv1.weight | P max:  60.7 min:   0.0
+layer1.2.conv2.weight | P max:  60.7 min:   0.0
+layer2.0.conv1.weight | P max:  60.7 min:   0.0
+layer2.0.conv2.weight | P max:  60.7 min:   0.0
+layer2.1.conv1.weight | P max:  60.7 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  60.7 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.0
+layer3.0.conv1.weight | P max:  60.8 min:   0.0
+layer3.0.conv2.weight | P max:  61.0 min:   0.0
+layer3.1.conv1.weight | P max:  61.0 min:   0.6
+layer3.1.conv2.weight | P max:  61.0 min:   0.1
+layer3.2.conv1.weight | P max:  61.0 min:   0.1
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 960 Sparse Rate: 90.13% Acc: 90.99 Best Acc: 90.99 InvT: 1.2E+11 Loss: 0.5
+
+Epoch 961 Sparse Rate: 90.13% Acc: 90.84 Best Acc: 90.99 InvT: 1.2E+11 Loss: 0.5
+
+Epoch 962 Sparse Rate: 90.12% Acc: 90.88 Best Acc: 90.99 InvT: 1.2E+11 Loss: 0.6
+
+Epoch 963 Sparse Rate: 90.13% Acc: 91.01 Best Acc: 91.01 InvT: 1.2E+11 Loss: 0.6
+
+Epoch 964 Sparse Rate: 90.13% Acc: 90.94 Best Acc: 91.01 InvT: 1.2E+11 Loss: 0.6
+
+Epoch 965 Sparse Rate: 90.13% Acc: 90.90 Best Acc: 91.01 InvT: 1.2E+11 Loss: 0.5
+
+Epoch 966 Sparse Rate: 90.13% Acc: 90.87 Best Acc: 91.01 InvT: 1.2E+11 Loss: 0.5
+
+Epoch 967 Sparse Rate: 90.13% Acc: 90.79 Best Acc: 91.01 InvT: 1.2E+11 Loss: 0.6
+
+Epoch 968 Sparse Rate: 90.14% Acc: 90.80 Best Acc: 91.01 InvT: 1.2E+11 Loss: 0.5
+
+Epoch 969 Sparse Rate: 90.14% Acc: 90.74 Best Acc: 91.01 InvT: 1.3E+11 Loss: 0.5
+layer1.0.conv1.weight | P max:  60.7 min:   0.0
+layer1.0.conv2.weight | P max:  60.7 min:   0.0
+layer1.1.conv1.weight | P max:  60.7 min:   0.0
+layer1.1.conv2.weight | P max:  60.7 min:   0.0
+layer1.2.conv1.weight | P max:  60.7 min:   0.0
+layer1.2.conv2.weight | P max:  60.7 min:   0.0
+layer2.0.conv1.weight | P max:  60.7 min:   0.0
+layer2.0.conv2.weight | P max:  60.7 min:   0.0
+layer2.1.conv1.weight | P max:  60.7 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  60.7 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.0
+layer3.0.conv1.weight | P max:  60.8 min:   0.0
+layer3.0.conv2.weight | P max:  61.0 min:   0.0
+layer3.1.conv1.weight | P max:  61.0 min:   0.6
+layer3.1.conv2.weight | P max:  61.0 min:   0.1
+layer3.2.conv1.weight | P max:  61.0 min:   0.1
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 970 Sparse Rate: 90.13% Acc: 90.84 Best Acc: 91.01 InvT: 1.3E+11 Loss: 0.6
+
+Epoch 971 Sparse Rate: 90.14% Acc: 90.80 Best Acc: 91.01 InvT: 1.3E+11 Loss: 0.6
+
+Epoch 972 Sparse Rate: 90.14% Acc: 90.96 Best Acc: 91.01 InvT: 1.3E+11 Loss: 0.6
+
+Epoch 973 Sparse Rate: 90.14% Acc: 90.96 Best Acc: 91.01 InvT: 1.3E+11 Loss: 0.5
+
+Epoch 974 Sparse Rate: 90.14% Acc: 90.99 Best Acc: 91.01 InvT: 1.3E+11 Loss: 0.6
+
+Epoch 975 Sparse Rate: 90.14% Acc: 90.90 Best Acc: 91.01 InvT: 1.3E+11 Loss: 0.6
+
+Epoch 976 Sparse Rate: 90.14% Acc: 91.02 Best Acc: 91.02 InvT: 1.3E+11 Loss: 0.5
+
+Epoch 977 Sparse Rate: 90.14% Acc: 90.95 Best Acc: 91.02 InvT: 1.3E+11 Loss: 0.6
+
+Epoch 978 Sparse Rate: 90.14% Acc: 90.89 Best Acc: 91.02 InvT: 1.3E+11 Loss: 0.5
+
+Epoch 979 Sparse Rate: 90.11% Acc: 90.92 Best Acc: 91.02 InvT: 1.3E+11 Loss: 0.5
+layer1.0.conv1.weight | P max:  60.7 min:   0.0
+layer1.0.conv2.weight | P max:  60.7 min:   0.0
+layer1.1.conv1.weight | P max:  60.7 min:   0.0
+layer1.1.conv2.weight | P max:  60.7 min:   0.0
+layer1.2.conv1.weight | P max:  60.7 min:   0.0
+layer1.2.conv2.weight | P max:  60.7 min:   0.0
+layer2.0.conv1.weight | P max:  60.7 min:   0.0
+layer2.0.conv2.weight | P max:  60.7 min:   0.0
+layer2.1.conv1.weight | P max:  60.7 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  60.7 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.0
+layer3.0.conv1.weight | P max:  60.8 min:   0.0
+layer3.0.conv2.weight | P max:  61.0 min:   0.0
+layer3.1.conv1.weight | P max:  61.0 min:   0.6
+layer3.1.conv2.weight | P max:  61.0 min:   0.1
+layer3.2.conv1.weight | P max:  61.0 min:   0.1
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 980 Sparse Rate: 90.14% Acc: 90.91 Best Acc: 91.02 InvT: 1.3E+11 Loss: 0.6
+
+Epoch 981 Sparse Rate: 90.14% Acc: 90.82 Best Acc: 91.02 InvT: 1.3E+11 Loss: 0.5
+
+Epoch 982 Sparse Rate: 90.14% Acc: 90.84 Best Acc: 91.02 InvT: 1.3E+11 Loss: 0.6
+
+Epoch 983 Sparse Rate: 90.14% Acc: 90.87 Best Acc: 91.02 InvT: 1.3E+11 Loss: 0.6
+
+Epoch 984 Sparse Rate: 90.14% Acc: 90.80 Best Acc: 91.02 InvT: 1.4E+11 Loss: 0.5
+
+Epoch 985 Sparse Rate: 90.14% Acc: 90.87 Best Acc: 91.02 InvT: 1.4E+11 Loss: 0.5
+
+Epoch 986 Sparse Rate: 90.14% Acc: 90.82 Best Acc: 91.02 InvT: 1.4E+11 Loss: 0.5
+
+Epoch 987 Sparse Rate: 90.14% Acc: 90.84 Best Acc: 91.02 InvT: 1.4E+11 Loss: 0.6
+
+Epoch 988 Sparse Rate: 90.14% Acc: 90.86 Best Acc: 91.02 InvT: 1.4E+11 Loss: 0.6
+
+Epoch 989 Sparse Rate: 90.14% Acc: 90.80 Best Acc: 91.02 InvT: 1.4E+11 Loss: 0.6
+layer1.0.conv1.weight | P max:  60.7 min:   0.0
+layer1.0.conv2.weight | P max:  60.7 min:   0.0
+layer1.1.conv1.weight | P max:  60.7 min:   0.0
+layer1.1.conv2.weight | P max:  60.7 min:   0.0
+layer1.2.conv1.weight | P max:  60.7 min:   0.0
+layer1.2.conv2.weight | P max:  60.7 min:   0.0
+layer2.0.conv1.weight | P max:  60.7 min:   0.0
+layer2.0.conv2.weight | P max:  60.7 min:   0.0
+layer2.1.conv1.weight | P max:  60.7 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  60.7 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.0
+layer3.0.conv1.weight | P max:  60.8 min:   0.0
+layer3.0.conv2.weight | P max:  61.0 min:   0.0
+layer3.1.conv1.weight | P max:  61.0 min:   0.6
+layer3.1.conv2.weight | P max:  61.0 min:   0.1
+layer3.2.conv1.weight | P max:  61.0 min:   0.1
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 990 Sparse Rate: 90.14% Acc: 90.91 Best Acc: 91.02 InvT: 1.4E+11 Loss: 0.6
+
+Epoch 991 Sparse Rate: 90.14% Acc: 90.82 Best Acc: 91.02 InvT: 1.4E+11 Loss: 0.6
+
+Epoch 992 Sparse Rate: 90.14% Acc: 91.00 Best Acc: 91.02 InvT: 1.4E+11 Loss: 0.6
+
+Epoch 993 Sparse Rate: 90.14% Acc: 90.85 Best Acc: 91.02 InvT: 1.4E+11 Loss: 0.6
+
+Epoch 994 Sparse Rate: 90.14% Acc: 90.97 Best Acc: 91.02 InvT: 1.4E+11 Loss: 0.6
+
+Epoch 995 Sparse Rate: 90.13% Acc: 90.82 Best Acc: 91.02 InvT: 1.4E+11 Loss: 0.6
+
+Epoch 996 Sparse Rate: 90.14% Acc: 90.88 Best Acc: 91.02 InvT: 1.4E+11 Loss: 0.6
+
+Epoch 997 Sparse Rate: 90.14% Acc: 90.84 Best Acc: 91.02 InvT: 1.4E+11 Loss: 0.6
+
+Epoch 998 Sparse Rate: 90.14% Acc: 90.82 Best Acc: 91.02 InvT: 1.5E+11 Loss: 0.5
+
+Epoch 999 Sparse Rate: 90.14% Acc: 91.00 Best Acc: 91.02 InvT: 1.5E+11 Loss: 0.6
+layer1.0.conv1.weight | P max:  60.7 min:   0.0
+layer1.0.conv2.weight | P max:  60.7 min:   0.0
+layer1.1.conv1.weight | P max:  60.7 min:   0.0
+layer1.1.conv2.weight | P max:  60.7 min:   0.0
+layer1.2.conv1.weight | P max:  60.7 min:   0.0
+layer1.2.conv2.weight | P max:  60.7 min:   0.0
+layer2.0.conv1.weight | P max:  60.7 min:   0.0
+layer2.0.conv2.weight | P max:  60.7 min:   0.0
+layer2.1.conv1.weight | P max:  60.7 min:   0.0
+layer2.1.conv2.weight | P max:  60.7 min:   0.0
+layer2.2.conv1.weight | P max:  60.7 min:   0.0
+layer2.2.conv2.weight | P max:  60.7 min:   0.0
+layer3.0.conv1.weight | P max:  60.8 min:   0.0
+layer3.0.conv2.weight | P max:  61.0 min:   0.0
+layer3.1.conv1.weight | P max:  61.0 min:   0.6
+layer3.1.conv2.weight | P max:  61.0 min:   0.1
+layer3.2.conv1.weight | P max:  61.0 min:   0.1
+layer3.2.conv2.weight | P max:  61.0 min:   0.0
+
+Epoch 1000 Sparse Rate: 90.14% Acc: 90.88 Best Acc: 91.02 InvT: 1.5E+11 Loss: 0.6
+Sampling Time used: 26051.4
+Epoch 0 Test set accuracy: 90.88%
