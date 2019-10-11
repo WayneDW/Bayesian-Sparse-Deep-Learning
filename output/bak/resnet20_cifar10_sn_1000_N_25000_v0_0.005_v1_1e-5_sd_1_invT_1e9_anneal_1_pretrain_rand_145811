@@ -1,0 +1,308 @@
+Files already downloaded and verified
+Sampling from scratch
+
+Epoch 1 Sparse Rate: 0.00% Acc: 34.29 Best Acc: 34.29 InvT: 1.0E+09 Loss: 2.3
+
+Epoch 2 Sparse Rate: 0.00% Acc: 42.38 Best Acc: 42.38 InvT: 1.0E+09 Loss: 2.1
+
+Epoch 3 Sparse Rate: 0.00% Acc: 44.31 Best Acc: 44.31 InvT: 1.0E+09 Loss: 1.8
+
+Epoch 4 Sparse Rate: 0.00% Acc: 52.21 Best Acc: 52.21 InvT: 1.0E+09 Loss: 1.7
+
+Epoch 5 Sparse Rate: 0.00% Acc: 58.00 Best Acc: 58.00 InvT: 1.0E+09 Loss: 1.6
+
+Epoch 6 Sparse Rate: 0.00% Acc: 62.00 Best Acc: 62.00 InvT: 1.0E+09 Loss: 1.4
+
+Epoch 7 Sparse Rate: 0.00% Acc: 64.09 Best Acc: 64.09 InvT: 1.0E+09 Loss: 1.4
+
+Epoch 8 Sparse Rate: 0.00% Acc: 61.24 Best Acc: 64.09 InvT: 1.0E+09 Loss: 1.3
+
+Epoch 9 Sparse Rate: 0.00% Acc: 65.57 Best Acc: 65.57 InvT: 1.0E+09 Loss: 1.2
+
+Epoch 10 Sparse Rate: 0.00% Acc: 62.14 Best Acc: 65.57 InvT: 1.0E+09 Loss: 1.2
+
+Epoch 11 Sparse Rate: 0.00% Acc: 72.80 Best Acc: 72.80 InvT: 1.0E+09 Loss: 1.1
+
+Epoch 12 Sparse Rate: 0.00% Acc: 75.56 Best Acc: 75.56 InvT: 1.0E+09 Loss: 1.1
+
+Epoch 13 Sparse Rate: 0.00% Acc: 73.48 Best Acc: 75.56 InvT: 1.0E+09 Loss: 1.1
+
+Epoch 14 Sparse Rate: 0.00% Acc: 72.22 Best Acc: 75.56 InvT: 1.0E+09 Loss: 1.1
+
+Epoch 15 Sparse Rate: 0.00% Acc: 75.53 Best Acc: 75.56 InvT: 1.0E+09 Loss: 1.0
+
+Epoch 16 Sparse Rate: 0.00% Acc: 77.25 Best Acc: 77.25 InvT: 1.0E+09 Loss: 1.0
+
+Epoch 17 Sparse Rate: 0.00% Acc: 70.67 Best Acc: 77.25 InvT: 1.0E+09 Loss: 0.9
+
+Epoch 18 Sparse Rate: 0.00% Acc: 72.71 Best Acc: 77.25 InvT: 1.0E+09 Loss: 0.9
+
+Epoch 19 Sparse Rate: 0.00% Acc: 76.78 Best Acc: 77.25 InvT: 1.0E+09 Loss: 0.9
+
+Epoch 20 Sparse Rate: 0.00% Acc: 77.03 Best Acc: 77.25 InvT: 1.0E+09 Loss: 0.9
+
+Epoch 21 Sparse Rate: 0.00% Acc: 75.51 Best Acc: 77.25 InvT: 1.0E+09 Loss: 0.9
+
+Epoch 22 Sparse Rate: 0.00% Acc: 75.24 Best Acc: 77.25 InvT: 1.0E+09 Loss: 0.8
+
+Epoch 23 Sparse Rate: 0.00% Acc: 75.96 Best Acc: 77.25 InvT: 1.0E+09 Loss: 0.8
+
+Epoch 24 Sparse Rate: 0.00% Acc: 75.80 Best Acc: 77.25 InvT: 1.0E+09 Loss: 0.9
+
+Epoch 25 Sparse Rate: 0.00% Acc: 81.35 Best Acc: 81.35 InvT: 1.0E+09 Loss: 0.8
+
+Epoch 26 Sparse Rate: 0.00% Acc: 76.02 Best Acc: 81.35 InvT: 1.0E+09 Loss: 0.8
+
+Epoch 27 Sparse Rate: 0.00% Acc: 72.39 Best Acc: 81.35 InvT: 1.0E+09 Loss: 0.8
+
+Epoch 28 Sparse Rate: 0.00% Acc: 81.83 Best Acc: 81.83 InvT: 1.0E+09 Loss: 0.7
+
+Epoch 29 Sparse Rate: 0.00% Acc: 77.47 Best Acc: 81.83 InvT: 1.0E+09 Loss: 0.8
+
+Epoch 30 Sparse Rate: 0.00% Acc: 78.81 Best Acc: 81.83 InvT: 1.0E+09 Loss: 0.7
+
+Epoch 31 Sparse Rate: 0.00% Acc: 74.79 Best Acc: 81.83 InvT: 1.0E+09 Loss: 0.8
+
+Epoch 32 Sparse Rate: 0.00% Acc: 81.15 Best Acc: 81.83 InvT: 1.0E+09 Loss: 0.7
+
+Epoch 33 Sparse Rate: 0.00% Acc: 80.41 Best Acc: 81.83 InvT: 1.0E+09 Loss: 0.7
+
+Epoch 34 Sparse Rate: 0.00% Acc: 70.43 Best Acc: 81.83 InvT: 1.0E+09 Loss: 0.8
+
+Epoch 35 Sparse Rate: 0.00% Acc: 76.80 Best Acc: 81.83 InvT: 1.0E+09 Loss: 0.7
+
+Epoch 36 Sparse Rate: 0.00% Acc: 69.87 Best Acc: 81.83 InvT: 1.0E+09 Loss: 0.7
+
+Epoch 37 Sparse Rate: 0.00% Acc: 75.81 Best Acc: 81.83 InvT: 1.0E+09 Loss: 0.7
+
+Epoch 38 Sparse Rate: 0.00% Acc: 81.37 Best Acc: 81.83 InvT: 1.0E+09 Loss: 0.7
+
+Epoch 39 Sparse Rate: 0.00% Acc: 78.26 Best Acc: 81.83 InvT: 1.0E+09 Loss: 0.7
+
+Epoch 40 Sparse Rate: 0.00% Acc: 81.77 Best Acc: 81.83 InvT: 1.0E+09 Loss: 0.7
+
+Epoch 41 Sparse Rate: 0.00% Acc: 78.43 Best Acc: 81.83 InvT: 1.0E+09 Loss: 0.7
+
+Epoch 42 Sparse Rate: 0.00% Acc: 81.32 Best Acc: 81.83 InvT: 1.0E+09 Loss: 0.6
+
+Epoch 43 Sparse Rate: 0.00% Acc: 82.45 Best Acc: 82.45 InvT: 1.0E+09 Loss: 0.6
+
+Epoch 44 Sparse Rate: 0.00% Acc: 80.55 Best Acc: 82.45 InvT: 1.0E+09 Loss: 0.6
+
+Epoch 45 Sparse Rate: 0.00% Acc: 80.14 Best Acc: 82.45 InvT: 1.0E+09 Loss: 0.6
+
+Epoch 46 Sparse Rate: 0.00% Acc: 82.20 Best Acc: 82.45 InvT: 1.0E+09 Loss: 0.6
+
+Epoch 47 Sparse Rate: 0.00% Acc: 83.39 Best Acc: 83.39 InvT: 1.0E+09 Loss: 0.6
+
+Epoch 48 Sparse Rate: 0.00% Acc: 83.51 Best Acc: 83.51 InvT: 1.0E+09 Loss: 0.6
+
+Epoch 49 Sparse Rate: 0.00% Acc: 82.89 Best Acc: 83.51 InvT: 1.0E+09 Loss: 0.6
+
+Epoch 50 Sparse Rate: 0.00% Acc: 80.19 Best Acc: 83.51 InvT: 1.0E+09 Loss: 0.6
+
+Epoch 51 Sparse Rate: 0.00% Acc: 80.32 Best Acc: 83.51 InvT: 1.0E+09 Loss: 0.6
+
+Epoch 52 Sparse Rate: 0.00% Acc: 81.88 Best Acc: 83.51 InvT: 1.0E+09 Loss: 0.6
+
+Epoch 53 Sparse Rate: 0.00% Acc: 82.74 Best Acc: 83.51 InvT: 1.0E+09 Loss: 0.6
+
+Epoch 54 Sparse Rate: 0.00% Acc: 80.59 Best Acc: 83.51 InvT: 1.0E+09 Loss: 0.6
+
+Epoch 55 Sparse Rate: 0.00% Acc: 75.25 Best Acc: 83.51 InvT: 1.0E+09 Loss: 0.6
+
+Epoch 56 Sparse Rate: 0.00% Acc: 81.33 Best Acc: 83.51 InvT: 1.0E+09 Loss: 0.7
+
+Epoch 57 Sparse Rate: 0.00% Acc: 82.35 Best Acc: 83.51 InvT: 1.0E+09 Loss: 0.6
+
+Epoch 58 Sparse Rate: 0.00% Acc: 78.41 Best Acc: 83.51 InvT: 1.0E+09 Loss: 0.6
+
+Epoch 59 Sparse Rate: 0.00% Acc: 83.78 Best Acc: 83.78 InvT: 1.0E+09 Loss: 0.6
+
+Epoch 60 Sparse Rate: 0.00% Acc: 85.83 Best Acc: 85.83 InvT: 1.0E+09 Loss: 0.6
+
+Epoch 61 Sparse Rate: 0.00% Acc: 81.22 Best Acc: 85.83 InvT: 1.0E+09 Loss: 0.6
+
+Epoch 62 Sparse Rate: 0.00% Acc: 82.47 Best Acc: 85.83 InvT: 1.0E+09 Loss: 0.6
+
+Epoch 63 Sparse Rate: 0.00% Acc: 83.00 Best Acc: 85.83 InvT: 1.0E+09 Loss: 0.6
+
+Epoch 64 Sparse Rate: 0.00% Acc: 83.57 Best Acc: 85.83 InvT: 1.0E+09 Loss: 0.6
+
+Epoch 65 Sparse Rate: 0.00% Acc: 85.07 Best Acc: 85.83 InvT: 1.0E+09 Loss: 0.6
+
+Epoch 66 Sparse Rate: 0.00% Acc: 81.51 Best Acc: 85.83 InvT: 1.0E+09 Loss: 0.6
+
+Epoch 67 Sparse Rate: 0.00% Acc: 83.25 Best Acc: 85.83 InvT: 1.0E+09 Loss: 0.6
+
+Epoch 68 Sparse Rate: 0.00% Acc: 79.82 Best Acc: 85.83 InvT: 1.0E+09 Loss: 0.6
+
+Epoch 69 Sparse Rate: 0.00% Acc: 86.96 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.6
+
+Epoch 70 Sparse Rate: 0.00% Acc: 81.20 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.6
+
+Epoch 71 Sparse Rate: 0.00% Acc: 85.32 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.6
+
+Epoch 72 Sparse Rate: 0.00% Acc: 78.26 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.6
+
+Epoch 73 Sparse Rate: 0.00% Acc: 80.92 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.6
+
+Epoch 74 Sparse Rate: 0.00% Acc: 83.79 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.5
+
+Epoch 75 Sparse Rate: 0.00% Acc: 83.73 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.6
+
+Epoch 76 Sparse Rate: 0.00% Acc: 82.51 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.6
+
+Epoch 77 Sparse Rate: 0.00% Acc: 84.78 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.5
+
+Epoch 78 Sparse Rate: 0.00% Acc: 82.56 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.6
+
+Epoch 79 Sparse Rate: 0.00% Acc: 83.81 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.5
+
+Epoch 80 Sparse Rate: 0.00% Acc: 80.25 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.5
+
+Epoch 81 Sparse Rate: 0.00% Acc: 81.56 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.5
+
+Epoch 82 Sparse Rate: 0.00% Acc: 83.59 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.6
+
+Epoch 83 Sparse Rate: 0.00% Acc: 84.41 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.5
+
+Epoch 84 Sparse Rate: 0.00% Acc: 85.13 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.5
+
+Epoch 85 Sparse Rate: 0.00% Acc: 82.37 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.6
+
+Epoch 86 Sparse Rate: 0.00% Acc: 84.12 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.5
+
+Epoch 87 Sparse Rate: 0.00% Acc: 80.69 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.6
+
+Epoch 88 Sparse Rate: 0.00% Acc: 83.06 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.6
+
+Epoch 89 Sparse Rate: 0.00% Acc: 78.91 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.5
+
+Epoch 90 Sparse Rate: 0.00% Acc: 83.91 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.6
+
+Epoch 91 Sparse Rate: 0.00% Acc: 86.68 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.5
+
+Epoch 92 Sparse Rate: 0.00% Acc: 85.81 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.5
+
+Epoch 93 Sparse Rate: 0.00% Acc: 82.54 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.5
+
+Epoch 94 Sparse Rate: 0.00% Acc: 83.08 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.5
+
+Epoch 95 Sparse Rate: 0.00% Acc: 81.87 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.5
+
+Epoch 96 Sparse Rate: 0.00% Acc: 84.65 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.6
+
+Epoch 97 Sparse Rate: 0.00% Acc: 82.73 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.6
+
+Epoch 98 Sparse Rate: 0.00% Acc: 84.21 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.5
+
+Epoch 99 Sparse Rate: 0.00% Acc: 84.06 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.5
+
+Epoch 100 Sparse Rate: 0.00% Acc: 86.43 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.6
+
+Epoch 101 Sparse Rate: 0.00% Acc: 85.82 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.6
+
+Epoch 102 Sparse Rate: 0.00% Acc: 86.16 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.5
+
+Epoch 103 Sparse Rate: 0.00% Acc: 86.05 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.6
+
+Epoch 104 Sparse Rate: 0.00% Acc: 85.22 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.5
+
+Epoch 105 Sparse Rate: 0.00% Acc: 84.95 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.5
+
+Epoch 106 Sparse Rate: 0.00% Acc: 84.22 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.5
+
+Epoch 107 Sparse Rate: 0.00% Acc: 85.10 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.5
+
+Epoch 108 Sparse Rate: 0.00% Acc: 85.54 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.5
+
+Epoch 109 Sparse Rate: 0.00% Acc: 83.62 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.5
+
+Epoch 110 Sparse Rate: 0.00% Acc: 84.93 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.6
+
+Epoch 111 Sparse Rate: 0.00% Acc: 83.30 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.5
+
+Epoch 112 Sparse Rate: 0.00% Acc: 80.54 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.6
+
+Epoch 113 Sparse Rate: 0.00% Acc: 83.50 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.6
+
+Epoch 114 Sparse Rate: 0.00% Acc: 80.58 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.6
+
+Epoch 115 Sparse Rate: 0.00% Acc: 85.77 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.6
+
+Epoch 116 Sparse Rate: 0.00% Acc: 86.39 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.5
+
+Epoch 117 Sparse Rate: 0.00% Acc: 83.06 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.5
+
+Epoch 118 Sparse Rate: 0.00% Acc: 86.76 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.6
+
+Epoch 119 Sparse Rate: 0.00% Acc: 79.51 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.6
+
+Epoch 120 Sparse Rate: 0.00% Acc: 81.74 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.5
+
+Epoch 121 Sparse Rate: 0.00% Acc: 84.17 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.6
+
+Epoch 122 Sparse Rate: 0.00% Acc: 83.83 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.6
+
+Epoch 123 Sparse Rate: 0.00% Acc: 84.75 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.6
+
+Epoch 124 Sparse Rate: 0.00% Acc: 85.97 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.6
+
+Epoch 125 Sparse Rate: 0.00% Acc: 86.35 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.5
+
+Epoch 126 Sparse Rate: 0.00% Acc: 86.56 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.5
+
+Epoch 127 Sparse Rate: 0.00% Acc: 86.59 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.5
+
+Epoch 128 Sparse Rate: 0.00% Acc: 85.68 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.5
+
+Epoch 129 Sparse Rate: 0.00% Acc: 84.94 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.6
+
+Epoch 130 Sparse Rate: 0.00% Acc: 85.94 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.5
+
+Epoch 131 Sparse Rate: 0.00% Acc: 84.13 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.5
+
+Epoch 132 Sparse Rate: 0.00% Acc: 85.74 Best Acc: 86.96 InvT: 1.0E+09 Loss: 0.5
+
+Epoch 133 Sparse Rate: 0.00% Acc: 87.39 Best Acc: 87.39 InvT: 1.0E+09 Loss: 0.5
+
+Epoch 134 Sparse Rate: 0.00% Acc: 85.29 Best Acc: 87.39 InvT: 1.0E+09 Loss: 0.5
+
+Epoch 135 Sparse Rate: 0.00% Acc: 85.77 Best Acc: 87.39 InvT: 1.0E+09 Loss: 0.5
+
+Epoch 136 Sparse Rate: 0.00% Acc: 84.68 Best Acc: 87.39 InvT: 1.0E+09 Loss: 0.5
+
+Epoch 137 Sparse Rate: 0.00% Acc: 84.23 Best Acc: 87.39 InvT: 1.0E+09 Loss: 0.5
+
+Epoch 138 Sparse Rate: 0.00% Acc: 86.98 Best Acc: 87.39 InvT: 1.0E+09 Loss: 0.5
+
+Epoch 139 Sparse Rate: 0.00% Acc: 81.74 Best Acc: 87.39 InvT: 1.0E+09 Loss: 0.5
+
+Epoch 140 Sparse Rate: 0.00% Acc: 85.85 Best Acc: 87.39 InvT: 1.0E+09 Loss: 0.5
+
+Epoch 141 Sparse Rate: 0.00% Acc: 84.61 Best Acc: 87.39 InvT: 1.0E+09 Loss: 0.6
+
+Epoch 142 Sparse Rate: 0.00% Acc: 83.31 Best Acc: 87.39 InvT: 1.0E+09 Loss: 0.5
+
+Epoch 143 Sparse Rate: 0.00% Acc: 84.30 Best Acc: 87.39 InvT: 1.0E+09 Loss: 0.5
+
+Epoch 144 Sparse Rate: 0.00% Acc: 82.35 Best Acc: 87.39 InvT: 1.0E+09 Loss: 0.5
+
+Epoch 145 Sparse Rate: 0.00% Acc: 85.58 Best Acc: 87.39 InvT: 1.0E+09 Loss: 0.5
+
+Epoch 146 Sparse Rate: 0.00% Acc: 87.04 Best Acc: 87.39 InvT: 1.0E+09 Loss: 0.5
+
+Epoch 147 Sparse Rate: 0.00% Acc: 85.28 Best Acc: 87.39 InvT: 1.0E+09 Loss: 0.5
+
+Epoch 148 Sparse Rate: 0.00% Acc: 86.97 Best Acc: 87.39 InvT: 1.0E+09 Loss: 0.5
+
+Epoch 149 Sparse Rate: 0.00% Acc: 84.22 Best Acc: 87.39 InvT: 1.0E+09 Loss: 0.5
+
+Epoch 150 Sparse Rate: 0.00% Acc: 80.46 Best Acc: 87.39 InvT: 1.0E+09 Loss: 0.5
+
+Epoch 151 Sparse Rate: 0.00% Acc: 82.95 Best Acc: 87.39 InvT: 1.0E+09 Loss: 0.5
+
+Epoch 152 Sparse Rate: 0.00% Acc: 83.23 Best Acc: 87.39 InvT: 1.0E+09 Loss: 0.5
+
+Epoch 153 Sparse Rate: 0.00% Acc: 85.12 Best Acc: 87.39 InvT: 1.0E+09 Loss: 0.5
