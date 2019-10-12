@@ -19,11 +19,11 @@ for _ in range(1):
     v0 = secure_random.choice(['0.005'])
     v1 = secure_random.choice(['1e-5'])
     sd = secure_random.choice(['1'])
-    lr = secure_random.choice(['4e-9'])
-    dc = secure_random.choice(['0.1', '0.02'])
-    invT = secure_random.choice(['4e3', '2e4', '4e4'])
+    lr = secure_random.choice(['2e-9'])
+    dc = secure_random.choice(['0.02'])
+    invT = secure_random.choice(['2e3', '1e4', '2e4'])
     anneal = secure_random.choice(['1.005', '1.007', '1.01'])
-    NN = secure_random.choice(['25000'])
+    NN = secure_random.choice(['50000'])
     sn = '1000'
     sparse = '0.90'
     cut = secure_random.choice(['0.99'])
