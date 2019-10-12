@@ -48,14 +48,13 @@ class BayesPosterior(ResNet):
         self.target_sparse, self.adaptive_sparse = floor(pars.sparse * self.total_no_pars / self.sparse_no_pars), 0
 
     def cal_nlpos(self, x, y):
-        nlloss = self.criterion(self.forward(x), y)
-        """ cross-entropy is averaged loss, we also modify the priors accordingly """
+        nlloss = self.criterion(self.forward(x), y) * self.N
         for name, param in self.named_parameters():
             if name.endswith('weight') and 'conv' in name and name != 'conv1.weight' and self.prune > 0:
                 nlloss += (torch.sum(param.pow(2) * self.d_star1[name]) / self.sd**2 / 2 \
-                            + torch.sum(param.abs() * self.d_star0[name]) / self.sd) / self.N
+                            + torch.sum(param.abs() * self.d_star0[name]) / self.sd)
             else:
-                nlloss += 0.5 * self.wdecay * param.norm(2)**2
+                nlloss += 0.5 * self.wdecay * self.N * param.norm(2)**2
         return(nlloss)
 
     def update_decay(self):
@@ -92,10 +91,10 @@ class BayesPosterior(ResNet):
                 wridge += (param.data**2 * self.d_star1[name]).sum().item()
 
             if self.dcoef['t'] % 50 == 0:
-                print('{:s} | P max: {:5.1f} min: {:5.1f} | D0 avg {:.1e} max {:.1e} min {:.1e} | D1 avg {:.2f} max {:.2f} min {:.2f}'.format(name, \
+                print('{:s} | P max: {:5.1f} min: {:5.1f} | D0 avg {:.1e} max {:.1e} min {:.1e} | D1 avg {:.1e} max {:.1e} min {:.1e} SD {:.2f}'.format(name, \
                         self.p_star[name].max() * 100, self.p_star[name].min() * 100, \
                         self.d_star0[name].mean() / self.N, self.d_star0[name].max() / self.N, self.d_star0[name].min() / self.N, \
-                        self.d_star1[name].mean() / self.N, self.d_star1[name].max() / self.N, self.d_star1[name].min() / self.N))
+                        self.d_star1[name].mean() / self.N, self.d_star1[name].max() / self.N, self.d_star1[name].min() / self.N, self.sd))
             sparse_items += (param.data == 0).sum().item()
 
         self.sparse_rate = sparse_items * 100.0 / self.total_no_pars

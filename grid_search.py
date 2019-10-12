@@ -16,11 +16,11 @@ else:
 for _ in range(1):
     #seed = str(random.randint(1, 10**6))
     seed = secure_random.choice(['125894', '130331', '258855', '421348', '248702', '248702', '248702'])
-    v0 = secure_random.choice(['0.01', '0.02'])
-    v1 = secure_random.choice(['1e-5'])
+    v0 = secure_random.choice(['0.01'])
+    v1 = secure_random.choice(['1e-4'])
     sd = secure_random.choice(['1'])
-    lr = secure_random.choice(['1e-4'])
-    invT = secure_random.choice(['1e8', '5e8', '1e9'])
+    lr = secure_random.choice(['2e-9'])
+    invT = secure_random.choice(['2e3', '1e4', '2e4'])
     anneal = secure_random.choice(['1.005', '1.007', '1.01'])
     NN = secure_random.choice(['50000'])
     sn = '1000'

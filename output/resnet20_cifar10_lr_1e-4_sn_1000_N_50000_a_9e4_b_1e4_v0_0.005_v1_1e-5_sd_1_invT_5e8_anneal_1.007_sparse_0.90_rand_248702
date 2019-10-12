@@ -1,0 +1,3 @@
+Files already downloaded and verified
+Use preTrained model
+Epoch Namespace(N=50000.0, a=90000.0, anneal=1.007, aug=1, b=10000.0, cuda=1, cut=0.99, da=1000, dalpha=0.75, data='cifar10', dc=10, depth=20, gap=50, gpu=0, invT=500000000.0, lamda=1000, lr=0.0001, method='sa', model='resnet20', momentum=0.9, multi=0, nu=1000, prune=1, save=0, sd=1.0, seed=248702, sn=1000, sparse=0.9, test=1000, theta=0.5, train=1000, v0=0.005, v1=1e-05, wdecay=0.0005) Test set accuracy: 93.74%
