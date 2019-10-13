@@ -21,7 +21,7 @@ for _ in range(1):
     sd = secure_random.choice(['1'])
     lr = secure_random.choice(['2e-9'])
     dc = secure_random.choice(['0.1'])
-    invT = secure_random.choice(['2e3'])
+    invT = secure_random.choice(['1e3'])
     anneal = secure_random.choice(['1.007'])
     NN = secure_random.choice(['50000'])
     sn = '1000'
