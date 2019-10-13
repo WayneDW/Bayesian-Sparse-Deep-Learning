@@ -13,15 +13,17 @@ elif len(sys.argv) > 2:
 else:
     gpu = '0'
 
-for _ in range(2):
+for _ in range(1):
     #seed = str(random.randint(1, 10**6))
     seed = secure_random.choice(['125894'])
-    v0 = secure_random.choice(['0.005', '0.01'])
+    v0 = secure_random.choice(['0.005'])
     v1 = secure_random.choice(['1e-5'])
+    c = secure_random.choice(['sa'])#, 'em', 'sghmc'])
     dc = secure_random.choice(['0.02'])
     invT = secure_random.choice(['1e3', '2e3'])
-    anneal = secure_random.choice(['1.0', '1.005', '1.007', '1.01'])
+    anneal = secure_random.choice(['1.01'])
     sparse = '0.90'
-    #os.system('python bayes_cnn.py -prune 0 -save 1 -lr 0.1 ' + ' -v0 ' + v0 + ' -v1 ' + v1 + ' -seed ' + seed + ' -sparse 0 ' + ' -invT 1e9 -gpu ' + gpu + ' -anneal 1 ' + ' > ./output/resnet20_cifar10_' + '_v0_' + v0 + '_v1_' + v1 + '_invT_' + invT + '_anneal_1_pretrain_rand_' + seed)
+    #v0, v1, sparse = secure_random.choice([('0.5', '1e-3', '0.3'), ('0.1', '5e-4', '0.5'), ('0.1', '5e-5', '0.7'), ('0.005', '1e-5', '0.9')])
+    #os.system('python bayes_cnn.py -prune 0 -save 1 -lr 2e-6 ' + ' -seed ' + seed + ' -sparse 0 ' + ' -invT 1e9 -gpu ' + gpu + ' -anneal 1 ' + ' > ./output/resnet20_cifar10_invT_' + invT + '_anneal_1_pretrain_rand_' + seed)
 
-    os.system('python bayes_cnn.py -dc ' + dc + ' -prune 1 ' + ' -v0 ' + v0 + ' -v1 ' + v1 + ' -seed ' + seed + ' -sparse ' + sparse + ' -invT ' + invT + ' -gpu ' + gpu + ' -anneal ' + anneal + ' > ./output/resnet20_cifar10_' + '_dc_' + dc + '_v0_' + v0 + '_v1_' + v1 + '_invT_' + invT + '_anneal_' + anneal + '_sparse_' + sparse + '_rand_' + seed)
+    os.system('python bayes_cnn.py -c ' + c + ' -dc ' + dc + ' -prune 1 ' + ' -v0 ' + v0 + ' -v1 ' + v1 + ' -seed ' + seed + ' -sparse ' + sparse + ' -invT ' + invT + ' -gpu ' + gpu + ' -anneal ' + anneal + ' > ./output/resnet20_cifar10_' + '_dc_' + dc + '_v0_' + v0 + '_v1_' + v1 + '_invT_' + invT + '_anneal_' + anneal + '_sparse_' + sparse + '_' + c + '_rand_' + seed)

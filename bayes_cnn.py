@@ -25,7 +25,7 @@ from posterior_cnn import BayesPosterior
 
 def main():
     parser = argparse.ArgumentParser(description='Hyperparameters')
-    parser.add_argument('-method', default='sa', help='stochastic approximation (sa)/ EM (em)/ vanilla')
+    parser.add_argument('-c', default='sa', help='stochastic approximation (sa)/ EM (em)/ vanilla')
     parser.add_argument('-aug', default=1, type=float, help='Data augmentation or not')
     # sampling part: hidden variable update -- decay rate
     parser.add_argument('-dc', default=10, type=float, help='1st coef in decay C (A+t)^alpha')

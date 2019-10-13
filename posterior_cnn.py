@@ -28,7 +28,7 @@ class BayesPosterior(ResNet):
         """ Tuning parameter for Gaussian (v1) and Laplace (v0) prior """
         self.v0, self.v1 = pars.v0, pars.v1
 
-        self.sd, self.wdecay, self.cut, self.gap, self.method = pars.sd, pars.wdecay, pars.cut, pars.gap, pars.method
+        self.sd, self.wdecay, self.cut, self.gap, self.c = pars.sd, pars.wdecay, pars.cut, pars.gap, pars.c
         self.theta, self.p_star, self.d_star, self.d_star0, self.d_star1 = {}, {}, {}, {}, {}
         self.dcoef = {'c': pars.dc, 'A': pars.da, 't': 1.0, 'alpha': pars.dalpha}
         self.total_no_pars, self.sparse_no_pars = 0, 0
@@ -58,9 +58,9 @@ class BayesPosterior(ResNet):
         return(nlloss)
 
     def update_decay(self):
-        if self.method == 'sa':
+        if self.c == 'sa':
             self.decay = self.dcoef['c'] / math.pow(self.dcoef['A'] + self.dcoef['t'], self.dcoef['alpha'])
-        elif self.method == 'em':
+        elif self.c == 'em':
             self.decay = 1.
         else:
             self.decay = 0.
@@ -90,7 +90,7 @@ class BayesPosterior(ResNet):
                 wlasso +=  (param.data.abs() * self.d_star0[name]).sum().item()
                 wridge += (param.data**2 * self.d_star1[name]).sum().item()
 
-            if self.dcoef['t'] % 5000 == 0:
+            if self.dcoef['t'] % 50 == 0:
                 print('{:s} | P max: {:5.1f} min: {:5.1f} | D0 avg {:.1e} max {:.1e} min {:.1e} | D1 avg {:.1e} max {:.1e} min {:.1e} SD {:.2f}'.format(name, \
                         self.p_star[name].max() * 100, self.p_star[name].min() * 100, \
                         self.d_star0[name].mean() / self.N, self.d_star0[name].max() / self.N, self.d_star0[name].min() / self.N, \
