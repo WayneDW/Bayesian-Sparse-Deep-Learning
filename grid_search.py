@@ -20,7 +20,7 @@ for _ in range(1):
     v1 = secure_random.choice(['1e-5'])
     c = secure_random.choice(['sa'])#, 'em', 'sghmc'])
     dc = secure_random.choice(['0.02'])
-    invT = secure_random.choice(['1e3', '2e3'])
+    invT = secure_random.choice(['2e3'])
     anneal = secure_random.choice(['1.01'])
     sparse = '0.90'
     #v0, v1, sparse = secure_random.choice([('0.5', '1e-3', '0.3'), ('0.1', '5e-4', '0.5'), ('0.1', '5e-5', '0.7'), ('0.005', '1e-5', '0.9')])
