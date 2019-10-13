@@ -1,0 +1,961 @@
+Files already downloaded and verified
+Use preTrained model
+Epoch Namespace(N=50000.0, a=270000.0, anneal=1.0, aug=1, b=270000.0, cuda=1, cut=0.99, da=1000, dalpha=0.75, data='cifar10', dc=0.02, depth=20, gap=50, gpu=0, invT=1000.0, lamda=1000, lr=2e-09, method='sa', model='resnet20', momentum=0.9, multi=0, nu=1000, prune=1, save=0, sd=1.0, seed=421348, sn=1000, sparse=0.9, test=1000, theta=0.5, train=1000, v0=0.01, v1=1e-05, wdecay=0.0005) Test set accuracy: 94.07%
+layer1.0.conv1.weight | P max:  50.1 min:  49.7 | D0 avg 5.4e-06 max 5.4e-06 min 5.4e-06 | D1 avg 5.4e-03 max 5.4e-03 min 5.4e-03 SD 1.01
+layer1.0.conv2.weight | P max:  50.1 min:  49.7 | D0 avg 5.4e-06 max 5.4e-06 min 5.4e-06 | D1 avg 5.4e-03 max 5.4e-03 min 5.4e-03 SD 1.01
+layer1.1.conv1.weight | P max:  50.1 min:  49.7 | D0 avg 5.4e-06 max 5.4e-06 min 5.4e-06 | D1 avg 5.4e-03 max 5.4e-03 min 5.4e-03 SD 1.01
+layer1.1.conv2.weight | P max:  50.1 min:  49.7 | D0 avg 5.4e-06 max 5.4e-06 min 5.4e-06 | D1 avg 5.4e-03 max 5.4e-03 min 5.4e-03 SD 1.01
+layer1.2.conv1.weight | P max:  50.1 min:  49.7 | D0 avg 5.4e-06 max 5.4e-06 min 5.4e-06 | D1 avg 5.4e-03 max 5.4e-03 min 5.4e-03 SD 1.01
+layer1.2.conv2.weight | P max:  50.1 min:  49.7 | D0 avg 5.4e-06 max 5.4e-06 min 5.4e-06 | D1 avg 5.4e-03 max 5.4e-03 min 5.4e-03 SD 1.01
+layer2.0.conv1.weight | P max:  50.1 min:  49.7 | D0 avg 5.4e-06 max 5.4e-06 min 5.4e-06 | D1 avg 5.4e-03 max 5.4e-03 min 5.4e-03 SD 1.01
+layer2.0.conv2.weight | P max:  50.1 min:  49.7 | D0 avg 5.4e-06 max 5.4e-06 min 5.4e-06 | D1 avg 5.4e-03 max 5.4e-03 min 5.4e-03 SD 1.01
+layer2.1.conv1.weight | P max:  50.1 min:  49.7 | D0 avg 5.4e-06 max 5.4e-06 min 5.4e-06 | D1 avg 5.4e-03 max 5.4e-03 min 5.4e-03 SD 1.01
+layer2.1.conv2.weight | P max:  50.1 min:  49.7 | D0 avg 5.4e-06 max 5.4e-06 min 5.4e-06 | D1 avg 5.4e-03 max 5.4e-03 min 5.4e-03 SD 1.01
+layer2.2.conv1.weight | P max:  50.1 min:  49.7 | D0 avg 5.4e-06 max 5.4e-06 min 5.4e-06 | D1 avg 5.4e-03 max 5.4e-03 min 5.4e-03 SD 1.01
+layer2.2.conv2.weight | P max:  50.1 min:  49.7 | D0 avg 5.4e-06 max 5.4e-06 min 5.4e-06 | D1 avg 5.4e-03 max 5.4e-03 min 5.4e-03 SD 1.01
+layer3.0.conv1.weight | P max:  50.1 min:  49.7 | D0 avg 5.4e-06 max 5.4e-06 min 5.4e-06 | D1 avg 5.4e-03 max 5.4e-03 min 5.4e-03 SD 1.01
+layer3.0.conv2.weight | P max:  50.1 min:  49.7 | D0 avg 5.4e-06 max 5.4e-06 min 5.4e-06 | D1 avg 5.4e-03 max 5.4e-03 min 5.4e-03 SD 1.01
+layer3.1.conv1.weight | P max:  50.1 min:  49.7 | D0 avg 5.4e-06 max 5.4e-06 min 5.4e-06 | D1 avg 5.4e-03 max 5.4e-03 min 5.4e-03 SD 1.01
+layer3.1.conv2.weight | P max:  50.1 min:  49.7 | D0 avg 5.4e-06 max 5.4e-06 min 5.4e-06 | D1 avg 5.4e-03 max 5.4e-03 min 5.4e-03 SD 1.01
+layer3.2.conv1.weight | P max:  50.1 min:  49.7 | D0 avg 5.4e-06 max 5.4e-06 min 5.4e-06 | D1 avg 5.4e-03 max 5.4e-03 min 5.4e-03 SD 1.01
+layer3.2.conv2.weight | P max:  50.1 min:  49.7 | D0 avg 5.4e-06 max 5.4e-06 min 5.4e-06 | D1 avg 5.4e-03 max 5.4e-03 min 5.4e-03 SD 1.01
+
+Epoch 1 Sparse Rate: 0.89% Acc: 94.03 Best Acc: 0.00 InvT: 1.0E+03 Loss: 40269.0
+layer1.0.conv1.weight | P max:  50.2 min:  49.5 | D0 avg 1.1e-05 max 1.1e-05 min 1.1e-05 | D1 avg 1.1e-02 max 1.1e-02 min 1.1e-02 SD 1.02
+layer1.0.conv2.weight | P max:  50.2 min:  49.5 | D0 avg 1.1e-05 max 1.1e-05 min 1.1e-05 | D1 avg 1.1e-02 max 1.1e-02 min 1.1e-02 SD 1.02
+layer1.1.conv1.weight | P max:  50.2 min:  49.5 | D0 avg 1.1e-05 max 1.1e-05 min 1.1e-05 | D1 avg 1.1e-02 max 1.1e-02 min 1.1e-02 SD 1.02
+layer1.1.conv2.weight | P max:  50.2 min:  49.5 | D0 avg 1.1e-05 max 1.1e-05 min 1.1e-05 | D1 avg 1.1e-02 max 1.1e-02 min 1.1e-02 SD 1.02
+layer1.2.conv1.weight | P max:  50.2 min:  49.5 | D0 avg 1.1e-05 max 1.1e-05 min 1.1e-05 | D1 avg 1.1e-02 max 1.1e-02 min 1.1e-02 SD 1.02
+layer1.2.conv2.weight | P max:  50.2 min:  49.5 | D0 avg 1.1e-05 max 1.1e-05 min 1.1e-05 | D1 avg 1.1e-02 max 1.1e-02 min 1.1e-02 SD 1.02
+layer2.0.conv1.weight | P max:  50.2 min:  49.5 | D0 avg 1.1e-05 max 1.1e-05 min 1.1e-05 | D1 avg 1.1e-02 max 1.1e-02 min 1.1e-02 SD 1.02
+layer2.0.conv2.weight | P max:  50.2 min:  49.5 | D0 avg 1.1e-05 max 1.1e-05 min 1.1e-05 | D1 avg 1.1e-02 max 1.1e-02 min 1.1e-02 SD 1.02
+layer2.1.conv1.weight | P max:  50.2 min:  49.5 | D0 avg 1.1e-05 max 1.1e-05 min 1.1e-05 | D1 avg 1.1e-02 max 1.1e-02 min 1.1e-02 SD 1.02
+layer2.1.conv2.weight | P max:  50.2 min:  49.5 | D0 avg 1.1e-05 max 1.1e-05 min 1.1e-05 | D1 avg 1.1e-02 max 1.1e-02 min 1.1e-02 SD 1.02
+layer2.2.conv1.weight | P max:  50.2 min:  49.5 | D0 avg 1.1e-05 max 1.1e-05 min 1.1e-05 | D1 avg 1.1e-02 max 1.1e-02 min 1.1e-02 SD 1.02
+layer2.2.conv2.weight | P max:  50.2 min:  49.5 | D0 avg 1.1e-05 max 1.1e-05 min 1.1e-05 | D1 avg 1.1e-02 max 1.1e-02 min 1.1e-02 SD 1.02
+layer3.0.conv1.weight | P max:  50.2 min:  49.5 | D0 avg 1.1e-05 max 1.1e-05 min 1.1e-05 | D1 avg 1.1e-02 max 1.1e-02 min 1.1e-02 SD 1.02
+layer3.0.conv2.weight | P max:  50.2 min:  49.5 | D0 avg 1.1e-05 max 1.1e-05 min 1.1e-05 | D1 avg 1.1e-02 max 1.1e-02 min 1.1e-02 SD 1.02
+layer3.1.conv1.weight | P max:  50.2 min:  49.5 | D0 avg 1.1e-05 max 1.1e-05 min 1.1e-05 | D1 avg 1.1e-02 max 1.1e-02 min 1.1e-02 SD 1.02
+layer3.1.conv2.weight | P max:  50.2 min:  49.5 | D0 avg 1.1e-05 max 1.1e-05 min 1.1e-05 | D1 avg 1.1e-02 max 1.1e-02 min 1.1e-02 SD 1.02
+layer3.2.conv1.weight | P max:  50.2 min:  49.5 | D0 avg 1.1e-05 max 1.1e-05 min 1.1e-05 | D1 avg 1.1e-02 max 1.1e-02 min 1.1e-02 SD 1.02
+layer3.2.conv2.weight | P max:  50.2 min:  49.5 | D0 avg 1.1e-05 max 1.1e-05 min 1.1e-05 | D1 avg 1.1e-02 max 1.1e-02 min 1.1e-02 SD 1.02
+
+Epoch 2 Sparse Rate: 1.77% Acc: 94.01 Best Acc: 0.00 InvT: 1.0E+03 Loss: 72455.7
+layer1.0.conv1.weight | P max:  50.4 min:  49.2 | D0 avg 1.6e-05 max 1.6e-05 min 1.6e-05 | D1 avg 1.6e-02 max 1.6e-02 min 1.6e-02 SD 1.02
+layer1.0.conv2.weight | P max:  50.4 min:  49.2 | D0 avg 1.6e-05 max 1.6e-05 min 1.6e-05 | D1 avg 1.6e-02 max 1.6e-02 min 1.6e-02 SD 1.02
+layer1.1.conv1.weight | P max:  50.4 min:  49.2 | D0 avg 1.6e-05 max 1.6e-05 min 1.6e-05 | D1 avg 1.6e-02 max 1.6e-02 min 1.6e-02 SD 1.02
+layer1.1.conv2.weight | P max:  50.4 min:  49.2 | D0 avg 1.6e-05 max 1.6e-05 min 1.6e-05 | D1 avg 1.6e-02 max 1.6e-02 min 1.6e-02 SD 1.02
+layer1.2.conv1.weight | P max:  50.4 min:  49.2 | D0 avg 1.6e-05 max 1.6e-05 min 1.6e-05 | D1 avg 1.6e-02 max 1.6e-02 min 1.6e-02 SD 1.02
+layer1.2.conv2.weight | P max:  50.4 min:  49.2 | D0 avg 1.6e-05 max 1.6e-05 min 1.6e-05 | D1 avg 1.6e-02 max 1.6e-02 min 1.6e-02 SD 1.02
+layer2.0.conv1.weight | P max:  50.4 min:  49.2 | D0 avg 1.6e-05 max 1.6e-05 min 1.6e-05 | D1 avg 1.6e-02 max 1.6e-02 min 1.6e-02 SD 1.02
+layer2.0.conv2.weight | P max:  50.4 min:  49.2 | D0 avg 1.6e-05 max 1.6e-05 min 1.6e-05 | D1 avg 1.6e-02 max 1.6e-02 min 1.6e-02 SD 1.02
+layer2.1.conv1.weight | P max:  50.4 min:  49.2 | D0 avg 1.6e-05 max 1.6e-05 min 1.6e-05 | D1 avg 1.6e-02 max 1.6e-02 min 1.6e-02 SD 1.02
+layer2.1.conv2.weight | P max:  50.4 min:  49.2 | D0 avg 1.6e-05 max 1.6e-05 min 1.6e-05 | D1 avg 1.6e-02 max 1.6e-02 min 1.6e-02 SD 1.02
+layer2.2.conv1.weight | P max:  50.4 min:  49.2 | D0 avg 1.6e-05 max 1.6e-05 min 1.6e-05 | D1 avg 1.6e-02 max 1.6e-02 min 1.6e-02 SD 1.02
+layer2.2.conv2.weight | P max:  50.4 min:  49.2 | D0 avg 1.6e-05 max 1.6e-05 min 1.6e-05 | D1 avg 1.6e-02 max 1.6e-02 min 1.6e-02 SD 1.02
+layer3.0.conv1.weight | P max:  50.4 min:  49.2 | D0 avg 1.6e-05 max 1.6e-05 min 1.6e-05 | D1 avg 1.6e-02 max 1.6e-02 min 1.6e-02 SD 1.02
+layer3.0.conv2.weight | P max:  50.4 min:  49.2 | D0 avg 1.6e-05 max 1.6e-05 min 1.6e-05 | D1 avg 1.6e-02 max 1.6e-02 min 1.6e-02 SD 1.02
+layer3.1.conv1.weight | P max:  50.4 min:  49.2 | D0 avg 1.6e-05 max 1.6e-05 min 1.6e-05 | D1 avg 1.6e-02 max 1.6e-02 min 1.6e-02 SD 1.02
+layer3.1.conv2.weight | P max:  50.4 min:  49.2 | D0 avg 1.6e-05 max 1.6e-05 min 1.6e-05 | D1 avg 1.6e-02 max 1.6e-02 min 1.6e-02 SD 1.02
+layer3.2.conv1.weight | P max:  50.4 min:  49.2 | D0 avg 1.6e-05 max 1.6e-05 min 1.6e-05 | D1 avg 1.6e-02 max 1.6e-02 min 1.6e-02 SD 1.02
+layer3.2.conv2.weight | P max:  50.4 min:  49.2 | D0 avg 1.6e-05 max 1.6e-05 min 1.6e-05 | D1 avg 1.6e-02 max 1.6e-02 min 1.6e-02 SD 1.02
+
+Epoch 3 Sparse Rate: 2.65% Acc: 94.07 Best Acc: 0.00 InvT: 1.0E+03 Loss: 103108.2
+layer1.0.conv1.weight | P max:  50.5 min:  49.0 | D0 avg 2.1e-05 max 2.1e-05 min 2.1e-05 | D1 avg 2.0e-02 max 2.1e-02 min 2.0e-02 SD 1.03
+layer1.0.conv2.weight | P max:  50.5 min:  49.0 | D0 avg 2.1e-05 max 2.1e-05 min 2.1e-05 | D1 avg 2.0e-02 max 2.1e-02 min 2.0e-02 SD 1.03
+layer1.1.conv1.weight | P max:  50.5 min:  49.0 | D0 avg 2.1e-05 max 2.1e-05 min 2.1e-05 | D1 avg 2.0e-02 max 2.1e-02 min 2.0e-02 SD 1.03
+layer1.1.conv2.weight | P max:  50.5 min:  49.0 | D0 avg 2.1e-05 max 2.1e-05 min 2.1e-05 | D1 avg 2.0e-02 max 2.1e-02 min 2.0e-02 SD 1.03
+layer1.2.conv1.weight | P max:  50.5 min:  49.0 | D0 avg 2.1e-05 max 2.1e-05 min 2.1e-05 | D1 avg 2.0e-02 max 2.1e-02 min 2.0e-02 SD 1.03
+layer1.2.conv2.weight | P max:  50.5 min:  49.0 | D0 avg 2.1e-05 max 2.1e-05 min 2.1e-05 | D1 avg 2.0e-02 max 2.1e-02 min 2.0e-02 SD 1.03
+layer2.0.conv1.weight | P max:  50.5 min:  49.0 | D0 avg 2.1e-05 max 2.1e-05 min 2.1e-05 | D1 avg 2.0e-02 max 2.1e-02 min 2.0e-02 SD 1.03
+layer2.0.conv2.weight | P max:  50.5 min:  49.0 | D0 avg 2.1e-05 max 2.1e-05 min 2.1e-05 | D1 avg 2.0e-02 max 2.1e-02 min 2.0e-02 SD 1.03
+layer2.1.conv1.weight | P max:  50.5 min:  49.0 | D0 avg 2.1e-05 max 2.1e-05 min 2.1e-05 | D1 avg 2.0e-02 max 2.1e-02 min 2.0e-02 SD 1.03
+layer2.1.conv2.weight | P max:  50.5 min:  49.0 | D0 avg 2.1e-05 max 2.1e-05 min 2.1e-05 | D1 avg 2.0e-02 max 2.1e-02 min 2.0e-02 SD 1.03
+layer2.2.conv1.weight | P max:  50.5 min:  49.0 | D0 avg 2.1e-05 max 2.1e-05 min 2.1e-05 | D1 avg 2.0e-02 max 2.1e-02 min 2.0e-02 SD 1.03
+layer2.2.conv2.weight | P max:  50.5 min:  49.0 | D0 avg 2.1e-05 max 2.1e-05 min 2.1e-05 | D1 avg 2.0e-02 max 2.1e-02 min 2.0e-02 SD 1.03
+layer3.0.conv1.weight | P max:  50.5 min:  49.0 | D0 avg 2.1e-05 max 2.1e-05 min 2.1e-05 | D1 avg 2.0e-02 max 2.1e-02 min 2.0e-02 SD 1.03
+layer3.0.conv2.weight | P max:  50.5 min:  49.0 | D0 avg 2.1e-05 max 2.1e-05 min 2.1e-05 | D1 avg 2.0e-02 max 2.1e-02 min 2.0e-02 SD 1.03
+layer3.1.conv1.weight | P max:  50.5 min:  49.0 | D0 avg 2.1e-05 max 2.1e-05 min 2.1e-05 | D1 avg 2.0e-02 max 2.1e-02 min 2.0e-02 SD 1.03
+layer3.1.conv2.weight | P max:  50.5 min:  49.0 | D0 avg 2.1e-05 max 2.1e-05 min 2.1e-05 | D1 avg 2.0e-02 max 2.1e-02 min 2.0e-02 SD 1.03
+layer3.2.conv1.weight | P max:  50.5 min:  49.0 | D0 avg 2.1e-05 max 2.1e-05 min 2.1e-05 | D1 avg 2.0e-02 max 2.1e-02 min 2.0e-02 SD 1.03
+layer3.2.conv2.weight | P max:  50.5 min:  49.0 | D0 avg 2.1e-05 max 2.1e-05 min 2.1e-05 | D1 avg 2.1e-02 max 2.1e-02 min 2.0e-02 SD 1.03
+
+Epoch 4 Sparse Rate: 3.54% Acc: 94.06 Best Acc: 0.00 InvT: 1.0E+03 Loss: 129629.6
+layer1.0.conv1.weight | P max:  50.6 min:  48.7 | D0 avg 2.6e-05 max 2.6e-05 min 2.5e-05 | D1 avg 2.5e-02 max 2.6e-02 min 2.5e-02 SD 1.04
+layer1.0.conv2.weight | P max:  50.6 min:  48.7 | D0 avg 2.6e-05 max 2.6e-05 min 2.5e-05 | D1 avg 2.5e-02 max 2.6e-02 min 2.5e-02 SD 1.04
+layer1.1.conv1.weight | P max:  50.6 min:  48.7 | D0 avg 2.6e-05 max 2.6e-05 min 2.5e-05 | D1 avg 2.5e-02 max 2.6e-02 min 2.5e-02 SD 1.04
+layer1.1.conv2.weight | P max:  50.6 min:  48.7 | D0 avg 2.6e-05 max 2.6e-05 min 2.5e-05 | D1 avg 2.5e-02 max 2.6e-02 min 2.5e-02 SD 1.04
+layer1.2.conv1.weight | P max:  50.6 min:  48.7 | D0 avg 2.6e-05 max 2.6e-05 min 2.5e-05 | D1 avg 2.5e-02 max 2.6e-02 min 2.5e-02 SD 1.04
+layer1.2.conv2.weight | P max:  50.6 min:  48.7 | D0 avg 2.6e-05 max 2.6e-05 min 2.5e-05 | D1 avg 2.5e-02 max 2.6e-02 min 2.5e-02 SD 1.04
+layer2.0.conv1.weight | P max:  50.6 min:  48.7 | D0 avg 2.6e-05 max 2.6e-05 min 2.5e-05 | D1 avg 2.5e-02 max 2.6e-02 min 2.5e-02 SD 1.04
+layer2.0.conv2.weight | P max:  50.6 min:  48.7 | D0 avg 2.6e-05 max 2.6e-05 min 2.5e-05 | D1 avg 2.5e-02 max 2.6e-02 min 2.5e-02 SD 1.04
+layer2.1.conv1.weight | P max:  50.6 min:  48.7 | D0 avg 2.6e-05 max 2.6e-05 min 2.5e-05 | D1 avg 2.5e-02 max 2.6e-02 min 2.5e-02 SD 1.04
+layer2.1.conv2.weight | P max:  50.6 min:  48.7 | D0 avg 2.6e-05 max 2.6e-05 min 2.5e-05 | D1 avg 2.5e-02 max 2.6e-02 min 2.5e-02 SD 1.04
+layer2.2.conv1.weight | P max:  50.6 min:  48.7 | D0 avg 2.6e-05 max 2.6e-05 min 2.5e-05 | D1 avg 2.5e-02 max 2.6e-02 min 2.5e-02 SD 1.04
+layer2.2.conv2.weight | P max:  50.6 min:  48.7 | D0 avg 2.6e-05 max 2.6e-05 min 2.5e-05 | D1 avg 2.5e-02 max 2.6e-02 min 2.5e-02 SD 1.04
+layer3.0.conv1.weight | P max:  50.6 min:  48.7 | D0 avg 2.6e-05 max 2.6e-05 min 2.5e-05 | D1 avg 2.5e-02 max 2.6e-02 min 2.5e-02 SD 1.04
+layer3.0.conv2.weight | P max:  50.6 min:  48.7 | D0 avg 2.6e-05 max 2.6e-05 min 2.5e-05 | D1 avg 2.5e-02 max 2.6e-02 min 2.5e-02 SD 1.04
+layer3.1.conv1.weight | P max:  50.6 min:  48.7 | D0 avg 2.6e-05 max 2.6e-05 min 2.5e-05 | D1 avg 2.5e-02 max 2.6e-02 min 2.5e-02 SD 1.04
+layer3.1.conv2.weight | P max:  50.6 min:  48.7 | D0 avg 2.6e-05 max 2.6e-05 min 2.5e-05 | D1 avg 2.5e-02 max 2.6e-02 min 2.5e-02 SD 1.04
+layer3.2.conv1.weight | P max:  50.6 min:  48.7 | D0 avg 2.6e-05 max 2.6e-05 min 2.5e-05 | D1 avg 2.5e-02 max 2.6e-02 min 2.5e-02 SD 1.04
+layer3.2.conv2.weight | P max:  50.6 min:  48.7 | D0 avg 2.5e-05 max 2.6e-05 min 2.5e-05 | D1 avg 2.5e-02 max 2.6e-02 min 2.5e-02 SD 1.04
+
+Epoch 5 Sparse Rate: 4.39% Acc: 94.05 Best Acc: 0.00 InvT: 1.0E+03 Loss: 155513.6
+layer1.0.conv1.weight | P max:  50.7 min:  48.5 | D0 avg 3.0e-05 max 3.0e-05 min 3.0e-05 | D1 avg 3.0e-02 max 3.0e-02 min 2.9e-02 SD 1.05
+layer1.0.conv2.weight | P max:  50.7 min:  48.5 | D0 avg 3.0e-05 max 3.0e-05 min 3.0e-05 | D1 avg 3.0e-02 max 3.0e-02 min 2.9e-02 SD 1.05
+layer1.1.conv1.weight | P max:  50.7 min:  48.5 | D0 avg 3.0e-05 max 3.0e-05 min 3.0e-05 | D1 avg 3.0e-02 max 3.0e-02 min 2.9e-02 SD 1.05
+layer1.1.conv2.weight | P max:  50.7 min:  48.5 | D0 avg 3.0e-05 max 3.0e-05 min 3.0e-05 | D1 avg 3.0e-02 max 3.0e-02 min 2.9e-02 SD 1.05
+layer1.2.conv1.weight | P max:  50.7 min:  48.5 | D0 avg 3.0e-05 max 3.0e-05 min 3.0e-05 | D1 avg 3.0e-02 max 3.0e-02 min 2.9e-02 SD 1.05
+layer1.2.conv2.weight | P max:  50.7 min:  48.5 | D0 avg 3.0e-05 max 3.0e-05 min 3.0e-05 | D1 avg 3.0e-02 max 3.0e-02 min 2.9e-02 SD 1.05
+layer2.0.conv1.weight | P max:  50.7 min:  48.5 | D0 avg 3.0e-05 max 3.0e-05 min 3.0e-05 | D1 avg 3.0e-02 max 3.0e-02 min 2.9e-02 SD 1.05
+layer2.0.conv2.weight | P max:  50.7 min:  48.5 | D0 avg 3.0e-05 max 3.0e-05 min 3.0e-05 | D1 avg 3.0e-02 max 3.0e-02 min 2.9e-02 SD 1.05
+layer2.1.conv1.weight | P max:  50.7 min:  48.5 | D0 avg 3.0e-05 max 3.0e-05 min 3.0e-05 | D1 avg 3.0e-02 max 3.0e-02 min 2.9e-02 SD 1.05
+layer2.1.conv2.weight | P max:  50.7 min:  48.5 | D0 avg 3.0e-05 max 3.0e-05 min 3.0e-05 | D1 avg 3.0e-02 max 3.0e-02 min 2.9e-02 SD 1.05
+layer2.2.conv1.weight | P max:  50.7 min:  48.5 | D0 avg 3.0e-05 max 3.0e-05 min 3.0e-05 | D1 avg 3.0e-02 max 3.0e-02 min 2.9e-02 SD 1.05
+layer2.2.conv2.weight | P max:  50.7 min:  48.5 | D0 avg 3.0e-05 max 3.0e-05 min 3.0e-05 | D1 avg 3.0e-02 max 3.0e-02 min 2.9e-02 SD 1.05
+layer3.0.conv1.weight | P max:  50.7 min:  48.5 | D0 avg 3.0e-05 max 3.0e-05 min 3.0e-05 | D1 avg 3.0e-02 max 3.0e-02 min 2.9e-02 SD 1.05
+layer3.0.conv2.weight | P max:  50.7 min:  48.5 | D0 avg 3.0e-05 max 3.0e-05 min 3.0e-05 | D1 avg 3.0e-02 max 3.0e-02 min 2.9e-02 SD 1.05
+layer3.1.conv1.weight | P max:  50.7 min:  48.5 | D0 avg 3.0e-05 max 3.0e-05 min 3.0e-05 | D1 avg 3.0e-02 max 3.0e-02 min 2.9e-02 SD 1.05
+layer3.1.conv2.weight | P max:  50.7 min:  48.5 | D0 avg 3.0e-05 max 3.0e-05 min 3.0e-05 | D1 avg 3.0e-02 max 3.0e-02 min 2.9e-02 SD 1.05
+layer3.2.conv1.weight | P max:  50.7 min:  48.5 | D0 avg 3.0e-05 max 3.0e-05 min 3.0e-05 | D1 avg 3.0e-02 max 3.0e-02 min 2.9e-02 SD 1.05
+layer3.2.conv2.weight | P max:  50.7 min:  48.5 | D0 avg 3.0e-05 max 3.0e-05 min 3.0e-05 | D1 avg 3.0e-02 max 3.0e-02 min 2.9e-02 SD 1.05
+
+Epoch 6 Sparse Rate: 5.24% Acc: 94.08 Best Acc: 0.00 InvT: 1.0E+03 Loss: 178668.3
+layer1.0.conv1.weight | P max:  50.8 min:  48.3 | D0 avg 3.5e-05 max 3.5e-05 min 3.4e-05 | D1 avg 3.4e-02 max 3.5e-02 min 3.4e-02 SD 1.06
+layer1.0.conv2.weight | P max:  50.8 min:  48.3 | D0 avg 3.5e-05 max 3.5e-05 min 3.4e-05 | D1 avg 3.4e-02 max 3.5e-02 min 3.4e-02 SD 1.06
+layer1.1.conv1.weight | P max:  50.8 min:  48.3 | D0 avg 3.5e-05 max 3.5e-05 min 3.4e-05 | D1 avg 3.4e-02 max 3.5e-02 min 3.4e-02 SD 1.06
+layer1.1.conv2.weight | P max:  50.8 min:  48.3 | D0 avg 3.5e-05 max 3.5e-05 min 3.4e-05 | D1 avg 3.4e-02 max 3.5e-02 min 3.4e-02 SD 1.06
+layer1.2.conv1.weight | P max:  50.8 min:  48.3 | D0 avg 3.5e-05 max 3.5e-05 min 3.4e-05 | D1 avg 3.4e-02 max 3.5e-02 min 3.4e-02 SD 1.06
+layer1.2.conv2.weight | P max:  50.8 min:  48.3 | D0 avg 3.5e-05 max 3.5e-05 min 3.4e-05 | D1 avg 3.4e-02 max 3.5e-02 min 3.4e-02 SD 1.06
+layer2.0.conv1.weight | P max:  50.8 min:  48.3 | D0 avg 3.5e-05 max 3.5e-05 min 3.4e-05 | D1 avg 3.4e-02 max 3.5e-02 min 3.4e-02 SD 1.06
+layer2.0.conv2.weight | P max:  50.8 min:  48.3 | D0 avg 3.5e-05 max 3.5e-05 min 3.4e-05 | D1 avg 3.4e-02 max 3.5e-02 min 3.4e-02 SD 1.06
+layer2.1.conv1.weight | P max:  50.8 min:  48.3 | D0 avg 3.5e-05 max 3.5e-05 min 3.4e-05 | D1 avg 3.4e-02 max 3.5e-02 min 3.4e-02 SD 1.06
+layer2.1.conv2.weight | P max:  50.8 min:  48.3 | D0 avg 3.5e-05 max 3.5e-05 min 3.4e-05 | D1 avg 3.4e-02 max 3.5e-02 min 3.4e-02 SD 1.06
+layer2.2.conv1.weight | P max:  50.8 min:  48.3 | D0 avg 3.5e-05 max 3.5e-05 min 3.4e-05 | D1 avg 3.4e-02 max 3.5e-02 min 3.4e-02 SD 1.06
+layer2.2.conv2.weight | P max:  50.8 min:  48.3 | D0 avg 3.5e-05 max 3.5e-05 min 3.4e-05 | D1 avg 3.4e-02 max 3.5e-02 min 3.4e-02 SD 1.06
+layer3.0.conv1.weight | P max:  50.8 min:  48.3 | D0 avg 3.5e-05 max 3.5e-05 min 3.4e-05 | D1 avg 3.4e-02 max 3.5e-02 min 3.4e-02 SD 1.06
+layer3.0.conv2.weight | P max:  50.8 min:  48.3 | D0 avg 3.5e-05 max 3.5e-05 min 3.4e-05 | D1 avg 3.4e-02 max 3.5e-02 min 3.4e-02 SD 1.06
+layer3.1.conv1.weight | P max:  50.8 min:  48.3 | D0 avg 3.5e-05 max 3.5e-05 min 3.4e-05 | D1 avg 3.4e-02 max 3.5e-02 min 3.4e-02 SD 1.06
+layer3.1.conv2.weight | P max:  50.8 min:  48.3 | D0 avg 3.5e-05 max 3.5e-05 min 3.4e-05 | D1 avg 3.4e-02 max 3.5e-02 min 3.4e-02 SD 1.06
+layer3.2.conv1.weight | P max:  50.8 min:  48.3 | D0 avg 3.5e-05 max 3.5e-05 min 3.4e-05 | D1 avg 3.4e-02 max 3.5e-02 min 3.4e-02 SD 1.06
+layer3.2.conv2.weight | P max:  50.8 min:  48.3 | D0 avg 3.4e-05 max 3.5e-05 min 3.4e-05 | D1 avg 3.4e-02 max 3.5e-02 min 3.4e-02 SD 1.06
+
+Epoch 7 Sparse Rate: 6.11% Acc: 94.06 Best Acc: 0.00 InvT: 1.0E+03 Loss: 200938.5
+layer1.0.conv1.weight | P max:  50.9 min:  48.1 | D0 avg 3.9e-05 max 3.9e-05 min 3.8e-05 | D1 avg 3.8e-02 max 3.9e-02 min 3.8e-02 SD 1.07
+layer1.0.conv2.weight | P max:  50.8 min:  48.1 | D0 avg 3.9e-05 max 3.9e-05 min 3.8e-05 | D1 avg 3.8e-02 max 3.9e-02 min 3.8e-02 SD 1.07
+layer1.1.conv1.weight | P max:  50.8 min:  48.1 | D0 avg 3.9e-05 max 3.9e-05 min 3.8e-05 | D1 avg 3.8e-02 max 3.9e-02 min 3.8e-02 SD 1.07
+layer1.1.conv2.weight | P max:  50.9 min:  48.1 | D0 avg 3.9e-05 max 3.9e-05 min 3.8e-05 | D1 avg 3.8e-02 max 3.9e-02 min 3.8e-02 SD 1.07
+layer1.2.conv1.weight | P max:  50.8 min:  48.1 | D0 avg 3.9e-05 max 3.9e-05 min 3.8e-05 | D1 avg 3.8e-02 max 3.9e-02 min 3.8e-02 SD 1.07
+layer1.2.conv2.weight | P max:  50.8 min:  48.1 | D0 avg 3.9e-05 max 3.9e-05 min 3.8e-05 | D1 avg 3.8e-02 max 3.9e-02 min 3.8e-02 SD 1.07
+layer2.0.conv1.weight | P max:  50.9 min:  48.1 | D0 avg 3.9e-05 max 3.9e-05 min 3.8e-05 | D1 avg 3.8e-02 max 3.9e-02 min 3.8e-02 SD 1.07
+layer2.0.conv2.weight | P max:  50.9 min:  48.1 | D0 avg 3.9e-05 max 3.9e-05 min 3.8e-05 | D1 avg 3.8e-02 max 3.9e-02 min 3.8e-02 SD 1.07
+layer2.1.conv1.weight | P max:  50.9 min:  48.1 | D0 avg 3.9e-05 max 3.9e-05 min 3.8e-05 | D1 avg 3.8e-02 max 3.9e-02 min 3.8e-02 SD 1.07
+layer2.1.conv2.weight | P max:  50.9 min:  48.1 | D0 avg 3.9e-05 max 3.9e-05 min 3.8e-05 | D1 avg 3.8e-02 max 3.9e-02 min 3.8e-02 SD 1.07
+layer2.2.conv1.weight | P max:  50.9 min:  48.1 | D0 avg 3.9e-05 max 3.9e-05 min 3.8e-05 | D1 avg 3.8e-02 max 3.9e-02 min 3.8e-02 SD 1.07
+layer2.2.conv2.weight | P max:  50.9 min:  48.1 | D0 avg 3.9e-05 max 3.9e-05 min 3.8e-05 | D1 avg 3.8e-02 max 3.9e-02 min 3.8e-02 SD 1.07
+layer3.0.conv1.weight | P max:  50.9 min:  48.1 | D0 avg 3.9e-05 max 3.9e-05 min 3.8e-05 | D1 avg 3.8e-02 max 3.9e-02 min 3.8e-02 SD 1.07
+layer3.0.conv2.weight | P max:  50.9 min:  48.1 | D0 avg 3.9e-05 max 3.9e-05 min 3.8e-05 | D1 avg 3.8e-02 max 3.9e-02 min 3.8e-02 SD 1.07
+layer3.1.conv1.weight | P max:  50.9 min:  48.1 | D0 avg 3.9e-05 max 3.9e-05 min 3.8e-05 | D1 avg 3.8e-02 max 3.9e-02 min 3.8e-02 SD 1.07
+layer3.1.conv2.weight | P max:  50.9 min:  48.1 | D0 avg 3.9e-05 max 3.9e-05 min 3.8e-05 | D1 avg 3.8e-02 max 3.9e-02 min 3.8e-02 SD 1.07
+layer3.2.conv1.weight | P max:  50.9 min:  48.1 | D0 avg 3.9e-05 max 3.9e-05 min 3.8e-05 | D1 avg 3.8e-02 max 3.9e-02 min 3.8e-02 SD 1.07
+layer3.2.conv2.weight | P max:  50.9 min:  48.1 | D0 avg 3.9e-05 max 3.9e-05 min 3.8e-05 | D1 avg 3.8e-02 max 3.9e-02 min 3.8e-02 SD 1.07
+
+Epoch 8 Sparse Rate: 6.96% Acc: 94.04 Best Acc: 0.00 InvT: 1.0E+03 Loss: 220526.9
+layer1.0.conv1.weight | P max:  50.9 min:  47.9 | D0 avg 4.3e-05 max 4.4e-05 min 4.2e-05 | D1 avg 4.2e-02 max 4.3e-02 min 4.2e-02 SD 1.08
+layer1.0.conv2.weight | P max:  50.9 min:  47.9 | D0 avg 4.3e-05 max 4.4e-05 min 4.2e-05 | D1 avg 4.2e-02 max 4.3e-02 min 4.2e-02 SD 1.08
+layer1.1.conv1.weight | P max:  50.9 min:  47.9 | D0 avg 4.3e-05 max 4.4e-05 min 4.2e-05 | D1 avg 4.2e-02 max 4.3e-02 min 4.2e-02 SD 1.08
+layer1.1.conv2.weight | P max:  50.9 min:  47.9 | D0 avg 4.3e-05 max 4.4e-05 min 4.2e-05 | D1 avg 4.2e-02 max 4.3e-02 min 4.2e-02 SD 1.08
+layer1.2.conv1.weight | P max:  50.9 min:  47.9 | D0 avg 4.4e-05 max 4.4e-05 min 4.2e-05 | D1 avg 4.2e-02 max 4.3e-02 min 4.2e-02 SD 1.08
+layer1.2.conv2.weight | P max:  50.9 min:  47.9 | D0 avg 4.3e-05 max 4.4e-05 min 4.2e-05 | D1 avg 4.2e-02 max 4.3e-02 min 4.2e-02 SD 1.08
+layer2.0.conv1.weight | P max:  50.9 min:  47.9 | D0 avg 4.3e-05 max 4.4e-05 min 4.2e-05 | D1 avg 4.2e-02 max 4.3e-02 min 4.2e-02 SD 1.08
+layer2.0.conv2.weight | P max:  50.9 min:  47.9 | D0 avg 4.3e-05 max 4.4e-05 min 4.2e-05 | D1 avg 4.2e-02 max 4.3e-02 min 4.2e-02 SD 1.08
+layer2.1.conv1.weight | P max:  50.9 min:  47.9 | D0 avg 4.3e-05 max 4.4e-05 min 4.2e-05 | D1 avg 4.2e-02 max 4.3e-02 min 4.2e-02 SD 1.08
+layer2.1.conv2.weight | P max:  50.9 min:  47.9 | D0 avg 4.3e-05 max 4.4e-05 min 4.2e-05 | D1 avg 4.2e-02 max 4.3e-02 min 4.2e-02 SD 1.08
+layer2.2.conv1.weight | P max:  50.9 min:  47.9 | D0 avg 4.3e-05 max 4.4e-05 min 4.2e-05 | D1 avg 4.2e-02 max 4.3e-02 min 4.2e-02 SD 1.08
+layer2.2.conv2.weight | P max:  50.9 min:  47.9 | D0 avg 4.3e-05 max 4.4e-05 min 4.2e-05 | D1 avg 4.2e-02 max 4.3e-02 min 4.2e-02 SD 1.08
+layer3.0.conv1.weight | P max:  50.9 min:  47.9 | D0 avg 4.3e-05 max 4.4e-05 min 4.2e-05 | D1 avg 4.2e-02 max 4.3e-02 min 4.2e-02 SD 1.08
+layer3.0.conv2.weight | P max:  50.9 min:  47.9 | D0 avg 4.3e-05 max 4.4e-05 min 4.2e-05 | D1 avg 4.2e-02 max 4.3e-02 min 4.2e-02 SD 1.08
+layer3.1.conv1.weight | P max:  50.9 min:  47.9 | D0 avg 4.3e-05 max 4.4e-05 min 4.2e-05 | D1 avg 4.2e-02 max 4.3e-02 min 4.2e-02 SD 1.08
+layer3.1.conv2.weight | P max:  50.9 min:  47.9 | D0 avg 4.3e-05 max 4.4e-05 min 4.2e-05 | D1 avg 4.2e-02 max 4.3e-02 min 4.2e-02 SD 1.08
+layer3.2.conv1.weight | P max:  50.9 min:  47.9 | D0 avg 4.3e-05 max 4.4e-05 min 4.2e-05 | D1 avg 4.2e-02 max 4.3e-02 min 4.2e-02 SD 1.08
+layer3.2.conv2.weight | P max:  51.0 min:  47.9 | D0 avg 4.3e-05 max 4.4e-05 min 4.2e-05 | D1 avg 4.3e-02 max 4.3e-02 min 4.2e-02 SD 1.08
+
+Epoch 9 Sparse Rate: 7.75% Acc: 94.04 Best Acc: 0.00 InvT: 1.0E+03 Loss: 236874.6
+layer1.0.conv1.weight | P max:  51.0 min:  47.7 | D0 avg 4.8e-05 max 4.8e-05 min 4.6e-05 | D1 avg 4.6e-02 max 4.7e-02 min 4.6e-02 SD 1.09
+layer1.0.conv2.weight | P max:  51.0 min:  47.7 | D0 avg 4.8e-05 max 4.8e-05 min 4.6e-05 | D1 avg 4.6e-02 max 4.7e-02 min 4.6e-02 SD 1.09
+layer1.1.conv1.weight | P max:  51.0 min:  47.7 | D0 avg 4.8e-05 max 4.8e-05 min 4.6e-05 | D1 avg 4.6e-02 max 4.7e-02 min 4.6e-02 SD 1.09
+layer1.1.conv2.weight | P max:  51.0 min:  47.7 | D0 avg 4.8e-05 max 4.8e-05 min 4.6e-05 | D1 avg 4.6e-02 max 4.7e-02 min 4.6e-02 SD 1.09
+layer1.2.conv1.weight | P max:  51.0 min:  47.7 | D0 avg 4.8e-05 max 4.8e-05 min 4.6e-05 | D1 avg 4.6e-02 max 4.7e-02 min 4.6e-02 SD 1.09
+layer1.2.conv2.weight | P max:  51.0 min:  47.7 | D0 avg 4.8e-05 max 4.8e-05 min 4.6e-05 | D1 avg 4.6e-02 max 4.7e-02 min 4.6e-02 SD 1.09
+layer2.0.conv1.weight | P max:  51.0 min:  47.7 | D0 avg 4.8e-05 max 4.8e-05 min 4.6e-05 | D1 avg 4.6e-02 max 4.7e-02 min 4.6e-02 SD 1.09
+layer2.0.conv2.weight | P max:  51.0 min:  47.7 | D0 avg 4.8e-05 max 4.8e-05 min 4.6e-05 | D1 avg 4.6e-02 max 4.7e-02 min 4.6e-02 SD 1.09
+layer2.1.conv1.weight | P max:  51.0 min:  47.7 | D0 avg 4.8e-05 max 4.8e-05 min 4.6e-05 | D1 avg 4.6e-02 max 4.7e-02 min 4.6e-02 SD 1.09
+layer2.1.conv2.weight | P max:  51.0 min:  47.7 | D0 avg 4.8e-05 max 4.8e-05 min 4.6e-05 | D1 avg 4.6e-02 max 4.7e-02 min 4.6e-02 SD 1.09
+layer2.2.conv1.weight | P max:  51.0 min:  47.7 | D0 avg 4.8e-05 max 4.8e-05 min 4.6e-05 | D1 avg 4.6e-02 max 4.7e-02 min 4.6e-02 SD 1.09
+layer2.2.conv2.weight | P max:  51.0 min:  47.7 | D0 avg 4.8e-05 max 4.8e-05 min 4.6e-05 | D1 avg 4.6e-02 max 4.7e-02 min 4.6e-02 SD 1.09
+layer3.0.conv1.weight | P max:  51.0 min:  47.7 | D0 avg 4.8e-05 max 4.8e-05 min 4.6e-05 | D1 avg 4.6e-02 max 4.7e-02 min 4.6e-02 SD 1.09
+layer3.0.conv2.weight | P max:  51.0 min:  47.7 | D0 avg 4.8e-05 max 4.8e-05 min 4.6e-05 | D1 avg 4.6e-02 max 4.7e-02 min 4.6e-02 SD 1.09
+layer3.1.conv1.weight | P max:  51.0 min:  47.7 | D0 avg 4.8e-05 max 4.8e-05 min 4.6e-05 | D1 avg 4.6e-02 max 4.7e-02 min 4.6e-02 SD 1.09
+layer3.1.conv2.weight | P max:  51.0 min:  47.7 | D0 avg 4.8e-05 max 4.8e-05 min 4.6e-05 | D1 avg 4.6e-02 max 4.7e-02 min 4.6e-02 SD 1.09
+layer3.2.conv1.weight | P max:  51.0 min:  47.7 | D0 avg 4.8e-05 max 4.8e-05 min 4.6e-05 | D1 avg 4.6e-02 max 4.7e-02 min 4.6e-02 SD 1.09
+layer3.2.conv2.weight | P max:  51.1 min:  47.7 | D0 avg 4.7e-05 max 4.8e-05 min 4.6e-05 | D1 avg 4.7e-02 max 4.7e-02 min 4.6e-02 SD 1.09
+
+Epoch 10 Sparse Rate: 8.59% Acc: 94.06 Best Acc: 0.00 InvT: 1.0E+03 Loss: 254528.5
+layer1.0.conv1.weight | P max:  51.1 min:  47.5 | D0 avg 5.2e-05 max 5.2e-05 min 5.0e-05 | D1 avg 5.0e-02 max 5.1e-02 min 4.9e-02 SD 1.10
+layer1.0.conv2.weight | P max:  51.1 min:  47.5 | D0 avg 5.2e-05 max 5.2e-05 min 5.0e-05 | D1 avg 5.0e-02 max 5.1e-02 min 4.9e-02 SD 1.10
+layer1.1.conv1.weight | P max:  51.1 min:  47.5 | D0 avg 5.2e-05 max 5.2e-05 min 5.0e-05 | D1 avg 5.0e-02 max 5.1e-02 min 4.9e-02 SD 1.10
+layer1.1.conv2.weight | P max:  51.1 min:  47.5 | D0 avg 5.2e-05 max 5.2e-05 min 5.0e-05 | D1 avg 5.0e-02 max 5.1e-02 min 4.9e-02 SD 1.10
+layer1.2.conv1.weight | P max:  51.1 min:  47.5 | D0 avg 5.2e-05 max 5.2e-05 min 5.0e-05 | D1 avg 5.0e-02 max 5.1e-02 min 4.9e-02 SD 1.10
+layer1.2.conv2.weight | P max:  51.1 min:  47.5 | D0 avg 5.2e-05 max 5.2e-05 min 5.0e-05 | D1 avg 5.0e-02 max 5.1e-02 min 4.9e-02 SD 1.10
+layer2.0.conv1.weight | P max:  51.1 min:  47.5 | D0 avg 5.2e-05 max 5.2e-05 min 5.0e-05 | D1 avg 5.0e-02 max 5.1e-02 min 4.9e-02 SD 1.10
+layer2.0.conv2.weight | P max:  51.1 min:  47.5 | D0 avg 5.2e-05 max 5.2e-05 min 5.0e-05 | D1 avg 5.0e-02 max 5.1e-02 min 4.9e-02 SD 1.10
+layer2.1.conv1.weight | P max:  51.1 min:  47.5 | D0 avg 5.2e-05 max 5.2e-05 min 5.0e-05 | D1 avg 5.0e-02 max 5.1e-02 min 4.9e-02 SD 1.10
+layer2.1.conv2.weight | P max:  51.1 min:  47.5 | D0 avg 5.2e-05 max 5.2e-05 min 5.0e-05 | D1 avg 5.0e-02 max 5.1e-02 min 4.9e-02 SD 1.10
+layer2.2.conv1.weight | P max:  51.1 min:  47.5 | D0 avg 5.2e-05 max 5.2e-05 min 5.0e-05 | D1 avg 5.0e-02 max 5.1e-02 min 4.9e-02 SD 1.10
+layer2.2.conv2.weight | P max:  51.1 min:  47.5 | D0 avg 5.2e-05 max 5.2e-05 min 5.0e-05 | D1 avg 5.0e-02 max 5.1e-02 min 4.9e-02 SD 1.10
+layer3.0.conv1.weight | P max:  51.1 min:  47.5 | D0 avg 5.2e-05 max 5.2e-05 min 5.0e-05 | D1 avg 5.0e-02 max 5.1e-02 min 4.9e-02 SD 1.10
+layer3.0.conv2.weight | P max:  51.1 min:  47.5 | D0 avg 5.2e-05 max 5.2e-05 min 5.0e-05 | D1 avg 5.0e-02 max 5.1e-02 min 4.9e-02 SD 1.10
+layer3.1.conv1.weight | P max:  51.1 min:  47.5 | D0 avg 5.2e-05 max 5.2e-05 min 5.0e-05 | D1 avg 5.0e-02 max 5.1e-02 min 4.9e-02 SD 1.10
+layer3.1.conv2.weight | P max:  51.1 min:  47.5 | D0 avg 5.2e-05 max 5.2e-05 min 5.0e-05 | D1 avg 5.0e-02 max 5.1e-02 min 4.9e-02 SD 1.10
+layer3.2.conv1.weight | P max:  51.1 min:  47.5 | D0 avg 5.2e-05 max 5.2e-05 min 5.0e-05 | D1 avg 5.0e-02 max 5.1e-02 min 4.9e-02 SD 1.10
+layer3.2.conv2.weight | P max:  51.1 min:  47.5 | D0 avg 5.1e-05 max 5.2e-05 min 5.0e-05 | D1 avg 5.0e-02 max 5.1e-02 min 4.9e-02 SD 1.10
+
+Epoch 11 Sparse Rate: 9.39% Acc: 94.10 Best Acc: 0.00 InvT: 1.0E+03 Loss: 268642.8
+layer1.0.conv1.weight | P max:  51.2 min:  47.3 | D0 avg 5.6e-05 max 5.6e-05 min 5.4e-05 | D1 avg 5.3e-02 max 5.5e-02 min 5.3e-02 SD 1.10
+layer1.0.conv2.weight | P max:  51.2 min:  47.3 | D0 avg 5.6e-05 max 5.6e-05 min 5.4e-05 | D1 avg 5.3e-02 max 5.5e-02 min 5.3e-02 SD 1.10
+layer1.1.conv1.weight | P max:  51.2 min:  47.3 | D0 avg 5.6e-05 max 5.6e-05 min 5.4e-05 | D1 avg 5.3e-02 max 5.5e-02 min 5.3e-02 SD 1.10
+layer1.1.conv2.weight | P max:  51.2 min:  47.3 | D0 avg 5.6e-05 max 5.6e-05 min 5.4e-05 | D1 avg 5.3e-02 max 5.5e-02 min 5.3e-02 SD 1.10
+layer1.2.conv1.weight | P max:  51.2 min:  47.3 | D0 avg 5.6e-05 max 5.6e-05 min 5.4e-05 | D1 avg 5.3e-02 max 5.5e-02 min 5.3e-02 SD 1.10
+layer1.2.conv2.weight | P max:  51.2 min:  47.3 | D0 avg 5.6e-05 max 5.6e-05 min 5.4e-05 | D1 avg 5.3e-02 max 5.5e-02 min 5.3e-02 SD 1.10
+layer2.0.conv1.weight | P max:  51.2 min:  47.3 | D0 avg 5.6e-05 max 5.6e-05 min 5.4e-05 | D1 avg 5.3e-02 max 5.5e-02 min 5.3e-02 SD 1.10
+layer2.0.conv2.weight | P max:  51.2 min:  47.3 | D0 avg 5.6e-05 max 5.6e-05 min 5.4e-05 | D1 avg 5.3e-02 max 5.5e-02 min 5.3e-02 SD 1.10
+layer2.1.conv1.weight | P max:  51.2 min:  47.3 | D0 avg 5.6e-05 max 5.6e-05 min 5.4e-05 | D1 avg 5.3e-02 max 5.5e-02 min 5.3e-02 SD 1.10
+layer2.1.conv2.weight | P max:  51.2 min:  47.3 | D0 avg 5.6e-05 max 5.6e-05 min 5.4e-05 | D1 avg 5.3e-02 max 5.5e-02 min 5.3e-02 SD 1.10
+layer2.2.conv1.weight | P max:  51.2 min:  47.3 | D0 avg 5.6e-05 max 5.6e-05 min 5.4e-05 | D1 avg 5.3e-02 max 5.5e-02 min 5.3e-02 SD 1.10
+layer2.2.conv2.weight | P max:  51.2 min:  47.3 | D0 avg 5.6e-05 max 5.6e-05 min 5.4e-05 | D1 avg 5.3e-02 max 5.5e-02 min 5.3e-02 SD 1.10
+layer3.0.conv1.weight | P max:  51.2 min:  47.3 | D0 avg 5.6e-05 max 5.6e-05 min 5.4e-05 | D1 avg 5.3e-02 max 5.5e-02 min 5.3e-02 SD 1.10
+layer3.0.conv2.weight | P max:  51.2 min:  47.3 | D0 avg 5.6e-05 max 5.6e-05 min 5.4e-05 | D1 avg 5.3e-02 max 5.5e-02 min 5.3e-02 SD 1.10
+layer3.1.conv1.weight | P max:  51.2 min:  47.3 | D0 avg 5.6e-05 max 5.6e-05 min 5.4e-05 | D1 avg 5.3e-02 max 5.5e-02 min 5.3e-02 SD 1.10
+layer3.1.conv2.weight | P max:  51.2 min:  47.3 | D0 avg 5.6e-05 max 5.6e-05 min 5.4e-05 | D1 avg 5.3e-02 max 5.5e-02 min 5.3e-02 SD 1.10
+layer3.2.conv1.weight | P max:  51.2 min:  47.3 | D0 avg 5.6e-05 max 5.6e-05 min 5.4e-05 | D1 avg 5.3e-02 max 5.5e-02 min 5.3e-02 SD 1.10
+layer3.2.conv2.weight | P max:  51.2 min:  47.3 | D0 avg 5.5e-05 max 5.6e-05 min 5.4e-05 | D1 avg 5.4e-02 max 5.5e-02 min 5.3e-02 SD 1.10
+
+Epoch 12 Sparse Rate: 10.19% Acc: 94.03 Best Acc: 0.00 InvT: 1.0E+03 Loss: 281863.6
+layer1.0.conv1.weight | P max:  51.3 min:  47.1 | D0 avg 6.0e-05 max 6.0e-05 min 5.7e-05 | D1 avg 5.7e-02 max 5.9e-02 min 5.6e-02 SD 1.11
+layer1.0.conv2.weight | P max:  51.3 min:  47.1 | D0 avg 6.0e-05 max 6.0e-05 min 5.7e-05 | D1 avg 5.7e-02 max 5.9e-02 min 5.6e-02 SD 1.11
+layer1.1.conv1.weight | P max:  51.3 min:  47.1 | D0 avg 6.0e-05 max 6.0e-05 min 5.7e-05 | D1 avg 5.7e-02 max 5.9e-02 min 5.6e-02 SD 1.11
+layer1.1.conv2.weight | P max:  51.3 min:  47.1 | D0 avg 5.9e-05 max 6.0e-05 min 5.7e-05 | D1 avg 5.7e-02 max 5.9e-02 min 5.6e-02 SD 1.11
+layer1.2.conv1.weight | P max:  51.3 min:  47.1 | D0 avg 6.0e-05 max 6.0e-05 min 5.7e-05 | D1 avg 5.7e-02 max 5.9e-02 min 5.6e-02 SD 1.11
+layer1.2.conv2.weight | P max:  51.3 min:  47.1 | D0 avg 5.9e-05 max 6.0e-05 min 5.7e-05 | D1 avg 5.7e-02 max 5.9e-02 min 5.6e-02 SD 1.11
+layer2.0.conv1.weight | P max:  51.3 min:  47.1 | D0 avg 5.9e-05 max 6.0e-05 min 5.7e-05 | D1 avg 5.7e-02 max 5.9e-02 min 5.6e-02 SD 1.11
+layer2.0.conv2.weight | P max:  51.3 min:  47.1 | D0 avg 5.9e-05 max 6.0e-05 min 5.7e-05 | D1 avg 5.7e-02 max 5.9e-02 min 5.6e-02 SD 1.11
+layer2.1.conv1.weight | P max:  51.3 min:  47.1 | D0 avg 5.9e-05 max 6.0e-05 min 5.7e-05 | D1 avg 5.7e-02 max 5.9e-02 min 5.6e-02 SD 1.11
+layer2.1.conv2.weight | P max:  51.3 min:  47.1 | D0 avg 5.9e-05 max 6.0e-05 min 5.7e-05 | D1 avg 5.7e-02 max 5.9e-02 min 5.6e-02 SD 1.11
+layer2.2.conv1.weight | P max:  51.3 min:  47.1 | D0 avg 5.9e-05 max 6.0e-05 min 5.7e-05 | D1 avg 5.7e-02 max 5.9e-02 min 5.6e-02 SD 1.11
+layer2.2.conv2.weight | P max:  51.3 min:  47.1 | D0 avg 5.9e-05 max 6.0e-05 min 5.7e-05 | D1 avg 5.7e-02 max 5.9e-02 min 5.6e-02 SD 1.11
+layer3.0.conv1.weight | P max:  51.3 min:  47.1 | D0 avg 5.9e-05 max 6.0e-05 min 5.7e-05 | D1 avg 5.7e-02 max 5.9e-02 min 5.6e-02 SD 1.11
+layer3.0.conv2.weight | P max:  51.3 min:  47.1 | D0 avg 5.9e-05 max 6.0e-05 min 5.7e-05 | D1 avg 5.7e-02 max 5.9e-02 min 5.6e-02 SD 1.11
+layer3.1.conv1.weight | P max:  51.3 min:  47.1 | D0 avg 5.9e-05 max 6.0e-05 min 5.7e-05 | D1 avg 5.7e-02 max 5.9e-02 min 5.6e-02 SD 1.11
+layer3.1.conv2.weight | P max:  51.3 min:  47.1 | D0 avg 5.9e-05 max 6.0e-05 min 5.7e-05 | D1 avg 5.7e-02 max 5.9e-02 min 5.6e-02 SD 1.11
+layer3.2.conv1.weight | P max:  51.3 min:  47.1 | D0 avg 5.9e-05 max 6.0e-05 min 5.7e-05 | D1 avg 5.7e-02 max 5.9e-02 min 5.6e-02 SD 1.11
+layer3.2.conv2.weight | P max:  51.3 min:  47.1 | D0 avg 5.8e-05 max 6.0e-05 min 5.7e-05 | D1 avg 5.8e-02 max 5.9e-02 min 5.6e-02 SD 1.11
+
+Epoch 13 Sparse Rate: 10.99% Acc: 94.01 Best Acc: 0.00 InvT: 1.0E+03 Loss: 293535.2
+layer1.0.conv1.weight | P max:  51.4 min:  46.9 | D0 avg 6.3e-05 max 6.4e-05 min 6.1e-05 | D1 avg 6.0e-02 max 6.3e-02 min 6.0e-02 SD 1.12
+layer1.0.conv2.weight | P max:  51.3 min:  46.9 | D0 avg 6.3e-05 max 6.4e-05 min 6.1e-05 | D1 avg 6.0e-02 max 6.3e-02 min 6.0e-02 SD 1.12
+layer1.1.conv1.weight | P max:  51.3 min:  46.9 | D0 avg 6.3e-05 max 6.4e-05 min 6.1e-05 | D1 avg 6.0e-02 max 6.3e-02 min 6.0e-02 SD 1.12
+layer1.1.conv2.weight | P max:  51.3 min:  46.9 | D0 avg 6.3e-05 max 6.4e-05 min 6.1e-05 | D1 avg 6.0e-02 max 6.3e-02 min 6.0e-02 SD 1.12
+layer1.2.conv1.weight | P max:  51.3 min:  46.9 | D0 avg 6.3e-05 max 6.4e-05 min 6.1e-05 | D1 avg 6.0e-02 max 6.3e-02 min 6.0e-02 SD 1.12
+layer1.2.conv2.weight | P max:  51.3 min:  46.9 | D0 avg 6.3e-05 max 6.4e-05 min 6.1e-05 | D1 avg 6.0e-02 max 6.3e-02 min 6.0e-02 SD 1.12
+layer2.0.conv1.weight | P max:  51.4 min:  46.9 | D0 avg 6.3e-05 max 6.4e-05 min 6.1e-05 | D1 avg 6.0e-02 max 6.3e-02 min 6.0e-02 SD 1.12
+layer2.0.conv2.weight | P max:  51.4 min:  46.9 | D0 avg 6.3e-05 max 6.4e-05 min 6.1e-05 | D1 avg 6.0e-02 max 6.3e-02 min 6.0e-02 SD 1.12
+layer2.1.conv1.weight | P max:  51.4 min:  46.9 | D0 avg 6.3e-05 max 6.4e-05 min 6.1e-05 | D1 avg 6.0e-02 max 6.3e-02 min 6.0e-02 SD 1.12
+layer2.1.conv2.weight | P max:  51.4 min:  46.9 | D0 avg 6.3e-05 max 6.4e-05 min 6.1e-05 | D1 avg 6.0e-02 max 6.3e-02 min 6.0e-02 SD 1.12
+layer2.2.conv1.weight | P max:  51.4 min:  46.9 | D0 avg 6.3e-05 max 6.4e-05 min 6.1e-05 | D1 avg 6.0e-02 max 6.3e-02 min 6.0e-02 SD 1.12
+layer2.2.conv2.weight | P max:  51.4 min:  46.9 | D0 avg 6.3e-05 max 6.4e-05 min 6.1e-05 | D1 avg 6.0e-02 max 6.3e-02 min 6.0e-02 SD 1.12
+layer3.0.conv1.weight | P max:  51.4 min:  46.9 | D0 avg 6.3e-05 max 6.4e-05 min 6.1e-05 | D1 avg 6.0e-02 max 6.3e-02 min 6.0e-02 SD 1.12
+layer3.0.conv2.weight | P max:  51.4 min:  46.9 | D0 avg 6.3e-05 max 6.4e-05 min 6.1e-05 | D1 avg 6.0e-02 max 6.3e-02 min 6.0e-02 SD 1.12
+layer3.1.conv1.weight | P max:  51.4 min:  46.9 | D0 avg 6.3e-05 max 6.4e-05 min 6.1e-05 | D1 avg 6.0e-02 max 6.3e-02 min 6.0e-02 SD 1.12
+layer3.1.conv2.weight | P max:  51.4 min:  46.9 | D0 avg 6.3e-05 max 6.4e-05 min 6.1e-05 | D1 avg 6.0e-02 max 6.3e-02 min 6.0e-02 SD 1.12
+layer3.2.conv1.weight | P max:  51.4 min:  46.9 | D0 avg 6.3e-05 max 6.4e-05 min 6.1e-05 | D1 avg 6.0e-02 max 6.3e-02 min 6.0e-02 SD 1.12
+layer3.2.conv2.weight | P max:  51.4 min:  46.9 | D0 avg 6.2e-05 max 6.4e-05 min 6.1e-05 | D1 avg 6.1e-02 max 6.3e-02 min 6.0e-02 SD 1.12
+
+Epoch 14 Sparse Rate: 11.80% Acc: 94.05 Best Acc: 0.00 InvT: 1.0E+03 Loss: 305700.9
+layer1.0.conv1.weight | P max:  51.4 min:  46.7 | D0 avg 6.7e-05 max 6.7e-05 min 6.4e-05 | D1 avg 6.3e-02 max 6.6e-02 min 6.3e-02 SD 1.13
+layer1.0.conv2.weight | P max:  51.4 min:  46.7 | D0 avg 6.7e-05 max 6.7e-05 min 6.4e-05 | D1 avg 6.3e-02 max 6.6e-02 min 6.3e-02 SD 1.13
+layer1.1.conv1.weight | P max:  51.4 min:  46.7 | D0 avg 6.7e-05 max 6.7e-05 min 6.4e-05 | D1 avg 6.3e-02 max 6.6e-02 min 6.3e-02 SD 1.13
+layer1.1.conv2.weight | P max:  51.4 min:  46.7 | D0 avg 6.7e-05 max 6.7e-05 min 6.4e-05 | D1 avg 6.3e-02 max 6.6e-02 min 6.3e-02 SD 1.13
+layer1.2.conv1.weight | P max:  51.4 min:  46.7 | D0 avg 6.7e-05 max 6.7e-05 min 6.4e-05 | D1 avg 6.3e-02 max 6.6e-02 min 6.3e-02 SD 1.13
+layer1.2.conv2.weight | P max:  51.4 min:  46.7 | D0 avg 6.7e-05 max 6.7e-05 min 6.4e-05 | D1 avg 6.3e-02 max 6.6e-02 min 6.3e-02 SD 1.13
+layer2.0.conv1.weight | P max:  51.4 min:  46.7 | D0 avg 6.7e-05 max 6.7e-05 min 6.4e-05 | D1 avg 6.3e-02 max 6.6e-02 min 6.3e-02 SD 1.13
+layer2.0.conv2.weight | P max:  51.4 min:  46.7 | D0 avg 6.7e-05 max 6.7e-05 min 6.4e-05 | D1 avg 6.3e-02 max 6.6e-02 min 6.3e-02 SD 1.13
+layer2.1.conv1.weight | P max:  51.4 min:  46.7 | D0 avg 6.7e-05 max 6.7e-05 min 6.4e-05 | D1 avg 6.4e-02 max 6.6e-02 min 6.3e-02 SD 1.13
+layer2.1.conv2.weight | P max:  51.4 min:  46.7 | D0 avg 6.7e-05 max 6.7e-05 min 6.4e-05 | D1 avg 6.4e-02 max 6.6e-02 min 6.3e-02 SD 1.13
+layer2.2.conv1.weight | P max:  51.4 min:  46.7 | D0 avg 6.7e-05 max 6.7e-05 min 6.4e-05 | D1 avg 6.4e-02 max 6.6e-02 min 6.3e-02 SD 1.13
+layer2.2.conv2.weight | P max:  51.4 min:  46.7 | D0 avg 6.7e-05 max 6.7e-05 min 6.4e-05 | D1 avg 6.4e-02 max 6.6e-02 min 6.3e-02 SD 1.13
+layer3.0.conv1.weight | P max:  51.4 min:  46.7 | D0 avg 6.7e-05 max 6.7e-05 min 6.4e-05 | D1 avg 6.4e-02 max 6.6e-02 min 6.3e-02 SD 1.13
+layer3.0.conv2.weight | P max:  51.4 min:  46.7 | D0 avg 6.7e-05 max 6.7e-05 min 6.4e-05 | D1 avg 6.4e-02 max 6.6e-02 min 6.3e-02 SD 1.13
+layer3.1.conv1.weight | P max:  51.4 min:  46.7 | D0 avg 6.7e-05 max 6.7e-05 min 6.4e-05 | D1 avg 6.4e-02 max 6.6e-02 min 6.3e-02 SD 1.13
+layer3.1.conv2.weight | P max:  51.4 min:  46.7 | D0 avg 6.7e-05 max 6.7e-05 min 6.4e-05 | D1 avg 6.4e-02 max 6.6e-02 min 6.3e-02 SD 1.13
+layer3.2.conv1.weight | P max:  51.4 min:  46.7 | D0 avg 6.7e-05 max 6.7e-05 min 6.4e-05 | D1 avg 6.4e-02 max 6.6e-02 min 6.3e-02 SD 1.13
+layer3.2.conv2.weight | P max:  51.5 min:  46.7 | D0 avg 6.6e-05 max 6.7e-05 min 6.4e-05 | D1 avg 6.5e-02 max 6.6e-02 min 6.3e-02 SD 1.13
+
+Epoch 15 Sparse Rate: 12.59% Acc: 94.04 Best Acc: 0.00 InvT: 1.0E+03 Loss: 316034.4
+layer1.0.conv1.weight | P max:  51.5 min:  46.6 | D0 avg 7.1e-05 max 7.1e-05 min 6.8e-05 | D1 avg 6.7e-02 max 7.0e-02 min 6.6e-02 SD 1.14
+layer1.0.conv2.weight | P max:  51.5 min:  46.6 | D0 avg 7.1e-05 max 7.1e-05 min 6.8e-05 | D1 avg 6.7e-02 max 7.0e-02 min 6.6e-02 SD 1.14
+layer1.1.conv1.weight | P max:  51.5 min:  46.6 | D0 avg 7.1e-05 max 7.1e-05 min 6.8e-05 | D1 avg 6.7e-02 max 7.0e-02 min 6.6e-02 SD 1.14
+layer1.1.conv2.weight | P max:  51.5 min:  46.6 | D0 avg 7.1e-05 max 7.1e-05 min 6.8e-05 | D1 avg 6.7e-02 max 7.0e-02 min 6.6e-02 SD 1.14
+layer1.2.conv1.weight | P max:  51.5 min:  46.6 | D0 avg 7.1e-05 max 7.1e-05 min 6.8e-05 | D1 avg 6.7e-02 max 7.0e-02 min 6.6e-02 SD 1.14
+layer1.2.conv2.weight | P max:  51.5 min:  46.6 | D0 avg 7.1e-05 max 7.1e-05 min 6.8e-05 | D1 avg 6.7e-02 max 7.0e-02 min 6.6e-02 SD 1.14
+layer2.0.conv1.weight | P max:  51.5 min:  46.6 | D0 avg 7.1e-05 max 7.1e-05 min 6.8e-05 | D1 avg 6.7e-02 max 7.0e-02 min 6.6e-02 SD 1.14
+layer2.0.conv2.weight | P max:  51.5 min:  46.6 | D0 avg 7.1e-05 max 7.1e-05 min 6.8e-05 | D1 avg 6.7e-02 max 7.0e-02 min 6.6e-02 SD 1.14
+layer2.1.conv1.weight | P max:  51.5 min:  46.6 | D0 avg 7.0e-05 max 7.1e-05 min 6.8e-05 | D1 avg 6.7e-02 max 7.0e-02 min 6.6e-02 SD 1.14
+layer2.1.conv2.weight | P max:  51.5 min:  46.6 | D0 avg 7.0e-05 max 7.1e-05 min 6.8e-05 | D1 avg 6.7e-02 max 7.0e-02 min 6.6e-02 SD 1.14
+layer2.2.conv1.weight | P max:  51.5 min:  46.6 | D0 avg 7.1e-05 max 7.1e-05 min 6.8e-05 | D1 avg 6.7e-02 max 7.0e-02 min 6.6e-02 SD 1.14
+layer2.2.conv2.weight | P max:  51.5 min:  46.6 | D0 avg 7.0e-05 max 7.1e-05 min 6.8e-05 | D1 avg 6.7e-02 max 7.0e-02 min 6.6e-02 SD 1.14
+layer3.0.conv1.weight | P max:  51.5 min:  46.6 | D0 avg 7.0e-05 max 7.1e-05 min 6.8e-05 | D1 avg 6.7e-02 max 7.0e-02 min 6.6e-02 SD 1.14
+layer3.0.conv2.weight | P max:  51.5 min:  46.6 | D0 avg 7.0e-05 max 7.1e-05 min 6.8e-05 | D1 avg 6.7e-02 max 7.0e-02 min 6.6e-02 SD 1.14
+layer3.1.conv1.weight | P max:  51.5 min:  46.6 | D0 avg 7.0e-05 max 7.1e-05 min 6.8e-05 | D1 avg 6.7e-02 max 7.0e-02 min 6.6e-02 SD 1.14
+layer3.1.conv2.weight | P max:  51.5 min:  46.6 | D0 avg 7.0e-05 max 7.1e-05 min 6.8e-05 | D1 avg 6.7e-02 max 7.0e-02 min 6.6e-02 SD 1.14
+layer3.2.conv1.weight | P max:  51.5 min:  46.6 | D0 avg 7.0e-05 max 7.1e-05 min 6.8e-05 | D1 avg 6.7e-02 max 7.0e-02 min 6.6e-02 SD 1.14
+layer3.2.conv2.weight | P max:  51.6 min:  46.6 | D0 avg 6.9e-05 max 7.1e-05 min 6.8e-05 | D1 avg 6.8e-02 max 7.0e-02 min 6.6e-02 SD 1.14
+
+Epoch 16 Sparse Rate: 13.33% Acc: 94.11 Best Acc: 0.00 InvT: 1.0E+03 Loss: 324323.8
+layer1.0.conv1.weight | P max:  51.6 min:  46.4 | D0 avg 7.4e-05 max 7.5e-05 min 7.1e-05 | D1 avg 7.0e-02 max 7.3e-02 min 6.9e-02 SD 1.15
+layer1.0.conv2.weight | P max:  51.6 min:  46.4 | D0 avg 7.4e-05 max 7.5e-05 min 7.1e-05 | D1 avg 7.0e-02 max 7.3e-02 min 6.9e-02 SD 1.15
+layer1.1.conv1.weight | P max:  51.6 min:  46.4 | D0 avg 7.4e-05 max 7.5e-05 min 7.1e-05 | D1 avg 7.0e-02 max 7.3e-02 min 6.9e-02 SD 1.15
+layer1.1.conv2.weight | P max:  51.6 min:  46.4 | D0 avg 7.4e-05 max 7.5e-05 min 7.1e-05 | D1 avg 7.0e-02 max 7.3e-02 min 6.9e-02 SD 1.15
+layer1.2.conv1.weight | P max:  51.6 min:  46.4 | D0 avg 7.4e-05 max 7.5e-05 min 7.1e-05 | D1 avg 7.0e-02 max 7.3e-02 min 6.9e-02 SD 1.15
+layer1.2.conv2.weight | P max:  51.6 min:  46.4 | D0 avg 7.4e-05 max 7.5e-05 min 7.1e-05 | D1 avg 7.0e-02 max 7.3e-02 min 6.9e-02 SD 1.15
+layer2.0.conv1.weight | P max:  51.6 min:  46.4 | D0 avg 7.4e-05 max 7.5e-05 min 7.1e-05 | D1 avg 7.0e-02 max 7.3e-02 min 6.9e-02 SD 1.15
+layer2.0.conv2.weight | P max:  51.6 min:  46.4 | D0 avg 7.4e-05 max 7.5e-05 min 7.1e-05 | D1 avg 7.0e-02 max 7.3e-02 min 6.9e-02 SD 1.15
+layer2.1.conv1.weight | P max:  51.6 min:  46.4 | D0 avg 7.4e-05 max 7.5e-05 min 7.1e-05 | D1 avg 7.0e-02 max 7.3e-02 min 6.9e-02 SD 1.15
+layer2.1.conv2.weight | P max:  51.6 min:  46.4 | D0 avg 7.4e-05 max 7.5e-05 min 7.1e-05 | D1 avg 7.0e-02 max 7.3e-02 min 6.9e-02 SD 1.15
+layer2.2.conv1.weight | P max:  51.6 min:  46.4 | D0 avg 7.4e-05 max 7.5e-05 min 7.1e-05 | D1 avg 7.0e-02 max 7.3e-02 min 6.9e-02 SD 1.15
+layer2.2.conv2.weight | P max:  51.6 min:  46.4 | D0 avg 7.4e-05 max 7.5e-05 min 7.1e-05 | D1 avg 7.0e-02 max 7.3e-02 min 6.9e-02 SD 1.15
+layer3.0.conv1.weight | P max:  51.6 min:  46.4 | D0 avg 7.4e-05 max 7.5e-05 min 7.1e-05 | D1 avg 7.0e-02 max 7.3e-02 min 6.9e-02 SD 1.15
+layer3.0.conv2.weight | P max:  51.6 min:  46.4 | D0 avg 7.4e-05 max 7.5e-05 min 7.1e-05 | D1 avg 7.0e-02 max 7.3e-02 min 6.9e-02 SD 1.15
+layer3.1.conv1.weight | P max:  51.6 min:  46.4 | D0 avg 7.4e-05 max 7.5e-05 min 7.1e-05 | D1 avg 7.0e-02 max 7.3e-02 min 6.9e-02 SD 1.15
+layer3.1.conv2.weight | P max:  51.6 min:  46.4 | D0 avg 7.4e-05 max 7.5e-05 min 7.1e-05 | D1 avg 7.0e-02 max 7.3e-02 min 6.9e-02 SD 1.15
+layer3.2.conv1.weight | P max:  51.6 min:  46.4 | D0 avg 7.4e-05 max 7.5e-05 min 7.1e-05 | D1 avg 7.0e-02 max 7.3e-02 min 6.9e-02 SD 1.15
+layer3.2.conv2.weight | P max:  51.6 min:  46.4 | D0 avg 7.2e-05 max 7.5e-05 min 7.1e-05 | D1 avg 7.1e-02 max 7.3e-02 min 6.9e-02 SD 1.15
+
+Epoch 17 Sparse Rate: 14.12% Acc: 94.03 Best Acc: 0.00 InvT: 1.0E+03 Loss: 333710.7
+layer1.0.conv1.weight | P max:  51.6 min:  46.2 | D0 avg 7.8e-05 max 7.8e-05 min 7.4e-05 | D1 avg 7.3e-02 max 7.6e-02 min 7.2e-02 SD 1.16
+layer1.0.conv2.weight | P max:  51.6 min:  46.2 | D0 avg 7.8e-05 max 7.8e-05 min 7.4e-05 | D1 avg 7.3e-02 max 7.6e-02 min 7.2e-02 SD 1.16
+layer1.1.conv1.weight | P max:  51.6 min:  46.2 | D0 avg 7.8e-05 max 7.8e-05 min 7.4e-05 | D1 avg 7.3e-02 max 7.6e-02 min 7.2e-02 SD 1.16
+layer1.1.conv2.weight | P max:  51.6 min:  46.2 | D0 avg 7.8e-05 max 7.8e-05 min 7.4e-05 | D1 avg 7.3e-02 max 7.6e-02 min 7.2e-02 SD 1.16
+layer1.2.conv1.weight | P max:  51.6 min:  46.2 | D0 avg 7.8e-05 max 7.8e-05 min 7.4e-05 | D1 avg 7.3e-02 max 7.6e-02 min 7.2e-02 SD 1.16
+layer1.2.conv2.weight | P max:  51.6 min:  46.2 | D0 avg 7.7e-05 max 7.8e-05 min 7.4e-05 | D1 avg 7.3e-02 max 7.6e-02 min 7.2e-02 SD 1.16
+layer2.0.conv1.weight | P max:  51.6 min:  46.2 | D0 avg 7.8e-05 max 7.8e-05 min 7.4e-05 | D1 avg 7.3e-02 max 7.6e-02 min 7.2e-02 SD 1.16
+layer2.0.conv2.weight | P max:  51.6 min:  46.2 | D0 avg 7.7e-05 max 7.8e-05 min 7.4e-05 | D1 avg 7.3e-02 max 7.6e-02 min 7.2e-02 SD 1.16
+layer2.1.conv1.weight | P max:  51.6 min:  46.2 | D0 avg 7.7e-05 max 7.8e-05 min 7.4e-05 | D1 avg 7.3e-02 max 7.6e-02 min 7.2e-02 SD 1.16
+layer2.1.conv2.weight | P max:  51.6 min:  46.2 | D0 avg 7.7e-05 max 7.8e-05 min 7.4e-05 | D1 avg 7.3e-02 max 7.6e-02 min 7.2e-02 SD 1.16
+layer2.2.conv1.weight | P max:  51.6 min:  46.2 | D0 avg 7.7e-05 max 7.8e-05 min 7.4e-05 | D1 avg 7.3e-02 max 7.6e-02 min 7.2e-02 SD 1.16
+layer2.2.conv2.weight | P max:  51.6 min:  46.2 | D0 avg 7.7e-05 max 7.8e-05 min 7.4e-05 | D1 avg 7.3e-02 max 7.6e-02 min 7.2e-02 SD 1.16
+layer3.0.conv1.weight | P max:  51.6 min:  46.2 | D0 avg 7.7e-05 max 7.8e-05 min 7.4e-05 | D1 avg 7.3e-02 max 7.6e-02 min 7.2e-02 SD 1.16
+layer3.0.conv2.weight | P max:  51.6 min:  46.2 | D0 avg 7.7e-05 max 7.8e-05 min 7.4e-05 | D1 avg 7.3e-02 max 7.6e-02 min 7.2e-02 SD 1.16
+layer3.1.conv1.weight | P max:  51.6 min:  46.2 | D0 avg 7.7e-05 max 7.8e-05 min 7.4e-05 | D1 avg 7.3e-02 max 7.6e-02 min 7.2e-02 SD 1.16
+layer3.1.conv2.weight | P max:  51.6 min:  46.2 | D0 avg 7.7e-05 max 7.8e-05 min 7.4e-05 | D1 avg 7.3e-02 max 7.6e-02 min 7.2e-02 SD 1.16
+layer3.2.conv1.weight | P max:  51.6 min:  46.2 | D0 avg 7.7e-05 max 7.8e-05 min 7.4e-05 | D1 avg 7.3e-02 max 7.6e-02 min 7.2e-02 SD 1.16
+layer3.2.conv2.weight | P max:  51.7 min:  46.2 | D0 avg 7.6e-05 max 7.8e-05 min 7.4e-05 | D1 avg 7.5e-02 max 7.7e-02 min 7.2e-02 SD 1.16
+
+Epoch 18 Sparse Rate: 14.87% Acc: 94.16 Best Acc: 0.00 InvT: 1.0E+03 Loss: 340640.8
+layer1.0.conv1.weight | P max:  51.7 min:  46.1 | D0 avg 8.1e-05 max 8.2e-05 min 7.7e-05 | D1 avg 7.6e-02 max 8.0e-02 min 7.5e-02 SD 1.17
+layer1.0.conv2.weight | P max:  51.7 min:  46.1 | D0 avg 8.1e-05 max 8.2e-05 min 7.7e-05 | D1 avg 7.6e-02 max 8.0e-02 min 7.5e-02 SD 1.17
+layer1.1.conv1.weight | P max:  51.7 min:  46.1 | D0 avg 8.1e-05 max 8.2e-05 min 7.7e-05 | D1 avg 7.6e-02 max 8.0e-02 min 7.5e-02 SD 1.17
+layer1.1.conv2.weight | P max:  51.7 min:  46.1 | D0 avg 8.1e-05 max 8.2e-05 min 7.7e-05 | D1 avg 7.6e-02 max 8.0e-02 min 7.5e-02 SD 1.17
+layer1.2.conv1.weight | P max:  51.7 min:  46.1 | D0 avg 8.1e-05 max 8.2e-05 min 7.7e-05 | D1 avg 7.6e-02 max 8.0e-02 min 7.5e-02 SD 1.17
+layer1.2.conv2.weight | P max:  51.7 min:  46.1 | D0 avg 8.1e-05 max 8.2e-05 min 7.7e-05 | D1 avg 7.6e-02 max 8.0e-02 min 7.5e-02 SD 1.17
+layer2.0.conv1.weight | P max:  51.7 min:  46.1 | D0 avg 8.1e-05 max 8.2e-05 min 7.7e-05 | D1 avg 7.6e-02 max 8.0e-02 min 7.5e-02 SD 1.17
+layer2.0.conv2.weight | P max:  51.7 min:  46.1 | D0 avg 8.1e-05 max 8.2e-05 min 7.7e-05 | D1 avg 7.6e-02 max 8.0e-02 min 7.5e-02 SD 1.17
+layer2.1.conv1.weight | P max:  51.7 min:  46.1 | D0 avg 8.1e-05 max 8.2e-05 min 7.7e-05 | D1 avg 7.6e-02 max 8.0e-02 min 7.5e-02 SD 1.17
+layer2.1.conv2.weight | P max:  51.7 min:  46.1 | D0 avg 8.1e-05 max 8.2e-05 min 7.7e-05 | D1 avg 7.6e-02 max 8.0e-02 min 7.5e-02 SD 1.17
+layer2.2.conv1.weight | P max:  51.7 min:  46.1 | D0 avg 8.1e-05 max 8.2e-05 min 7.7e-05 | D1 avg 7.6e-02 max 8.0e-02 min 7.5e-02 SD 1.17
+layer2.2.conv2.weight | P max:  51.7 min:  46.1 | D0 avg 8.1e-05 max 8.2e-05 min 7.7e-05 | D1 avg 7.6e-02 max 8.0e-02 min 7.5e-02 SD 1.17
+layer3.0.conv1.weight | P max:  51.7 min:  46.1 | D0 avg 8.1e-05 max 8.2e-05 min 7.7e-05 | D1 avg 7.6e-02 max 8.0e-02 min 7.5e-02 SD 1.17
+layer3.0.conv2.weight | P max:  51.7 min:  46.1 | D0 avg 8.1e-05 max 8.2e-05 min 7.7e-05 | D1 avg 7.6e-02 max 8.0e-02 min 7.5e-02 SD 1.17
+layer3.1.conv1.weight | P max:  51.7 min:  46.1 | D0 avg 8.1e-05 max 8.2e-05 min 7.7e-05 | D1 avg 7.6e-02 max 8.0e-02 min 7.5e-02 SD 1.17
+layer3.1.conv2.weight | P max:  51.7 min:  46.1 | D0 avg 8.1e-05 max 8.2e-05 min 7.7e-05 | D1 avg 7.6e-02 max 8.0e-02 min 7.5e-02 SD 1.17
+layer3.2.conv1.weight | P max:  51.7 min:  46.1 | D0 avg 8.1e-05 max 8.2e-05 min 7.7e-05 | D1 avg 7.6e-02 max 8.0e-02 min 7.5e-02 SD 1.17
+layer3.2.conv2.weight | P max:  51.8 min:  46.1 | D0 avg 7.9e-05 max 8.2e-05 min 7.7e-05 | D1 avg 7.8e-02 max 8.0e-02 min 7.5e-02 SD 1.17
+
+Epoch 19 Sparse Rate: 15.61% Acc: 94.11 Best Acc: 0.00 InvT: 1.0E+03 Loss: 347637.8
+layer1.0.conv1.weight | P max:  51.8 min:  45.9 | D0 avg 8.4e-05 max 8.5e-05 min 8.0e-05 | D1 avg 7.9e-02 max 8.3e-02 min 7.8e-02 SD 1.17
+layer1.0.conv2.weight | P max:  51.8 min:  45.9 | D0 avg 8.4e-05 max 8.5e-05 min 8.0e-05 | D1 avg 7.9e-02 max 8.3e-02 min 7.8e-02 SD 1.17
+layer1.1.conv1.weight | P max:  51.8 min:  45.9 | D0 avg 8.4e-05 max 8.5e-05 min 8.0e-05 | D1 avg 7.9e-02 max 8.3e-02 min 7.8e-02 SD 1.17
+layer1.1.conv2.weight | P max:  51.8 min:  45.9 | D0 avg 8.4e-05 max 8.5e-05 min 8.0e-05 | D1 avg 7.9e-02 max 8.3e-02 min 7.8e-02 SD 1.17
+layer1.2.conv1.weight | P max:  51.8 min:  45.9 | D0 avg 8.4e-05 max 8.5e-05 min 8.0e-05 | D1 avg 7.9e-02 max 8.3e-02 min 7.8e-02 SD 1.17
+layer1.2.conv2.weight | P max:  51.8 min:  45.9 | D0 avg 8.4e-05 max 8.5e-05 min 8.0e-05 | D1 avg 7.9e-02 max 8.3e-02 min 7.8e-02 SD 1.17
+layer2.0.conv1.weight | P max:  51.8 min:  45.9 | D0 avg 8.4e-05 max 8.5e-05 min 8.0e-05 | D1 avg 7.9e-02 max 8.3e-02 min 7.8e-02 SD 1.17
+layer2.0.conv2.weight | P max:  51.8 min:  45.9 | D0 avg 8.4e-05 max 8.5e-05 min 8.0e-05 | D1 avg 7.9e-02 max 8.3e-02 min 7.8e-02 SD 1.17
+layer2.1.conv1.weight | P max:  51.8 min:  45.9 | D0 avg 8.4e-05 max 8.5e-05 min 8.0e-05 | D1 avg 7.9e-02 max 8.3e-02 min 7.8e-02 SD 1.17
+layer2.1.conv2.weight | P max:  51.8 min:  45.9 | D0 avg 8.4e-05 max 8.5e-05 min 8.0e-05 | D1 avg 7.9e-02 max 8.3e-02 min 7.8e-02 SD 1.17
+layer2.2.conv1.weight | P max:  51.8 min:  45.9 | D0 avg 8.4e-05 max 8.5e-05 min 8.0e-05 | D1 avg 7.9e-02 max 8.3e-02 min 7.8e-02 SD 1.17
+layer2.2.conv2.weight | P max:  51.8 min:  45.9 | D0 avg 8.4e-05 max 8.5e-05 min 8.0e-05 | D1 avg 7.9e-02 max 8.3e-02 min 7.8e-02 SD 1.17
+layer3.0.conv1.weight | P max:  51.8 min:  45.9 | D0 avg 8.4e-05 max 8.5e-05 min 8.0e-05 | D1 avg 7.9e-02 max 8.3e-02 min 7.8e-02 SD 1.17
+layer3.0.conv2.weight | P max:  51.8 min:  45.9 | D0 avg 8.4e-05 max 8.5e-05 min 8.0e-05 | D1 avg 7.9e-02 max 8.3e-02 min 7.8e-02 SD 1.17
+layer3.1.conv1.weight | P max:  51.8 min:  45.9 | D0 avg 8.4e-05 max 8.5e-05 min 8.0e-05 | D1 avg 7.9e-02 max 8.3e-02 min 7.8e-02 SD 1.17
+layer3.1.conv2.weight | P max:  51.8 min:  45.9 | D0 avg 8.4e-05 max 8.5e-05 min 8.0e-05 | D1 avg 7.9e-02 max 8.3e-02 min 7.8e-02 SD 1.17
+layer3.2.conv1.weight | P max:  51.8 min:  45.9 | D0 avg 8.4e-05 max 8.5e-05 min 8.0e-05 | D1 avg 7.9e-02 max 8.3e-02 min 7.8e-02 SD 1.17
+layer3.2.conv2.weight | P max:  51.8 min:  45.9 | D0 avg 8.2e-05 max 8.5e-05 min 8.0e-05 | D1 avg 8.1e-02 max 8.3e-02 min 7.8e-02 SD 1.17
+
+Epoch 20 Sparse Rate: 16.33% Acc: 94.04 Best Acc: 0.00 InvT: 1.0E+03 Loss: 353898.1
+layer1.0.conv1.weight | P max:  51.8 min:  45.8 | D0 avg 8.7e-05 max 8.8e-05 min 8.3e-05 | D1 avg 8.2e-02 max 8.6e-02 min 8.1e-02 SD 1.18
+layer1.0.conv2.weight | P max:  51.8 min:  45.8 | D0 avg 8.8e-05 max 8.8e-05 min 8.3e-05 | D1 avg 8.2e-02 max 8.6e-02 min 8.1e-02 SD 1.18
+layer1.1.conv1.weight | P max:  51.8 min:  45.8 | D0 avg 8.7e-05 max 8.8e-05 min 8.3e-05 | D1 avg 8.2e-02 max 8.6e-02 min 8.1e-02 SD 1.18
+layer1.1.conv2.weight | P max:  51.8 min:  45.8 | D0 avg 8.7e-05 max 8.8e-05 min 8.3e-05 | D1 avg 8.2e-02 max 8.6e-02 min 8.1e-02 SD 1.18
+layer1.2.conv1.weight | P max:  51.8 min:  45.8 | D0 avg 8.8e-05 max 8.8e-05 min 8.3e-05 | D1 avg 8.1e-02 max 8.6e-02 min 8.1e-02 SD 1.18
+layer1.2.conv2.weight | P max:  51.8 min:  45.8 | D0 avg 8.7e-05 max 8.8e-05 min 8.3e-05 | D1 avg 8.2e-02 max 8.6e-02 min 8.1e-02 SD 1.18
+layer2.0.conv1.weight | P max:  51.8 min:  45.8 | D0 avg 8.7e-05 max 8.8e-05 min 8.3e-05 | D1 avg 8.2e-02 max 8.6e-02 min 8.1e-02 SD 1.18
+layer2.0.conv2.weight | P max:  51.8 min:  45.8 | D0 avg 8.7e-05 max 8.8e-05 min 8.3e-05 | D1 avg 8.2e-02 max 8.6e-02 min 8.1e-02 SD 1.18
+layer2.1.conv1.weight | P max:  51.8 min:  45.8 | D0 avg 8.7e-05 max 8.8e-05 min 8.3e-05 | D1 avg 8.2e-02 max 8.6e-02 min 8.1e-02 SD 1.18
+layer2.1.conv2.weight | P max:  51.8 min:  45.8 | D0 avg 8.7e-05 max 8.8e-05 min 8.3e-05 | D1 avg 8.2e-02 max 8.6e-02 min 8.1e-02 SD 1.18
+layer2.2.conv1.weight | P max:  51.8 min:  45.8 | D0 avg 8.7e-05 max 8.8e-05 min 8.3e-05 | D1 avg 8.2e-02 max 8.6e-02 min 8.1e-02 SD 1.18
+layer2.2.conv2.weight | P max:  51.8 min:  45.8 | D0 avg 8.7e-05 max 8.8e-05 min 8.3e-05 | D1 avg 8.2e-02 max 8.6e-02 min 8.1e-02 SD 1.18
+layer3.0.conv1.weight | P max:  51.8 min:  45.8 | D0 avg 8.7e-05 max 8.8e-05 min 8.3e-05 | D1 avg 8.2e-02 max 8.6e-02 min 8.1e-02 SD 1.18
+layer3.0.conv2.weight | P max:  51.8 min:  45.8 | D0 avg 8.7e-05 max 8.8e-05 min 8.3e-05 | D1 avg 8.2e-02 max 8.6e-02 min 8.1e-02 SD 1.18
+layer3.1.conv1.weight | P max:  51.8 min:  45.8 | D0 avg 8.7e-05 max 8.8e-05 min 8.3e-05 | D1 avg 8.2e-02 max 8.6e-02 min 8.1e-02 SD 1.18
+layer3.1.conv2.weight | P max:  51.8 min:  45.8 | D0 avg 8.7e-05 max 8.8e-05 min 8.3e-05 | D1 avg 8.2e-02 max 8.6e-02 min 8.1e-02 SD 1.18
+layer3.2.conv1.weight | P max:  51.8 min:  45.8 | D0 avg 8.7e-05 max 8.8e-05 min 8.3e-05 | D1 avg 8.2e-02 max 8.6e-02 min 8.1e-02 SD 1.18
+layer3.2.conv2.weight | P max:  51.9 min:  45.8 | D0 avg 8.5e-05 max 8.8e-05 min 8.3e-05 | D1 avg 8.4e-02 max 8.6e-02 min 8.1e-02 SD 1.18
+
+Epoch 21 Sparse Rate: 17.11% Acc: 94.15 Best Acc: 0.00 InvT: 1.0E+03 Loss: 358001.6
+layer1.0.conv1.weight | P max:  51.9 min:  45.6 | D0 avg 9.1e-05 max 9.1e-05 min 8.6e-05 | D1 avg 8.4e-02 max 8.9e-02 min 8.4e-02 SD 1.19
+layer1.0.conv2.weight | P max:  51.9 min:  45.6 | D0 avg 9.1e-05 max 9.1e-05 min 8.6e-05 | D1 avg 8.4e-02 max 8.9e-02 min 8.4e-02 SD 1.19
+layer1.1.conv1.weight | P max:  51.9 min:  45.6 | D0 avg 9.1e-05 max 9.1e-05 min 8.6e-05 | D1 avg 8.4e-02 max 8.9e-02 min 8.4e-02 SD 1.19
+layer1.1.conv2.weight | P max:  51.9 min:  45.6 | D0 avg 9.1e-05 max 9.1e-05 min 8.6e-05 | D1 avg 8.4e-02 max 8.9e-02 min 8.4e-02 SD 1.19
+layer1.2.conv1.weight | P max:  51.9 min:  45.6 | D0 avg 9.1e-05 max 9.1e-05 min 8.6e-05 | D1 avg 8.4e-02 max 8.9e-02 min 8.4e-02 SD 1.19
+layer1.2.conv2.weight | P max:  51.9 min:  45.6 | D0 avg 9.1e-05 max 9.1e-05 min 8.6e-05 | D1 avg 8.4e-02 max 8.9e-02 min 8.4e-02 SD 1.19
+layer2.0.conv1.weight | P max:  51.9 min:  45.6 | D0 avg 9.1e-05 max 9.1e-05 min 8.6e-05 | D1 avg 8.4e-02 max 8.9e-02 min 8.4e-02 SD 1.19
+layer2.0.conv2.weight | P max:  51.9 min:  45.6 | D0 avg 9.1e-05 max 9.1e-05 min 8.6e-05 | D1 avg 8.4e-02 max 8.9e-02 min 8.4e-02 SD 1.19
+layer2.1.conv1.weight | P max:  51.9 min:  45.6 | D0 avg 9.1e-05 max 9.1e-05 min 8.6e-05 | D1 avg 8.4e-02 max 8.9e-02 min 8.4e-02 SD 1.19
+layer2.1.conv2.weight | P max:  51.9 min:  45.6 | D0 avg 9.0e-05 max 9.1e-05 min 8.6e-05 | D1 avg 8.5e-02 max 8.9e-02 min 8.4e-02 SD 1.19
+layer2.2.conv1.weight | P max:  51.9 min:  45.6 | D0 avg 9.1e-05 max 9.1e-05 min 8.6e-05 | D1 avg 8.4e-02 max 8.9e-02 min 8.4e-02 SD 1.19
+layer2.2.conv2.weight | P max:  51.9 min:  45.6 | D0 avg 9.0e-05 max 9.1e-05 min 8.6e-05 | D1 avg 8.5e-02 max 8.9e-02 min 8.4e-02 SD 1.19
+layer3.0.conv1.weight | P max:  51.9 min:  45.6 | D0 avg 9.0e-05 max 9.1e-05 min 8.6e-05 | D1 avg 8.5e-02 max 8.9e-02 min 8.4e-02 SD 1.19
+layer3.0.conv2.weight | P max:  51.9 min:  45.6 | D0 avg 9.0e-05 max 9.1e-05 min 8.6e-05 | D1 avg 8.5e-02 max 8.9e-02 min 8.4e-02 SD 1.19
+layer3.1.conv1.weight | P max:  51.9 min:  45.6 | D0 avg 9.0e-05 max 9.1e-05 min 8.6e-05 | D1 avg 8.5e-02 max 8.9e-02 min 8.4e-02 SD 1.19
+layer3.1.conv2.weight | P max:  51.9 min:  45.6 | D0 avg 9.0e-05 max 9.1e-05 min 8.6e-05 | D1 avg 8.5e-02 max 8.9e-02 min 8.4e-02 SD 1.19
+layer3.2.conv1.weight | P max:  51.9 min:  45.6 | D0 avg 9.0e-05 max 9.1e-05 min 8.6e-05 | D1 avg 8.5e-02 max 8.9e-02 min 8.4e-02 SD 1.19
+layer3.2.conv2.weight | P max:  52.0 min:  45.6 | D0 avg 8.8e-05 max 9.1e-05 min 8.6e-05 | D1 avg 8.7e-02 max 8.9e-02 min 8.4e-02 SD 1.19
+
+Epoch 22 Sparse Rate: 17.82% Acc: 94.04 Best Acc: 0.00 InvT: 1.0E+03 Loss: 363400.2
+layer1.0.conv1.weight | P max:  52.0 min:  45.5 | D0 avg 9.4e-05 max 9.5e-05 min 8.9e-05 | D1 avg 8.7e-02 max 9.2e-02 min 8.6e-02 SD 1.20
+layer1.0.conv2.weight | P max:  52.0 min:  45.5 | D0 avg 9.4e-05 max 9.5e-05 min 8.9e-05 | D1 avg 8.7e-02 max 9.2e-02 min 8.6e-02 SD 1.20
+layer1.1.conv1.weight | P max:  52.0 min:  45.5 | D0 avg 9.4e-05 max 9.5e-05 min 8.9e-05 | D1 avg 8.7e-02 max 9.2e-02 min 8.6e-02 SD 1.20
+layer1.1.conv2.weight | P max:  52.0 min:  45.5 | D0 avg 9.4e-05 max 9.5e-05 min 8.9e-05 | D1 avg 8.7e-02 max 9.2e-02 min 8.6e-02 SD 1.20
+layer1.2.conv1.weight | P max:  52.0 min:  45.5 | D0 avg 9.4e-05 max 9.5e-05 min 8.9e-05 | D1 avg 8.7e-02 max 9.2e-02 min 8.6e-02 SD 1.20
+layer1.2.conv2.weight | P max:  52.0 min:  45.5 | D0 avg 9.4e-05 max 9.5e-05 min 8.9e-05 | D1 avg 8.7e-02 max 9.2e-02 min 8.6e-02 SD 1.20
+layer2.0.conv1.weight | P max:  52.0 min:  45.5 | D0 avg 9.4e-05 max 9.5e-05 min 8.9e-05 | D1 avg 8.7e-02 max 9.2e-02 min 8.6e-02 SD 1.20
+layer2.0.conv2.weight | P max:  52.0 min:  45.5 | D0 avg 9.4e-05 max 9.5e-05 min 8.9e-05 | D1 avg 8.7e-02 max 9.2e-02 min 8.6e-02 SD 1.20
+layer2.1.conv1.weight | P max:  52.0 min:  45.5 | D0 avg 9.4e-05 max 9.5e-05 min 8.9e-05 | D1 avg 8.7e-02 max 9.2e-02 min 8.6e-02 SD 1.20
+layer2.1.conv2.weight | P max:  52.0 min:  45.5 | D0 avg 9.4e-05 max 9.5e-05 min 8.9e-05 | D1 avg 8.7e-02 max 9.2e-02 min 8.6e-02 SD 1.20
+layer2.2.conv1.weight | P max:  52.0 min:  45.5 | D0 avg 9.4e-05 max 9.5e-05 min 8.9e-05 | D1 avg 8.7e-02 max 9.2e-02 min 8.6e-02 SD 1.20
+layer2.2.conv2.weight | P max:  52.0 min:  45.5 | D0 avg 9.4e-05 max 9.5e-05 min 8.9e-05 | D1 avg 8.7e-02 max 9.2e-02 min 8.6e-02 SD 1.20
+layer3.0.conv1.weight | P max:  52.0 min:  45.5 | D0 avg 9.4e-05 max 9.5e-05 min 8.9e-05 | D1 avg 8.7e-02 max 9.2e-02 min 8.6e-02 SD 1.20
+layer3.0.conv2.weight | P max:  52.0 min:  45.5 | D0 avg 9.4e-05 max 9.5e-05 min 8.9e-05 | D1 avg 8.7e-02 max 9.2e-02 min 8.6e-02 SD 1.20
+layer3.1.conv1.weight | P max:  52.0 min:  45.5 | D0 avg 9.4e-05 max 9.5e-05 min 8.9e-05 | D1 avg 8.7e-02 max 9.2e-02 min 8.6e-02 SD 1.20
+layer3.1.conv2.weight | P max:  52.0 min:  45.5 | D0 avg 9.3e-05 max 9.5e-05 min 8.9e-05 | D1 avg 8.7e-02 max 9.2e-02 min 8.6e-02 SD 1.20
+layer3.2.conv1.weight | P max:  52.0 min:  45.5 | D0 avg 9.3e-05 max 9.5e-05 min 8.9e-05 | D1 avg 8.7e-02 max 9.2e-02 min 8.6e-02 SD 1.20
+layer3.2.conv2.weight | P max:  52.0 min:  45.5 | D0 avg 9.1e-05 max 9.5e-05 min 8.8e-05 | D1 avg 9.0e-02 max 9.2e-02 min 8.6e-02 SD 1.20
+
+Epoch 23 Sparse Rate: 18.55% Acc: 94.05 Best Acc: 0.00 InvT: 1.0E+03 Loss: 368657.2
+layer1.0.conv1.weight | P max:  52.0 min:  45.3 | D0 avg 9.7e-05 max 9.8e-05 min 9.1e-05 | D1 avg 9.0e-02 max 9.5e-02 min 8.9e-02 SD 1.21
+layer1.0.conv2.weight | P max:  52.0 min:  45.3 | D0 avg 9.7e-05 max 9.8e-05 min 9.1e-05 | D1 avg 9.0e-02 max 9.5e-02 min 8.9e-02 SD 1.21
+layer1.1.conv1.weight | P max:  52.0 min:  45.3 | D0 avg 9.7e-05 max 9.8e-05 min 9.1e-05 | D1 avg 9.0e-02 max 9.5e-02 min 8.9e-02 SD 1.21
+layer1.1.conv2.weight | P max:  52.0 min:  45.3 | D0 avg 9.7e-05 max 9.8e-05 min 9.1e-05 | D1 avg 9.0e-02 max 9.5e-02 min 8.9e-02 SD 1.21
+layer1.2.conv1.weight | P max:  52.0 min:  45.3 | D0 avg 9.7e-05 max 9.8e-05 min 9.1e-05 | D1 avg 9.0e-02 max 9.5e-02 min 8.9e-02 SD 1.21
+layer1.2.conv2.weight | P max:  52.0 min:  45.3 | D0 avg 9.7e-05 max 9.8e-05 min 9.1e-05 | D1 avg 9.0e-02 max 9.5e-02 min 8.9e-02 SD 1.21
+layer2.0.conv1.weight | P max:  52.0 min:  45.3 | D0 avg 9.7e-05 max 9.8e-05 min 9.1e-05 | D1 avg 9.0e-02 max 9.5e-02 min 8.9e-02 SD 1.21
+layer2.0.conv2.weight | P max:  52.0 min:  45.3 | D0 avg 9.7e-05 max 9.8e-05 min 9.1e-05 | D1 avg 9.0e-02 max 9.5e-02 min 8.9e-02 SD 1.21
+layer2.1.conv1.weight | P max:  52.0 min:  45.3 | D0 avg 9.7e-05 max 9.8e-05 min 9.1e-05 | D1 avg 9.0e-02 max 9.5e-02 min 8.9e-02 SD 1.21
+layer2.1.conv2.weight | P max:  52.0 min:  45.3 | D0 avg 9.7e-05 max 9.8e-05 min 9.1e-05 | D1 avg 9.0e-02 max 9.5e-02 min 8.9e-02 SD 1.21
+layer2.2.conv1.weight | P max:  52.0 min:  45.3 | D0 avg 9.7e-05 max 9.8e-05 min 9.1e-05 | D1 avg 9.0e-02 max 9.5e-02 min 8.9e-02 SD 1.21
+layer2.2.conv2.weight | P max:  52.0 min:  45.3 | D0 avg 9.7e-05 max 9.8e-05 min 9.1e-05 | D1 avg 9.0e-02 max 9.5e-02 min 8.9e-02 SD 1.21
+layer3.0.conv1.weight | P max:  52.0 min:  45.3 | D0 avg 9.7e-05 max 9.8e-05 min 9.1e-05 | D1 avg 9.0e-02 max 9.5e-02 min 8.9e-02 SD 1.21
+layer3.0.conv2.weight | P max:  52.0 min:  45.3 | D0 avg 9.7e-05 max 9.8e-05 min 9.1e-05 | D1 avg 9.0e-02 max 9.5e-02 min 8.9e-02 SD 1.21
+layer3.1.conv1.weight | P max:  52.0 min:  45.3 | D0 avg 9.7e-05 max 9.8e-05 min 9.1e-05 | D1 avg 9.0e-02 max 9.5e-02 min 8.9e-02 SD 1.21
+layer3.1.conv2.weight | P max:  52.0 min:  45.3 | D0 avg 9.6e-05 max 9.8e-05 min 9.1e-05 | D1 avg 9.0e-02 max 9.5e-02 min 8.9e-02 SD 1.21
+layer3.2.conv1.weight | P max:  52.0 min:  45.3 | D0 avg 9.6e-05 max 9.8e-05 min 9.1e-05 | D1 avg 9.0e-02 max 9.5e-02 min 8.9e-02 SD 1.21
+layer3.2.conv2.weight | P max:  52.1 min:  45.3 | D0 avg 9.4e-05 max 9.8e-05 min 9.1e-05 | D1 avg 9.2e-02 max 9.5e-02 min 8.9e-02 SD 1.21
+
+Epoch 24 Sparse Rate: 19.26% Acc: 94.11 Best Acc: 0.00 InvT: 1.0E+03 Loss: 370046.3
+layer1.0.conv1.weight | P max:  52.1 min:  45.2 | D0 avg 1.0e-04 max 1.0e-04 min 9.4e-05 | D1 avg 9.2e-02 max 9.8e-02 min 9.1e-02 SD 1.22
+layer1.0.conv2.weight | P max:  52.1 min:  45.2 | D0 avg 1.0e-04 max 1.0e-04 min 9.4e-05 | D1 avg 9.2e-02 max 9.8e-02 min 9.1e-02 SD 1.22
+layer1.1.conv1.weight | P max:  52.1 min:  45.2 | D0 avg 1.0e-04 max 1.0e-04 min 9.4e-05 | D1 avg 9.2e-02 max 9.8e-02 min 9.1e-02 SD 1.22
+layer1.1.conv2.weight | P max:  52.1 min:  45.2 | D0 avg 1.0e-04 max 1.0e-04 min 9.4e-05 | D1 avg 9.2e-02 max 9.8e-02 min 9.1e-02 SD 1.22
+layer1.2.conv1.weight | P max:  52.1 min:  45.2 | D0 avg 1.0e-04 max 1.0e-04 min 9.4e-05 | D1 avg 9.2e-02 max 9.8e-02 min 9.1e-02 SD 1.22
+layer1.2.conv2.weight | P max:  52.1 min:  45.2 | D0 avg 1.0e-04 max 1.0e-04 min 9.4e-05 | D1 avg 9.2e-02 max 9.8e-02 min 9.1e-02 SD 1.22
+layer2.0.conv1.weight | P max:  52.1 min:  45.2 | D0 avg 1.0e-04 max 1.0e-04 min 9.4e-05 | D1 avg 9.2e-02 max 9.8e-02 min 9.1e-02 SD 1.22
+layer2.0.conv2.weight | P max:  52.1 min:  45.2 | D0 avg 1.0e-04 max 1.0e-04 min 9.4e-05 | D1 avg 9.2e-02 max 9.8e-02 min 9.1e-02 SD 1.22
+layer2.1.conv1.weight | P max:  52.1 min:  45.2 | D0 avg 1.0e-04 max 1.0e-04 min 9.4e-05 | D1 avg 9.2e-02 max 9.8e-02 min 9.1e-02 SD 1.22
+layer2.1.conv2.weight | P max:  52.1 min:  45.2 | D0 avg 1.0e-04 max 1.0e-04 min 9.4e-05 | D1 avg 9.2e-02 max 9.8e-02 min 9.1e-02 SD 1.22
+layer2.2.conv1.weight | P max:  52.1 min:  45.2 | D0 avg 1.0e-04 max 1.0e-04 min 9.4e-05 | D1 avg 9.2e-02 max 9.8e-02 min 9.1e-02 SD 1.22
+layer2.2.conv2.weight | P max:  52.1 min:  45.2 | D0 avg 1.0e-04 max 1.0e-04 min 9.4e-05 | D1 avg 9.2e-02 max 9.8e-02 min 9.1e-02 SD 1.22
+layer3.0.conv1.weight | P max:  52.1 min:  45.2 | D0 avg 1.0e-04 max 1.0e-04 min 9.4e-05 | D1 avg 9.2e-02 max 9.8e-02 min 9.1e-02 SD 1.22
+layer3.0.conv2.weight | P max:  52.1 min:  45.2 | D0 avg 1.0e-04 max 1.0e-04 min 9.4e-05 | D1 avg 9.2e-02 max 9.8e-02 min 9.1e-02 SD 1.22
+layer3.1.conv1.weight | P max:  52.1 min:  45.2 | D0 avg 1.0e-04 max 1.0e-04 min 9.4e-05 | D1 avg 9.3e-02 max 9.8e-02 min 9.1e-02 SD 1.22
+layer3.1.conv2.weight | P max:  52.1 min:  45.2 | D0 avg 9.9e-05 max 1.0e-04 min 9.4e-05 | D1 avg 9.3e-02 max 9.8e-02 min 9.1e-02 SD 1.22
+layer3.2.conv1.weight | P max:  52.1 min:  45.2 | D0 avg 9.9e-05 max 1.0e-04 min 9.4e-05 | D1 avg 9.3e-02 max 9.8e-02 min 9.1e-02 SD 1.22
+layer3.2.conv2.weight | P max:  52.2 min:  45.2 | D0 avg 9.7e-05 max 1.0e-04 min 9.4e-05 | D1 avg 9.5e-02 max 9.8e-02 min 9.1e-02 SD 1.22
+
+Epoch 25 Sparse Rate: 19.96% Acc: 93.99 Best Acc: 0.00 InvT: 1.0E+03 Loss: 374089.1
+layer1.0.conv1.weight | P max:  52.2 min:  45.1 | D0 avg 1.0e-04 max 1.0e-04 min 9.7e-05 | D1 avg 9.5e-02 max 1.0e-01 min 9.4e-02 SD 1.22
+layer1.0.conv2.weight | P max:  52.1 min:  45.1 | D0 avg 1.0e-04 max 1.0e-04 min 9.7e-05 | D1 avg 9.5e-02 max 1.0e-01 min 9.4e-02 SD 1.22
+layer1.1.conv1.weight | P max:  52.2 min:  45.1 | D0 avg 1.0e-04 max 1.0e-04 min 9.7e-05 | D1 avg 9.5e-02 max 1.0e-01 min 9.4e-02 SD 1.22
+layer1.1.conv2.weight | P max:  52.2 min:  45.1 | D0 avg 1.0e-04 max 1.0e-04 min 9.7e-05 | D1 avg 9.5e-02 max 1.0e-01 min 9.4e-02 SD 1.22
+layer1.2.conv1.weight | P max:  52.1 min:  45.1 | D0 avg 1.0e-04 max 1.0e-04 min 9.7e-05 | D1 avg 9.5e-02 max 1.0e-01 min 9.4e-02 SD 1.22
+layer1.2.conv2.weight | P max:  52.2 min:  45.1 | D0 avg 1.0e-04 max 1.0e-04 min 9.7e-05 | D1 avg 9.5e-02 max 1.0e-01 min 9.4e-02 SD 1.22
+layer2.0.conv1.weight | P max:  52.2 min:  45.1 | D0 avg 1.0e-04 max 1.0e-04 min 9.7e-05 | D1 avg 9.5e-02 max 1.0e-01 min 9.4e-02 SD 1.22
+layer2.0.conv2.weight | P max:  52.2 min:  45.1 | D0 avg 1.0e-04 max 1.0e-04 min 9.7e-05 | D1 avg 9.5e-02 max 1.0e-01 min 9.4e-02 SD 1.22
+layer2.1.conv1.weight | P max:  52.2 min:  45.1 | D0 avg 1.0e-04 max 1.0e-04 min 9.7e-05 | D1 avg 9.5e-02 max 1.0e-01 min 9.4e-02 SD 1.22
+layer2.1.conv2.weight | P max:  52.2 min:  45.1 | D0 avg 1.0e-04 max 1.0e-04 min 9.7e-05 | D1 avg 9.5e-02 max 1.0e-01 min 9.4e-02 SD 1.22
+layer2.2.conv1.weight | P max:  52.2 min:  45.1 | D0 avg 1.0e-04 max 1.0e-04 min 9.7e-05 | D1 avg 9.5e-02 max 1.0e-01 min 9.4e-02 SD 1.22
+layer2.2.conv2.weight | P max:  52.2 min:  45.1 | D0 avg 1.0e-04 max 1.0e-04 min 9.7e-05 | D1 avg 9.5e-02 max 1.0e-01 min 9.4e-02 SD 1.22
+layer3.0.conv1.weight | P max:  52.2 min:  45.1 | D0 avg 1.0e-04 max 1.0e-04 min 9.7e-05 | D1 avg 9.5e-02 max 1.0e-01 min 9.4e-02 SD 1.22
+layer3.0.conv2.weight | P max:  52.2 min:  45.1 | D0 avg 1.0e-04 max 1.0e-04 min 9.7e-05 | D1 avg 9.5e-02 max 1.0e-01 min 9.4e-02 SD 1.22
+layer3.1.conv1.weight | P max:  52.2 min:  45.1 | D0 avg 1.0e-04 max 1.0e-04 min 9.7e-05 | D1 avg 9.5e-02 max 1.0e-01 min 9.4e-02 SD 1.22
+layer3.1.conv2.weight | P max:  52.2 min:  45.1 | D0 avg 1.0e-04 max 1.0e-04 min 9.7e-05 | D1 avg 9.5e-02 max 1.0e-01 min 9.4e-02 SD 1.22
+layer3.2.conv1.weight | P max:  52.2 min:  45.1 | D0 avg 1.0e-04 max 1.0e-04 min 9.7e-05 | D1 avg 9.5e-02 max 1.0e-01 min 9.4e-02 SD 1.22
+layer3.2.conv2.weight | P max:  52.2 min:  45.1 | D0 avg 1.0e-04 max 1.0e-04 min 9.7e-05 | D1 avg 9.8e-02 max 1.0e-01 min 9.4e-02 SD 1.22
+
+Epoch 26 Sparse Rate: 20.65% Acc: 93.99 Best Acc: 0.00 InvT: 1.0E+03 Loss: 377142.0
+layer1.0.conv1.weight | P max:  52.2 min:  44.9 | D0 avg 1.1e-04 max 1.1e-04 min 9.9e-05 | D1 avg 9.7e-02 max 1.0e-01 min 9.6e-02 SD 1.23
+layer1.0.conv2.weight | P max:  52.2 min:  44.9 | D0 avg 1.1e-04 max 1.1e-04 min 9.9e-05 | D1 avg 9.7e-02 max 1.0e-01 min 9.6e-02 SD 1.23
+layer1.1.conv1.weight | P max:  52.2 min:  44.9 | D0 avg 1.1e-04 max 1.1e-04 min 9.9e-05 | D1 avg 9.7e-02 max 1.0e-01 min 9.6e-02 SD 1.23
+layer1.1.conv2.weight | P max:  52.2 min:  44.9 | D0 avg 1.1e-04 max 1.1e-04 min 9.9e-05 | D1 avg 9.7e-02 max 1.0e-01 min 9.6e-02 SD 1.23
+layer1.2.conv1.weight | P max:  52.2 min:  44.9 | D0 avg 1.1e-04 max 1.1e-04 min 9.9e-05 | D1 avg 9.7e-02 max 1.0e-01 min 9.6e-02 SD 1.23
+layer1.2.conv2.weight | P max:  52.2 min:  44.9 | D0 avg 1.1e-04 max 1.1e-04 min 9.9e-05 | D1 avg 9.7e-02 max 1.0e-01 min 9.6e-02 SD 1.23
+layer2.0.conv1.weight | P max:  52.2 min:  44.9 | D0 avg 1.1e-04 max 1.1e-04 min 9.9e-05 | D1 avg 9.7e-02 max 1.0e-01 min 9.6e-02 SD 1.23
+layer2.0.conv2.weight | P max:  52.2 min:  44.9 | D0 avg 1.1e-04 max 1.1e-04 min 9.9e-05 | D1 avg 9.7e-02 max 1.0e-01 min 9.6e-02 SD 1.23
+layer2.1.conv1.weight | P max:  52.2 min:  44.9 | D0 avg 1.1e-04 max 1.1e-04 min 9.9e-05 | D1 avg 9.7e-02 max 1.0e-01 min 9.6e-02 SD 1.23
+layer2.1.conv2.weight | P max:  52.2 min:  44.9 | D0 avg 1.1e-04 max 1.1e-04 min 9.9e-05 | D1 avg 9.7e-02 max 1.0e-01 min 9.6e-02 SD 1.23
+layer2.2.conv1.weight | P max:  52.2 min:  44.9 | D0 avg 1.1e-04 max 1.1e-04 min 9.9e-05 | D1 avg 9.7e-02 max 1.0e-01 min 9.6e-02 SD 1.23
+layer2.2.conv2.weight | P max:  52.2 min:  44.9 | D0 avg 1.1e-04 max 1.1e-04 min 9.9e-05 | D1 avg 9.7e-02 max 1.0e-01 min 9.6e-02 SD 1.23
+layer3.0.conv1.weight | P max:  52.2 min:  44.9 | D0 avg 1.1e-04 max 1.1e-04 min 9.9e-05 | D1 avg 9.7e-02 max 1.0e-01 min 9.6e-02 SD 1.23
+layer3.0.conv2.weight | P max:  52.2 min:  44.9 | D0 avg 1.1e-04 max 1.1e-04 min 9.9e-05 | D1 avg 9.8e-02 max 1.0e-01 min 9.6e-02 SD 1.23
+layer3.1.conv1.weight | P max:  52.2 min:  44.9 | D0 avg 1.1e-04 max 1.1e-04 min 9.9e-05 | D1 avg 9.8e-02 max 1.0e-01 min 9.6e-02 SD 1.23
+layer3.1.conv2.weight | P max:  52.2 min:  44.9 | D0 avg 1.1e-04 max 1.1e-04 min 9.9e-05 | D1 avg 9.8e-02 max 1.0e-01 min 9.6e-02 SD 1.23
+layer3.2.conv1.weight | P max:  52.2 min:  44.9 | D0 avg 1.1e-04 max 1.1e-04 min 9.9e-05 | D1 avg 9.8e-02 max 1.0e-01 min 9.6e-02 SD 1.23
+layer3.2.conv2.weight | P max:  52.3 min:  44.9 | D0 avg 1.0e-04 max 1.1e-04 min 9.9e-05 | D1 avg 1.0e-01 max 1.0e-01 min 9.6e-02 SD 1.23
+
+Epoch 27 Sparse Rate: 21.38% Acc: 94.01 Best Acc: 0.00 InvT: 1.0E+03 Loss: 378519.7
+layer1.0.conv1.weight | P max:  52.3 min:  44.8 | D0 avg 1.1e-04 max 1.1e-04 min 1.0e-04 | D1 avg 1.0e-01 max 1.1e-01 min 9.8e-02 SD 1.24
+layer1.0.conv2.weight | P max:  52.3 min:  44.8 | D0 avg 1.1e-04 max 1.1e-04 min 1.0e-04 | D1 avg 1.0e-01 max 1.1e-01 min 9.8e-02 SD 1.24
+layer1.1.conv1.weight | P max:  52.3 min:  44.8 | D0 avg 1.1e-04 max 1.1e-04 min 1.0e-04 | D1 avg 1.0e-01 max 1.1e-01 min 9.8e-02 SD 1.24
+layer1.1.conv2.weight | P max:  52.3 min:  44.8 | D0 avg 1.1e-04 max 1.1e-04 min 1.0e-04 | D1 avg 1.0e-01 max 1.1e-01 min 9.8e-02 SD 1.24
+layer1.2.conv1.weight | P max:  52.3 min:  44.8 | D0 avg 1.1e-04 max 1.1e-04 min 1.0e-04 | D1 avg 1.0e-01 max 1.1e-01 min 9.8e-02 SD 1.24
+layer1.2.conv2.weight | P max:  52.3 min:  44.8 | D0 avg 1.1e-04 max 1.1e-04 min 1.0e-04 | D1 avg 1.0e-01 max 1.1e-01 min 9.8e-02 SD 1.24
+layer2.0.conv1.weight | P max:  52.3 min:  44.8 | D0 avg 1.1e-04 max 1.1e-04 min 1.0e-04 | D1 avg 1.0e-01 max 1.1e-01 min 9.8e-02 SD 1.24
+layer2.0.conv2.weight | P max:  52.3 min:  44.8 | D0 avg 1.1e-04 max 1.1e-04 min 1.0e-04 | D1 avg 1.0e-01 max 1.1e-01 min 9.8e-02 SD 1.24
+layer2.1.conv1.weight | P max:  52.3 min:  44.8 | D0 avg 1.1e-04 max 1.1e-04 min 1.0e-04 | D1 avg 1.0e-01 max 1.1e-01 min 9.8e-02 SD 1.24
+layer2.1.conv2.weight | P max:  52.3 min:  44.8 | D0 avg 1.1e-04 max 1.1e-04 min 1.0e-04 | D1 avg 1.0e-01 max 1.1e-01 min 9.8e-02 SD 1.24
+layer2.2.conv1.weight | P max:  52.3 min:  44.8 | D0 avg 1.1e-04 max 1.1e-04 min 1.0e-04 | D1 avg 1.0e-01 max 1.1e-01 min 9.8e-02 SD 1.24
+layer2.2.conv2.weight | P max:  52.3 min:  44.8 | D0 avg 1.1e-04 max 1.1e-04 min 1.0e-04 | D1 avg 1.0e-01 max 1.1e-01 min 9.8e-02 SD 1.24
+layer3.0.conv1.weight | P max:  52.3 min:  44.8 | D0 avg 1.1e-04 max 1.1e-04 min 1.0e-04 | D1 avg 1.0e-01 max 1.1e-01 min 9.8e-02 SD 1.24
+layer3.0.conv2.weight | P max:  52.3 min:  44.8 | D0 avg 1.1e-04 max 1.1e-04 min 1.0e-04 | D1 avg 1.0e-01 max 1.1e-01 min 9.8e-02 SD 1.24
+layer3.1.conv1.weight | P max:  52.3 min:  44.8 | D0 avg 1.1e-04 max 1.1e-04 min 1.0e-04 | D1 avg 1.0e-01 max 1.1e-01 min 9.8e-02 SD 1.24
+layer3.1.conv2.weight | P max:  52.3 min:  44.8 | D0 avg 1.1e-04 max 1.1e-04 min 1.0e-04 | D1 avg 1.0e-01 max 1.1e-01 min 9.8e-02 SD 1.24
+layer3.2.conv1.weight | P max:  52.3 min:  44.8 | D0 avg 1.1e-04 max 1.1e-04 min 1.0e-04 | D1 avg 1.0e-01 max 1.1e-01 min 9.8e-02 SD 1.24
+layer3.2.conv2.weight | P max:  52.3 min:  44.8 | D0 avg 1.1e-04 max 1.1e-04 min 1.0e-04 | D1 avg 1.0e-01 max 1.1e-01 min 9.8e-02 SD 1.24
+
+Epoch 28 Sparse Rate: 22.04% Acc: 93.94 Best Acc: 0.00 InvT: 1.0E+03 Loss: 380967.5
+layer1.0.conv1.weight | P max:  52.3 min:  44.7 | D0 avg 1.1e-04 max 1.1e-04 min 1.0e-04 | D1 avg 1.0e-01 max 1.1e-01 min 1.0e-01 SD 1.25
+layer1.0.conv2.weight | P max:  52.3 min:  44.7 | D0 avg 1.1e-04 max 1.1e-04 min 1.0e-04 | D1 avg 1.0e-01 max 1.1e-01 min 1.0e-01 SD 1.25
+layer1.1.conv1.weight | P max:  52.3 min:  44.7 | D0 avg 1.1e-04 max 1.1e-04 min 1.0e-04 | D1 avg 1.0e-01 max 1.1e-01 min 1.0e-01 SD 1.25
+layer1.1.conv2.weight | P max:  52.3 min:  44.7 | D0 avg 1.1e-04 max 1.1e-04 min 1.0e-04 | D1 avg 1.0e-01 max 1.1e-01 min 1.0e-01 SD 1.25
+layer1.2.conv1.weight | P max:  52.3 min:  44.7 | D0 avg 1.1e-04 max 1.1e-04 min 1.0e-04 | D1 avg 1.0e-01 max 1.1e-01 min 1.0e-01 SD 1.25
+layer1.2.conv2.weight | P max:  52.3 min:  44.7 | D0 avg 1.1e-04 max 1.1e-04 min 1.0e-04 | D1 avg 1.0e-01 max 1.1e-01 min 1.0e-01 SD 1.25
+layer2.0.conv1.weight | P max:  52.3 min:  44.7 | D0 avg 1.1e-04 max 1.1e-04 min 1.0e-04 | D1 avg 1.0e-01 max 1.1e-01 min 1.0e-01 SD 1.25
+layer2.0.conv2.weight | P max:  52.3 min:  44.7 | D0 avg 1.1e-04 max 1.1e-04 min 1.0e-04 | D1 avg 1.0e-01 max 1.1e-01 min 1.0e-01 SD 1.25
+layer2.1.conv1.weight | P max:  52.3 min:  44.7 | D0 avg 1.1e-04 max 1.1e-04 min 1.0e-04 | D1 avg 1.0e-01 max 1.1e-01 min 1.0e-01 SD 1.25
+layer2.1.conv2.weight | P max:  52.3 min:  44.7 | D0 avg 1.1e-04 max 1.1e-04 min 1.0e-04 | D1 avg 1.0e-01 max 1.1e-01 min 1.0e-01 SD 1.25
+layer2.2.conv1.weight | P max:  52.3 min:  44.7 | D0 avg 1.1e-04 max 1.1e-04 min 1.0e-04 | D1 avg 1.0e-01 max 1.1e-01 min 1.0e-01 SD 1.25
+layer2.2.conv2.weight | P max:  52.3 min:  44.7 | D0 avg 1.1e-04 max 1.1e-04 min 1.0e-04 | D1 avg 1.0e-01 max 1.1e-01 min 1.0e-01 SD 1.25
+layer3.0.conv1.weight | P max:  52.3 min:  44.7 | D0 avg 1.1e-04 max 1.1e-04 min 1.0e-04 | D1 avg 1.0e-01 max 1.1e-01 min 1.0e-01 SD 1.25
+layer3.0.conv2.weight | P max:  52.3 min:  44.7 | D0 avg 1.1e-04 max 1.1e-04 min 1.0e-04 | D1 avg 1.0e-01 max 1.1e-01 min 1.0e-01 SD 1.25
+layer3.1.conv1.weight | P max:  52.3 min:  44.7 | D0 avg 1.1e-04 max 1.1e-04 min 1.0e-04 | D1 avg 1.0e-01 max 1.1e-01 min 1.0e-01 SD 1.25
+layer3.1.conv2.weight | P max:  52.3 min:  44.7 | D0 avg 1.1e-04 max 1.1e-04 min 1.0e-04 | D1 avg 1.0e-01 max 1.1e-01 min 1.0e-01 SD 1.25
+layer3.2.conv1.weight | P max:  52.3 min:  44.7 | D0 avg 1.1e-04 max 1.1e-04 min 1.0e-04 | D1 avg 1.0e-01 max 1.1e-01 min 1.0e-01 SD 1.25
+layer3.2.conv2.weight | P max:  52.4 min:  44.7 | D0 avg 1.1e-04 max 1.1e-04 min 1.0e-04 | D1 avg 1.1e-01 max 1.1e-01 min 1.0e-01 SD 1.25
+
+Epoch 29 Sparse Rate: 22.74% Acc: 94.01 Best Acc: 0.00 InvT: 1.0E+03 Loss: 383001.5
+layer1.0.conv1.weight | P max:  52.4 min:  44.5 | D0 avg 1.1e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.0e-01 max 1.1e-01 min 1.0e-01 SD 1.25
+layer1.0.conv2.weight | P max:  52.4 min:  44.5 | D0 avg 1.1e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.0e-01 max 1.1e-01 min 1.0e-01 SD 1.25
+layer1.1.conv1.weight | P max:  52.4 min:  44.5 | D0 avg 1.1e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.0e-01 max 1.1e-01 min 1.0e-01 SD 1.25
+layer1.1.conv2.weight | P max:  52.4 min:  44.5 | D0 avg 1.1e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.0e-01 max 1.1e-01 min 1.0e-01 SD 1.25
+layer1.2.conv1.weight | P max:  52.4 min:  44.5 | D0 avg 1.1e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.0e-01 max 1.1e-01 min 1.0e-01 SD 1.25
+layer1.2.conv2.weight | P max:  52.4 min:  44.5 | D0 avg 1.1e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.0e-01 max 1.1e-01 min 1.0e-01 SD 1.25
+layer2.0.conv1.weight | P max:  52.4 min:  44.5 | D0 avg 1.1e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.0e-01 max 1.1e-01 min 1.0e-01 SD 1.25
+layer2.0.conv2.weight | P max:  52.4 min:  44.5 | D0 avg 1.1e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.0e-01 max 1.1e-01 min 1.0e-01 SD 1.25
+layer2.1.conv1.weight | P max:  52.4 min:  44.5 | D0 avg 1.1e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.0e-01 max 1.1e-01 min 1.0e-01 SD 1.25
+layer2.1.conv2.weight | P max:  52.4 min:  44.5 | D0 avg 1.1e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.0e-01 max 1.1e-01 min 1.0e-01 SD 1.25
+layer2.2.conv1.weight | P max:  52.4 min:  44.5 | D0 avg 1.1e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.0e-01 max 1.1e-01 min 1.0e-01 SD 1.25
+layer2.2.conv2.weight | P max:  52.4 min:  44.5 | D0 avg 1.1e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.0e-01 max 1.1e-01 min 1.0e-01 SD 1.25
+layer3.0.conv1.weight | P max:  52.4 min:  44.5 | D0 avg 1.1e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.0e-01 max 1.1e-01 min 1.0e-01 SD 1.25
+layer3.0.conv2.weight | P max:  52.4 min:  44.5 | D0 avg 1.1e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.0e-01 max 1.1e-01 min 1.0e-01 SD 1.25
+layer3.1.conv1.weight | P max:  52.4 min:  44.5 | D0 avg 1.1e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.0e-01 max 1.1e-01 min 1.0e-01 SD 1.25
+layer3.1.conv2.weight | P max:  52.4 min:  44.5 | D0 avg 1.1e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.0e-01 max 1.1e-01 min 1.0e-01 SD 1.25
+layer3.2.conv1.weight | P max:  52.4 min:  44.5 | D0 avg 1.1e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.0e-01 max 1.1e-01 min 1.0e-01 SD 1.25
+layer3.2.conv2.weight | P max:  52.4 min:  44.5 | D0 avg 1.1e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.1e-01 max 1.1e-01 min 1.0e-01 SD 1.25
+
+Epoch 30 Sparse Rate: 23.39% Acc: 94.07 Best Acc: 0.00 InvT: 1.0E+03 Loss: 383717.1
+layer1.0.conv1.weight | P max:  52.4 min:  44.4 | D0 avg 1.2e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.1e-01 max 1.1e-01 min 1.1e-01 SD 1.26
+layer1.0.conv2.weight | P max:  52.4 min:  44.4 | D0 avg 1.2e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.1e-01 max 1.1e-01 min 1.1e-01 SD 1.26
+layer1.1.conv1.weight | P max:  52.4 min:  44.4 | D0 avg 1.2e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.1e-01 max 1.1e-01 min 1.1e-01 SD 1.26
+layer1.1.conv2.weight | P max:  52.4 min:  44.4 | D0 avg 1.2e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.1e-01 max 1.1e-01 min 1.1e-01 SD 1.26
+layer1.2.conv1.weight | P max:  52.4 min:  44.4 | D0 avg 1.2e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.1e-01 max 1.1e-01 min 1.1e-01 SD 1.26
+layer1.2.conv2.weight | P max:  52.4 min:  44.4 | D0 avg 1.2e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.1e-01 max 1.1e-01 min 1.1e-01 SD 1.26
+layer2.0.conv1.weight | P max:  52.4 min:  44.4 | D0 avg 1.2e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.1e-01 max 1.1e-01 min 1.1e-01 SD 1.26
+layer2.0.conv2.weight | P max:  52.4 min:  44.4 | D0 avg 1.2e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.1e-01 max 1.1e-01 min 1.1e-01 SD 1.26
+layer2.1.conv1.weight | P max:  52.4 min:  44.4 | D0 avg 1.2e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.1e-01 max 1.1e-01 min 1.1e-01 SD 1.26
+layer2.1.conv2.weight | P max:  52.4 min:  44.4 | D0 avg 1.2e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.1e-01 max 1.1e-01 min 1.1e-01 SD 1.26
+layer2.2.conv1.weight | P max:  52.4 min:  44.4 | D0 avg 1.2e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.1e-01 max 1.1e-01 min 1.1e-01 SD 1.26
+layer2.2.conv2.weight | P max:  52.4 min:  44.4 | D0 avg 1.2e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.1e-01 max 1.1e-01 min 1.1e-01 SD 1.26
+layer3.0.conv1.weight | P max:  52.4 min:  44.4 | D0 avg 1.2e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.1e-01 max 1.1e-01 min 1.1e-01 SD 1.26
+layer3.0.conv2.weight | P max:  52.4 min:  44.4 | D0 avg 1.2e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.1e-01 max 1.1e-01 min 1.1e-01 SD 1.26
+layer3.1.conv1.weight | P max:  52.4 min:  44.4 | D0 avg 1.2e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.1e-01 max 1.1e-01 min 1.1e-01 SD 1.26
+layer3.1.conv2.weight | P max:  52.4 min:  44.4 | D0 avg 1.2e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.1e-01 max 1.1e-01 min 1.1e-01 SD 1.26
+layer3.2.conv1.weight | P max:  52.4 min:  44.4 | D0 avg 1.2e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.1e-01 max 1.1e-01 min 1.1e-01 SD 1.26
+layer3.2.conv2.weight | P max:  52.5 min:  44.4 | D0 avg 1.1e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.1e-01 max 1.1e-01 min 1.1e-01 SD 1.26
+
+Epoch 31 Sparse Rate: 24.04% Acc: 93.91 Best Acc: 0.00 InvT: 1.0E+03 Loss: 385060.8
+layer1.0.conv1.weight | P max:  52.5 min:  44.3 | D0 avg 1.2e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.1e-01 max 1.2e-01 min 1.1e-01 SD 1.27
+layer1.0.conv2.weight | P max:  52.5 min:  44.3 | D0 avg 1.2e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.1e-01 max 1.2e-01 min 1.1e-01 SD 1.27
+layer1.1.conv1.weight | P max:  52.5 min:  44.3 | D0 avg 1.2e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.1e-01 max 1.2e-01 min 1.1e-01 SD 1.27
+layer1.1.conv2.weight | P max:  52.5 min:  44.3 | D0 avg 1.2e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.1e-01 max 1.2e-01 min 1.1e-01 SD 1.27
+layer1.2.conv1.weight | P max:  52.5 min:  44.3 | D0 avg 1.2e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.1e-01 max 1.2e-01 min 1.1e-01 SD 1.27
+layer1.2.conv2.weight | P max:  52.5 min:  44.3 | D0 avg 1.2e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.1e-01 max 1.2e-01 min 1.1e-01 SD 1.27
+layer2.0.conv1.weight | P max:  52.5 min:  44.3 | D0 avg 1.2e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.1e-01 max 1.2e-01 min 1.1e-01 SD 1.27
+layer2.0.conv2.weight | P max:  52.5 min:  44.3 | D0 avg 1.2e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.1e-01 max 1.2e-01 min 1.1e-01 SD 1.27
+layer2.1.conv1.weight | P max:  52.5 min:  44.3 | D0 avg 1.2e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.1e-01 max 1.2e-01 min 1.1e-01 SD 1.27
+layer2.1.conv2.weight | P max:  52.5 min:  44.3 | D0 avg 1.2e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.1e-01 max 1.2e-01 min 1.1e-01 SD 1.27
+layer2.2.conv1.weight | P max:  52.5 min:  44.3 | D0 avg 1.2e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.1e-01 max 1.2e-01 min 1.1e-01 SD 1.27
+layer2.2.conv2.weight | P max:  52.5 min:  44.3 | D0 avg 1.2e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.1e-01 max 1.2e-01 min 1.1e-01 SD 1.27
+layer3.0.conv1.weight | P max:  52.5 min:  44.3 | D0 avg 1.2e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.1e-01 max 1.2e-01 min 1.1e-01 SD 1.27
+layer3.0.conv2.weight | P max:  52.5 min:  44.3 | D0 avg 1.2e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.1e-01 max 1.2e-01 min 1.1e-01 SD 1.27
+layer3.1.conv1.weight | P max:  52.5 min:  44.3 | D0 avg 1.2e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.1e-01 max 1.2e-01 min 1.1e-01 SD 1.27
+layer3.1.conv2.weight | P max:  52.5 min:  44.3 | D0 avg 1.2e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.1e-01 max 1.2e-01 min 1.1e-01 SD 1.27
+layer3.2.conv1.weight | P max:  52.5 min:  44.3 | D0 avg 1.2e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.1e-01 max 1.2e-01 min 1.1e-01 SD 1.27
+layer3.2.conv2.weight | P max:  52.5 min:  44.3 | D0 avg 1.2e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.1e-01 max 1.2e-01 min 1.1e-01 SD 1.27
+
+Epoch 32 Sparse Rate: 24.72% Acc: 93.96 Best Acc: 0.00 InvT: 1.0E+03 Loss: 385848.9
+layer1.0.conv1.weight | P max:  52.5 min:  44.2 | D0 avg 1.2e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.1e-01 max 1.2e-01 min 1.1e-01 SD 1.28
+layer1.0.conv2.weight | P max:  52.5 min:  44.2 | D0 avg 1.2e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.1e-01 max 1.2e-01 min 1.1e-01 SD 1.28
+layer1.1.conv1.weight | P max:  52.5 min:  44.2 | D0 avg 1.2e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.1e-01 max 1.2e-01 min 1.1e-01 SD 1.28
+layer1.1.conv2.weight | P max:  52.5 min:  44.2 | D0 avg 1.2e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.1e-01 max 1.2e-01 min 1.1e-01 SD 1.28
+layer1.2.conv1.weight | P max:  52.5 min:  44.2 | D0 avg 1.2e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.1e-01 max 1.2e-01 min 1.1e-01 SD 1.28
+layer1.2.conv2.weight | P max:  52.5 min:  44.2 | D0 avg 1.2e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.1e-01 max 1.2e-01 min 1.1e-01 SD 1.28
+layer2.0.conv1.weight | P max:  52.5 min:  44.2 | D0 avg 1.2e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.1e-01 max 1.2e-01 min 1.1e-01 SD 1.28
+layer2.0.conv2.weight | P max:  52.5 min:  44.2 | D0 avg 1.2e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.1e-01 max 1.2e-01 min 1.1e-01 SD 1.28
+layer2.1.conv1.weight | P max:  52.5 min:  44.2 | D0 avg 1.2e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.1e-01 max 1.2e-01 min 1.1e-01 SD 1.28
+layer2.1.conv2.weight | P max:  52.5 min:  44.2 | D0 avg 1.2e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.1e-01 max 1.2e-01 min 1.1e-01 SD 1.28
+layer2.2.conv1.weight | P max:  52.5 min:  44.2 | D0 avg 1.2e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.1e-01 max 1.2e-01 min 1.1e-01 SD 1.28
+layer2.2.conv2.weight | P max:  52.5 min:  44.2 | D0 avg 1.2e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.1e-01 max 1.2e-01 min 1.1e-01 SD 1.28
+layer3.0.conv1.weight | P max:  52.5 min:  44.2 | D0 avg 1.2e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.1e-01 max 1.2e-01 min 1.1e-01 SD 1.28
+layer3.0.conv2.weight | P max:  52.5 min:  44.2 | D0 avg 1.2e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.1e-01 max 1.2e-01 min 1.1e-01 SD 1.28
+layer3.1.conv1.weight | P max:  52.5 min:  44.2 | D0 avg 1.2e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.1e-01 max 1.2e-01 min 1.1e-01 SD 1.28
+layer3.1.conv2.weight | P max:  52.5 min:  44.2 | D0 avg 1.2e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.1e-01 max 1.2e-01 min 1.1e-01 SD 1.28
+layer3.2.conv1.weight | P max:  52.5 min:  44.2 | D0 avg 1.2e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.1e-01 max 1.2e-01 min 1.1e-01 SD 1.28
+layer3.2.conv2.weight | P max:  52.6 min:  44.2 | D0 avg 1.2e-04 max 1.2e-04 min 1.1e-04 | D1 avg 1.2e-01 max 1.2e-01 min 1.1e-01 SD 1.28
+
+Epoch 33 Sparse Rate: 25.37% Acc: 94.01 Best Acc: 0.00 InvT: 1.0E+03 Loss: 385969.0
+layer1.0.conv1.weight | P max:  52.6 min:  44.1 | D0 avg 1.2e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.1e-01 max 1.2e-01 min 1.1e-01 SD 1.28
+layer1.0.conv2.weight | P max:  52.6 min:  44.1 | D0 avg 1.2e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.1e-01 max 1.2e-01 min 1.1e-01 SD 1.28
+layer1.1.conv1.weight | P max:  52.6 min:  44.1 | D0 avg 1.2e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.1e-01 max 1.2e-01 min 1.1e-01 SD 1.28
+layer1.1.conv2.weight | P max:  52.6 min:  44.1 | D0 avg 1.2e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.1e-01 max 1.2e-01 min 1.1e-01 SD 1.28
+layer1.2.conv1.weight | P max:  52.6 min:  44.1 | D0 avg 1.2e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.1e-01 max 1.2e-01 min 1.1e-01 SD 1.28
+layer1.2.conv2.weight | P max:  52.6 min:  44.1 | D0 avg 1.2e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.1e-01 max 1.2e-01 min 1.1e-01 SD 1.28
+layer2.0.conv1.weight | P max:  52.6 min:  44.1 | D0 avg 1.2e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.1e-01 max 1.2e-01 min 1.1e-01 SD 1.28
+layer2.0.conv2.weight | P max:  52.6 min:  44.1 | D0 avg 1.2e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.1e-01 max 1.2e-01 min 1.1e-01 SD 1.28
+layer2.1.conv1.weight | P max:  52.6 min:  44.1 | D0 avg 1.2e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.1e-01 max 1.2e-01 min 1.1e-01 SD 1.28
+layer2.1.conv2.weight | P max:  52.6 min:  44.1 | D0 avg 1.2e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.1e-01 max 1.2e-01 min 1.1e-01 SD 1.28
+layer2.2.conv1.weight | P max:  52.6 min:  44.1 | D0 avg 1.2e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.1e-01 max 1.2e-01 min 1.1e-01 SD 1.28
+layer2.2.conv2.weight | P max:  52.6 min:  44.1 | D0 avg 1.2e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.1e-01 max 1.2e-01 min 1.1e-01 SD 1.28
+layer3.0.conv1.weight | P max:  52.6 min:  44.1 | D0 avg 1.2e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.1e-01 max 1.2e-01 min 1.1e-01 SD 1.28
+layer3.0.conv2.weight | P max:  52.6 min:  44.1 | D0 avg 1.2e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.1e-01 max 1.2e-01 min 1.1e-01 SD 1.28
+layer3.1.conv1.weight | P max:  52.6 min:  44.1 | D0 avg 1.2e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.1e-01 max 1.2e-01 min 1.1e-01 SD 1.28
+layer3.1.conv2.weight | P max:  52.6 min:  44.1 | D0 avg 1.2e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.1e-01 max 1.2e-01 min 1.1e-01 SD 1.28
+layer3.2.conv1.weight | P max:  52.6 min:  44.1 | D0 avg 1.2e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.1e-01 max 1.2e-01 min 1.1e-01 SD 1.28
+layer3.2.conv2.weight | P max:  52.7 min:  44.1 | D0 avg 1.2e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.2e-01 min 1.1e-01 SD 1.28
+
+Epoch 34 Sparse Rate: 26.04% Acc: 94.02 Best Acc: 0.00 InvT: 1.0E+03 Loss: 386713.8
+layer1.0.conv1.weight | P max:  52.6 min:  43.9 | D0 avg 1.3e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.2e-01 min 1.1e-01 SD 1.29
+layer1.0.conv2.weight | P max:  52.6 min:  43.9 | D0 avg 1.3e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.2e-01 min 1.1e-01 SD 1.29
+layer1.1.conv1.weight | P max:  52.6 min:  43.9 | D0 avg 1.3e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.2e-01 min 1.1e-01 SD 1.29
+layer1.1.conv2.weight | P max:  52.6 min:  43.9 | D0 avg 1.3e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.2e-01 min 1.1e-01 SD 1.29
+layer1.2.conv1.weight | P max:  52.6 min:  43.9 | D0 avg 1.3e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.2e-01 min 1.1e-01 SD 1.29
+layer1.2.conv2.weight | P max:  52.6 min:  43.9 | D0 avg 1.3e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.2e-01 min 1.1e-01 SD 1.29
+layer2.0.conv1.weight | P max:  52.6 min:  43.9 | D0 avg 1.3e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.2e-01 min 1.1e-01 SD 1.29
+layer2.0.conv2.weight | P max:  52.6 min:  43.9 | D0 avg 1.3e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.2e-01 min 1.1e-01 SD 1.29
+layer2.1.conv1.weight | P max:  52.6 min:  43.9 | D0 avg 1.3e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.2e-01 min 1.1e-01 SD 1.29
+layer2.1.conv2.weight | P max:  52.6 min:  43.9 | D0 avg 1.3e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.2e-01 min 1.1e-01 SD 1.29
+layer2.2.conv1.weight | P max:  52.6 min:  43.9 | D0 avg 1.3e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.2e-01 min 1.1e-01 SD 1.29
+layer2.2.conv2.weight | P max:  52.6 min:  43.9 | D0 avg 1.3e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.2e-01 min 1.1e-01 SD 1.29
+layer3.0.conv1.weight | P max:  52.6 min:  43.9 | D0 avg 1.3e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.2e-01 min 1.1e-01 SD 1.29
+layer3.0.conv2.weight | P max:  52.6 min:  43.9 | D0 avg 1.3e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.2e-01 min 1.1e-01 SD 1.29
+layer3.1.conv1.weight | P max:  52.6 min:  43.9 | D0 avg 1.3e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.2e-01 min 1.1e-01 SD 1.29
+layer3.1.conv2.weight | P max:  52.6 min:  43.9 | D0 avg 1.3e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.2e-01 min 1.1e-01 SD 1.29
+layer3.2.conv1.weight | P max:  52.6 min:  43.9 | D0 avg 1.3e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.2e-01 min 1.1e-01 SD 1.29
+layer3.2.conv2.weight | P max:  52.7 min:  43.9 | D0 avg 1.2e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.2e-01 min 1.1e-01 SD 1.29
+
+Epoch 35 Sparse Rate: 26.64% Acc: 93.99 Best Acc: 0.00 InvT: 1.0E+03 Loss: 386427.3
+layer1.0.conv1.weight | P max:  52.7 min:  43.8 | D0 avg 1.3e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.30
+layer1.0.conv2.weight | P max:  52.7 min:  43.8 | D0 avg 1.3e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.30
+layer1.1.conv1.weight | P max:  52.7 min:  43.8 | D0 avg 1.3e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.30
+layer1.1.conv2.weight | P max:  52.7 min:  43.8 | D0 avg 1.3e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.30
+layer1.2.conv1.weight | P max:  52.7 min:  43.8 | D0 avg 1.3e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.30
+layer1.2.conv2.weight | P max:  52.7 min:  43.8 | D0 avg 1.3e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.30
+layer2.0.conv1.weight | P max:  52.7 min:  43.8 | D0 avg 1.3e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.30
+layer2.0.conv2.weight | P max:  52.7 min:  43.8 | D0 avg 1.3e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.30
+layer2.1.conv1.weight | P max:  52.7 min:  43.8 | D0 avg 1.3e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.30
+layer2.1.conv2.weight | P max:  52.7 min:  43.8 | D0 avg 1.3e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.30
+layer2.2.conv1.weight | P max:  52.7 min:  43.8 | D0 avg 1.3e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.30
+layer2.2.conv2.weight | P max:  52.7 min:  43.8 | D0 avg 1.3e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.30
+layer3.0.conv1.weight | P max:  52.7 min:  43.8 | D0 avg 1.3e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.30
+layer3.0.conv2.weight | P max:  52.7 min:  43.8 | D0 avg 1.3e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.30
+layer3.1.conv1.weight | P max:  52.7 min:  43.8 | D0 avg 1.3e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.30
+layer3.1.conv2.weight | P max:  52.7 min:  43.8 | D0 avg 1.3e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.30
+layer3.2.conv1.weight | P max:  52.7 min:  43.8 | D0 avg 1.3e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.30
+layer3.2.conv2.weight | P max:  52.8 min:  43.8 | D0 avg 1.3e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.30
+
+Epoch 36 Sparse Rate: 27.30% Acc: 93.99 Best Acc: 0.00 InvT: 1.0E+03 Loss: 386401.5
+layer1.0.conv1.weight | P max:  52.7 min:  43.7 | D0 avg 1.3e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.30
+layer1.0.conv2.weight | P max:  52.7 min:  43.7 | D0 avg 1.3e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.30
+layer1.1.conv1.weight | P max:  52.7 min:  43.7 | D0 avg 1.3e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.30
+layer1.1.conv2.weight | P max:  52.7 min:  43.7 | D0 avg 1.3e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.30
+layer1.2.conv1.weight | P max:  52.7 min:  43.7 | D0 avg 1.3e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.30
+layer1.2.conv2.weight | P max:  52.7 min:  43.7 | D0 avg 1.3e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.30
+layer2.0.conv1.weight | P max:  52.7 min:  43.7 | D0 avg 1.3e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.30
+layer2.0.conv2.weight | P max:  52.7 min:  43.7 | D0 avg 1.3e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.30
+layer2.1.conv1.weight | P max:  52.7 min:  43.7 | D0 avg 1.3e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.30
+layer2.1.conv2.weight | P max:  52.7 min:  43.7 | D0 avg 1.3e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.30
+layer2.2.conv1.weight | P max:  52.7 min:  43.7 | D0 avg 1.3e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.30
+layer2.2.conv2.weight | P max:  52.7 min:  43.7 | D0 avg 1.3e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.30
+layer3.0.conv1.weight | P max:  52.7 min:  43.7 | D0 avg 1.3e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.30
+layer3.0.conv2.weight | P max:  52.7 min:  43.7 | D0 avg 1.3e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.30
+layer3.1.conv1.weight | P max:  52.7 min:  43.7 | D0 avg 1.3e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.30
+layer3.1.conv2.weight | P max:  52.7 min:  43.7 | D0 avg 1.3e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.30
+layer3.2.conv1.weight | P max:  52.7 min:  43.7 | D0 avg 1.3e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.30
+layer3.2.conv2.weight | P max:  52.8 min:  43.7 | D0 avg 1.3e-04 max 1.3e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.30
+
+Epoch 37 Sparse Rate: 27.90% Acc: 93.98 Best Acc: 0.00 InvT: 1.0E+03 Loss: 386580.4
+layer1.0.conv1.weight | P max:  52.8 min:  43.6 | D0 avg 1.3e-04 max 1.4e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.31
+layer1.0.conv2.weight | P max:  52.8 min:  43.6 | D0 avg 1.3e-04 max 1.4e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.31
+layer1.1.conv1.weight | P max:  52.8 min:  43.6 | D0 avg 1.3e-04 max 1.4e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.31
+layer1.1.conv2.weight | P max:  52.8 min:  43.6 | D0 avg 1.3e-04 max 1.4e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.31
+layer1.2.conv1.weight | P max:  52.8 min:  43.6 | D0 avg 1.3e-04 max 1.4e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.31
+layer1.2.conv2.weight | P max:  52.8 min:  43.6 | D0 avg 1.3e-04 max 1.4e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.31
+layer2.0.conv1.weight | P max:  52.8 min:  43.6 | D0 avg 1.3e-04 max 1.4e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.31
+layer2.0.conv2.weight | P max:  52.8 min:  43.6 | D0 avg 1.3e-04 max 1.4e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.31
+layer2.1.conv1.weight | P max:  52.8 min:  43.6 | D0 avg 1.3e-04 max 1.4e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.31
+layer2.1.conv2.weight | P max:  52.8 min:  43.6 | D0 avg 1.3e-04 max 1.4e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.31
+layer2.2.conv1.weight | P max:  52.8 min:  43.6 | D0 avg 1.3e-04 max 1.4e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.31
+layer2.2.conv2.weight | P max:  52.8 min:  43.6 | D0 avg 1.3e-04 max 1.4e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.31
+layer3.0.conv1.weight | P max:  52.8 min:  43.6 | D0 avg 1.3e-04 max 1.4e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.31
+layer3.0.conv2.weight | P max:  52.8 min:  43.6 | D0 avg 1.3e-04 max 1.4e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.31
+layer3.1.conv1.weight | P max:  52.8 min:  43.6 | D0 avg 1.3e-04 max 1.4e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.31
+layer3.1.conv2.weight | P max:  52.8 min:  43.6 | D0 avg 1.3e-04 max 1.4e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.31
+layer3.2.conv1.weight | P max:  52.8 min:  43.6 | D0 avg 1.3e-04 max 1.4e-04 min 1.2e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.31
+layer3.2.conv2.weight | P max:  52.8 min:  43.6 | D0 avg 1.3e-04 max 1.4e-04 min 1.2e-04 | D1 avg 1.3e-01 max 1.3e-01 min 1.2e-01 SD 1.31
+
+Epoch 38 Sparse Rate: 28.55% Acc: 93.85 Best Acc: 0.00 InvT: 1.0E+03 Loss: 386041.3
+layer1.0.conv1.weight | P max:  52.8 min:  43.5 | D0 avg 1.4e-04 max 1.4e-04 min 1.3e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.32
+layer1.0.conv2.weight | P max:  52.8 min:  43.5 | D0 avg 1.4e-04 max 1.4e-04 min 1.3e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.32
+layer1.1.conv1.weight | P max:  52.8 min:  43.5 | D0 avg 1.4e-04 max 1.4e-04 min 1.3e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.32
+layer1.1.conv2.weight | P max:  52.8 min:  43.5 | D0 avg 1.4e-04 max 1.4e-04 min 1.3e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.32
+layer1.2.conv1.weight | P max:  52.8 min:  43.5 | D0 avg 1.4e-04 max 1.4e-04 min 1.3e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.32
+layer1.2.conv2.weight | P max:  52.8 min:  43.5 | D0 avg 1.4e-04 max 1.4e-04 min 1.3e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.32
+layer2.0.conv1.weight | P max:  52.8 min:  43.5 | D0 avg 1.4e-04 max 1.4e-04 min 1.3e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.32
+layer2.0.conv2.weight | P max:  52.8 min:  43.5 | D0 avg 1.4e-04 max 1.4e-04 min 1.3e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.32
+layer2.1.conv1.weight | P max:  52.8 min:  43.5 | D0 avg 1.4e-04 max 1.4e-04 min 1.3e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.32
+layer2.1.conv2.weight | P max:  52.8 min:  43.5 | D0 avg 1.4e-04 max 1.4e-04 min 1.3e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.32
+layer2.2.conv1.weight | P max:  52.8 min:  43.5 | D0 avg 1.4e-04 max 1.4e-04 min 1.3e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.32
+layer2.2.conv2.weight | P max:  52.8 min:  43.5 | D0 avg 1.4e-04 max 1.4e-04 min 1.3e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.32
+layer3.0.conv1.weight | P max:  52.8 min:  43.5 | D0 avg 1.4e-04 max 1.4e-04 min 1.3e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.32
+layer3.0.conv2.weight | P max:  52.8 min:  43.5 | D0 avg 1.4e-04 max 1.4e-04 min 1.3e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.32
+layer3.1.conv1.weight | P max:  52.8 min:  43.5 | D0 avg 1.4e-04 max 1.4e-04 min 1.3e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.32
+layer3.1.conv2.weight | P max:  52.8 min:  43.5 | D0 avg 1.4e-04 max 1.4e-04 min 1.3e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.32
+layer3.2.conv1.weight | P max:  52.8 min:  43.5 | D0 avg 1.4e-04 max 1.4e-04 min 1.3e-04 | D1 avg 1.2e-01 max 1.3e-01 min 1.2e-01 SD 1.32
+layer3.2.conv2.weight | P max:  52.9 min:  43.5 | D0 avg 1.3e-04 max 1.4e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.3e-01 min 1.2e-01 SD 1.32
+
+Epoch 39 Sparse Rate: 29.16% Acc: 93.83 Best Acc: 0.00 InvT: 1.0E+03 Loss: 385344.7
+layer1.0.conv1.weight | P max:  52.9 min:  43.4 | D0 avg 1.4e-04 max 1.4e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.2e-01 SD 1.32
+layer1.0.conv2.weight | P max:  52.9 min:  43.4 | D0 avg 1.4e-04 max 1.4e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.2e-01 SD 1.32
+layer1.1.conv1.weight | P max:  52.9 min:  43.4 | D0 avg 1.4e-04 max 1.4e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.2e-01 SD 1.32
+layer1.1.conv2.weight | P max:  52.9 min:  43.4 | D0 avg 1.4e-04 max 1.4e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.2e-01 SD 1.32
+layer1.2.conv1.weight | P max:  52.9 min:  43.4 | D0 avg 1.4e-04 max 1.4e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.2e-01 SD 1.32
+layer1.2.conv2.weight | P max:  52.9 min:  43.4 | D0 avg 1.4e-04 max 1.4e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.2e-01 SD 1.32
+layer2.0.conv1.weight | P max:  52.9 min:  43.4 | D0 avg 1.4e-04 max 1.4e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.2e-01 SD 1.32
+layer2.0.conv2.weight | P max:  52.9 min:  43.4 | D0 avg 1.4e-04 max 1.4e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.2e-01 SD 1.32
+layer2.1.conv1.weight | P max:  52.9 min:  43.4 | D0 avg 1.4e-04 max 1.4e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.2e-01 SD 1.32
+layer2.1.conv2.weight | P max:  52.9 min:  43.4 | D0 avg 1.4e-04 max 1.4e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.2e-01 SD 1.32
+layer2.2.conv1.weight | P max:  52.9 min:  43.4 | D0 avg 1.4e-04 max 1.4e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.2e-01 SD 1.32
+layer2.2.conv2.weight | P max:  52.9 min:  43.4 | D0 avg 1.4e-04 max 1.4e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.2e-01 SD 1.32
+layer3.0.conv1.weight | P max:  52.9 min:  43.4 | D0 avg 1.4e-04 max 1.4e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.2e-01 SD 1.32
+layer3.0.conv2.weight | P max:  52.9 min:  43.4 | D0 avg 1.4e-04 max 1.4e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.2e-01 SD 1.32
+layer3.1.conv1.weight | P max:  52.9 min:  43.4 | D0 avg 1.4e-04 max 1.4e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.2e-01 SD 1.32
+layer3.1.conv2.weight | P max:  52.9 min:  43.4 | D0 avg 1.4e-04 max 1.4e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.2e-01 SD 1.32
+layer3.2.conv1.weight | P max:  52.9 min:  43.4 | D0 avg 1.4e-04 max 1.4e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.2e-01 SD 1.32
+layer3.2.conv2.weight | P max:  52.9 min:  43.4 | D0 avg 1.3e-04 max 1.4e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.2e-01 SD 1.32
+
+Epoch 40 Sparse Rate: 29.76% Acc: 93.96 Best Acc: 0.00 InvT: 1.0E+03 Loss: 384327.4
+layer1.0.conv1.weight | P max:  52.9 min:  43.3 | D0 avg 1.4e-04 max 1.4e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.3e-01 SD 1.33
+layer1.0.conv2.weight | P max:  52.9 min:  43.3 | D0 avg 1.4e-04 max 1.4e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.3e-01 SD 1.33
+layer1.1.conv1.weight | P max:  52.9 min:  43.3 | D0 avg 1.4e-04 max 1.4e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.3e-01 SD 1.33
+layer1.1.conv2.weight | P max:  52.9 min:  43.3 | D0 avg 1.4e-04 max 1.4e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.3e-01 SD 1.33
+layer1.2.conv1.weight | P max:  52.9 min:  43.3 | D0 avg 1.4e-04 max 1.4e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.3e-01 SD 1.33
+layer1.2.conv2.weight | P max:  52.9 min:  43.3 | D0 avg 1.4e-04 max 1.4e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.3e-01 SD 1.33
+layer2.0.conv1.weight | P max:  52.9 min:  43.3 | D0 avg 1.4e-04 max 1.4e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.3e-01 SD 1.33
+layer2.0.conv2.weight | P max:  52.9 min:  43.3 | D0 avg 1.4e-04 max 1.4e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.3e-01 SD 1.33
+layer2.1.conv1.weight | P max:  52.9 min:  43.3 | D0 avg 1.4e-04 max 1.4e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.3e-01 SD 1.33
+layer2.1.conv2.weight | P max:  52.9 min:  43.3 | D0 avg 1.4e-04 max 1.4e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.3e-01 SD 1.33
+layer2.2.conv1.weight | P max:  52.9 min:  43.3 | D0 avg 1.4e-04 max 1.4e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.3e-01 SD 1.33
+layer2.2.conv2.weight | P max:  52.9 min:  43.3 | D0 avg 1.4e-04 max 1.4e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.3e-01 SD 1.33
+layer3.0.conv1.weight | P max:  52.9 min:  43.3 | D0 avg 1.4e-04 max 1.4e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.3e-01 SD 1.33
+layer3.0.conv2.weight | P max:  52.9 min:  43.3 | D0 avg 1.4e-04 max 1.4e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.3e-01 SD 1.33
+layer3.1.conv1.weight | P max:  52.9 min:  43.3 | D0 avg 1.4e-04 max 1.4e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.3e-01 SD 1.33
+layer3.1.conv2.weight | P max:  52.9 min:  43.3 | D0 avg 1.4e-04 max 1.4e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.3e-01 SD 1.33
+layer3.2.conv1.weight | P max:  52.9 min:  43.3 | D0 avg 1.4e-04 max 1.4e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.3e-01 SD 1.33
+layer3.2.conv2.weight | P max:  53.0 min:  43.3 | D0 avg 1.4e-04 max 1.4e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.3e-01 SD 1.33
+
+Epoch 41 Sparse Rate: 30.37% Acc: 93.86 Best Acc: 0.00 InvT: 1.0E+03 Loss: 383846.3
+layer1.0.conv1.weight | P max:  53.0 min:  43.2 | D0 avg 1.4e-04 max 1.5e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.3e-01 SD 1.34
+layer1.0.conv2.weight | P max:  53.0 min:  43.2 | D0 avg 1.4e-04 max 1.5e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.3e-01 SD 1.34
+layer1.1.conv1.weight | P max:  53.0 min:  43.2 | D0 avg 1.4e-04 max 1.5e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.3e-01 SD 1.34
+layer1.1.conv2.weight | P max:  53.0 min:  43.2 | D0 avg 1.4e-04 max 1.5e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.3e-01 SD 1.34
+layer1.2.conv1.weight | P max:  53.0 min:  43.2 | D0 avg 1.4e-04 max 1.5e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.3e-01 SD 1.34
+layer1.2.conv2.weight | P max:  53.0 min:  43.2 | D0 avg 1.4e-04 max 1.5e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.3e-01 SD 1.34
+layer2.0.conv1.weight | P max:  53.0 min:  43.2 | D0 avg 1.4e-04 max 1.5e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.3e-01 SD 1.34
+layer2.0.conv2.weight | P max:  53.0 min:  43.2 | D0 avg 1.4e-04 max 1.5e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.3e-01 SD 1.34
+layer2.1.conv1.weight | P max:  53.0 min:  43.2 | D0 avg 1.4e-04 max 1.5e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.3e-01 SD 1.34
+layer2.1.conv2.weight | P max:  53.0 min:  43.2 | D0 avg 1.4e-04 max 1.5e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.3e-01 SD 1.34
+layer2.2.conv1.weight | P max:  53.0 min:  43.2 | D0 avg 1.4e-04 max 1.5e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.3e-01 SD 1.34
+layer2.2.conv2.weight | P max:  53.0 min:  43.2 | D0 avg 1.4e-04 max 1.5e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.3e-01 SD 1.34
+layer3.0.conv1.weight | P max:  53.0 min:  43.2 | D0 avg 1.4e-04 max 1.5e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.3e-01 SD 1.34
+layer3.0.conv2.weight | P max:  53.0 min:  43.2 | D0 avg 1.4e-04 max 1.5e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.3e-01 SD 1.34
+layer3.1.conv1.weight | P max:  53.0 min:  43.2 | D0 avg 1.4e-04 max 1.5e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.3e-01 SD 1.34
+layer3.1.conv2.weight | P max:  53.0 min:  43.2 | D0 avg 1.4e-04 max 1.5e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.3e-01 SD 1.34
+layer3.2.conv1.weight | P max:  53.0 min:  43.2 | D0 avg 1.4e-04 max 1.5e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.3e-01 SD 1.34
+layer3.2.conv2.weight | P max:  53.0 min:  43.2 | D0 avg 1.4e-04 max 1.5e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.3e-01 SD 1.34
+
+Epoch 42 Sparse Rate: 30.92% Acc: 93.92 Best Acc: 0.00 InvT: 1.0E+03 Loss: 382594.7
+layer1.0.conv1.weight | P max:  53.0 min:  43.1 | D0 avg 1.5e-04 max 1.5e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.3e-01 SD 1.34
+layer1.0.conv2.weight | P max:  53.0 min:  43.1 | D0 avg 1.5e-04 max 1.5e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.3e-01 SD 1.34
+layer1.1.conv1.weight | P max:  53.0 min:  43.1 | D0 avg 1.5e-04 max 1.5e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.3e-01 SD 1.34
+layer1.1.conv2.weight | P max:  53.0 min:  43.1 | D0 avg 1.5e-04 max 1.5e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.3e-01 SD 1.34
+layer1.2.conv1.weight | P max:  53.0 min:  43.1 | D0 avg 1.5e-04 max 1.5e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.3e-01 SD 1.34
+layer1.2.conv2.weight | P max:  53.0 min:  43.1 | D0 avg 1.5e-04 max 1.5e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.3e-01 SD 1.34
+layer2.0.conv1.weight | P max:  53.0 min:  43.1 | D0 avg 1.5e-04 max 1.5e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.3e-01 SD 1.34
+layer2.0.conv2.weight | P max:  53.0 min:  43.1 | D0 avg 1.5e-04 max 1.5e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.3e-01 SD 1.34
+layer2.1.conv1.weight | P max:  53.0 min:  43.1 | D0 avg 1.5e-04 max 1.5e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.3e-01 SD 1.34
+layer2.1.conv2.weight | P max:  53.0 min:  43.1 | D0 avg 1.5e-04 max 1.5e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.3e-01 SD 1.34
+layer2.2.conv1.weight | P max:  53.0 min:  43.1 | D0 avg 1.5e-04 max 1.5e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.3e-01 SD 1.34
+layer2.2.conv2.weight | P max:  53.0 min:  43.1 | D0 avg 1.5e-04 max 1.5e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.3e-01 SD 1.34
+layer3.0.conv1.weight | P max:  53.0 min:  43.1 | D0 avg 1.5e-04 max 1.5e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.3e-01 SD 1.34
+layer3.0.conv2.weight | P max:  53.0 min:  43.1 | D0 avg 1.5e-04 max 1.5e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.3e-01 SD 1.34
+layer3.1.conv1.weight | P max:  53.0 min:  43.1 | D0 avg 1.5e-04 max 1.5e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.3e-01 SD 1.34
+layer3.1.conv2.weight | P max:  53.0 min:  43.1 | D0 avg 1.5e-04 max 1.5e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.3e-01 SD 1.34
+layer3.2.conv1.weight | P max:  53.0 min:  43.1 | D0 avg 1.5e-04 max 1.5e-04 min 1.3e-04 | D1 avg 1.3e-01 max 1.4e-01 min 1.3e-01 SD 1.34
+layer3.2.conv2.weight | P max:  53.1 min:  43.1 | D0 avg 1.4e-04 max 1.5e-04 min 1.3e-04 | D1 avg 1.4e-01 max 1.4e-01 min 1.3e-01 SD 1.34
+
+Epoch 43 Sparse Rate: 31.54% Acc: 93.93 Best Acc: 0.00 InvT: 1.0E+03 Loss: 380510.0
+layer1.0.conv1.weight | P max:  53.1 min:  43.0 | D0 avg 1.5e-04 max 1.5e-04 min 1.4e-04 | D1 avg 1.3e-01 max 1.5e-01 min 1.3e-01 SD 1.35
+layer1.0.conv2.weight | P max:  53.1 min:  43.0 | D0 avg 1.5e-04 max 1.5e-04 min 1.4e-04 | D1 avg 1.3e-01 max 1.5e-01 min 1.3e-01 SD 1.35
+layer1.1.conv1.weight | P max:  53.1 min:  43.0 | D0 avg 1.5e-04 max 1.5e-04 min 1.4e-04 | D1 avg 1.3e-01 max 1.5e-01 min 1.3e-01 SD 1.35
+layer1.1.conv2.weight | P max:  53.1 min:  43.0 | D0 avg 1.5e-04 max 1.5e-04 min 1.4e-04 | D1 avg 1.3e-01 max 1.5e-01 min 1.3e-01 SD 1.35
+layer1.2.conv1.weight | P max:  53.1 min:  43.0 | D0 avg 1.5e-04 max 1.5e-04 min 1.4e-04 | D1 avg 1.3e-01 max 1.5e-01 min 1.3e-01 SD 1.35
+layer1.2.conv2.weight | P max:  53.1 min:  43.0 | D0 avg 1.5e-04 max 1.5e-04 min 1.4e-04 | D1 avg 1.3e-01 max 1.5e-01 min 1.3e-01 SD 1.35
+layer2.0.conv1.weight | P max:  53.1 min:  43.0 | D0 avg 1.5e-04 max 1.5e-04 min 1.4e-04 | D1 avg 1.3e-01 max 1.5e-01 min 1.3e-01 SD 1.35
+layer2.0.conv2.weight | P max:  53.1 min:  43.0 | D0 avg 1.5e-04 max 1.5e-04 min 1.4e-04 | D1 avg 1.3e-01 max 1.5e-01 min 1.3e-01 SD 1.35
+layer2.1.conv1.weight | P max:  53.1 min:  43.0 | D0 avg 1.5e-04 max 1.5e-04 min 1.4e-04 | D1 avg 1.3e-01 max 1.5e-01 min 1.3e-01 SD 1.35
+layer2.1.conv2.weight | P max:  53.1 min:  43.0 | D0 avg 1.5e-04 max 1.5e-04 min 1.4e-04 | D1 avg 1.3e-01 max 1.5e-01 min 1.3e-01 SD 1.35
+layer2.2.conv1.weight | P max:  53.1 min:  43.0 | D0 avg 1.5e-04 max 1.5e-04 min 1.4e-04 | D1 avg 1.3e-01 max 1.5e-01 min 1.3e-01 SD 1.35
+layer2.2.conv2.weight | P max:  53.1 min:  43.0 | D0 avg 1.5e-04 max 1.5e-04 min 1.4e-04 | D1 avg 1.3e-01 max 1.5e-01 min 1.3e-01 SD 1.35
+layer3.0.conv1.weight | P max:  53.1 min:  43.0 | D0 avg 1.5e-04 max 1.5e-04 min 1.4e-04 | D1 avg 1.3e-01 max 1.5e-01 min 1.3e-01 SD 1.35
+layer3.0.conv2.weight | P max:  53.1 min:  43.0 | D0 avg 1.5e-04 max 1.5e-04 min 1.4e-04 | D1 avg 1.3e-01 max 1.5e-01 min 1.3e-01 SD 1.35
+layer3.1.conv1.weight | P max:  53.1 min:  43.0 | D0 avg 1.5e-04 max 1.5e-04 min 1.4e-04 | D1 avg 1.3e-01 max 1.5e-01 min 1.3e-01 SD 1.35
+layer3.1.conv2.weight | P max:  53.1 min:  43.0 | D0 avg 1.5e-04 max 1.5e-04 min 1.4e-04 | D1 avg 1.3e-01 max 1.5e-01 min 1.3e-01 SD 1.35
+layer3.2.conv1.weight | P max:  53.1 min:  43.0 | D0 avg 1.5e-04 max 1.5e-04 min 1.4e-04 | D1 avg 1.3e-01 max 1.5e-01 min 1.3e-01 SD 1.35
+layer3.2.conv2.weight | P max:  53.1 min:  43.0 | D0 avg 1.4e-04 max 1.5e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.3e-01 SD 1.35
+
+Epoch 44 Sparse Rate: 32.12% Acc: 94.02 Best Acc: 0.00 InvT: 1.0E+03 Loss: 379522.0
+layer1.0.conv1.weight | P max:  53.1 min:  42.9 | D0 avg 1.5e-04 max 1.5e-04 min 1.4e-04 | D1 avg 1.3e-01 max 1.5e-01 min 1.3e-01 SD 1.36
+layer1.0.conv2.weight | P max:  53.1 min:  42.9 | D0 avg 1.5e-04 max 1.5e-04 min 1.4e-04 | D1 avg 1.3e-01 max 1.5e-01 min 1.3e-01 SD 1.36
+layer1.1.conv1.weight | P max:  53.1 min:  42.9 | D0 avg 1.5e-04 max 1.5e-04 min 1.4e-04 | D1 avg 1.3e-01 max 1.5e-01 min 1.3e-01 SD 1.36
+layer1.1.conv2.weight | P max:  53.1 min:  42.9 | D0 avg 1.5e-04 max 1.5e-04 min 1.4e-04 | D1 avg 1.3e-01 max 1.5e-01 min 1.3e-01 SD 1.36
+layer1.2.conv1.weight | P max:  53.1 min:  42.9 | D0 avg 1.5e-04 max 1.5e-04 min 1.4e-04 | D1 avg 1.3e-01 max 1.5e-01 min 1.3e-01 SD 1.36
+layer1.2.conv2.weight | P max:  53.1 min:  42.9 | D0 avg 1.5e-04 max 1.5e-04 min 1.4e-04 | D1 avg 1.3e-01 max 1.5e-01 min 1.3e-01 SD 1.36
+layer2.0.conv1.weight | P max:  53.1 min:  42.9 | D0 avg 1.5e-04 max 1.5e-04 min 1.4e-04 | D1 avg 1.3e-01 max 1.5e-01 min 1.3e-01 SD 1.36
+layer2.0.conv2.weight | P max:  53.1 min:  42.9 | D0 avg 1.5e-04 max 1.5e-04 min 1.4e-04 | D1 avg 1.3e-01 max 1.5e-01 min 1.3e-01 SD 1.36
+layer2.1.conv1.weight | P max:  53.1 min:  42.9 | D0 avg 1.5e-04 max 1.5e-04 min 1.4e-04 | D1 avg 1.3e-01 max 1.5e-01 min 1.3e-01 SD 1.36
+layer2.1.conv2.weight | P max:  53.1 min:  42.9 | D0 avg 1.5e-04 max 1.5e-04 min 1.4e-04 | D1 avg 1.3e-01 max 1.5e-01 min 1.3e-01 SD 1.36
+layer2.2.conv1.weight | P max:  53.1 min:  42.9 | D0 avg 1.5e-04 max 1.5e-04 min 1.4e-04 | D1 avg 1.3e-01 max 1.5e-01 min 1.3e-01 SD 1.36
+layer2.2.conv2.weight | P max:  53.1 min:  42.9 | D0 avg 1.5e-04 max 1.5e-04 min 1.4e-04 | D1 avg 1.3e-01 max 1.5e-01 min 1.3e-01 SD 1.36
+layer3.0.conv1.weight | P max:  53.1 min:  42.9 | D0 avg 1.5e-04 max 1.5e-04 min 1.4e-04 | D1 avg 1.3e-01 max 1.5e-01 min 1.3e-01 SD 1.36
+layer3.0.conv2.weight | P max:  53.1 min:  42.9 | D0 avg 1.5e-04 max 1.5e-04 min 1.4e-04 | D1 avg 1.3e-01 max 1.5e-01 min 1.3e-01 SD 1.36
+layer3.1.conv1.weight | P max:  53.1 min:  42.9 | D0 avg 1.5e-04 max 1.5e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.3e-01 SD 1.36
+layer3.1.conv2.weight | P max:  53.1 min:  42.9 | D0 avg 1.5e-04 max 1.5e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.3e-01 SD 1.36
+layer3.2.conv1.weight | P max:  53.1 min:  42.9 | D0 avg 1.5e-04 max 1.5e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.3e-01 SD 1.36
+layer3.2.conv2.weight | P max:  53.2 min:  42.9 | D0 avg 1.4e-04 max 1.5e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.3e-01 SD 1.36
+
+Epoch 45 Sparse Rate: 32.72% Acc: 94.00 Best Acc: 0.00 InvT: 1.0E+03 Loss: 377814.5
+layer1.0.conv1.weight | P max:  53.1 min:  42.8 | D0 avg 1.5e-04 max 1.6e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.3e-01 SD 1.36
+layer1.0.conv2.weight | P max:  53.1 min:  42.8 | D0 avg 1.5e-04 max 1.6e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.3e-01 SD 1.36
+layer1.1.conv1.weight | P max:  53.1 min:  42.8 | D0 avg 1.5e-04 max 1.6e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.3e-01 SD 1.36
+layer1.1.conv2.weight | P max:  53.1 min:  42.8 | D0 avg 1.5e-04 max 1.6e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.3e-01 SD 1.36
+layer1.2.conv1.weight | P max:  53.1 min:  42.8 | D0 avg 1.5e-04 max 1.6e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.3e-01 SD 1.36
+layer1.2.conv2.weight | P max:  53.1 min:  42.8 | D0 avg 1.5e-04 max 1.6e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.3e-01 SD 1.36
+layer2.0.conv1.weight | P max:  53.1 min:  42.8 | D0 avg 1.5e-04 max 1.6e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.3e-01 SD 1.36
+layer2.0.conv2.weight | P max:  53.1 min:  42.8 | D0 avg 1.5e-04 max 1.6e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.3e-01 SD 1.36
+layer2.1.conv1.weight | P max:  53.1 min:  42.8 | D0 avg 1.5e-04 max 1.6e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.3e-01 SD 1.36
+layer2.1.conv2.weight | P max:  53.1 min:  42.8 | D0 avg 1.5e-04 max 1.6e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.3e-01 SD 1.36
+layer2.2.conv1.weight | P max:  53.1 min:  42.8 | D0 avg 1.5e-04 max 1.6e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.3e-01 SD 1.36
+layer2.2.conv2.weight | P max:  53.1 min:  42.8 | D0 avg 1.5e-04 max 1.6e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.3e-01 SD 1.36
+layer3.0.conv1.weight | P max:  53.1 min:  42.8 | D0 avg 1.5e-04 max 1.6e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.3e-01 SD 1.36
+layer3.0.conv2.weight | P max:  53.1 min:  42.8 | D0 avg 1.5e-04 max 1.6e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.3e-01 SD 1.36
+layer3.1.conv1.weight | P max:  53.1 min:  42.8 | D0 avg 1.5e-04 max 1.6e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.3e-01 SD 1.36
+layer3.1.conv2.weight | P max:  53.1 min:  42.8 | D0 avg 1.5e-04 max 1.6e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.3e-01 SD 1.36
+layer3.2.conv1.weight | P max:  53.1 min:  42.8 | D0 avg 1.5e-04 max 1.6e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.3e-01 SD 1.36
+layer3.2.conv2.weight | P max:  53.2 min:  42.8 | D0 avg 1.5e-04 max 1.6e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.3e-01 SD 1.36
+
+Epoch 46 Sparse Rate: 33.26% Acc: 93.84 Best Acc: 0.00 InvT: 1.0E+03 Loss: 378229.5
+layer1.0.conv1.weight | P max:  53.2 min:  42.7 | D0 avg 1.6e-04 max 1.6e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.4e-01 SD 1.37
+layer1.0.conv2.weight | P max:  53.2 min:  42.7 | D0 avg 1.6e-04 max 1.6e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.4e-01 SD 1.37
+layer1.1.conv1.weight | P max:  53.2 min:  42.7 | D0 avg 1.6e-04 max 1.6e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.4e-01 SD 1.37
+layer1.1.conv2.weight | P max:  53.2 min:  42.7 | D0 avg 1.6e-04 max 1.6e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.4e-01 SD 1.37
+layer1.2.conv1.weight | P max:  53.2 min:  42.7 | D0 avg 1.6e-04 max 1.6e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.4e-01 SD 1.37
+layer1.2.conv2.weight | P max:  53.2 min:  42.7 | D0 avg 1.6e-04 max 1.6e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.4e-01 SD 1.37
+layer2.0.conv1.weight | P max:  53.2 min:  42.7 | D0 avg 1.6e-04 max 1.6e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.4e-01 SD 1.37
+layer2.0.conv2.weight | P max:  53.2 min:  42.7 | D0 avg 1.6e-04 max 1.6e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.4e-01 SD 1.37
+layer2.1.conv1.weight | P max:  53.2 min:  42.7 | D0 avg 1.6e-04 max 1.6e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.4e-01 SD 1.37
+layer2.1.conv2.weight | P max:  53.2 min:  42.7 | D0 avg 1.5e-04 max 1.6e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.4e-01 SD 1.37
+layer2.2.conv1.weight | P max:  53.2 min:  42.7 | D0 avg 1.6e-04 max 1.6e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.4e-01 SD 1.37
+layer2.2.conv2.weight | P max:  53.2 min:  42.7 | D0 avg 1.5e-04 max 1.6e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.4e-01 SD 1.37
+layer3.0.conv1.weight | P max:  53.2 min:  42.7 | D0 avg 1.5e-04 max 1.6e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.4e-01 SD 1.37
+layer3.0.conv2.weight | P max:  53.2 min:  42.7 | D0 avg 1.5e-04 max 1.6e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.4e-01 SD 1.37
+layer3.1.conv1.weight | P max:  53.2 min:  42.7 | D0 avg 1.5e-04 max 1.6e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.4e-01 SD 1.37
+layer3.1.conv2.weight | P max:  53.2 min:  42.7 | D0 avg 1.5e-04 max 1.6e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.4e-01 SD 1.37
+layer3.2.conv1.weight | P max:  53.2 min:  42.7 | D0 avg 1.5e-04 max 1.6e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.4e-01 SD 1.37
+layer3.2.conv2.weight | P max:  53.2 min:  42.7 | D0 avg 1.5e-04 max 1.6e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.4e-01 SD 1.37
+
+Epoch 47 Sparse Rate: 33.85% Acc: 94.03 Best Acc: 0.00 InvT: 1.0E+03 Loss: 375518.4
+layer1.0.conv1.weight | P max:  53.2 min:  42.6 | D0 avg 1.6e-04 max 1.6e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.4e-01 SD 1.37
+layer1.0.conv2.weight | P max:  53.2 min:  42.6 | D0 avg 1.6e-04 max 1.6e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.4e-01 SD 1.37
+layer1.1.conv1.weight | P max:  53.2 min:  42.6 | D0 avg 1.6e-04 max 1.6e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.4e-01 SD 1.37
+layer1.1.conv2.weight | P max:  53.2 min:  42.6 | D0 avg 1.6e-04 max 1.6e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.4e-01 SD 1.37
+layer1.2.conv1.weight | P max:  53.2 min:  42.6 | D0 avg 1.6e-04 max 1.6e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.4e-01 SD 1.37
+layer1.2.conv2.weight | P max:  53.2 min:  42.6 | D0 avg 1.6e-04 max 1.6e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.4e-01 SD 1.37
+layer2.0.conv1.weight | P max:  53.2 min:  42.6 | D0 avg 1.6e-04 max 1.6e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.4e-01 SD 1.37
+layer2.0.conv2.weight | P max:  53.2 min:  42.6 | D0 avg 1.6e-04 max 1.6e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.4e-01 SD 1.37
+layer2.1.conv1.weight | P max:  53.2 min:  42.6 | D0 avg 1.6e-04 max 1.6e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.4e-01 SD 1.37
+layer2.1.conv2.weight | P max:  53.2 min:  42.6 | D0 avg 1.6e-04 max 1.6e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.4e-01 SD 1.37
+layer2.2.conv1.weight | P max:  53.2 min:  42.6 | D0 avg 1.6e-04 max 1.6e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.4e-01 SD 1.37
+layer2.2.conv2.weight | P max:  53.2 min:  42.6 | D0 avg 1.6e-04 max 1.6e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.4e-01 SD 1.37
+layer3.0.conv1.weight | P max:  53.2 min:  42.6 | D0 avg 1.6e-04 max 1.6e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.4e-01 SD 1.37
+layer3.0.conv2.weight | P max:  53.2 min:  42.6 | D0 avg 1.6e-04 max 1.6e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.4e-01 SD 1.37
+layer3.1.conv1.weight | P max:  53.2 min:  42.6 | D0 avg 1.6e-04 max 1.6e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.4e-01 SD 1.37
+layer3.1.conv2.weight | P max:  53.2 min:  42.6 | D0 avg 1.6e-04 max 1.6e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.4e-01 SD 1.37
+layer3.2.conv1.weight | P max:  53.2 min:  42.6 | D0 avg 1.6e-04 max 1.6e-04 min 1.4e-04 | D1 avg 1.4e-01 max 1.5e-01 min 1.4e-01 SD 1.37
+layer3.2.conv2.weight | P max:  53.3 min:  42.6 | D0 avg 1.5e-04 max 1.6e-04 min 1.4e-04 | D1 avg 1.5e-01 max 1.5e-01 min 1.4e-01 SD 1.37

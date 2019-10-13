@@ -41,11 +41,11 @@ def main():
     parser.add_argument('-sn', default=1000, type=int, help='sampling Epochs')
     # SGHMC hyperparameters
     parser.add_argument('-wdecay', default=5e-4, type=float, help='samling weight decay')
-    parser.add_argument('-lr', default=1e-4, type=float, help='sampling learning rate (default for fine-tuning)')
     parser.add_argument('-momentum', default=0.9, type=float, help='sampling momentum learning rate')
     parser.add_argument('-invT', default=1e9, type=float, help='inverse tempreture')
     parser.add_argument('-anneal', default=1.005, type=float, help='anneal tempreture')
     # setup for sparse coefficients
+    parser.add_argument('-lr', default=2e-9, type=float, help='sampling learning rate (default for pruning)')
     parser.add_argument('-sparse', default=0.9,  type=float, help='target sparse Rate')
     parser.add_argument('-v0', default=0.005, type=float, help='v0')
     parser.add_argument('-v1', default=1e-5, type=float, help='v1')
@@ -56,7 +56,7 @@ def main():
     parser.add_argument('-b', default=2.7e5,  type=float, help='hyperparameter a for Beta (a, b)')
     parser.add_argument('-theta', default=0.5, type=float, help='theta')
     parser.add_argument('-sd', default=1.0, type=float, help='default standard deviation')
-    parser.add_argument('-N', default=25000, type=float, help='effevtive number of data points')
+    parser.add_argument('-N', default=50000, type=float, help='effevtive number of data points')
     # pruning rates
     parser.add_argument('-cut', default=0.99, type=float, help='sparse damping rate')
     parser.add_argument('-gap', default=50, type=float, help='gaps to update damping rate')
