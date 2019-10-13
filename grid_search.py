@@ -15,14 +15,14 @@ else:
 
 for _ in range(1):
     #seed = str(random.randint(1, 10**6))
-    seed = secure_random.choice(['125894', '130331', '258855', '421348', '248702', '248702', '248702'])
+    seed = secure_random.choice(['130331'])
     v0 = secure_random.choice(['0.005'])
     v1 = secure_random.choice(['1e-5'])
     sd = secure_random.choice(['1'])
     lr = secure_random.choice(['2e-9'])
-    dc = secure_random.choice(['0.02'])
-    invT = secure_random.choice(['2e3', '1e4', '2e4'])
-    anneal = secure_random.choice(['1.005', '1.007', '1.01'])
+    dc = secure_random.choice(['0.1'])
+    invT = secure_random.choice(['2e3'])
+    anneal = secure_random.choice(['1.007'])
     NN = secure_random.choice(['50000'])
     sn = '1000'
     sparse = '0.90'
