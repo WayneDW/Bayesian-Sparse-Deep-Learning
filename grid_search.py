@@ -13,10 +13,10 @@ elif len(sys.argv) > 2:
 else:
     gpu = '0'
 
-for _ in range(1):
+for _ in range(2):
     #seed = str(random.randint(1, 10**6))
     seed = secure_random.choice(['125894', '248702', '258855', '421348'])#, '130331'])
-    v0 = secure_random.choice(['0.005'])
+    v0 = secure_random.choice(['0.005', '0.01'])
     v1 = secure_random.choice(['1e-5'])
     sd = secure_random.choice(['1'])
     lr = secure_random.choice(['2e-9'])
