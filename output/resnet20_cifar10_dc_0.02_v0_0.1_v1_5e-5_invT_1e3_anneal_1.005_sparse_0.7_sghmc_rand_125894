@@ -3,3 +3,17 @@ Use preTrained model
 Epoch Namespace(N=50000, a=270000.0, anneal=1.005, aug=1, b=270000.0, c='sghmc', cuda=1, cut=0.99, da=1000, dalpha=0.75, data='cifar10', dc=0.02, depth=20, gap=50, gpu=0, invT=1000.0, lamda=1000, lr=2e-09, model='resnet20', momentum=0.9, multi=0, nu=1000, prune=1, save=0, sd=1.0, seed=125894, sn=1000, sparse=0.7, test=1000, theta=0.5, train=1000, v0=0.1, v1=5e-05, wdecay=0.0005) Test set accuracy: 94.12%
 
 Epoch 1 Sparse Rate: 0.70% Acc: 94.11 Best Acc: 0.00 InvT: 1.0E+03 Loss: 6942.0
+
+Epoch 2 Sparse Rate: 1.36% Acc: 94.14 Best Acc: 0.00 InvT: 1.0E+03 Loss: 5513.0
+
+Epoch 3 Sparse Rate: 2.08% Acc: 94.15 Best Acc: 0.00 InvT: 1.0E+03 Loss: 6380.3
+
+Epoch 4 Sparse Rate: 2.75% Acc: 94.19 Best Acc: 0.00 InvT: 1.0E+03 Loss: 4776.9
+
+Epoch 5 Sparse Rate: 3.39% Acc: 94.15 Best Acc: 0.00 InvT: 1.0E+03 Loss: 5562.3
+
+Epoch 6 Sparse Rate: 4.06% Acc: 94.19 Best Acc: 0.00 InvT: 1.0E+03 Loss: 5245.2
+
+Epoch 7 Sparse Rate: 4.76% Acc: 94.19 Best Acc: 0.00 InvT: 1.0E+03 Loss: 5403.9
+
+Epoch 8 Sparse Rate: 5.39% Acc: 94.16 Best Acc: 0.00 InvT: 1.0E+03 Loss: 5713.3
