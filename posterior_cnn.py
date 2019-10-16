@@ -90,11 +90,9 @@ class BayesPosterior(ResNet):
                 wlasso +=  (param.data.abs() * self.d_star0[name]).sum().item()
                 wridge += (param.data**2 * self.d_star1[name]).sum().item()
 
-            if self.dcoef['t'] % 5000 == 0:
-                print('{:s} | P max: {:5.1f} min: {:5.1f} | D0 avg {:.1e} max {:.1e} min {:.1e} | D1 avg {:.1e} max {:.1e} min {:.1e} SD {:.2f}'.format(name, \
-                        self.p_star[name].max() * 100, self.p_star[name].min() * 100, \
-                        self.d_star0[name].mean() / self.N, self.d_star0[name].max() / self.N, self.d_star0[name].min() / self.N, \
-                        self.d_star1[name].mean() / self.N, self.d_star1[name].max() / self.N, self.d_star1[name].min() / self.N, self.sd))
+            if self.dcoef['t'] % 500 == 0:
+                print('{:s} | P max: {:5.1f} min: {:5.1f} | Keep ratio: {:.1f}'.format(name, 
+                        self.p_star[name].max() * 100, self.p_star[name].min() * 100, kept_ratio))
             sparse_items += (param.data == 0).sum().item()
 
         self.sparse_rate = sparse_items * 100.0 / self.total_no_pars
