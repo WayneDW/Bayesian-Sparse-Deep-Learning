@@ -1,0 +1,6 @@
+output/pars.cifar10_resnet20_seed_125894 linguist-language=Text
+
+output/resnet20_cifar10_dc_0.02_v0_0.005_v1_1e-5_invT_1e3_anneal_1.0_sparse_0.9_sa_gilb_rand_125894 linguist-language=Text
+output/resnet20_cifar10_dc_0.02_v0_0.005_v1_1e-5_invT_1e3_anneal_1.005_sparse_0.9_sghmc_gilb_rand_125894 linguist-language=Text
+output/resnet20_cifar10_dc_0.02_v0_0.005_v1_1e-5_invT_1e3_anneal_1.005_sparse_0.9_sa_gilb_rand_125894 linguist-language=Text
+output/resnet20_cifar10_dc_0.02_v0_0.005_v1_1e-5_invT_1e3_anneal_1.005_sparse_0.9_em_gilb_rand_125894 linguist-language=Text
