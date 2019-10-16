@@ -39,7 +39,7 @@ python bayes_cnn.py -lr 2e-6 -invT 20000 -save 1 -prune 0
 
 ### Finetune a sparse model through stochastic approximation
 ```{python}
-python bayes_cnn.py -lr 2e-9 -invT 1000 -anneal 1.005 -v0 0.005 -v1 1e-5 -sparse 0.9 -c sa
+python bayes_cnn.py -lr 2e-9 -invT 1000 -anneal 1.005 -v0 0.005 -v1 1e-5 -sparse 0.9 -c sa -prune 1
 ```
 The default code can produce a 90%-sparsity Resnet20 model with the state-of-the-art 91.56% accuracy based on 27K parameters, by contrast, EM-based SGHMC and vanilla SGHMC algorithms obtain much worse results.
 
