@@ -25,7 +25,11 @@ python uci_run.py -data boston -c sghmc -invT 1 -v0 0.1 -anneal 1.003 -seed 5
 You can also use the other datasets to test the performance, e.g. yacht, energy-efficiency, wine and concrete. To obtain a comprehensive evaluation, you may need to try many different seeds.
 
 
-## Classification: Sparse Residual Network
+## Classification: MNIST/Fashion MNIST
+
+You can adjust the posterior_cnn.py and use the model in ./model/model_zoo_mnist.py. You can obtain 99.7x results on MNIST dataset easily with the hyperparameters (most importantly: temperature) in the paper.
+
+## Classification: Sparse Residual Network on CIFAR10
 ### Requirement
 * Python 2.7
 * [PyTorch > 1.01](https://pytorch.org/)
@@ -44,7 +48,7 @@ python bayes_cnn.py -lr 2e-9 -invT 1000 -anneal 1.005 -v0 0.005 -v1 1e-5 -sparse
 The default code can produce a 90%-sparsity Resnet20 model with the state-of-the-art 91.56% accuracy based on 27K parameters, by contrast, EM-based SGHMC and vanilla SGHMC algorithms obtain much worse results.
 
 
-For other sparse rates, one needs to tune the best v0 and v1 parameters, e.g. 30%: (0.5, 1e-3), 50%: (0.1, 5e-4), 70%: (0.1, 5e-5).
+For other sparse rates, one needs to tune the best v0 and v1 parameters, e.g. 30%: (0.5, 1e-3), 50%: (0.1, 5e-4), 70%: (0.1, 5e-5), to achive the state-of-the-art.
 
 
 
