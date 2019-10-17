@@ -27,7 +27,7 @@ You can also use the other datasets to test the performance, e.g. yacht, energy-
 
 ## Classification: MNIST/Fashion MNIST
 
-You can adjust the posterior_cnn.py and use the model in ./model/model_zoo_mnist.py. You can obtain 99.7x results on MNIST dataset easily with the hyperparameters in the paper.
+You can adjust the posterior_cnn.py and use the model in ./model/model_zoo_mnist.py. You can obtain 99.7x results on MNIST dataset easily with the hyperparameters (most importantly: temperature) in the paper.
 
 ## Classification: Sparse Residual Network on CIFAR10
 ### Requirement
