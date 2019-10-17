@@ -25,7 +25,11 @@ python uci_run.py -data boston -c sghmc -invT 1 -v0 0.1 -anneal 1.003 -seed 5
 You can also use the other datasets to test the performance, e.g. yacht, energy-efficiency, wine and concrete. To obtain a comprehensive evaluation, you may need to try many different seeds.
 
 
-## Classification: Sparse Residual Network
+## Classification: MNIST/Fashion MNIST
+
+You can adjust the posterior_cnn.py to use the model in ./model/model_zoo_mnist.py and it will give you 99.7x results easily with the hyperparameters in the paper.
+
+## Classification: Sparse Residual Network on CIFAR10
 ### Requirement
 * Python 2.7
 * [PyTorch > 1.01](https://pytorch.org/)
