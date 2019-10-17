@@ -28,7 +28,7 @@ def main():
     parser.add_argument('-c', default='sa', help='stochastic approximation (sa)/ EM (em)/ vanilla')
     parser.add_argument('-aug', default=1, type=float, help='Data augmentation or not')
     # sampling part: hidden variable update -- decay rate
-    parser.add_argument('-dc', default=10, type=float, help='1st coef in decay C (A+t)^alpha')
+    parser.add_argument('-dc', default=0.02, type=float, help='1st coef in decay C (A+t)^alpha')
     parser.add_argument('-da', default=1000, type=float, help='2nd coef in decay C (A+t)^alpha')
     parser.add_argument('-dalpha', default=0.75, type=float, help='3rd coef decay C (A+t)^alpha')
     # numper of optimization/ sampling epochs
