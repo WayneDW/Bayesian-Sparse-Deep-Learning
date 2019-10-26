@@ -5,7 +5,7 @@ Experiment code for "[An Adaptive Empirical Bayesian Method for Sparse Deep Lear
 @inproceedings{deng2019,
   title={An Adaptive Empirical Bayesian Method for Sparse Deep Learning},
   author={Wei Deng and Xiao Zhang and Faming Liang and Guang Lin},
-  booktitle={Advances in neural information processing systems},
+  booktitle={Advances in Neural Information Processing Systems},
   year={2019}
 }
 ```
