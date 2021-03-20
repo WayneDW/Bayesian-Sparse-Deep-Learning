@@ -14,6 +14,8 @@ Experiment code for "[An Adaptive Empirical Bayesian Method for Sparse Deep Lear
 
 ![GitHub Logo](/figures/lr_simulation.png)
 
+For the ground truth calculation of the standard deviation, you may check a reference here [link](https://www.statlect.com/fundamentals-of-statistics/ridge-regression)
+
 
 ## Regression: UCI dataset
 
