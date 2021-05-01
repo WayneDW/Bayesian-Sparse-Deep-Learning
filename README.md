@@ -62,7 +62,9 @@ The default code can produce a **90%-sparsity Resnet20 model with the state-of-t
 
 For other sparse rates, one needs to tune the best v0 and v1 parameters, e.g. 30%: (0.5, 1e-3), 50%: (0.1, 5e-4), 70%: (0.1, 5e-5), to achive the state-of-the-art.
 
+### Further comments
 
+For DNN modls, we suggest to set the sparsity and sigma^2 as fixed and no longer update the corresponding iterations (14-15).
 
 ## References:
 
